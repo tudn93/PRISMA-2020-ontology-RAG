@@ -1,0 +1,37 @@
+{
+  "codebook_version": "2.0-r2",
+  "coding_scope": "Label-blind second coding pass for 112 included studies",
+  "source_rule": "Use the matched full-text PDF and label-free extraction metadata. Do not read reviewer-1 coding files, summaries, evidence matrices, or freeze artifacts.",
+  "integration_tiers": {
+    "CORE": "Ontology or semantic constraints operate inside a complete retrieval-to-generation, verification, or governance loop.",
+    "WEAKER": "A GraphRAG or KG-RAG loop is present, but ontology is limited to a lightweight schema, vocabulary, or background semantic context.",
+    "ANCHORED": "Ontology or KG evidence guides an LLM generation, reasoning, verification, or agent workflow without a complete retrieval-generation loop.",
+    "CONSTRUCTION": "Ontology or KG construction, extraction, enrichment, alignment, evolution, or enabling infrastructure is the primary contribution before downstream RAG.",
+    "INTERFACE": "The primary contribution is natural-language graph access, formal-query generation, or KG question answering without a complete ontology-aware RAG loop."
+  },
+  "roles": {
+    "T1": "Semantic Schema: requires a semantic anchor and an operational representation, typing, mapping, construction, alignment, or validation action.",
+    "T2": "Retrieval Prior: requires T1 plus explicit semantic control of querying, retrieval, traversal, subgraph selection, query expansion, or context assembly.",
+    "T3": "Reasoning Backbone: requires an executable reasoner, rule/logic engine, proof procedure, compiled rule, formal inference, or deterministic relational-reasoning procedure.",
+    "T4": "Governance Layer: requires an operational verification, provenance, conflict/compliance, rejection, correction, or abstention action affecting an answer, claim, decision, report, or workflow."
+  },
+  "negative_rules": [
+    "Generic knowledge-graph use does not establish T1 without an operational schema or ontology mechanism.",
+    "Generic RAG or vector retrieval does not establish T2.",
+    "Chain-of-thought, ReAct, question decomposition, or a multi-hop question does not establish T3.",
+    "Graph traversal used only to retrieve context is T2, not T3.",
+    "Validation of triples or ontology construction quality alone is T1, not T4.",
+    "A paper-level claim of trustworthiness, explainability, or hallucination reduction does not establish T4."
+  ],
+  "evidence_levels": {
+    "described": "The qualifying mechanism is proposed or architecturally specified but execution is not demonstrated.",
+    "implemented": "The qualifying mechanism is instantiated or executed, without role-specific empirical evaluation.",
+    "evaluated": "The qualifying role-specific mechanism is tested, measured, validated, benchmarked, or ablated.",
+    "not_evidenced": "No qualifying evidence was retained for a decision of 0."
+  },
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  }
+}

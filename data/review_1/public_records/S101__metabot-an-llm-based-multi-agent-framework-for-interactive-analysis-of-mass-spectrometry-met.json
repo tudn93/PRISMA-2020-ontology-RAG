@@ -1,0 +1,220 @@
+{
+  "study_id": "S101",
+  "paper_title": "MetaboT: An LLM-based Multi-Agent Framework for Interactive Analysis of Mass Spectrometry Metabolomics Knowledge",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Bekbergenova et al. - 2025 - MetaboT AI-based agent for natural language-based interaction with metabolomics knowledge graphs.pdf",
+    "pdf_sha256": "6cc38479550de01af10aabd71b7608eacbea602a769e5ce40008e1021437f3d8",
+    "page_count": 29,
+    "title_mapping_score": 0.3469,
+    "title_mapping_verified_manually": true
+  },
+  "primary_tier": {
+    "code": "INTERFACE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "7a8f5b90396aefd6a7c73aac377601660b508466f418697db8f81d547dcdf814",
+        "original_excerpt_word_count": 27,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "Method Article",
+        "source_pdf_sha256": "6cc38479550de01af10aabd71b7608eacbea602a769e5ce40008e1021437f3d8",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Natural-language graph access, formal-query generation, or KG question answering is the primary contribution without a complete ontology-aware RAG loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "596333f10223b1fdb6d244d3af9c3b783147718bc4064a111d36d3af9528a277",
+          "original_excerpt_word_count": 58,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "Abstract",
+          "source_pdf_sha256": "6cc38479550de01af10aabd71b7608eacbea602a769e5ce40008e1021437f3d8",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "0d8d9413304b33f25778a438471e3ace57b254cee9b6b892791b4dc425a6d79f",
+          "original_excerpt_word_count": 26,
+          "pdf_page": 18,
+          "printed_page": "18",
+          "section": "3. MetaboT using GPT-4o within the full multi-agent framework",
+          "source_pdf_sha256": "6cc38479550de01af10aabd71b7608eacbea602a769e5ce40008e1021437f3d8",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "af031ec802ea8442d207362f348b3853c3509617e46186fcb32e70de24110d7c",
+          "original_excerpt_word_count": 38,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "Abstract",
+          "source_pdf_sha256": "6cc38479550de01af10aabd71b7608eacbea602a769e5ce40008e1021437f3d8",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "ce7e3f44c3dad01de8de4bf95516cf3b8bea5dd28d8ff99ebb3f9984fe7f41c8",
+          "original_excerpt_word_count": 11,
+          "pdf_page": 11,
+          "printed_page": "11",
+          "section": "architecture.",
+          "source_pdf_sha256": "6cc38479550de01af10aabd71b7608eacbea602a769e5ce40008e1021437f3d8",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "3. MetaboT using GPT-4o within the full multi-agent framework",
+        "Abstract",
+        "Evaluation Procedure",
+        "Method Article",
+        "References",
+        "Result Processing: Successfully executed query results are saved to a temporary CSV le for",
+        "Unnumbered/section not detected",
+        "architecture."
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "786ab7cbaa039a0fee3c593c8abf0bace570c2687dac5d1001a40c9a4846facf",
+          "original_excerpt_word_count": 85,
+          "pdf_page": 19,
+          "printed_page": "19",
+          "section": "3. MetaboT using GPT-4o within the full multi-agent framework",
+          "source_pdf_sha256": "6cc38479550de01af10aabd71b7608eacbea602a769e5ce40008e1021437f3d8",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "high"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 17,
+          "pdf_score": 15,
+          "record_score": 7,
+          "top_hits": [
+            "knowledge graph schema",
+            "owl",
+            "extract",
+            "represent",
+            "validate",
+            "class"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 19,
+          "pdf_score": 14,
+          "record_score": 19,
+          "top_hits": [
+            "sparql",
+            "cypher",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 4,
+          "pdf_score": 4,
+          "record_score": 0,
+          "top_hits": [
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 18,
+          "pdf_score": 16,
+          "record_score": 6,
+          "top_hits": [
+            "reject",
+            "correct",
+            "reject",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S101__metabot-an-llm-based-multi-agent-framework-for-interactive-analysis-of-mass-spectrometry-met.json",
+    "original_frozen_record_sha256": "d5473a337457f249b747163ad5970d02fa658b2475f84daca7aabc440126da8e",
+    "original_frozen_record_bytes": 8555,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

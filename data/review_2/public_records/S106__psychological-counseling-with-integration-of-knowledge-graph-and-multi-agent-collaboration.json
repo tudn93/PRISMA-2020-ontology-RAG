@@ -1,0 +1,185 @@
+{
+  "study_id": "S106",
+  "paper_title": "Psychological Counseling with Integration of Knowledge Graph and Multi-Agent Collaboration",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Liu et al. - 2024 - Psychological counseling with integration of knowledge graph and multi-agent collaboration.pdf",
+    "pdf_sha256": "aba5237fc8d5de9a70ce672e30d350cba6bc03649c1574511891ee633630c475",
+    "page_count": 13,
+    "title_mapping_score": 0.7997
+  },
+  "primary_tier": {
+    "code": "INTERFACE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "635705998c1ba825d2e8246f599de3d1a171b18561cbf5281bc405b725b9dc35",
+        "original_excerpt_word_count": 34,
+        "pdf_page": 5,
+        "printed_page": "5",
+        "section": "method",
+        "source_pdf_sha256": "aba5237fc8d5de9a70ce672e30d350cba6bc03649c1574511891ee633630c475",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Natural-language graph access or formal-query generation is the primary contribution.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "a59b8a813245523a497e88d00307a9a30c39b6e3e7308b15aea9776018e66b6c",
+          "original_excerpt_word_count": 32,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "method",
+          "source_pdf_sha256": "aba5237fc8d5de9a70ce672e30d350cba6bc03649c1574511891ee633630c475",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "3652fa68c3dff5f8bf93364bbb3570fd38f33114e18d20d167ad8290be990621",
+          "original_excerpt_word_count": 30,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "result is null",
+          "source_pdf_sha256": "aba5237fc8d5de9a70ce672e30d350cba6bc03649c1574511891ee633630c475",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "473fdeda09d45b844f8bebb2fa5f246c17a4e9cdaecd75c27539c0b9ddd59198",
+          "original_excerpt_word_count": 23,
+          "pdf_page": 12,
+          "printed_page": "12",
+          "section": "proposed method, respectively. The proposed method",
+          "source_pdf_sha256": "aba5237fc8d5de9a70ce672e30d350cba6bc03649c1574511891ee633630c475",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "0 Introduction",
+        "Knowledge graph:",
+        "Method Bleu-4 Rouge-1 Rouge-2 Rouge-L Average",
+        "Method Prediction",
+        "method",
+        "proposed method, respectively. The proposed method",
+        "result is null"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "0 Introduction",
+        "Knowledge graph:",
+        "Method Bleu-4 Rouge-1 Rouge-2 Rouge-L Average",
+        "Method Prediction",
+        "method",
+        "proposed method, respectively. The proposed method",
+        "result is null"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": true,
+      "interface": 1,
+      "rag_title_hits": 0,
+      "rag_passages": 0,
+      "output_title_hits": 0,
+      "output_passages": 12,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 23,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "owl",
+          "construct",
+          "model",
+          "relation",
+          "extract"
+        ]
+      },
+      "T2": {
+        "top_score": 33,
+        "threshold": 11,
+        "top_hits": [
+          "text2cypher",
+          "cypher",
+          "cypher query",
+          "owl"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S106__psychological-counseling-with-integration-of-knowledge-graph-and-multi-agent-collaboration.json",
+    "original_frozen_record_sha256": "f8efcb07df561e290519917bfbb0d60396447015f45647a822dcc20752f86937",
+    "original_frozen_record_bytes": 6079,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

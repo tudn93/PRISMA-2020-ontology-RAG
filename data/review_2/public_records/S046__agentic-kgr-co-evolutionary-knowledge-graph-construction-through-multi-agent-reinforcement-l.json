@@ -1,0 +1,169 @@
+{
+  "study_id": "S046",
+  "paper_title": "Agentic-KGR: Co-evolutionary Knowledge Graph Construction through Multi-Agent Reinforcement Learning",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Li et al. - 2025 - Agentic-KGR Co-evolutionary knowledge graph construction through multi-agent reinforcement learning.pdf",
+    "pdf_sha256": "8536ad47bd82f8bfdfd42c729ba3d54e5b5b86a021013e60a8a778d3518410e1",
+    "page_count": 41,
+    "title_mapping_score": 0.8144
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "0d94111ecf4108353cadacc1729bf097ac3b570357ac48c4d051cb9bccbed80b",
+        "original_excerpt_word_count": 45,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "1 INTRODUCTION",
+        "source_pdf_sha256": "8536ad47bd82f8bfdfd42c729ba3d54e5b5b86a021013e60a8a778d3518410e1",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction or enrichment is the primary contribution.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "67074312ad3c6436ae2bbb3a30f3cb9e27090f260b38c0e9063436d72d016baa",
+          "original_excerpt_word_count": 23,
+          "pdf_page": 17,
+          "printed_page": "17",
+          "section": "framework.",
+          "source_pdf_sha256": "8536ad47bd82f8bfdfd42c729ba3d54e5b5b86a021013e60a8a778d3518410e1",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "73a3faaa1c00dc9b69ab2dea886ee2cf22a9023c3a38693a999dbdb0d7544098",
+          "original_excerpt_word_count": 28,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "1 INTRODUCTION",
+          "source_pdf_sha256": "8536ad47bd82f8bfdfd42c729ba3d54e5b5b86a021013e60a8a778d3518410e1",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 INTRODUCTION",
+        "3.2 OVERALLRESULTS",
+        "4 CONCLUSION",
+        "REFERENCES",
+        "framework."
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 INTRODUCTION",
+        "3.2 OVERALLRESULTS",
+        "4 CONCLUSION",
+        "REFERENCES",
+        "framework."
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 1,
+      "rag_passages": 16,
+      "output_title_hits": 0,
+      "output_passages": 23,
+      "construction_primary": true
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 28,
+        "threshold": 11,
+        "top_hits": [
+          "knowledge graph schema",
+          "owl",
+          "schema",
+          "knowledge graph",
+          "type",
+          "relation",
+          "extract"
+        ]
+      },
+      "T2": {
+        "top_score": 14,
+        "threshold": 11,
+        "top_hits": [
+          "subgraph retrieval",
+          "owl",
+          "knowledge graph"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S046__agentic-kgr-co-evolutionary-knowledge-graph-construction-through-multi-agent-reinforcement-l.json",
+    "original_frozen_record_sha256": "4d44b11459ede802a29032811c3936687ba3507654c08e384a008ab065a8b52c",
+    "original_frozen_record_bytes": 5408,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

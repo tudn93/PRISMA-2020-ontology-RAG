@@ -1,0 +1,167 @@
+{
+  "study_id": "S051",
+  "paper_title": "Intelligent decision support for tunnel fire incidents: integrating dynamic knowledge graph with large language models",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Lin et al. - 2026 - Intelligent decision support for tunnel fire incidents integrating dynamic knowledge graph with lar.pdf",
+    "pdf_sha256": "06e9a66d37765ca6b2cda897d39b2ee09c7b1366c50d84d34ca4da9cd6fe7938",
+    "page_count": 17,
+    "title_mapping_score": 0.69
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "e8bcf07aad36f3b536df2823789b3210a9c7aab289b87691b5766c304a773c3d",
+        "original_excerpt_word_count": 38,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "knowledge graph with large language models",
+        "source_pdf_sha256": "06e9a66d37765ca6b2cda897d39b2ee09c7b1366c50d84d34ca4da9cd6fe7938",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "A semantically controlled retrieval mechanism is connected to a downstream answer/generation/decision loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "60791d8aeb38e2469df67e8c6ddee2aed2b66f7314436bc2981131e6cac34781",
+          "original_excerpt_word_count": 22,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "method was prioritized over complex embedding models such as",
+          "source_pdf_sha256": "06e9a66d37765ca6b2cda897d39b2ee09c7b1366c50d84d34ca4da9cd6fe7938",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "14ad4a10db0194a685a7a2410c917b673642aabffb584c3680156968f5cec33a",
+          "original_excerpt_word_count": 12,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "1. Introduction",
+          "source_pdf_sha256": "06e9a66d37765ca6b2cda897d39b2ee09c7b1366c50d84d34ca4da9cd6fe7938",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "References",
+        "abstract knowledge elements. Knowledge can be categorized into four",
+        "knowledge graph with large language models",
+        "method was prioritized over complex embedding models such as"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "References",
+        "abstract knowledge elements. Knowledge can be categorized into four",
+        "knowledge graph with large language models",
+        "method was prioritized over complex embedding models such as"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 1,
+      "rag_title_hits": 2,
+      "rag_passages": 4,
+      "output_title_hits": 1,
+      "output_passages": 15,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 20,
+        "threshold": 11,
+        "top_hits": [
+          "owl",
+          "schema",
+          "construct",
+          "type",
+          "relation"
+        ]
+      },
+      "T2": {
+        "top_score": 26,
+        "threshold": 11,
+        "top_hits": [
+          "text to cypher",
+          "cypher",
+          "cypher query"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S051__intelligent-decision-support-for-tunnel-fire-incidents-integrating-dynamic-knowledge-graph-w.json",
+    "original_frozen_record_sha256": "0f02e9218f12387d5a7706758dff1c2dbde36b34bd6823110544e05f963aa902",
+    "original_frozen_record_bytes": 5491,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

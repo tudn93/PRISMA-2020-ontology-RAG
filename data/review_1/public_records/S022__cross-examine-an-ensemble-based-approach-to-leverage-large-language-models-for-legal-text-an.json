@@ -1,0 +1,182 @@
+{
+  "study_id": "S022",
+  "paper_title": "Cross Examine: An Ensemble-based approach to leverage Large Language Models for Legal Text Analytics",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Chowdhury et al. - 2024 - Cross examine an ensemble-based approach to leverage large language models for legal text analytics.pdf",
+    "pdf_sha256": "ac2a2f93c980958816f7867bd34d90de459bd2e3ae2cf9bfcd94f4ed238aa4c2",
+    "page_count": 11,
+    "title_mapping_score": 0.8296,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "8ec5826db5a80de4446c428a9d8cbd00c5a69ccbdff21fc3522717c4e44430ea",
+        "original_excerpt_word_count": 61,
+        "pdf_page": 3,
+        "printed_page": "196",
+        "section": "1 Introduction",
+        "source_pdf_sha256": "ac2a2f93c980958816f7867bd34d90de459bd2e3ae2cf9bfcd94f4ed238aa4c2",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology or KG evidence supports an LLM workflow without a complete retrieval-to-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "ba92978e026b73561a49fda0d4cd0a153fc47bcc399ee91d7256430a6eb9babf",
+          "original_excerpt_word_count": 37,
+          "pdf_page": 5,
+          "printed_page": "198",
+          "section": "1 Introduction",
+          "source_pdf_sha256": "ac2a2f93c980958816f7867bd34d90de459bd2e3ae2cf9bfcd94f4ed238aa4c2",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "5.3 Knowledge Graph from Legal Repository:",
+        "References",
+        "proposed summary of summaries approach fared"
+      ],
+      "absence_rationale": "No qualifying ontology-controlled retrieval or query mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "5.3 Knowledge Graph from Legal Repository:",
+        "References",
+        "proposed summary of summaries approach fared"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "c0497328c252f08a83de5df5ba34c0d2df959bfa4eec8911677fbb33380fd86a",
+          "original_excerpt_word_count": 68,
+          "pdf_page": 7,
+          "printed_page": "200",
+          "section": "proposed summary of summaries approach fared",
+          "source_pdf_sha256": "ac2a2f93c980958816f7867bd34d90de459bd2e3ae2cf9bfcd94f4ed238aa4c2",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 13,
+          "pdf_score": 10,
+          "record_score": 11,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "extract"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 13,
+          "pdf_score": 12,
+          "record_score": 3,
+          "top_hits": [
+            "cypher",
+            "graph query",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 0,
+          "top_hits": [
+            "infer",
+            "inference"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 11,
+          "pdf_score": 9,
+          "record_score": 6,
+          "top_hits": [
+            "correct",
+            "verification",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S022__cross-examine-an-ensemble-based-approach-to-leverage-large-language-models-for-legal-text-an.json",
+    "original_frozen_record_sha256": "e1548a9369b74e45da50441ee0d3c795b5890126cd8ec7241714f8df346b5715",
+    "original_frozen_record_bytes": 6493,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

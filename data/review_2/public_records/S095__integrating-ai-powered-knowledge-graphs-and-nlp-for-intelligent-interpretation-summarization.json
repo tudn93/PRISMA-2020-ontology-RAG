@@ -1,0 +1,170 @@
+{
+  "study_id": "S095",
+  "paper_title": "Integrating AI-powered knowledge graphs and NLP for intelligent interpretation, summarization, and cross-border financial reporting harmonization",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Oriyomi Badmus et al. - 2025 - Integrating AI-powered knowledge graphs and NLP for intelligent interpretation, summarization, and c.pdf",
+    "pdf_sha256": "b050d3a609f5c02fe3ff43c4572cf78b2c63aa489a07c908abef4c8b320cdf14",
+    "page_count": 21,
+    "title_mapping_score": 0.5819
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "8d9a71e16772d0517f20b23135000a2cf7043943073bd40e7ebdde019e43e25b",
+        "original_excerpt_word_count": 31,
+        "pdf_page": 10,
+        "printed_page": "10",
+        "section": "Evaluation Metric AI-Generated Summaries Human-Curated Summaries",
+        "source_pdf_sha256": "b050d3a609f5c02fe3ff43c4572cf78b2c63aa489a07c908abef4c8b320cdf14",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG supports an LLM workflow without a complete semantically controlled retrieval-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "8d9a71e16772d0517f20b23135000a2cf7043943073bd40e7ebdde019e43e25b",
+          "original_excerpt_word_count": 31,
+          "pdf_page": 10,
+          "printed_page": "10",
+          "section": "Evaluation Metric AI-Generated Summaries Human-Curated Summaries",
+          "source_pdf_sha256": "b050d3a609f5c02fe3ff43c4572cf78b2c63aa489a07c908abef4c8b320cdf14",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "33998d1148726df64213015c51fced2e359b7512d2bb1db6c24cc7707a101b9b",
+          "original_excerpt_word_count": 122,
+          "pdf_page": 18,
+          "printed_page": "18",
+          "section": "10. Conclusion",
+          "source_pdf_sha256": "b050d3a609f5c02fe3ff43c4572cf78b2c63aa489a07c908abef4c8b320cdf14",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "10. Conclusion",
+        "4. System architecture: AI for financial interpretation and summarization",
+        "4.3. Knowledge Graph Construction from Standard Templates and Variants",
+        "6.2. Knowledge Graph Completeness, Reasoning Accuracy, and Scalability",
+        "Evaluation Metric AI-Generated Summaries Human-Curated Summaries",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "10. Conclusion",
+        "4. System architecture: AI for financial interpretation and summarization",
+        "4.3. Knowledge Graph Construction from Standard Templates and Variants",
+        "6.2. Knowledge Graph Completeness, Reasoning Accuracy, and Scalability",
+        "Evaluation Metric AI-Generated Summaries Human-Curated Summaries",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": false,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 0,
+      "output_title_hits": 0,
+      "output_passages": 0,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 21,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "owl",
+          "knowledge graph",
+          "map",
+          "extract"
+        ]
+      },
+      "T2": {
+        "top_score": 16,
+        "threshold": 11,
+        "top_hits": [
+          "sparql",
+          "sparql query"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S095__integrating-ai-powered-knowledge-graphs-and-nlp-for-intelligent-interpretation-summarization.json",
+    "original_frozen_record_sha256": "f9907e33d86a87c9f97e70a98ec7e2eae7d9ee76cc32b991a51bf9614d11e209",
+    "original_frozen_record_bytes": 6374,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

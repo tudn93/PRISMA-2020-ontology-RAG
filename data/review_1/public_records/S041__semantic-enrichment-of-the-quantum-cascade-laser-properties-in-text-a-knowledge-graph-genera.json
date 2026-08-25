@@ -1,0 +1,228 @@
+{
+  "study_id": "S041",
+  "paper_title": "Semantic Enrichment of the Quantum Cascade Laser Properties in Text- A Knowledge Graph Generation Approach",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Kerre et al. - 2024 - Semantic enrichment of the quantum cascade laser properties in text- a knowledge graph generation ap.pdf",
+    "pdf_sha256": "5d68fc1d9f26a414f21bdf4b3134722340a8bb7d5818911e9ff6afbb123ffee3",
+    "page_count": 21,
+    "title_mapping_score": 0.7686,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "edf6c2400e7a18d422d2f84200b2422ebe50c0958f2ab7c37d0eb8b786ae9b14",
+        "original_excerpt_word_count": 65,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "1 Introduction",
+        "source_pdf_sha256": "5d68fc1d9f26a414f21bdf4b3134722340a8bb7d5818911e9ff6afbb123ffee3",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "2b20ef5abfe13d5446bd1e302a6a278825076974d21bfc12d7cbddca39ca6880",
+          "original_excerpt_word_count": 86,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "3.2 Knowledge Graph Modelling and Data Enrichment",
+          "source_pdf_sha256": "5d68fc1d9f26a414f21bdf4b3134722340a8bb7d5818911e9ff6afbb123ffee3",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "fd61b96b9e64e6b1990a275df2559557bf8ae332a464014b9bfa14a79422ff5b",
+          "original_excerpt_word_count": 37,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "3 Methodology",
+          "source_pdf_sha256": "5d68fc1d9f26a414f21bdf4b3134722340a8bb7d5818911e9ff6afbb123ffee3",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related Work",
+        "3 Methodology",
+        "3.2 Knowledge Graph Modelling and Data Enrichment",
+        "4 Experiments",
+        "4.2 Knowledge Graph Evaluation",
+        "5 Results and Discussions",
+        "5.2 Knowledge Graph Evaluation",
+        "Knowledge Graph Generation for QCL Properties from Text 15",
+        "Knowledge Graph Generation for QCL Properties from Text 17",
+        "Knowledge Graph Generation for QCL Properties from Text 19",
+        "Knowledge Graph Generation for QCL Properties from Text 21",
+        "Knowledge Graph Generation for QCL Properties from Text 5"
+      ],
+      "absence_rationale": "No qualifying ontology-controlled retrieval or query mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "a19cff98e424c22962ed1ebf126b33f8b5c0d1e90ef2cfc497ab573f33ddecc1",
+          "original_excerpt_word_count": 11,
+          "pdf_page": 13,
+          "printed_page": "13",
+          "section": "5.2 Knowledge Graph Evaluation",
+          "source_pdf_sha256": "5d68fc1d9f26a414f21bdf4b3134722340a8bb7d5818911e9ff6afbb123ffee3",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "71f2902819385d1ecfd04a6562e4bb8e96fbc223c86a6cd2a58079e12fbdfb0a",
+          "original_excerpt_word_count": 48,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "3 Methodology",
+          "source_pdf_sha256": "5d68fc1d9f26a414f21bdf4b3134722340a8bb7d5818911e9ff6afbb123ffee3",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "high"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related Work",
+        "3 Methodology",
+        "3.2 Knowledge Graph Modelling and Data Enrichment",
+        "4 Experiments",
+        "4.2 Knowledge Graph Evaluation",
+        "5 Results and Discussions",
+        "5.2 Knowledge Graph Evaluation",
+        "Knowledge Graph Generation for QCL Properties from Text 15",
+        "Knowledge Graph Generation for QCL Properties from Text 17",
+        "Knowledge Graph Generation for QCL Properties from Text 19",
+        "Knowledge Graph Generation for QCL Properties from Text 21",
+        "Knowledge Graph Generation for QCL Properties from Text 5"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 2
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 21,
+          "pdf_score": 17,
+          "record_score": 12,
+          "top_hits": [
+            "ontology",
+            "rdf",
+            "rdfs",
+            "owl",
+            "type"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 15,
+          "pdf_score": 12,
+          "record_score": 10,
+          "top_hits": [
+            "sparql",
+            "retrieve",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 26,
+          "pdf_score": 21,
+          "record_score": 19,
+          "top_hits": [
+            "reasoner",
+            "pellet reasoner",
+            "reasoner"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 14,
+          "pdf_score": 12,
+          "record_score": 8,
+          "top_hits": [
+            "correct",
+            "validate",
+            "provenance",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S041__semantic-enrichment-of-the-quantum-cascade-laser-properties-in-text-a-knowledge-graph-genera.json",
+    "original_frozen_record_sha256": "97d77f05201da04456e53711857615f9d7282e7dc30d95be10348679096086c8",
+    "original_frozen_record_bytes": 8856,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

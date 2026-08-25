@@ -1,0 +1,201 @@
+{
+  "study_id": "S019",
+  "paper_title": "Knowledge Graph Construction of Large Language Model Retrieval Augmented Generation for Oil and Gas HSE Professional Q&A System",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Chen et al. - 2025 - Knowledge graph construction of large language model retrieval augmented generation for oil and gas.pdf",
+    "pdf_sha256": "4dca5f0fa1a235430e521c8306ba36c97db82eb144ad3d0d87502db783a64843",
+    "page_count": 8,
+    "title_mapping_score": 0.682,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "4b0cb0df8e2984a5505155345385e8d906c41bcd2b4177d2a65e1a6454b011b0",
+        "original_excerpt_word_count": 32,
+        "pdf_page": 5,
+        "printed_page": "1204",
+        "section": "knowledge graph filling and retrieve augmented",
+        "source_pdf_sha256": "4dca5f0fa1a235430e521c8306ba36c97db82eb144ad3d0d87502db783a64843",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "4f4f0c61e98c80d22e08557f74ab07188d3b77a28664c60bbad44ee661332900",
+          "original_excerpt_word_count": 29,
+          "pdf_page": 3,
+          "printed_page": "1202",
+          "section": "knowledge graph filling and retrieve augmented",
+          "source_pdf_sha256": "4dca5f0fa1a235430e521c8306ba36c97db82eb144ad3d0d87502db783a64843",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "b1cdedeff5e145364b55ad1e078748b1802ecec3547c15a6cf730b2218cba87a",
+          "original_excerpt_word_count": 19,
+          "pdf_page": 6,
+          "printed_page": "1205",
+          "section": "4. Case study",
+          "source_pdf_sha256": "4dca5f0fa1a235430e521c8306ba36c97db82eb144ad3d0d87502db783a64843",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "238590760bb45da04e78dc2f3dc5ac5d9e603163e55df100fb526260c3311bb4",
+          "original_excerpt_word_count": 24,
+          "pdf_page": 3,
+          "printed_page": "1202",
+          "section": "knowledge graph filling and retrieve augmented",
+          "source_pdf_sha256": "4dca5f0fa1a235430e521c8306ba36c97db82eb144ad3d0d87502db783a64843",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "4. Case study",
+        "Knowledge Graph Construction of Large Language Model Retrieval Augmented",
+        "References",
+        "knowledge graph filling and retrieve augmented"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "4. Case study",
+        "Knowledge Graph Construction of Large Language Model Retrieval Augmented",
+        "References",
+        "knowledge graph filling and retrieve augmented"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 1,
+        "construction": 2,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 18,
+          "pdf_score": 14,
+          "record_score": 14,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "construct",
+            "extract",
+            "represent",
+            "model",
+            "relation",
+            "triple"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 7,
+          "pdf_score": 6,
+          "record_score": 4,
+          "top_hits": [
+            "query",
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 22,
+          "pdf_score": 22,
+          "record_score": 2,
+          "top_hits": [
+            "rule based reasoning",
+            "rule-based reasoning",
+            "infer",
+            "inference",
+            "reasoning",
+            "rule"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S019__knowledge-graph-construction-of-large-language-model-retrieval-augmented-generation-for-oil-.json",
+    "original_frozen_record_sha256": "fe649868b8bb53727c5c2168f837e2dfd96e37fe6dc3c4a89ba118e7addce4f4",
+    "original_frozen_record_bytes": 6868,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

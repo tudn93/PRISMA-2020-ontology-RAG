@@ -1,0 +1,6 @@
+variable,matches,total,exact_percent,wilson_low,wilson_high,cohen_kappa,gwet_ac1,positive_agreement_percent,negative_agreement_percent,mcnemar_exact_p
+primary_tier,95,112,84.8,77.0,90.3,0.774,0.818,,,
+T1,112,112,100.0,96.7,100,,1.0,100.0,,1.0
+T2,86,112,76.8,68.2,83.6,0.356,0.639,84.9,50.0,0.0755
+T3,98,112,87.5,80.1,92.4,0.56,0.826,63.2,92.5,0.0574
+T4,100,112,89.3,82.2,93.8,0.622,0.851,68.4,93.5,0.146

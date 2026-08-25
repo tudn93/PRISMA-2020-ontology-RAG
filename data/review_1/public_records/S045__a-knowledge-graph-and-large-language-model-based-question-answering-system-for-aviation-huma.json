@@ -1,0 +1,184 @@
+{
+  "study_id": "S045",
+  "paper_title": "A Knowledge Graph and Large Language Model-based Question Answering System for Aviation Human Factors Safety Events",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Li et al. - 2025 - A knowledge graph and large language model-based question answering system for aviation human factor.pdf",
+    "pdf_sha256": "13a110424cafa3f94be93a532fe2b98c51d54a540b4a65ee6f4a2f326a7f0b56",
+    "page_count": 6,
+    "title_mapping_score": 0.7193,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "aaa6c6f03f07aa17cb0bfb9e2323606d0ff815cf9b055556e4361cdadc5c4418",
+        "original_excerpt_word_count": 83,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "2 Method",
+        "source_pdf_sha256": "13a110424cafa3f94be93a532fe2b98c51d54a540b4a65ee6f4a2f326a7f0b56",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "b8db3f98b1e041cd7c486b68d2e349f8e746749ceb682e775d4515c948846a32",
+          "original_excerpt_word_count": 14,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "2 Method",
+          "source_pdf_sha256": "13a110424cafa3f94be93a532fe2b98c51d54a540b4a65ee6f4a2f326a7f0b56",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "579a9ee12a002f65fa7b0b53f30ea68d294ffc3f3ad2244e2ee539ee7a442255",
+          "original_excerpt_word_count": 23,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "2 Method",
+          "source_pdf_sha256": "13a110424cafa3f94be93a532fe2b98c51d54a540b4a65ee6f4a2f326a7f0b56",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "2 Method",
+        "3.2 Objective Evaluation",
+        "3.3 Subjective Evaluation and Case Study",
+        "Abstract",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "2 Method",
+        "3.2 Objective Evaluation",
+        "3.3 Subjective Evaluation and Case Study",
+        "Abstract",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 3,
+        "retrieval": 1,
+        "output_loop": 1,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 18,
+          "pdf_score": 13,
+          "record_score": 21,
+          "top_hits": [
+            "ontology",
+            "ontology alignment",
+            "align"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 15,
+          "pdf_score": 14,
+          "record_score": 4,
+          "top_hits": [
+            "sparql",
+            "retrieve",
+            "query",
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "infer",
+            "inference"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 2,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S045__a-knowledge-graph-and-large-language-model-based-question-answering-system-for-aviation-huma.json",
+    "original_frozen_record_sha256": "bec7759ad1a6e68340974bf84e48025ef9c2193e74aa8f5e1c84c85498ec43d4",
+    "original_frozen_record_bytes": 6264,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

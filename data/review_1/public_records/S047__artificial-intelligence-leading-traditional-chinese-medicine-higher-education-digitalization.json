@@ -1,0 +1,189 @@
+{
+  "study_id": "S047",
+  "paper_title": "Artificial Intelligence Leading Traditional Chinese Medicine Higher Education Digitalization Development Strategy Research",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Li et al. - 2025 - Artificial intelligence leading traditional chinese medicine higher education digitalization develop.pdf",
+    "pdf_sha256": "e2ade3fab255f0b85e0313102072f2902bb40d57efee4c935d85f647b5249a86",
+    "page_count": 6,
+    "title_mapping_score": 0.6407,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "9cb026ebfae4fb0f3c4800b2448829c885aa32871717bf560ff86ad8126fa6ec",
+        "original_excerpt_word_count": 17,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Abstract",
+        "source_pdf_sha256": "e2ade3fab255f0b85e0313102072f2902bb40d57efee4c935d85f647b5249a86",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "466c67810992d544178157a0b26c88e8526bcb4b218b2e7b45979cbe19236d15",
+          "original_excerpt_word_count": 34,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "4 Experiments",
+          "source_pdf_sha256": "e2ade3fab255f0b85e0313102072f2902bb40d57efee4c935d85f647b5249a86",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "7e2389144dcfa905679d52486d42b65e6ec92878f6b39b1a9609eb2703dd1c2e",
+          "original_excerpt_word_count": 20,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "4 Experiments",
+          "source_pdf_sha256": "e2ade3fab255f0b85e0313102072f2902bb40d57efee4c935d85f647b5249a86",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "2 Related WORK",
+        "4 Experiments",
+        "5 Conclusion",
+        "Abstract",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "e93d3c09016c8b9054bbc069c60e6f1bae6a7c8190ec3b83cd01d46fd853a38f",
+          "original_excerpt_word_count": 54,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "4 Experiments",
+          "source_pdf_sha256": "e2ade3fab255f0b85e0313102072f2902bb40d57efee4c935d85f647b5249a86",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 1,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 0
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 15,
+          "pdf_score": 12,
+          "record_score": 9,
+          "top_hits": [
+            "owl",
+            "construct",
+            "model",
+            "align",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 6,
+          "pdf_score": 5,
+          "record_score": 3,
+          "top_hits": [
+            "retrieve",
+            "context"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 6,
+          "pdf_score": 4,
+          "record_score": 6,
+          "top_hits": [
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 5,
+          "pdf_score": 5,
+          "record_score": 2,
+          "top_hits": [
+            "consistency",
+            "constraint"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S047__artificial-intelligence-leading-traditional-chinese-medicine-higher-education-digitalization.json",
+    "original_frozen_record_sha256": "7e91ce2c2677ce98d52d94dbeb01183d2f483b42a12cab06179048a7e011a1f7",
+    "original_frozen_record_bytes": 6540,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

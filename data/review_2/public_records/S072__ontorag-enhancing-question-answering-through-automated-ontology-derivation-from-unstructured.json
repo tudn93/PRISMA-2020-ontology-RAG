@@ -1,0 +1,154 @@
+{
+  "study_id": "S072",
+  "paper_title": "OntoRAG: Enhancing Question-Answering through Automated Ontology Derivation from Unstructured Knowledge Bases",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Tiwari et al. - 2025 - OntoRAG enhancing question-answering through automated ontology derivation from unstructured knowle.pdf",
+    "pdf_sha256": "cc4af8dc38677e8c3b9881919958d753242fcfa728931c1044aa59324fdb8c9a",
+    "page_count": 8,
+    "title_mapping_score": 0.6904
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "kind": "tier",
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "0c48056b066998ff45c37d66b250f5d8d2d8d9bbf4ebec0c93c6eb90025eb68b",
+        "original_excerpt_word_count": 18,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "Unnumbered/section not detected",
+        "source_pdf_sha256": "cc4af8dc38677e8c3b9881919958d753242fcfa728931c1044aa59324fdb8c9a",
+        "locator_method": "pass2_manual_source_audit",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Automated ontology derivation is the primary contribution; QA is the downstream use case.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "05772561f0af808727cebd0e5af7470571cbc3b361a73e1257fe5b7542dc4b2a",
+          "original_excerpt_word_count": 39,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "cc4af8dc38677e8c3b9881919958d753242fcfa728931c1044aa59324fdb8c9a",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "REFERENCES",
+        "Unnumbered/section not detected",
+        "V. R ESULTS AND DISCUSSION"
+      ],
+      "absence_rationale": "No passage satisfied the prespecified semantic retrieval-control requirements.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "REFERENCES",
+        "Unnumbered/section not detected",
+        "V. R ESULTS AND DISCUSSION"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "REFERENCES",
+        "Unnumbered/section not detected",
+        "V. R ESULTS AND DISCUSSION"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 31,
+      "output_title_hits": 1,
+      "output_passages": 6,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 23,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "ontological",
+          "owl",
+          "construct",
+          "relation"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "primary_tier"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S072__ontorag-enhancing-question-answering-through-automated-ontology-derivation-from-unstructured.json",
+    "original_frozen_record_sha256": "13a6140ceb9410a9c5da7854b82e58ed19f23601f57a5e2cf8b77ec32b18680d",
+    "original_frozen_record_bytes": 4752,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

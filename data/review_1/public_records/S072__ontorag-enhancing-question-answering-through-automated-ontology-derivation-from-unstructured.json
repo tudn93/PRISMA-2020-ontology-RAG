@@ -1,0 +1,193 @@
+{
+  "study_id": "S072",
+  "paper_title": "OntoRAG: Enhancing Question-Answering through Automated Ontology Derivation from Unstructured Knowledge Bases",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Tiwari et al. - 2025 - OntoRAG enhancing question-answering through automated ontology derivation from unstructured knowle.pdf",
+    "pdf_sha256": "cc4af8dc38677e8c3b9881919958d753242fcfa728931c1044aa59324fdb8c9a",
+    "page_count": 8,
+    "title_mapping_score": 0.6904,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "1837834928b059f6d7a2cc136b41733b9bdbc5ec8bc89843e8195d13af122d4a",
+        "original_excerpt_word_count": 32,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "Unnumbered/section not detected",
+        "source_pdf_sha256": "cc4af8dc38677e8c3b9881919958d753242fcfa728931c1044aa59324fdb8c9a",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "05772561f0af808727cebd0e5af7470571cbc3b361a73e1257fe5b7542dc4b2a",
+          "original_excerpt_word_count": 39,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "cc4af8dc38677e8c3b9881919958d753242fcfa728931c1044aa59324fdb8c9a",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "22ae52a0e92f41051cd9425f81f87716d4b5ad159fe653d98bc3bd77e06d2180",
+          "original_excerpt_word_count": 7,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "cc4af8dc38677e8c3b9881919958d753242fcfa728931c1044aa59324fdb8c9a",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "c35837325a992a713d504e1aab107424d9a46cf536e5e28c51f9f9a03988b0fa",
+          "original_excerpt_word_count": 22,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "cc4af8dc38677e8c3b9881919958d753242fcfa728931c1044aa59324fdb8c9a",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "REFERENCES",
+        "Unnumbered/section not detected",
+        "V. R ESULTS AND DISCUSSION"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "REFERENCES",
+        "Unnumbered/section not detected",
+        "V. R ESULTS AND DISCUSSION"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 1,
+        "construction": 2,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 19,
+          "pdf_score": 15,
+          "record_score": 13,
+          "top_hits": [
+            "ontology",
+            "ontological",
+            "owl",
+            "construct",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 8,
+          "pdf_score": 7,
+          "record_score": 4,
+          "top_hits": [
+            "semantic search",
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 14,
+          "pdf_score": 14,
+          "record_score": 0,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S072__ontorag-enhancing-question-answering-through-automated-ontology-derivation-from-unstructured.json",
+    "original_frozen_record_sha256": "d2370cac3e8fdefe9d3682b54e2482e3c250d0f9ca3b32da8f644d8adf8d9ab3",
+    "original_frozen_record_bytes": 6522,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

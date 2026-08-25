@@ -1,0 +1,209 @@
+{
+  "study_id": "S105",
+  "paper_title": "PKR-QA: A Benchmark for Procedural Knowledge Reasoning with Knowledge Module Learning",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Nguyen et al. - 2026 - PKR-QA a benchmark for procedural knowledge reasoning with knowledge module learning.pdf",
+    "pdf_sha256": "b71f76108d752e799f181bc614d950a43f7237ae5e386fc666a51bb92ccb8d8f",
+    "page_count": 9,
+    "title_mapping_score": 0.7928,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "0ff0ea086265d6c14567b08dea3201c721ed93aef821ecb44a5845b42cb471d4",
+        "original_excerpt_word_count": 29,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Abstract",
+        "source_pdf_sha256": "b71f76108d752e799f181bc614d950a43f7237ae5e386fc666a51bb92ccb8d8f",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology or KG evidence supports an LLM workflow without a complete retrieval-to-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "0df09d5f60f50130f42d48ad5970dd7754fbee30dea91135f484199a56e24cb8",
+          "original_excerpt_word_count": 36,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Abstract",
+          "source_pdf_sha256": "b71f76108d752e799f181bc614d950a43f7237ae5e386fc666a51bb92ccb8d8f",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "b4cf36170ef449d7ab2052a5e30ef34a43aed08059ff3f0b34738a94e45e3e46",
+          "original_excerpt_word_count": 17,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Abstract",
+          "source_pdf_sha256": "b71f76108d752e799f181bc614d950a43f7237ae5e386fc666a51bb92ccb8d8f",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "c6c53e3c4108aaf5ae970844d0b6e24c2e835382f3d611587fdf7d56e822ee38",
+          "original_excerpt_word_count": 14,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "Related Work",
+          "source_pdf_sha256": "b71f76108d752e799f181bc614d950a43f7237ae5e386fc666a51bb92ccb8d8f",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "e7ab333e02e6447899257c5fe9437ee659af6d8770f7f6e241f9f7cd9e433a7b",
+          "original_excerpt_word_count": 13,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "Related Work",
+          "source_pdf_sha256": "b71f76108d752e799f181bc614d950a43f7237ae5e386fc666a51bb92ccb8d8f",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "525df7d86f3d817867801da4bfa4638ecf3cf2a4ea682835ed98881ac5d52f33",
+          "original_excerpt_word_count": 14,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "Related Work",
+          "source_pdf_sha256": "b71f76108d752e799f181bc614d950a43f7237ae5e386fc666a51bb92ccb8d8f",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "References",
+        "Related Work"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 11,
+          "pdf_score": 9,
+          "record_score": 6,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "model"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 5,
+          "pdf_score": 5,
+          "record_score": 0,
+          "top_hits": [
+            "graph traversal"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 2,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 6,
+          "pdf_score": 3,
+          "record_score": 9,
+          "top_hits": [
+            "verification"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S105__pkr-qa-a-benchmark-for-procedural-knowledge-reasoning-with-knowledge-module-learning.json",
+    "original_frozen_record_sha256": "4e1ff8de72cf3aa9a252165a10bc8b88950c9f1d9248ece7e98f105cc00c3351",
+    "original_frozen_record_bytes": 7012,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

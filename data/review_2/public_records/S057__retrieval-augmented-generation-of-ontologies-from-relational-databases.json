@@ -1,0 +1,183 @@
+{
+  "study_id": "S057",
+  "paper_title": "Retrieval-Augmented Generation of Ontologies from Relational Databases",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Nayyeri et al. - 2025 - Retrieval-augmented generation of ontologies from relational databases.pdf",
+    "pdf_sha256": "d0931c74d41404e23863eeed9c929374ada300239b03d221f4dd64aeaa2b747e",
+    "page_count": 25,
+    "title_mapping_score": 0.7415
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "kind": "tier",
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "78cad16f38859d77f52977ef0b1cd74eaf1a3867c144347d249fbf8c279a8433",
+        "original_excerpt_word_count": 24,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "1 Introduction",
+        "source_pdf_sha256": "d0931c74d41404e23863eeed9c929374ada300239b03d221f4dd64aeaa2b747e",
+        "locator_method": "pass2_manual_source_audit",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution is retrieval-augmented ontology generation from relational databases.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "616c84b69d8e580dd11a4b4a765e578db46030efbf53bb5899348ea1f926b84b",
+          "original_excerpt_word_count": 77,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "3 Methodology",
+          "source_pdf_sha256": "d0931c74d41404e23863eeed9c929374ada300239b03d221f4dd64aeaa2b747e",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related Work",
+        "3 Methodology",
+        "3. Criteria-Based Evaluation (Modeling Pitfalls): Table 3 presents",
+        "4 Experiments",
+        "4.4 Ontology Generation Methods",
+        "4.5 Evaluation Strategies",
+        "5 Conclusions",
+        "6.3 Implementation Details:",
+        "6.4 Detailed Evaluation Results",
+        "References"
+      ],
+      "absence_rationale": "No passage satisfied the prespecified semantic retrieval-control requirements.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related Work",
+        "3 Methodology",
+        "3. Criteria-Based Evaluation (Modeling Pitfalls): Table 3 presents",
+        "4 Experiments",
+        "4.4 Ontology Generation Methods",
+        "4.5 Evaluation Strategies",
+        "5 Conclusions",
+        "6.3 Implementation Details:",
+        "6.4 Detailed Evaluation Results",
+        "References"
+      ],
+      "absence_rationale": "HermiT is used for evaluation-time ontology consistency checking, not as a reasoning backbone that produces the target output.",
+      "confidence": "high"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related Work",
+        "3 Methodology",
+        "3. Criteria-Based Evaluation (Modeling Pitfalls): Table 3 presents",
+        "4 Experiments",
+        "4.4 Ontology Generation Methods",
+        "4.5 Evaluation Strategies",
+        "5 Conclusions",
+        "6.3 Implementation Details:",
+        "6.4 Detailed Evaluation Results",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": false,
+      "interface": 0,
+      "rag_title_hits": 3,
+      "rag_passages": 11,
+      "output_title_hits": 0,
+      "output_passages": 1,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 27,
+        "threshold": 11,
+        "top_hits": [
+          "rdf",
+          "rdfs",
+          "owl",
+          "represent",
+          "class",
+          "relation"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 25,
+        "threshold": 10,
+        "top_hits": [
+          "reasoner",
+          "hermit reasoner"
+        ]
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "primary_tier",
+      "T3"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S057__retrieval-augmented-generation-of-ontologies-from-relational-databases.json",
+    "original_frozen_record_sha256": "65c08551c2553f72c4191ae6022ea9926ab94d3d9a732b130a10d66a5fe3ebad",
+    "original_frozen_record_bytes": 5901,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

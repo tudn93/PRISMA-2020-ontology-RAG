@@ -1,0 +1,222 @@
+{
+  "study_id": "S058",
+  "paper_title": "Formal Knowledge Augmented Language Models for Explainable and Robust Reasoning",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Nguyen et al. - 2025 - Formal knowledge augmented language models for explainable and robust reasoning.pdf",
+    "pdf_sha256": "ac41735b61a07b8ec92f30f2b0d185f2b5b68cfc433f63c42dea57912870721b",
+    "page_count": 15,
+    "title_mapping_score": 0.7785,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "bc860beea68ebc8a4d7d51dd4c9309e6c3d80db1308c0a0af4d9992227c67a72",
+        "original_excerpt_word_count": 35,
+        "pdf_page": 12,
+        "printed_page": "2173",
+        "section": "5.8 Discussion",
+        "source_pdf_sha256": "ac41735b61a07b8ec92f30f2b0d185f2b5b68cfc433f63c42dea57912870721b",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "68bfc4e334d56fbfcb95d05c0a28f01448bd08ea25a5ab1ae8c99b572f4e6a2b",
+          "original_excerpt_word_count": 15,
+          "pdf_page": 6,
+          "printed_page": "2167",
+          "section": "3 Our Proposed Model",
+          "source_pdf_sha256": "ac41735b61a07b8ec92f30f2b0d185f2b5b68cfc433f63c42dea57912870721b",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "4be035914c42174499ca83754717a9e0ffee4735d82c37719f6cdade3adfa35e",
+          "original_excerpt_word_count": 19,
+          "pdf_page": 8,
+          "printed_page": "2169",
+          "section": "4 Experiment",
+          "source_pdf_sha256": "ac41735b61a07b8ec92f30f2b0d185f2b5b68cfc433f63c42dea57912870721b",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "f58ddc370b058d60b34bb4546bbfaebe9ae054a036d82b011ba0abc59cdcc68f",
+          "original_excerpt_word_count": 13,
+          "pdf_page": 12,
+          "printed_page": "2173",
+          "section": "5.8 Discussion",
+          "source_pdf_sha256": "ac41735b61a07b8ec92f30f2b0d185f2b5b68cfc433f63c42dea57912870721b",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "55d849cc055c5f0dd95b3449f1a818f1e6c8efb75c51943c7594f058527cacbd",
+          "original_excerpt_word_count": 24,
+          "pdf_page": 8,
+          "printed_page": "2169",
+          "section": "4 Experiment",
+          "source_pdf_sha256": "ac41735b61a07b8ec92f30f2b0d185f2b5b68cfc433f63c42dea57912870721b",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "ca12403e8bfea7a37f15f6db4533f28d9311af876db30bbf62f6c31a40eddc9b",
+          "original_excerpt_word_count": 18,
+          "pdf_page": 1,
+          "printed_page": "2162",
+          "section": "1 Introduction",
+          "source_pdf_sha256": "ac41735b61a07b8ec92f30f2b0d185f2b5b68cfc433f63c42dea57912870721b",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "69e92e6eb57a1d7c87c5a5eb65032c139abc42c2491364f8b9d9f82a1c7301ff",
+          "original_excerpt_word_count": 15,
+          "pdf_page": 8,
+          "printed_page": "2169",
+          "section": "4 Experiment",
+          "source_pdf_sha256": "ac41735b61a07b8ec92f30f2b0d185f2b5b68cfc433f63c42dea57912870721b",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 2,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 12,
+          "pdf_score": 9,
+          "record_score": 11,
+          "top_hits": [
+            "owl",
+            "model",
+            "validate",
+            "constraint"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 10,
+          "pdf_score": 9,
+          "record_score": 4,
+          "top_hits": [
+            "semantic search",
+            "retrieval",
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 16,
+          "pdf_score": 14,
+          "record_score": 6,
+          "top_hits": [
+            "logical inference",
+            "infer",
+            "inference",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 11,
+          "pdf_score": 8,
+          "record_score": 9,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S058__formal-knowledge-augmented-language-models-for-explainable-and-robust-reasoning.json",
+    "original_frozen_record_sha256": "3093ff879cd59b22bb3e46248d476853e922487b4d7d16c059a9e8e09db70acd",
+    "original_frozen_record_bytes": 7676,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

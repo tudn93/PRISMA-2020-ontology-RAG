@@ -1,0 +1,183 @@
+{
+  "study_id": "S076",
+  "paper_title": "LLM-Driven Multimodal Knowledge Graph Construction for Industrial Process With Prompt Optimization and Fuzzy RAG",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Xie et al. - 2026 - LLM-driven multimodal knowledge graph construction for industrial process with prompt optimization a.pdf",
+    "pdf_sha256": "95645ab5f2dea3d74e729080edeb5ab9311a12c5aeaf397d09ba1a5f55235656",
+    "page_count": 14,
+    "title_mapping_score": 0.6984,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "2302f9ebdb86d142b77be6de96c5c2510a6c9bace55e42c61d4fe6ed8f43a56f",
+        "original_excerpt_word_count": 70,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Unnumbered/section not detected",
+        "source_pdf_sha256": "95645ab5f2dea3d74e729080edeb5ab9311a12c5aeaf397d09ba1a5f55235656",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "e0aea85ea3bb658625884cd1a0dc4d7c54a5ce0043055d1f7ae69fcd0b0e0c2d",
+          "original_excerpt_word_count": 39,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "95645ab5f2dea3d74e729080edeb5ab9311a12c5aeaf397d09ba1a5f55235656",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "b7edcb7946b6de3fd56989df7a6193469d626a3a370b40545370c3b3598b2a62",
+          "original_excerpt_word_count": 17,
+          "pdf_page": 13,
+          "printed_page": "13",
+          "section": "evaluation.",
+          "source_pdf_sha256": "95645ab5f2dea3d74e729080edeb5ab9311a12c5aeaf397d09ba1a5f55235656",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Unnumbered/section not detected",
+        "evaluation of triples in knowledge graph by incorporating internal with",
+        "evaluation."
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Unnumbered/section not detected",
+        "evaluation of triples in knowledge graph by incorporating internal with",
+        "evaluation."
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 23,
+          "pdf_score": 19,
+          "record_score": 13,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "ontology alignment",
+            "map",
+            "align",
+            "validate",
+            "triple"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 2,
+          "top_hits": [
+            "retrieval",
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 13,
+          "pdf_score": 13,
+          "record_score": 0,
+          "top_hits": [
+            "description logic",
+            "rule",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 9,
+          "pdf_score": 8,
+          "record_score": 4,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S076__llm-driven-multimodal-knowledge-graph-construction-for-industrial-process-with-prompt-optimi.json",
+    "original_frozen_record_sha256": "73b5dd124f5b46aa6593317b8336c1455fb52d134a0d0b0dd730690cefaff0b4",
+    "original_frozen_record_bytes": 6397,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

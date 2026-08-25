@@ -1,0 +1,1475 @@
+{
+  "S002": {
+    "roles": {
+      "T1": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 3,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "0a30d6483399d5c36facf208c3005a08303512adc5b2640750c23dddcfe92772",
+            "word_count": 6
+          },
+          {
+            "sha256": "0b3b4e06a5ffc3d08ad75a9556c371c32d71fe523b45538cf24260dabe1770c0",
+            "word_count": 4
+          }
+        ]
+      }
+    }
+  },
+  "S006": {
+    "tier": {
+      "code": "INTERFACE",
+      "page": 11,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "4e950ce076c81711e9ea49b36459d4232f0831bba38fed5232b5ea295d678bee",
+          "word_count": 7
+        },
+        {
+          "sha256": "72e8e180d6736bb569966be145bf29ff5e2d93ebfcb56a5aa7e6eed2755811f3",
+          "word_count": 2
+        }
+      ],
+      "rationale": "Natural-language graph access and formal-query execution are the primary contribution without a complete RAG loop."
+    },
+    "roles": {
+      "T1": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 1,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "1e6763285c2cb5ab91c4bc34b0a65beefa409da675dd7afeb623a5fc19831d69",
+            "word_count": 4
+          },
+          {
+            "sha256": "89136bb85a8580e9720bdb59e63563ab40284b5812e2bee133191825c56f0cfe",
+            "word_count": 5
+          }
+        ]
+      },
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 11,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "4e950ce076c81711e9ea49b36459d4232f0831bba38fed5232b5ea295d678bee",
+            "word_count": 7
+          },
+          {
+            "sha256": "72e8e180d6736bb569966be145bf29ff5e2d93ebfcb56a5aa7e6eed2755811f3",
+            "word_count": 2
+          }
+        ]
+      },
+      "T4": {
+        "decision": "1",
+        "evidence_level": "described",
+        "page": 11,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "c502beea312b829d5b323ab4a2024932fea2aaf60817f12b8e4b246b2a676432",
+            "word_count": 4
+          },
+          {
+            "sha256": "533596f06c251b1015497ed4590c23f0b93ff400f0fa236df0b2f8c99840adbf",
+            "word_count": 3
+          }
+        ]
+      }
+    }
+  },
+  "S010": {
+    "tier": {
+      "code": "ANCHORED",
+      "page": 1,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "0ed8a0f1162b2781bdafcc763de0cd8f43b90a7e5670460c36763394b8152898",
+          "word_count": 2
+        },
+        {
+          "sha256": "154866f88dd157191892de821973db1675c7eb6b14c6edc0d17e43a54e15b4e0",
+          "word_count": 3
+        },
+        {
+          "sha256": "d9f0691626736fae7f8f385bf4e0a469172f928a77a8b2b581cf1cdfb211aa46",
+          "word_count": 3
+        }
+      ],
+      "rationale": "Ontology and formal logic guide LLM reasoning without an implemented retrieval-to-generation loop."
+    },
+    "roles": {
+      "T3": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 1,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "154866f88dd157191892de821973db1675c7eb6b14c6edc0d17e43a54e15b4e0",
+            "word_count": 3
+          },
+          {
+            "sha256": "00a2a773ac5b558d96c1fc94758be2b34d103e4425da2038058cc704bc14577c",
+            "word_count": 2
+          },
+          {
+            "sha256": "c6b6326eb7d3340c47a72d1e033220d20dafdfaca139846399ac4160c936a031",
+            "word_count": 2
+          }
+        ]
+      }
+    }
+  },
+  "S013": {
+    "tier": {
+      "code": "CORE",
+      "page": 10,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "e08900359275c7650fda4e55c0efeec74b304358cff671830ea945c5d9ae21e1",
+          "word_count": 5
+        },
+        {
+          "sha256": "0c5579cc10db2ace28f54bb86bb46195653dc45394163b5734e6355b8b1175d1",
+          "word_count": 3
+        }
+      ],
+      "rationale": "An ontological-graph RAG mechanism supplies context to downstream LLM response generation."
+    },
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 10,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "e08900359275c7650fda4e55c0efeec74b304358cff671830ea945c5d9ae21e1",
+            "word_count": 5
+          },
+          {
+            "sha256": "e30b3910ffd943c99f7edd7543c56c608522784ec521e85a91cf296f14a13e72",
+            "word_count": 1
+          }
+        ]
+      }
+    }
+  },
+  "S018": {
+    "roles": {
+      "T1": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 1,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "ac21eac8bdd09204cdb63691c7f0b157496f64e64a304935e95b9d6016ce311a",
+            "word_count": 5
+          },
+          {
+            "sha256": "45809d870f831f5ccd35b43b5829366f9ad68192238bdba508f2c23edcd12054",
+            "word_count": 3
+          }
+        ]
+      }
+    }
+  },
+  "S021": {
+    "tier": {
+      "code": "INTERFACE",
+      "page": 1,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "5db3da95f2f08221f2d9d89f1beec78c6b480473d50f3cd403c25fde002cd325",
+          "word_count": 3
+        },
+        {
+          "sha256": "a9a3a5b3ada7e706be9c9872432264eece0153e65b904f3205051fb449a9ea55",
+          "word_count": 2
+        },
+        {
+          "sha256": "ffb02fd8587399106471ed0faa4f54d4f511f496dabffc7e086bd781ca470613",
+          "word_count": 2
+        }
+      ],
+      "rationale": "The primary contribution is an ontology-grounded natural-language interface for graph queries and building control."
+    }
+  },
+  "S028": {
+    "tier": {
+      "code": "CORE",
+      "page": 17,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "9276153c2f62804d2416731f2a074017a8426bdb5763a2cddff7e0e18b719033",
+          "word_count": 4
+        },
+        {
+          "sha256": "625a02737aa039b71da83494e3d35a4f9142f40c3cd347647770510a83ab6113",
+          "word_count": 2
+        },
+        {
+          "sha256": "a0cb28dfe80fff5a05aff429776fe7de79552a2d835f780823d09bcdcafc4d29",
+          "word_count": 2
+        }
+      ],
+      "rationale": "Ontology-controlled temporal retrieval feeds an LLM synthesis step with auditable provenance."
+    },
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 11,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "ba1c2e14f4b16ee8daf4746dab8c3a2b1a5faf99fef2f707dcf702ec084cdfd7",
+            "word_count": 3
+          },
+          {
+            "sha256": "20bcd1bb632024bbdabbaf1a148e5fb1e475fddb87e17b26371657e52861e583",
+            "word_count": 3
+          }
+        ]
+      },
+      "T4": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 17,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "2c995fb153efb64dd34b37f2e8904df78c351f7b8f999163d71c774aff65499d",
+            "word_count": 3
+          },
+          {
+            "sha256": "a0cb28dfe80fff5a05aff429776fe7de79552a2d835f780823d09bcdcafc4d29",
+            "word_count": 2
+          }
+        ]
+      }
+    }
+  },
+  "S030": {
+    "tier": {
+      "code": "INTERFACE",
+      "page": 1,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "ae8c1dbee5a100afdb7ec3cf17bf274ad0cfe72d02faf25daf45c90389318727",
+          "word_count": 2
+        },
+        {
+          "sha256": "01d20675119ca01a549a44968de357075debe00972734f34dac5ee35ea63b4f9",
+          "word_count": 2
+        },
+        {
+          "sha256": "e143280470565090339447ad44c66e0ce8b1eb8a34634cb0b9bec628dd7164b0",
+          "word_count": 3
+        }
+      ],
+      "rationale": "The primary contribution maps natural-language legal questions to graph representations for subgraph matching."
+    },
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 1,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "0dd87cb4af90b474d36c68c5358269eab99eb651a247678f2e07f38a9eea7895",
+            "word_count": 4
+          },
+          {
+            "sha256": "01d20675119ca01a549a44968de357075debe00972734f34dac5ee35ea63b4f9",
+            "word_count": 2
+          }
+        ]
+      }
+    }
+  },
+  "S031": {
+    "tier": {
+      "code": "CORE",
+      "page": 9,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "d72289807c38479c98c0002b21a86a43b452804c3cb75df00eea46d43843acbe",
+          "word_count": 2
+        },
+        {
+          "sha256": "e661f4c935e8a5a83349afb5e347695c2e972e967b50efcd618f93b0b7b4c24b",
+          "word_count": 1
+        },
+        {
+          "sha256": "4183b7793fd28ba47ea9e79e7697f2915da218567e6657a158b51bd14bce91cd",
+          "word_count": 1
+        },
+        {
+          "sha256": "524ce8f4c2f3defd5016cb53af50866d20e267273bfc32b8f9a0745713cfe801",
+          "word_count": 3
+        }
+      ],
+      "rationale": "A complete ontology-grounded retrieval, generation, and verification loop is specified."
+    }
+  },
+  "S033": {
+    "tier": {
+      "code": "ANCHORED",
+      "page": 1,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "514b594704acea1449414b21ede27d8006fbad04dadc7d7adab2daa2a5821e02",
+          "word_count": 2
+        },
+        {
+          "sha256": "e87dca3efa148ad72fc19d054fd1a31a562ca0a659ed8a92d15091dae3453801",
+          "word_count": 2
+        },
+        {
+          "sha256": "a697a365d8db7bec82781aba746038177ff517d4637428e36fce8ede82beb0c0",
+          "word_count": 3
+        }
+      ],
+      "rationale": "Ontology-aware memory, retrieval, reasoning, and reconciliation are implemented without a complete generation loop."
+    },
+    "roles": {
+      "T1": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 1,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "e87dca3efa148ad72fc19d054fd1a31a562ca0a659ed8a92d15091dae3453801",
+            "word_count": 2
+          },
+          {
+            "sha256": "16a13962a6af6b593047754de4ae75e65f41bc8386e7ffc2ffab441d80ee65b5",
+            "word_count": 2
+          },
+          {
+            "sha256": "72bdba3471c7cce1c64dfd3fbbc9e4bdc3841dddb7e5593be058d45f2a60e771",
+            "word_count": 4
+          }
+        ]
+      },
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 2,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "94709de611edc8f54283b9a2db88a3efd9e1376f6f36ba840a71e8c5958e263d",
+            "word_count": 4
+          },
+          {
+            "sha256": "16a13962a6af6b593047754de4ae75e65f41bc8386e7ffc2ffab441d80ee65b5",
+            "word_count": 2
+          }
+        ]
+      },
+      "T3": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 4,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "cd1136be5077e90ffdf027d022aafdbfad2414506acd679ab588c61af70e9ab0",
+            "word_count": 3
+          },
+          {
+            "sha256": "0762224abb8c8ee326236613ed6576567ec48153801c2310d1c6abbdf1c90418",
+            "word_count": 1
+          },
+          {
+            "sha256": "40781e492b8f9e23aace86e911d1428a01ef6f527f50c57f317dd5c0e1f615cb",
+            "word_count": 2
+          }
+        ]
+      },
+      "T4": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 2,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "0618afd72a94726ab4266f80a20ae65ef78fca92dc9faa21bfd09f0112d6e38c",
+            "word_count": 2
+          },
+          {
+            "sha256": "11f783c3f93ea005394a72d56b915ba7b9d7da0c1d98c0e112eb2c08666d322e",
+            "word_count": 3
+          },
+          {
+            "sha256": "69eb2f170d70935a1af2e3553e2d1f849d65bed373a6876c716b731d87c68a24",
+            "word_count": 2
+          }
+        ]
+      }
+    }
+  },
+  "S039": {
+    "tier": {
+      "code": "CORE",
+      "page": 3,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "f5137318ddb276510d7198b6e58fa6e86460243fe2780b6769116921e23e371b",
+          "word_count": 2
+        },
+        {
+          "sha256": "4d5926202abd9b94683c2f4a4cf5a51a4bfd8f1690c0f1136c5040d3ba5a2f20",
+          "word_count": 4
+        },
+        {
+          "sha256": "3aeb4e92c24fb8fa2bfe3b72fafe1edb247d6cc3e8707d8c7fde06dadb423791",
+          "word_count": 3
+        }
+      ],
+      "rationale": "The KG is retrieved through a RAG framework and used for personalized LLM content generation."
+    },
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 3,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "4d5926202abd9b94683c2f4a4cf5a51a4bfd8f1690c0f1136c5040d3ba5a2f20",
+            "word_count": 4
+          },
+          {
+            "sha256": "07ae2ab19abcb00dc30d7bbf0cdec536b3cebe938d93dd59d741d67fa294e5d2",
+            "word_count": 4
+          }
+        ]
+      }
+    }
+  },
+  "S041": {
+    "roles": {
+      "T3": {
+        "decision": "0",
+        "absence_rationale": "The Pellet reasoner is used only to validate construction-time KG consistency; it does not materially reason over evidence to produce the study output."
+      }
+    }
+  },
+  "S047": {
+    "tier": {
+      "code": "CORE",
+      "page": 4,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "22ce417299e6f0900675d3d56ecbeee9568ea236b3e37fadfdbe16947c7c6fed",
+          "word_count": 6
+        },
+        {
+          "sha256": "e60bdfc289b2999e6c95cf1ae99441c88080aa4c1401867878208bbf73353d11",
+          "word_count": 4
+        }
+      ],
+      "rationale": "KG structure constrains retrieval and generation in the evaluated RAG workflow."
+    },
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "evaluated",
+        "page": 4,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "22ce417299e6f0900675d3d56ecbeee9568ea236b3e37fadfdbe16947c7c6fed",
+            "word_count": 6
+          },
+          {
+            "sha256": "131ed734290d30f32aedb3548cc92b420b3760571fb0e655084b48b31043106c",
+            "word_count": 1
+          }
+        ]
+      }
+    }
+  },
+  "S049": {
+    "tier": {
+      "code": "CONSTRUCTION",
+      "page": 7,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "b927ae5129cbbcd05449bb5456397fa09e0629f80240806ed5222b3b3e78f039",
+          "word_count": 4
+        },
+        {
+          "sha256": "e16e6496925d64d9d34a5578d3d628739e659613eb7d168c82817473b99f5661",
+          "word_count": 4
+        }
+      ],
+      "rationale": "Knowledge-graph construction and extraction are the primary contribution; downstream QA is an application."
+    }
+  },
+  "S057": {
+    "tier": {
+      "code": "CONSTRUCTION",
+      "page": 1,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "b4d9b7128c480ab2d01575858a753271027dd381770beb7b86b8213ab5c87068",
+          "word_count": 3
+        },
+        {
+          "sha256": "65ab8a50babe00d35a830e81d0844e9fd0ff56ae78e8cfeccf806404d69633e1",
+          "word_count": 3
+        },
+        {
+          "sha256": "38bb2da37e2e83e04d574f7277921688b1d8bc9103ba56752f79f4d0eaf1b6a8",
+          "word_count": 2
+        }
+      ],
+      "rationale": "The primary contribution is retrieval-augmented ontology generation from relational databases."
+    },
+    "roles": {
+      "T3": {
+        "decision": "0",
+        "absence_rationale": "HermiT is used for evaluation-time ontology consistency checking, not as a reasoning backbone that produces the target output."
+      }
+    }
+  },
+  "S058": {
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 1,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "b1152a82d83f836f7a656e9257f8df584979611dcc08d9ca98b91956f22f91ce",
+            "word_count": 5
+          },
+          {
+            "sha256": "f6f77e711e146a2c6acd60f80caa25d5f196a7287cc735cd7e4a931f02efb63e",
+            "word_count": 2
+          }
+        ]
+      },
+      "T3": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 7,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "73cd3dc99d146e749069fce992c8bca057404c82c6b48ea3c8fb8cf57cdb610b",
+            "word_count": 3
+          },
+          {
+            "sha256": "b75095aaa00b3c0d14851d0675ffe40eb793afbf7760f527526e88de06419d55",
+            "word_count": 2
+          }
+        ]
+      },
+      "T4": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 8,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "06f30477af7a384cb0114ffb80005079b26d14d33c4c2f9302e06903fc53753c",
+            "word_count": 4
+          },
+          {
+            "sha256": "28fde0cbcf9e56e547481add6572b2631fd7ed0060fad846f4b78629aada222b",
+            "word_count": 5
+          }
+        ]
+      }
+    }
+  },
+  "S059": {
+    "roles": {
+      "T4": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 10,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "9bf45a0f76784cd76e7a6eec304e1c5a300cf08c374edb254f2c4a8aa8b3fd72",
+            "word_count": 6
+          },
+          {
+            "sha256": "694c41f5a517d6c68c5eed819e8a5077efa91643b67fd06f350190dab7145403",
+            "word_count": 6
+          }
+        ]
+      }
+    }
+  },
+  "S063": {
+    "tier": {
+      "code": "CORE",
+      "page": 1,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "9adf62e739c980375379494c1b641b2599692433f9d93d377629db02f9bff465",
+          "word_count": 3
+        },
+        {
+          "sha256": "f3f6dd5592e04afcd9ce838057aaa4b783bc3fc2918aed368648d95dea9337d3",
+          "word_count": 5
+        },
+        {
+          "sha256": "25500938023fcb9a748668750102d02a2afe8a147d24a9612d8e2596d0e91b96",
+          "word_count": 3
+        }
+      ],
+      "rationale": "Ontology-derived entity relations control RAG context expansion for downstream question generation."
+    },
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 1,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "9adf62e739c980375379494c1b641b2599692433f9d93d377629db02f9bff465",
+            "word_count": 3
+          },
+          {
+            "sha256": "a3e690053061793bb12ad4c32aace5856f57f1694d3608df1379d240ce1bbc5b",
+            "word_count": 1
+          },
+          {
+            "sha256": "25500938023fcb9a748668750102d02a2afe8a147d24a9612d8e2596d0e91b96",
+            "word_count": 3
+          }
+        ]
+      }
+    }
+  },
+  "S065": {
+    "tier": {
+      "code": "CORE",
+      "page": 4,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "c1c304d921e7c8aeb7c6ece5ee85a84563ebf8570ffdce10a78102501c52d2fd",
+          "word_count": 2
+        },
+        {
+          "sha256": "501adf040abef46a95f0c607a22c86e525c7d9378685d345a3410b34d99f9501",
+          "word_count": 2
+        },
+        {
+          "sha256": "e661f4c935e8a5a83349afb5e347695c2e972e967b50efcd618f93b0b7b4c24b",
+          "word_count": 1
+        }
+      ],
+      "rationale": "Prompt-relevant ontology retrieval supplies structured context to the LLM relation-extraction output."
+    }
+  },
+  "S066": {
+    "tier": {
+      "code": "CORE",
+      "page": 2,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "0ed6b3c38be2e70627fbb88a22b9ef37c92a448e58bdd684fc759abb7cba619b",
+          "word_count": 4
+        },
+        {
+          "sha256": "a3352099c8a363a1c02ee8fa4d87bc8ca456041dae6824e7a48625a8049ad40d",
+          "word_count": 2
+        },
+        {
+          "sha256": "89cc8a2763c6c9b7cbc8058d68c260aedc026dba2b3a47b4e2cb44fcb8747efe",
+          "word_count": 2
+        }
+      ],
+      "rationale": "AAS-structured candidate retrieval and reranking feed a downstream chat-model answer."
+    },
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 2,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "0ed6b3c38be2e70627fbb88a22b9ef37c92a448e58bdd684fc759abb7cba619b",
+            "word_count": 4
+          },
+          {
+            "sha256": "a3352099c8a363a1c02ee8fa4d87bc8ca456041dae6824e7a48625a8049ad40d",
+            "word_count": 2
+          },
+          {
+            "sha256": "89cc8a2763c6c9b7cbc8058d68c260aedc026dba2b3a47b4e2cb44fcb8747efe",
+            "word_count": 2
+          }
+        ]
+      }
+    }
+  },
+  "S067": {
+    "tier": {
+      "code": "CORE",
+      "page": 5,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "ed41d9fa1b1f82c0ec8e650b28d3e05d80d43b8e14d16a5c3788e534dfee0f47",
+          "word_count": 4
+        },
+        {
+          "sha256": "9af419b6bab23ff9b091816c8532a0e4cad0f1791997928a697ba15149b4cdc2",
+          "word_count": 3
+        }
+      ],
+      "rationale": "Ontology/triple-store retrieval is integrated into the evaluated generation and decision-support workflow."
+    },
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "evaluated",
+        "page": 5,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "45255a6213fc39d579c88a7252ff7d6715dd99f32b045c8dca6b80b51bbcbf1a",
+            "word_count": 3
+          },
+          {
+            "sha256": "c1c304d921e7c8aeb7c6ece5ee85a84563ebf8570ffdce10a78102501c52d2fd",
+            "word_count": 2
+          },
+          {
+            "sha256": "e0ee8bb50685e05fa0f47ed04203ae953fdfd055f5bd2892ea186504254f8c3a",
+            "word_count": 1
+          }
+        ]
+      }
+    }
+  },
+  "S069": {
+    "tier": {
+      "code": "CORE",
+      "page": 5,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "dd5db88366d9ac061756c2df9a8793076c93870dde70b717312654687c455f7e",
+          "word_count": 3
+        },
+        {
+          "sha256": "826f8b83c9e040253764a6c797621c40c5e9572844de04f86da7b9368b9dbe9a",
+          "word_count": 6
+        }
+      ],
+      "rationale": "Cypher-based graph retrieval is connected to GraphRAG answer generation."
+    }
+  },
+  "S070": {
+    "roles": {
+      "T1": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 2,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "7efbd3059bfcf2cffc29b6752ec32cd855353e5f45b1e07490ef677fad7fb81b",
+            "word_count": 5
+          },
+          {
+            "sha256": "2cc497857559ff85cfec0fd662a131fd6acb805edfa1afa992271366808691f3",
+            "word_count": 1
+          },
+          {
+            "sha256": "fc8fbb48a3a16bfdd85345d0b6aa543ebd805c370e5b763ed75207185093fca3",
+            "word_count": 1
+          }
+        ]
+      }
+    }
+  },
+  "S071": {
+    "tier": {
+      "code": "CONSTRUCTION",
+      "page": 3,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "1da3905b38c48a63a8b0185fc5c9197ead122ab48f39bc9f32c97d72550a5f59",
+          "word_count": 3
+        },
+        {
+          "sha256": "78f2c408f9719470a288e4f47a845d165a32a48fe4cde72fea73a38dd82715ee",
+          "word_count": 2
+        },
+        {
+          "sha256": "f52b79c0c6b1d3ec6430e8fa650b2e1b2a71c422b3dc54ca7fb3704b9b4d1ef5",
+          "word_count": 2
+        }
+      ],
+      "rationale": "Course-KG construction and its engineering controls are the primary contribution."
+    },
+    "roles": {
+      "T3": {
+        "decision": "0",
+        "absence_rationale": "The paper discusses rule constraints and consistency checking for KG engineering, but does not evidence an executable reasoning procedure that materially produces the application output."
+      },
+      "T4": {
+        "decision": "1",
+        "evidence_level": "described",
+        "page": 3,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "1da3905b38c48a63a8b0185fc5c9197ead122ab48f39bc9f32c97d72550a5f59",
+            "word_count": 3
+          },
+          {
+            "sha256": "78f2c408f9719470a288e4f47a845d165a32a48fe4cde72fea73a38dd82715ee",
+            "word_count": 2
+          },
+          {
+            "sha256": "f52b79c0c6b1d3ec6430e8fa650b2e1b2a71c422b3dc54ca7fb3704b9b4d1ef5",
+            "word_count": 2
+          }
+        ]
+      }
+    }
+  },
+  "S072": {
+    "tier": {
+      "code": "CONSTRUCTION",
+      "page": 2,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "315bb663557138d367218586c63297a703ba86c7c8d70371b6d03e3fb2c46769",
+          "word_count": 4
+        },
+        {
+          "sha256": "19fa19f2ede4523a7b4e969d091e5282a6ddb53b5504692f3f90d12f9a1e0752",
+          "word_count": 3
+        }
+      ],
+      "rationale": "Automated ontology derivation is the primary contribution; QA is the downstream use case."
+    }
+  },
+  "S075": {
+    "tier": {
+      "code": "CONSTRUCTION",
+      "page": 2,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "a92400ed4e7e7c0b8d6d1beb6651caa1393c378076c9b605f51b9c76a74e8ff1",
+          "word_count": 4
+        },
+        {
+          "sha256": "e07d4584fc0a25900d6da10d2ea43987777fe5da56c2fcdacb1c962214ac9023",
+          "word_count": 5
+        }
+      ],
+      "rationale": "The primary contribution is ontology-driven medical KG construction with expert validation."
+    }
+  },
+  "S079": {
+    "tier": {
+      "code": "CONSTRUCTION",
+      "page": 2,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "000995052f61653693a7d6c48c24dd7d18f644b31c09bb998b9dacb15dbd28b0",
+          "word_count": 2
+        },
+        {
+          "sha256": "60e5064a11e4767cc65daee30677e6de9c0b5f3c184d3573f86588338c532a7d",
+          "word_count": 2
+        },
+        {
+          "sha256": "b8f6fe7bbddf5486f4d3a76ca28bafd1d5529e2bd2f45cca64d3713235cf94c4",
+          "word_count": 3
+        }
+      ],
+      "rationale": "The primary output is a constructed and quality-controlled knowledge graph."
+    },
+    "roles": {
+      "T4": {
+        "decision": "0",
+        "absence_rationale": "RAG verification filters extracted relations during KG construction; under the prespecified exclusion, construction-time triple validation alone is not T4."
+      }
+    }
+  },
+  "S081": {
+    "roles": {
+      "T3": {
+        "decision": "0",
+        "absence_rationale": "The rule engine performs semi-automatic relationship annotation; no executable reasoning procedure is shown to materially determine the emergency-decision output."
+      }
+    }
+  },
+  "S082": {
+    "tier": {
+      "code": "CONSTRUCTION",
+      "page": 3,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "286529c6af4994ad585104bfd11822a473e21307351889a89f6cd66bf75d5570",
+          "word_count": 5
+        },
+        {
+          "sha256": "a3e690053061793bb12ad4c32aace5856f57f1694d3608df1379d240ce1bbc5b",
+          "word_count": 1
+        },
+        {
+          "sha256": "3549b0028b75d981cdda2e573e9cb49dedc200185876df299f912b79f69dabd8",
+          "word_count": 1
+        }
+      ],
+      "rationale": "Multimodal KG construction is primary, with the ontology used as a RAG resource during extraction."
+    },
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 3,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "286529c6af4994ad585104bfd11822a473e21307351889a89f6cd66bf75d5570",
+            "word_count": 5
+          },
+          {
+            "sha256": "a3e690053061793bb12ad4c32aace5856f57f1694d3608df1379d240ce1bbc5b",
+            "word_count": 1
+          },
+          {
+            "sha256": "3549b0028b75d981cdda2e573e9cb49dedc200185876df299f912b79f69dabd8",
+            "word_count": 1
+          }
+        ]
+      },
+      "T4": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 4,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "0facb9a8f401cd5260fb2528cc36d488998a38cf48d9cfa4d092f50befdf6eeb",
+            "word_count": 3
+          },
+          {
+            "sha256": "73815608077a0a46a5594e25e697cb8c5f2bf79c73d850b5c81b5be024eafc52",
+            "word_count": 4
+          }
+        ]
+      }
+    }
+  },
+  "S083": {
+    "tier": {
+      "code": "CORE",
+      "page": 5,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "cee2de710b67322b3b9c8053c36b9dd084ba4c099a09e033247d4abd5797a768",
+          "word_count": 4
+        },
+        {
+          "sha256": "fb06fade777be68291226efe07672a516bb874d9b765a64381c30d6316cecad9",
+          "word_count": 4
+        }
+      ],
+      "rationale": "Multi-strategy KG retrieval is integrated into structured prompts for downstream legal response generation."
+    }
+  },
+  "S084": {
+    "tier": {
+      "code": "CONSTRUCTION",
+      "page": 4,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "2c52321156773f6f1ce107497ff2517783197a0d4f6ac21cb6f6393c147884f1",
+          "word_count": 2
+        },
+        {
+          "sha256": "003dfa168298f076e8df9fbf06aa3726453561bd4cc4d9ca2446a783c3b9465c",
+          "word_count": 2
+        },
+        {
+          "sha256": "60cfc08420b26c1ed33f64a4fb433f32b039572f1789edcd6efa9f18f4a30726",
+          "word_count": 3
+        }
+      ],
+      "rationale": "Construction and validation of the AcuKG resource are primary; LLM QA is a downstream use case."
+    }
+  },
+  "S088": {
+    "tier": {
+      "code": "ANCHORED",
+      "page": 17,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "464ceaa00410f4f65dab58a68b296a4efad583a6f1129e527f5bbd1a3f750c14",
+          "word_count": 3
+        },
+        {
+          "sha256": "0da93e83834d5f110a39bec96e514a3e5e158220410dc6a1fd27e04a95dabcb8",
+          "word_count": 3
+        },
+        {
+          "sha256": "40cb3853407305083024d8b89ac1b3a6cfd576b8fea1b5309f7e9d02b3d4919e",
+          "word_count": 2
+        }
+      ],
+      "rationale": "The KG anchors neuro-symbolic prediction and explanation without an explicit retrieval-to-generation loop."
+    },
+    "roles": {
+      "T3": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 17,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "22998e2986d87ad15766c6a2693ab581cbda40b6698f321a4e1cf9e930fe1a6b",
+            "word_count": 4
+          },
+          {
+            "sha256": "5a8459d75b1ec37e8887f680aca6a9f345f353af7a0020067a9037939dc655e2",
+            "word_count": 2
+          },
+          {
+            "sha256": "50c675fd7ca4b734a8d2e075c789fc2dbf2fd3cf81a1b1e877eafaee3aab8672",
+            "word_count": 3
+          }
+        ]
+      }
+    }
+  },
+  "S090": {
+    "tier": {
+      "code": "CORE",
+      "page": 3,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "41d914170986ce678aa02da04d57e15f889934dbd7a3061c1e326585b9ab5225",
+          "word_count": 4
+        },
+        {
+          "sha256": "63d0719dd55563fa0a85201af853dd160354b2f412f5ad5e5545cf4b46a6fe06",
+          "word_count": 2
+        },
+        {
+          "sha256": "e15d4510ff4ec6374ff26269a96cbd55ab9eb4017bbde9ff6e2ee4d41e1b2e22",
+          "word_count": 2
+        }
+      ],
+      "rationale": "Ontology-guided KG construction feeds a complete symbolic-plus-semantic retrieval and LLM response-generation loop."
+    },
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 15,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "cc5a1a97f9b5556c6ad1af69088c3a625500519e6b74bc5f0b760b808916357f",
+            "word_count": 3
+          },
+          {
+            "sha256": "a6404decf702c34700004aca740d284d17a5bc24ba67916923699b4c21268845",
+            "word_count": 2
+          },
+          {
+            "sha256": "e917cd689e58b5ea6f4de8aba3fe8e8fab506ab74667ad08660552f7c09a76df",
+            "word_count": 2
+          },
+          {
+            "sha256": "bf39c79f9a16d5864695caabaed13a5c51673ba790420847780bfa9c8fa8e6e7",
+            "word_count": 1
+          }
+        ]
+      }
+    }
+  },
+  "S091": {
+    "tier": {
+      "code": "INTERFACE",
+      "page": 13,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "aa0fe2a537f6381caf3d656b1147d0fb598a76460a4c674aaa89dad90bf8bf64",
+          "word_count": 2
+        },
+        {
+          "sha256": "d1aa64f3be8e625bdd46930640f25e9024e4c4b565e2b7a66905667200807af3",
+          "word_count": 2
+        },
+        {
+          "sha256": "488d9060d02b0e3bb33debe730cbe77e38c5b12f62323754d48afd564561ce08",
+          "word_count": 2
+        }
+      ],
+      "rationale": "The primary contribution is a semantic natural-language-to-SPARQL agent with query correction."
+    }
+  },
+  "S096": {
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 13,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "eb52d897f59494ea12a334921f2dafcbd88a6ab250bac1035721cab86e50b7be",
+            "word_count": 5
+          },
+          {
+            "sha256": "22dc89fdfe6eab6180936cbd89cd5289150d81969e79d499c9213d2c899c7352",
+            "word_count": 3
+          },
+          {
+            "sha256": "dbfe937585b4147cb6f305277685021c22cafe00bdc241fd870c500d3e87cb2b",
+            "word_count": 1
+          }
+        ]
+      }
+    }
+  },
+  "S097": {
+    "tier": {
+      "code": "CORE",
+      "page": 5,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "5ba20fde6608f8a705902a34867d910f82093eb2e029804e5d5e1d912061504d",
+          "word_count": 3
+        },
+        {
+          "sha256": "f144ab5b381a59d72595b828aa78f99c53dd09f35003cc0d9b2b0837c8bab228",
+          "word_count": 2
+        },
+        {
+          "sha256": "11e01c36df420edea707e849b5172a6323a64e76e8823167a57cdbcbc61a639c",
+          "word_count": 2
+        }
+      ],
+      "rationale": "Structured KG retrieval is connected to LLM reasoning and decision generation."
+    },
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 5,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "fe37a2808387a03fb258ae8ff00bb6ccc47a3011dd9c95fe45321b3accf980e5",
+            "word_count": 3
+          },
+          {
+            "sha256": "d33f2f2c7bd4295a196f3239ada5d7a332374393ba16d158055fa8f3bdf99886",
+            "word_count": 3
+          },
+          {
+            "sha256": "0071e48609dfd9e6a2f62b99c7aa9f81b0361584b05ff4727a0aaa4a906235d3",
+            "word_count": 2
+          }
+        ]
+      }
+    }
+  },
+  "S098": {
+    "tier": {
+      "code": "CONSTRUCTION",
+      "page": 6,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "a144e23ab3d0c45f7c3ead9df60f1a02e08886f9f7d5bda4d822b36160f54991",
+          "word_count": 3
+        },
+        {
+          "sha256": "a2c8c87054095d635d23eb6ad8f3908669112c2da165266d1230a10c30675321",
+          "word_count": 4
+        },
+        {
+          "sha256": "0071e48609dfd9e6a2f62b99c7aa9f81b0361584b05ff4727a0aaa4a906235d3",
+          "word_count": 2
+        }
+      ],
+      "rationale": "Attack-KG construction is the primary contribution, supported by iterative RAG for technique identification."
+    },
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 11,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "a03ecce3aa05ab10c88ae2757bda958ec3a2ca16b1c4025199895f651a9609b4",
+            "word_count": 2
+          },
+          {
+            "sha256": "baec1dbcfdc3f79687808dd103c31bc6ad8398d153eddc6bc442485171e211ae",
+            "word_count": 2
+          }
+        ]
+      }
+    }
+  },
+  "S099": {
+    "tier": {
+      "code": "CORE",
+      "page": 6,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "8305eb6c4f0140d9352b0827c3dc44687ffe7e28cbaabf03bb68a6987cf5762a",
+          "word_count": 6
+        },
+        {
+          "sha256": "8f66c85a5a2091ca4132f93e9bc43b620d4cf066f51526fc873e86f449d03715",
+          "word_count": 3
+        }
+      ],
+      "rationale": "Ontology-guided Cypher retrieval is connected to a generative chatbot response loop."
+    }
+  },
+  "S101": {
+    "tier": {
+      "code": "INTERFACE",
+      "page": 6,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "2df660ae15bc22ec9843fdc644886ab16b0cafeb26936616b987f813d72ac004",
+          "word_count": 4
+        },
+        {
+          "sha256": "d5cb192b50905a06b44866d0ac23ef9046860fb7e0b783ac4a72c003223b6f24",
+          "word_count": 2
+        },
+        {
+          "sha256": "3e9e55ee81b7238990fc09768f267ae7bc54f771391636735178eb23c8173c17",
+          "word_count": 4
+        }
+      ],
+      "rationale": "The primary contribution is multi-agent natural-language access to a mass-spectrometry KG through SPARQL."
+    },
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 16,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "0e3cf1c96097e667b38e06d08853df48c00bebc2988c4a1302069e4930e034fa",
+            "word_count": 4
+          },
+          {
+            "sha256": "3562b47c9713019d7d0fce503d7975b6aac3ba5b512b3154ccea83883172f154",
+            "word_count": 3
+          }
+        ]
+      },
+      "T4": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 10,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "dfa65f649fb3294336dcb48ef4fd5f3e4b6ca3e823038232d159dffa1171439e",
+            "word_count": 2
+          },
+          {
+            "sha256": "a223fe75c36bd95ec956a85f6fccf06587f60ad4d92aea3463f417b586b281b3",
+            "word_count": 2
+          }
+        ]
+      }
+    }
+  },
+  "S102": {
+    "tier": {
+      "code": "CORE",
+      "page": 9,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "c3d2b1b3186de23c8c2cba78d3ad9ea8ea3e533f24afee623a59854d1b452719",
+          "word_count": 4
+        },
+        {
+          "sha256": "8c5d5355c6d26ea5a452d6ae8a69a9ec270f8439c7d87c40292b3945392a8187",
+          "word_count": 2
+        },
+        {
+          "sha256": "3c62f2e1c985e161bd53373a1021603e3b68d13313ab14eb1cbea17cc339873d",
+          "word_count": 2
+        }
+      ],
+      "rationale": "KG-grounded retrieval and generative reasoning produce hiring recommendations in a complete decision pipeline."
+    },
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 9,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "c3d2b1b3186de23c8c2cba78d3ad9ea8ea3e533f24afee623a59854d1b452719",
+            "word_count": 4
+          },
+          {
+            "sha256": "8c5d5355c6d26ea5a452d6ae8a69a9ec270f8439c7d87c40292b3945392a8187",
+            "word_count": 2
+          }
+        ]
+      },
+      "T3": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 6,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "c15f2c22cebc20e74f1ad901a505d3d98efed55d081cbb827cae11038d4d87a1",
+            "word_count": 3
+          },
+          {
+            "sha256": "b1eb2ec8ac9f31ff7918231e67f96e6deda83a9ff33ed2c67443f1df81e5ed14",
+            "word_count": 1
+          },
+          {
+            "sha256": "3736cc312927491cf955b37662d23b31c7b9c06dd33197ec2db827cc84a5fdce",
+            "word_count": 2
+          }
+        ]
+      },
+      "T4": {
+        "decision": "1",
+        "evidence_level": "evaluated",
+        "page": 7,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "1463b541c7aa6612f01938f41c37f68ffbf994626f17782c68c04607c3acde87",
+            "word_count": 2
+          },
+          {
+            "sha256": "33fbcd8470eae125a265eb3f4375137f38ea4dc42f75ac09594bfe1a1c951af6",
+            "word_count": 1
+          },
+          {
+            "sha256": "8e1a55900ede70dddf2bc4b246ea29fb49a902609c8a6ef7763e061dc6d6aef6",
+            "word_count": 1
+          }
+        ]
+      }
+    }
+  },
+  "S103": {
+    "tier": {
+      "code": "CORE",
+      "page": 1,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "3826650834e25c6b36d0155bac23642536e9d5afad8f39329d312b87a24719a0",
+          "word_count": 3
+        },
+        {
+          "sha256": "031abfa15d712ae66a3c173910bd6ed87a77808ecadd076f5b777b11bc74ce4a",
+          "word_count": 3
+        },
+        {
+          "sha256": "3e6d81a1a791c50d53f0bf5b76135268a7d5893133a204af88bf78cffc8d356d",
+          "word_count": 3
+        }
+      ],
+      "rationale": "Ontology subgraph retrieval, NL2SPARQL, and LLM reasoning form a complete code-mapping RAG pipeline."
+    },
+    "roles": {
+      "T4": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 6,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "7c9eec4cefc9168212aac66f50134dc198aabef878dab5ca764c32ac00b34bec",
+            "word_count": 5
+          },
+          {
+            "sha256": "25e2b6b106523880e27763084ffa6a0756335be0d7106022535365b9ad39b4b1",
+            "word_count": 1
+          },
+          {
+            "sha256": "a4960b80ea912afb130e482c5f3ed3ae6bcc3959fff07c2dbac7340100fdad0e",
+            "word_count": 5
+          }
+        ]
+      }
+    }
+  },
+  "S104": {
+    "tier": {
+      "code": "INTERFACE",
+      "page": 8,
+      "evidence_phrase_hashes": [
+        {
+          "sha256": "4b31542e7eba7d43c476cd67705c923eb94aa72ecbe097d223f8fac31e315eb4",
+          "word_count": 5
+        },
+        {
+          "sha256": "7fd19761dbecb058e9ebc352f572256b8ffdb33229f3dc1d4d2ba5f26e4251af",
+          "word_count": 5
+        }
+      ],
+      "rationale": "The primary contribution is an ontology-grounded semantic QA and analytics interface."
+    }
+  },
+  "S107": {
+    "roles": {
+      "T3": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 6,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "1fcf781f05db3bae96800ce43ae6d10ccbe40e61951ae8ca7d1a9806df5e8b9b",
+            "word_count": 4
+          },
+          {
+            "sha256": "d23911af80372c94c702c9e76e087ad9c117756435c3d2a15e35a38635bcc9ae",
+            "word_count": 2
+          },
+          {
+            "sha256": "fa384dfd5df1fcad654e9a2acb27999c7fa3bacb69cf347324bf287d3dde6b4b",
+            "word_count": 3
+          }
+        ]
+      },
+      "T4": {
+        "decision": "1",
+        "evidence_level": "implemented",
+        "page": 6,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "81fd5f12c71b05e9c1fc4e4d5142336de6bec6df184d0a2b7c164ced57747830",
+            "word_count": 2
+          },
+          {
+            "sha256": "29af305cbc6456613247f03751a89b018dfa68c13ddcfae0bee7f8b4906aad1b",
+            "word_count": 3
+          }
+        ]
+      }
+    }
+  },
+  "S113": {
+    "roles": {
+      "T2": {
+        "decision": "1",
+        "evidence_level": "evaluated",
+        "page": 9,
+        "evidence_phrase_hashes": [
+          {
+            "sha256": "09de24b2ffb6af055dea7a57e234d151835788e6dc3fe847afc22c784b7890f2",
+            "word_count": 3
+          },
+          {
+            "sha256": "47f8c0923d52493fbe3cd8adc9fc1485d12ceead4a2af98d07703345addd0bb9",
+            "word_count": 2
+          },
+          {
+            "sha256": "7c2e65b2308ed90447bc544712ca8b98e27a583400ac05129397577ad5cc9d60",
+            "word_count": 2
+          }
+        ]
+      }
+    }
+  }
+}

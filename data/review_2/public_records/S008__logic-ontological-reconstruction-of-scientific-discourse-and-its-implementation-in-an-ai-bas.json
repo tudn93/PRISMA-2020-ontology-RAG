@@ -1,0 +1,176 @@
+{
+  "study_id": "S008",
+  "paper_title": "LOGIC-ONTOLOGICAL RECONSTRUCTION OF SCIENTIFIC DISCOURSE AND ITS IMPLEMENTATION IN AN AI-BASED REVIEWING SYSTEM",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Bedratyuk - 2025 - Logic-ontological reconstruction of scientific discourse and its implementation in an ai-based revie.pdf",
+    "pdf_sha256": "6b563de933e78f5a542f159ddcbbb5de32d729f357e32e8a5c1769d920c701cd",
+    "page_count": 15,
+    "title_mapping_score": 0.7792
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "c0cb2d96bc24738ff32cd8a38a5b99c80c27daec54106ac7577f6df5a22b6cf2",
+        "original_excerpt_word_count": 26,
+        "pdf_page": 3,
+        "printed_page": "3",
+        "section": "INTRODUCTION",
+        "source_pdf_sha256": "6b563de933e78f5a542f159ddcbbb5de32d729f357e32e8a5c1769d920c701cd",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG supports an LLM workflow without a complete semantically controlled retrieval-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "7fa18ffb6ee241cf505063b66997b3212e19cf20ca12e28b6fbeaa53ba3b02ad",
+          "original_excerpt_word_count": 39,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "ABSTRACT",
+          "source_pdf_sha256": "6b563de933e78f5a542f159ddcbbb5de32d729f357e32e8a5c1769d920c701cd",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "1695df83d76ea3e7585c6c9aeb177f7fb3bce4782dc924651b9004fd6b9acb71",
+          "original_excerpt_word_count": 30,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "INTRODUCTION",
+          "source_pdf_sha256": "6b563de933e78f5a542f159ddcbbb5de32d729f357e32e8a5c1769d920c701cd",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "5 RESULTS",
+        "6 DISCUSSION",
+        "ABSTRACT",
+        "INTRODUCTION",
+        "Method 0.67 0.63 0.80 0.78 0.94 0.92",
+        "Method remained without logical closure: relations of",
+        "experiment and independent verification of the model’s"
+      ],
+      "absence_rationale": "No passage satisfied the prespecified semantic retrieval-control requirements.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "5 RESULTS",
+        "6 DISCUSSION",
+        "ABSTRACT",
+        "INTRODUCTION",
+        "Method 0.67 0.63 0.80 0.78 0.94 0.92",
+        "Method remained without logical closure: relations of",
+        "experiment and independent verification of the model’s"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "5 RESULTS",
+        "6 DISCUSSION",
+        "ABSTRACT",
+        "INTRODUCTION",
+        "Method 0.67 0.63 0.80 0.78 0.94 0.92",
+        "Method remained without logical closure: relations of",
+        "experiment and independent verification of the model’s"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 0,
+      "output_title_hits": 0,
+      "output_passages": 5,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 26,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "ontological",
+          "owl",
+          "knowledge graph",
+          "construct",
+          "model"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S008__logic-ontological-reconstruction-of-scientific-discourse-and-its-implementation-in-an-ai-bas.json",
+    "original_frozen_record_sha256": "b79b86d7889f57bc7495baf4aec366424d78e7f14ba17c9a8338f9b1b968b288",
+    "original_frozen_record_bytes": 5830,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

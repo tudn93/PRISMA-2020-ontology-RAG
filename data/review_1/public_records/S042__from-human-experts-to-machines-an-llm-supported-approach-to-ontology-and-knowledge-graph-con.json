@@ -1,0 +1,184 @@
+{
+  "study_id": "S042",
+  "paper_title": "From human experts to machines: An LLM supported approach to ontology and knowledge graph construction",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Kommineni et al. - 2024 - From human experts to machines an LLM supported approach to ontology and knowledge graph constructi.pdf",
+    "pdf_sha256": "8fb8621f32d491b832370317633647fd402b054609e9b031652a646ef6b0320d",
+    "page_count": 10,
+    "title_mapping_score": 0.7583,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "e110d24c9152ef939d808b02674928d0732be3fb1e3ff5f58aaa0cd5088eb6f2",
+        "original_excerpt_word_count": 87,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Unnumbered/section not detected",
+        "source_pdf_sha256": "8fb8621f32d491b832370317633647fd402b054609e9b031652a646ef6b0320d",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "1429fc3100225808a508f4d928dfaf7175811727d10ef4827e24df0472aea003",
+          "original_excerpt_word_count": 46,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "8fb8621f32d491b832370317633647fd402b054609e9b031652a646ef6b0320d",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "58ac6d7094a556e08ea46d14aebb27320f2d53210ab5d4a899ccbae567ecf039",
+          "original_excerpt_word_count": 22,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "5 Discussion",
+          "source_pdf_sha256": "8fb8621f32d491b832370317633647fd402b054609e9b031652a646ef6b0320d",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related work",
+        "5 Discussion",
+        "6 Conclusion",
+        "References",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related work",
+        "5 Discussion",
+        "6 Conclusion",
+        "References",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 16,
+          "pdf_score": 12,
+          "record_score": 14,
+          "top_hits": [
+            "owl",
+            "abox",
+            "type",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "sparql",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 2,
+          "pdf_score": 2,
+          "record_score": 0,
+          "top_hits": [
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 6,
+          "pdf_score": 5,
+          "record_score": 4,
+          "top_hits": [
+            "validation",
+            "provenance"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S042__from-human-experts-to-machines-an-llm-supported-approach-to-ontology-and-knowledge-graph-con.json",
+    "original_frozen_record_sha256": "11b9194450af6bd651a8ff4c3c0cb432428bee6d06f65ba84a537d4d64afd735",
+    "original_frozen_record_bytes": 6496,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "study_id": "S039",
+  "paper_title": "Enhancing Patient Empowerment and Health Literacy: Integrating Knowledge Graphs with Language Models for Personalized Health Content Delivery",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Kakalou et al. - 2024 - Enhancing patient empowerment and health literacy integrating knowledge graphs with language models.pdf",
+    "pdf_sha256": "78f33f6845fb9de50c41904e63043e376b55db4b71b29a5f6711e3ee6dc0319f",
+    "page_count": 5,
+    "title_mapping_score": 0.6586
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "kind": "tier",
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "82d5bc042cbfe6ac0567de731dbc58b8a05749c56dd35e6e0e26650fb148fef8",
+        "original_excerpt_word_count": 39,
+        "pdf_page": 3,
+        "printed_page": "1020",
+        "section": "3. The HEALIE Knowledge Graph and Personalised Content Generation",
+        "source_pdf_sha256": "78f33f6845fb9de50c41904e63043e376b55db4b71b29a5f6711e3ee6dc0319f",
+        "locator_method": "pass2_manual_source_audit",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The KG is retrieved through a RAG framework and used for personalized LLM content generation.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "87dd3111d0b5da30692fd829e4e58d3ac36b9ff9c82481c7aa2ce60c92ebbba0",
+          "original_excerpt_word_count": 22,
+          "pdf_page": 1,
+          "printed_page": "1018",
+          "section": "1. Introduction",
+          "source_pdf_sha256": "78f33f6845fb9de50c41904e63043e376b55db4b71b29a5f6711e3ee6dc0319f",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "0d2ce983ed6f8de2008031b7ebcd06b69739c13640324355dca7fbe4c1f61c48",
+          "original_excerpt_word_count": 46,
+          "pdf_page": 2,
+          "printed_page": "1019",
+          "section": "3. The HEALIE Knowledge Graph and Personalised Content Generation",
+          "source_pdf_sha256": "78f33f6845fb9de50c41904e63043e376b55db4b71b29a5f6711e3ee6dc0319f",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "82d5bc042cbfe6ac0567de731dbc58b8a05749c56dd35e6e0e26650fb148fef8",
+          "original_excerpt_word_count": 39,
+          "pdf_page": 3,
+          "printed_page": "1020",
+          "section": "3. The HEALIE Knowledge Graph and Personalised Content Generation",
+          "source_pdf_sha256": "78f33f6845fb9de50c41904e63043e376b55db4b71b29a5f6711e3ee6dc0319f",
+          "locator_method": "pass2_manual_source_audit",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "3. The HEALIE Knowledge Graph and Personalised Content Generation",
+        "5. Related Work",
+        "6. Conclusion and Further Work"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "3. The HEALIE Knowledge Graph and Personalised Content Generation",
+        "5. Related Work",
+        "6. Conclusion and Further Work"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 2,
+      "rag_passages": 2,
+      "output_title_hits": 1,
+      "output_passages": 3,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 14,
+        "threshold": 11,
+        "top_hits": [
+          "owl",
+          "knowledge graph",
+          "represent",
+          "model"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "primary_tier",
+      "T2"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S039__enhancing-patient-empowerment-and-health-literacy-integrating-knowledge-graphs-with-language.json",
+    "original_frozen_record_sha256": "afef4c00dfca547ca73628d6f746b04028db95fcb17c45b75eef352172d8be86",
+    "original_frozen_record_bytes": 6228,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "study_id": "S061",
+  "paper_title": "A Hybrid Semantic Question Answering System for the History of Sumedang Larang: Integrating Retrieval-Augmented Generation, Knowledge Graph, and Ontology",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Rahman et al. - 2025 - A hybrid semantic question answering system for the history of sumedang larang integrating retrieva.pdf",
+    "pdf_sha256": "4a1980aa9986d2c5d454a4fdd0844bda04e4fbba864100f20f02467c196c2c01",
+    "page_count": 6,
+    "title_mapping_score": 0.5976,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "28d416c194825fcdbb3393d60f3a6acc0884601c71ae7f176fc413874953e830",
+        "original_excerpt_word_count": 44,
+        "pdf_page": 3,
+        "printed_page": "3",
+        "section": "IV. EXPERIMENT AND EVALUATION",
+        "source_pdf_sha256": "4a1980aa9986d2c5d454a4fdd0844bda04e4fbba864100f20f02467c196c2c01",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "bdeb0e02589ad67a3e64ccac38f75191401fabdfb61b4f7223e311490e192aa0",
+          "original_excerpt_word_count": 22,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "IV. EXPERIMENT AND EVALUATION",
+          "source_pdf_sha256": "4a1980aa9986d2c5d454a4fdd0844bda04e4fbba864100f20f02467c196c2c01",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "bba4f16c10179c7661b310cba5ef92df01070225aef21d4ce836f4108a9d9f03",
+          "original_excerpt_word_count": 51,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "III. PROPOSED METHOD",
+          "source_pdf_sha256": "4a1980aa9986d2c5d454a4fdd0844bda04e4fbba864100f20f02467c196c2c01",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "28d416c194825fcdbb3393d60f3a6acc0884601c71ae7f176fc413874953e830",
+          "original_excerpt_word_count": 44,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "IV. EXPERIMENT AND EVALUATION",
+          "source_pdf_sha256": "4a1980aa9986d2c5d454a4fdd0844bda04e4fbba864100f20f02467c196c2c01",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "III. PROPOSED METHOD",
+        "IV. EXPERIMENT AND EVALUATION",
+        "REFERENCES",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "III. PROPOSED METHOD",
+        "IV. EXPERIMENT AND EVALUATION",
+        "REFERENCES",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 2,
+        "output_loop": 1,
+        "construction": 0,
+        "interface": 1,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 16,
+          "pdf_score": 11,
+          "record_score": 19,
+          "top_hits": [
+            "ontology",
+            "map",
+            "align",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 15,
+          "pdf_score": 12,
+          "record_score": 9,
+          "top_hits": [
+            "sparql",
+            "retrieval",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 11,
+          "pdf_score": 11,
+          "record_score": 0,
+          "top_hits": [
+            "path reasoning",
+            "reasoning",
+            "path"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 13,
+          "pdf_score": 13,
+          "record_score": 2,
+          "top_hits": [
+            "conflict resolution",
+            "conflict"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S061__a-hybrid-semantic-question-answering-system-for-the-history-of-sumedang-larang-integrating-r.json",
+    "original_frozen_record_sha256": "8f571a8fa579acb0714a3875f990ed7152fee4a67c609c45b941d2ab70976e61",
+    "original_frozen_record_bytes": 6829,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

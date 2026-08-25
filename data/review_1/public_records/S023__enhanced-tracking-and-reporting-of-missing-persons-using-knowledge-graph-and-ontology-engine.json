@@ -1,0 +1,180 @@
+{
+  "study_id": "S023",
+  "paper_title": "Enhanced tracking and reporting of missing persons using Knowledge Graph and Ontology Engineering",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Chowdhury et al. - 2025 - Enhanced tracking and reporting of missing persons using knowledge graph and ontology engineering.pdf",
+    "pdf_sha256": "8b6a00d59e5a486645626a344c588cc73d453ded38e1ce79fbe4d4d2d4c82804",
+    "page_count": 9,
+    "title_mapping_score": 0.8033,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "INTERFACE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "24709f9c2d886795ef03b646571acc98458472a8401607befaa3faeca24af504",
+        "original_excerpt_word_count": 26,
+        "pdf_page": 7,
+        "printed_page": "7",
+        "section": "evaluation using various human evaluation methods” [14],",
+        "source_pdf_sha256": "8b6a00d59e5a486645626a344c588cc73d453ded38e1ce79fbe4d4d2d4c82804",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Natural-language graph access, formal-query generation, or KG question answering is the primary contribution without a complete ontology-aware RAG loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "3a1a1a4115a992c79315996e1879ea0f267c23a771506cd7417608a28a75625d",
+          "original_excerpt_word_count": 81,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "8b6a00d59e5a486645626a344c588cc73d453ded38e1ce79fbe4d4d2d4c82804",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "24709f9c2d886795ef03b646571acc98458472a8401607befaa3faeca24af504",
+          "original_excerpt_word_count": 26,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "evaluation using various human evaluation methods” [14],",
+          "source_pdf_sha256": "8b6a00d59e5a486645626a344c588cc73d453ded38e1ce79fbe4d4d2d4c82804",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "REFERENCES",
+        "Unnumbered/section not detected",
+        "VI. D ISCUSSION , CHALLENGES , AND FUTURE WORK",
+        "evaluation using various human evaluation methods” [14],"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "REFERENCES",
+        "Unnumbered/section not detected",
+        "VI. D ISCUSSION , CHALLENGES , AND FUTURE WORK",
+        "evaluation using various human evaluation methods” [14],"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 2
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 21,
+          "pdf_score": 16,
+          "record_score": 16,
+          "top_hits": [
+            "ontology",
+            "rdf",
+            "owl",
+            "construct",
+            "represent",
+            "triple"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 15,
+          "pdf_score": 12,
+          "record_score": 9,
+          "top_hits": [
+            "sparql",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 4,
+          "pdf_score": 4,
+          "record_score": 0,
+          "top_hits": [],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S023__enhanced-tracking-and-reporting-of-missing-persons-using-knowledge-graph-and-ontology-engine.json",
+    "original_frozen_record_sha256": "85ee8db33caf11f84b64c61270439d6628cf50f89da28a11312d950dbd6dc2b0",
+    "original_frozen_record_bytes": 6459,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

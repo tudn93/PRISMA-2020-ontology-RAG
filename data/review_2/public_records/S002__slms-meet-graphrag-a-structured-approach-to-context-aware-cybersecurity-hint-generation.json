@@ -1,0 +1,167 @@
+{
+  "study_id": "S002",
+  "paper_title": "SLMs Meet GraphRAG: A Structured Approach to Context-Aware Cybersecurity Hint Generation",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Abraham et al. - 2026 - SLMs meet GraphRAG a structured approach to context-aware cybersecurity hint generation.pdf",
+    "pdf_sha256": "5b5fc245a3cc90f72fef8e562da78db353095df97677b332e3e488a7a93c66c1",
+    "page_count": 8,
+    "title_mapping_score": 0.803
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "89e3009d3123ecab252a6916e220bfb58e2a43f94d9d617c0d46e3ac9326dcbb",
+        "original_excerpt_word_count": 25,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "1. Introduction",
+        "source_pdf_sha256": "5b5fc245a3cc90f72fef8e562da78db353095df97677b332e3e488a7a93c66c1",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "A semantically controlled retrieval mechanism is connected to a downstream answer/generation/decision loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "f8de1b7db0fca877bb38c9a7daf92ee0dcdc9021e03f9179d3bcf4b670e98fcc",
+          "original_excerpt_word_count": 24,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "3. Data/Knowledge Graph",
+          "source_pdf_sha256": "5b5fc245a3cc90f72fef8e562da78db353095df97677b332e3e488a7a93c66c1",
+          "locator_method": "pass2_manual_source_audit",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "faf5f16c2d7579dce35e69f188828be466716a3677c82884e1123656cb79de99",
+          "original_excerpt_word_count": 41,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "6. Results",
+          "source_pdf_sha256": "5b5fc245a3cc90f72fef8e562da78db353095df97677b332e3e488a7a93c66c1",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Related Work",
+        "3. Data/Knowledge Graph",
+        "6. Results",
+        "7. Conclusion and Future Work",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Related Work",
+        "3. Data/Knowledge Graph",
+        "6. Results",
+        "7. Conclusion and Future Work",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 1,
+      "rag_passages": 19,
+      "output_title_hits": 1,
+      "output_passages": 8,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 10,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "map"
+        ]
+      },
+      "T2": {
+        "top_score": 18,
+        "threshold": 11,
+        "top_hits": [
+          "cypher",
+          "cypher query"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "T1"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S002__slms-meet-graphrag-a-structured-approach-to-context-aware-cybersecurity-hint-generation.json",
+    "original_frozen_record_sha256": "abafdef3ba84bbbe4d3bd53924f5d6c88b379b3d4ca03ad7eb926f59c68644b6",
+    "original_frozen_record_bytes": 5191,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

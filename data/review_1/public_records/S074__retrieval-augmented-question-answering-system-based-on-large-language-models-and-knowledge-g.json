@@ -1,0 +1,206 @@
+{
+  "study_id": "S074",
+  "paper_title": "Retrieval-Augmented Question Answering System Based on Large Language Models and Knowledge Graphs",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Wang - 2025 - Retrieval-augmented question answering system based on large language models and knowledge graphs.pdf",
+    "pdf_sha256": "14b7cbe976acec0483425bf5119db006ae4cb576b9f8d623d2195bb8f63589e3",
+    "page_count": 10,
+    "title_mapping_score": 0.8962,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "d4ed0b1bed073df56b799cd00aefd163a2ca2de9991e65851f996137a2ee2232",
+        "original_excerpt_word_count": 21,
+        "pdf_page": 4,
+        "printed_page": "4",
+        "section": "3. Methodology",
+        "source_pdf_sha256": "14b7cbe976acec0483425bf5119db006ae4cb576b9f8d623d2195bb8f63589e3",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "dd102d6f0761f6d04cb3e0e4f016dea4f7f7363dc55e480b6d281c3653d67750",
+          "original_excerpt_word_count": 67,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "framework enhanced with a structured dermatological knowledge graph. The methodological",
+          "source_pdf_sha256": "14b7cbe976acec0483425bf5119db006ae4cb576b9f8d623d2195bb8f63589e3",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "b99c27cb8c79a13737c0ae6a8738795c93535c446b922a4b0bb39880bb4a564c",
+          "original_excerpt_word_count": 19,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "4. Experiment results",
+          "source_pdf_sha256": "14b7cbe976acec0483425bf5119db006ae4cb576b9f8d623d2195bb8f63589e3",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "c002558cf28497f101f583910775ceac755894977e7b18e6e2f15d798424086e",
+          "original_excerpt_word_count": 79,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "framework enhanced with a structured dermatological knowledge graph. The methodological",
+          "source_pdf_sha256": "14b7cbe976acec0483425bf5119db006ae4cb576b9f8d623d2195bb8f63589e3",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Related work",
+        "3. Methodology",
+        "3.2. Knowledge graph construction",
+        "4. Experiment results",
+        "5. Discussion",
+        "References",
+        "framework enhanced with a structured dermatological knowledge graph. The methodological"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Related work",
+        "3. Methodology",
+        "3.2. Knowledge graph construction",
+        "4. Experiment results",
+        "5. Discussion",
+        "References",
+        "framework enhanced with a structured dermatological knowledge graph. The methodological"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 1,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 2
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 20,
+          "pdf_score": 16,
+          "record_score": 14,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "construct",
+            "extract",
+            "type",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 14,
+          "pdf_score": 13,
+          "record_score": 5,
+          "top_hits": [
+            "cypher",
+            "retrieve",
+            "query",
+            "path"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 17,
+          "pdf_score": 16,
+          "record_score": 3,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S074__retrieval-augmented-question-answering-system-based-on-large-language-models-and-knowledge-g.json",
+    "original_frozen_record_sha256": "c92ea6577049f43461ddf94af3e3058d1b1edfa5dff7e2c9ec15f3afa006a5b6",
+    "original_frozen_record_bytes": 7652,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

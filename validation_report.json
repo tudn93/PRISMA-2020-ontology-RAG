@@ -1,0 +1,20 @@
+{
+  "generated_on": "2026-08-25",
+  "internal_builder": {
+    "file": "scripts/build_github_upload_candidate.py",
+    "sha256": "ac9e9d33068238bb27995e9e66719030c2f5ca1d4b1aed1cd203466daacbeafd",
+    "included_in_public_package": false
+  },
+  "candidate_structure_ready": true,
+  "final_release_ready": false,
+  "counts": {
+    "pass_1_public_records": 112,
+    "pass_2_public_records": 112
+  },
+  "blockers": [
+    "data/search/search_log_1367.csv is missing",
+    "data/extraction/structured_extraction_112.csv is missing",
+    "LICENSE has not been selected",
+    "clean-clone validation has not been documented"
+  ]
+}

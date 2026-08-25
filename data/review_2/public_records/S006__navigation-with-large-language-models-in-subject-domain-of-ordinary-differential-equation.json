@@ -1,0 +1,170 @@
+{
+  "study_id": "S006",
+  "paper_title": "Navigation with Large Language Models in Subject Domain of Ordinary Differential Equation",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Ataeva and Tuchkova - 2025 - Navigation with large language models in subject domain of ordinary differential equation.pdf",
+    "pdf_sha256": "71ab636064fcabae5f75eb587d208779d803e8d508fb6171b3374e6dd0263ca0",
+    "page_count": 13,
+    "title_mapping_score": 0.7944
+  },
+  "primary_tier": {
+    "code": "INTERFACE",
+    "evidence": [
+      {
+        "kind": "tier",
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "ec32c21cfa471645391bcb1aff63ce6d917a0e48caf9564fcb67d2c6bb53d84a",
+        "original_excerpt_word_count": 7,
+        "pdf_page": 11,
+        "printed_page": "2733",
+        "section": "5. CONCLUSIONS AND FURTHER RESEARCH",
+        "source_pdf_sha256": "71ab636064fcabae5f75eb587d208779d803e8d508fb6171b3374e6dd0263ca0",
+        "locator_method": "pass2_manual_source_audit",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Natural-language graph access and formal-query execution are the primary contribution without a complete RAG loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "3dafba552573e9d2956849773a2f4af85fda2920e09b7a39377513e589a74a5e",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 1,
+          "printed_page": "2723",
+          "section": "1. INTRODUCTION",
+          "source_pdf_sha256": "71ab636064fcabae5f75eb587d208779d803e8d508fb6171b3374e6dd0263ca0",
+          "locator_method": "pass2_manual_source_audit",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "ec32c21cfa471645391bcb1aff63ce6d917a0e48caf9564fcb67d2c6bb53d84a",
+          "original_excerpt_word_count": 7,
+          "pdf_page": 11,
+          "printed_page": "2733",
+          "section": "5. CONCLUSIONS AND FURTHER RESEARCH",
+          "source_pdf_sha256": "71ab636064fcabae5f75eb587d208779d803e8d508fb6171b3374e6dd0263ca0",
+          "locator_method": "pass2_manual_source_audit",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. INTRODUCTION",
+        "2. RELATED WORKS",
+        "5. CONCLUSIONS AND FURTHER RESEARCH",
+        "REFERENCES"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "ec32c21cfa471645391bcb1aff63ce6d917a0e48caf9564fcb67d2c6bb53d84a",
+          "original_excerpt_word_count": 7,
+          "pdf_page": 11,
+          "printed_page": "2733",
+          "section": "5. CONCLUSIONS AND FURTHER RESEARCH",
+          "source_pdf_sha256": "71ab636064fcabae5f75eb587d208779d803e8d508fb6171b3374e6dd0263ca0",
+          "locator_method": "pass2_manual_source_audit",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "An operational governance action affecting an answer, claim, decision, report, query, or workflow was evidenced.",
+      "confidence": "high"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": false,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 0,
+      "output_title_hits": 0,
+      "output_passages": 1,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T2": {
+        "top_score": 7,
+        "threshold": 11,
+        "top_hits": [
+          "sparql"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "primary_tier",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S006__navigation-with-large-language-models-in-subject-domain-of-ordinary-differential-equation.json",
+    "original_frozen_record_sha256": "97f8637069827659b130c77372932207e59353139cffa288b269190b95a9cf89",
+    "original_frozen_record_bytes": 5620,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

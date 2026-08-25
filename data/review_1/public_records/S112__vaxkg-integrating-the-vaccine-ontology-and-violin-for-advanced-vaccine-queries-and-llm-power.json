@@ -1,0 +1,208 @@
+{
+  "study_id": "S112",
+  "paper_title": "VaxKG: Integrating The Vaccine Ontology And VIOLIN For Advanced Vaccine Queries And LLM-Powered Chat Systems",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "(Leo) Yeh et al. - 2025 - VaxKG integrating the vaccine ontology and VIOLIN for advanced vaccine queries and LLM-powered chat.pdf",
+    "pdf_sha256": "c95cbaddfa29e2bde96d408b3f803ea1439bfd904ce5a44db10406e2bda3ef44",
+    "page_count": 10,
+    "title_mapping_score": 0.7527,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "4d4f6fe38a6ceeda8e986a6d7f95bcd7dfc77faf9c0c1279ba9de8f413e01a4e",
+        "original_excerpt_word_count": 57,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "Abstract",
+        "source_pdf_sha256": "c95cbaddfa29e2bde96d408b3f803ea1439bfd904ce5a44db10406e2bda3ef44",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "af47d50ee24540fab4d1c44d41cd005cb369bd7ff46762f3d0d19b0df651b4f3",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Abstract",
+          "source_pdf_sha256": "c95cbaddfa29e2bde96d408b3f803ea1439bfd904ce5a44db10406e2bda3ef44",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "f35bab7c56279b9c32d6b8b81f9d34b11a8ecc12efcba578c13ec60e4b751e4d",
+          "original_excerpt_word_count": 21,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "Evaluation of VaxChat Performance",
+          "source_pdf_sha256": "c95cbaddfa29e2bde96d408b3f803ea1439bfd904ce5a44db10406e2bda3ef44",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "1d71c1d84ffd1b0fe5b64e958845dcc4dae227d50016dc953a898a55a7c8f6ca",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "Evaluation of VaxChat Performance",
+          "source_pdf_sha256": "c95cbaddfa29e2bde96d408b3f803ea1439bfd904ce5a44db10406e2bda3ef44",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "1b03cdadc8c8e7a51f34ef18aeea2ad77992351cb8701dad79822881dc7219da",
+          "original_excerpt_word_count": 21,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "Knowledge Graph Construction and Composition",
+          "source_pdf_sha256": "c95cbaddfa29e2bde96d408b3f803ea1439bfd904ce5a44db10406e2bda3ef44",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "Evaluation of VaxChat Performance",
+        "Future Work and Improvement",
+        "Knowledge Graph Construction and Composition",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "Evaluation of VaxChat Performance",
+        "Future Work and Improvement",
+        "Knowledge Graph Construction and Composition",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 3,
+        "retrieval": 1,
+        "output_loop": 1,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 19,
+          "pdf_score": 14,
+          "record_score": 15,
+          "top_hits": [
+            "ontology",
+            "rdf",
+            "owl",
+            "represent",
+            "triple"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 13,
+          "pdf_score": 12,
+          "record_score": 4,
+          "top_hits": [
+            "cypher",
+            "retrieve",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 4,
+          "pdf_score": 4,
+          "record_score": 2,
+          "top_hits": [
+            "execute"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 9,
+          "pdf_score": 8,
+          "record_score": 3,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S112__vaxkg-integrating-the-vaccine-ontology-and-violin-for-advanced-vaccine-queries-and-llm-power.json",
+    "original_frozen_record_sha256": "72d3c7ea17b0efc6224174e4685e7e36b925e2f788f0488db4a8234084a2c449",
+    "original_frozen_record_bytes": 7212,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "study_id": "S017",
+  "paper_title": "Knowledge Pyramid Construction for Multi-Level Retrieval-Augmented Generation",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Chen et al. - 2024 - Knowledge pyramid construction for multi-level retrieval-augmented generation.pdf",
+    "pdf_sha256": "4fbd29bb30c7d252ace0398796c0d40e2e0a444ae7c08aef6564458a42d972a4",
+    "page_count": 12,
+    "title_mapping_score": 0.7671,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "9f3719d389204fc144794a930b316f3a118b0ae7c0ba8376d7d611993c90ee5c",
+        "original_excerpt_word_count": 50,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Unnumbered/section not detected",
+        "source_pdf_sha256": "4fbd29bb30c7d252ace0398796c0d40e2e0a444ae7c08aef6564458a42d972a4",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "2d88db79708855cef67296b8cb4cbe7455f85705222be1c40fce7d17fea9321d",
+          "original_excerpt_word_count": 74,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Knowledge Graph",
+          "source_pdf_sha256": "4fbd29bb30c7d252ace0398796c0d40e2e0a444ae7c08aef6564458a42d972a4",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "86da6a1c6be7a4b2c7f74f0cd72f8fab6894a707af7972ef89258643b2d95932",
+          "original_excerpt_word_count": 16,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "knowledge graph and raw texts, but are missing from the",
+          "source_pdf_sha256": "4fbd29bb30c7d252ace0398796c0d40e2e0a444ae7c08aef6564458a42d972a4",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Knowledge Graph",
+        "Knowledge Graph Layer",
+        "REFERENCES",
+        "Unnumbered/section not detected",
+        "knowledge graph and raw texts, but are missing from the",
+        "proposed knowledge pyramid significantly improves language"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Knowledge Graph",
+        "Knowledge Graph Layer",
+        "REFERENCES",
+        "Unnumbered/section not detected",
+        "knowledge graph and raw texts, but are missing from the",
+        "proposed knowledge pyramid significantly improves language"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 18,
+          "pdf_score": 14,
+          "record_score": 14,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "extract",
+            "represent",
+            "model",
+            "triple"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 10,
+          "pdf_score": 10,
+          "record_score": 2,
+          "top_hits": [
+            "sparql",
+            "query",
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 0,
+          "top_hits": [
+            "infer",
+            "inference"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S017__knowledge-pyramid-construction-for-multi-level-retrieval-augmented-generation.json",
+    "original_frozen_record_sha256": "324857d8475f1a61350ec6a7086045dc17b64133f8ea14159879b6b14d1b6bef",
+    "original_frozen_record_bytes": 6815,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

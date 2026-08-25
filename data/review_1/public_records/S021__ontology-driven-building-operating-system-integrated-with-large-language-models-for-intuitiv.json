@@ -1,0 +1,177 @@
+{
+  "study_id": "S021",
+  "paper_title": "Ontology-Driven Building Operating System Integrated with Large Language Models for Intuitive Building Operations",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Chiba et al. - 2025 - Ontology-driven building operating system integrated with large language models for intuitive buildi.pdf",
+    "pdf_sha256": "74157390892b10c63a88dfc80e0d3438d875d62ab0c023faeb3e25d68a9c6efb",
+    "page_count": 6,
+    "title_mapping_score": 0.7377,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "INTERFACE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "fde1a72fa722edcd37d12691cce4472d42fa42d35e933882659a827687033c00",
+        "original_excerpt_word_count": 19,
+        "pdf_page": 3,
+        "printed_page": "3",
+        "section": "III. S YSTEM ARCHITECTURE AND PROTOTYPE",
+        "source_pdf_sha256": "74157390892b10c63a88dfc80e0d3438d875d62ab0c023faeb3e25d68a9c6efb",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Natural-language graph access, formal-query generation, or KG question answering is the primary contribution without a complete ontology-aware RAG loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "6d804c03d909cb6fa5c562329b1b50531cdd73153323f69ee63a2a747e11ce89",
+          "original_excerpt_word_count": 16,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "III. S YSTEM ARCHITECTURE AND PROTOTYPE",
+          "source_pdf_sha256": "74157390892b10c63a88dfc80e0d3438d875d62ab0c023faeb3e25d68a9c6efb",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "fde1a72fa722edcd37d12691cce4472d42fa42d35e933882659a827687033c00",
+          "original_excerpt_word_count": 19,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "III. S YSTEM ARCHITECTURE AND PROTOTYPE",
+          "source_pdf_sha256": "74157390892b10c63a88dfc80e0d3438d875d62ab0c023faeb3e25d68a9c6efb",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "III. S YSTEM ARCHITECTURE AND PROTOTYPE",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "III. S YSTEM ARCHITECTURE AND PROTOTYPE",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 16,
+          "pdf_score": 12,
+          "record_score": 13,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "represent"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 16,
+          "pdf_score": 15,
+          "record_score": 3,
+          "top_hits": [
+            "sparql",
+            "semantic query",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "infer",
+            "inference"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S021__ontology-driven-building-operating-system-integrated-with-large-language-models-for-intuitiv.json",
+    "original_frozen_record_sha256": "3bd8785d2264bb605b67360931feba407530065e794d98fbbbe8884ec997748c",
+    "original_frozen_record_bytes": 5816,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "study_id": "S056",
+  "paper_title": "Enhancing Manufacturing Knowledge Access with LLMs and Context-Aware Prompting",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Monka et al. - 2024 - Enhancing manufacturing knowledge access with LLMs and context-aware prompting.pdf",
+    "pdf_sha256": "dd17198aeb7e6f81e95f6cf24ced986bf5751211267199e617eda81e980560aa",
+    "page_count": 8,
+    "title_mapping_score": 0.7799,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "78b83aaeb422a28c7ee3872e1da37d7b4744abe8282e25de5e9438c8a62659fa",
+        "original_excerpt_word_count": 47,
+        "pdf_page": 2,
+        "printed_page": "4666",
+        "section": "1 Introduction",
+        "source_pdf_sha256": "dd17198aeb7e6f81e95f6cf24ced986bf5751211267199e617eda81e980560aa",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology or KG evidence supports an LLM workflow without a complete retrieval-to-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "b465b7385a156a3aecc4ea5c62cb5107f35d94e000f24b75b91f4205a3de0182",
+          "original_excerpt_word_count": 28,
+          "pdf_page": 5,
+          "printed_page": "4669",
+          "section": "4 Empirical Evaluation",
+          "source_pdf_sha256": "dd17198aeb7e6f81e95f6cf24ced986bf5751211267199e617eda81e980560aa",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "3eb704164c5966402d180dc07ad9f32ef8d590b1090f9af948a91154d9854618",
+          "original_excerpt_word_count": 16,
+          "pdf_page": 6,
+          "printed_page": "4670",
+          "section": "4 Empirical Evaluation",
+          "source_pdf_sha256": "dd17198aeb7e6f81e95f6cf24ced986bf5751211267199e617eda81e980560aa",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "4 Empirical Evaluation",
+        "5 Discussion"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "4 Empirical Evaluation",
+        "5 Discussion"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 23,
+          "pdf_score": 18,
+          "record_score": 15,
+          "top_hits": [
+            "ontology",
+            "rdf",
+            "rdfs",
+            "owl",
+            "class"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 22,
+          "pdf_score": 17,
+          "record_score": 17,
+          "top_hits": [
+            "sparql",
+            "natural language to sparql",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 5,
+          "pdf_score": 5,
+          "record_score": 0,
+          "top_hits": [
+            "infer"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 15,
+          "pdf_score": 13,
+          "record_score": 6,
+          "top_hits": [
+            "correct",
+            "correction",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S056__enhancing-manufacturing-knowledge-access-with-llms-and-context-aware-prompting.json",
+    "original_frozen_record_sha256": "594da9561f056c98bc7daf8a511975f2a6c364883c0373702d6455aa5bcaadff",
+    "original_frozen_record_bytes": 5921,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

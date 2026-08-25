@@ -1,0 +1,190 @@
+{
+  "study_id": "S026",
+  "paper_title": "Ontology Learning and Knowledge Graph Construction: A Comparison of Approaches and Their Impact on RAG Performance",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "da Cruz et al. - 2025 - Ontology learning and knowledge graph construction a comparison of approaches and their impact on R.pdf",
+    "pdf_sha256": "5a8f51dc47139169eaccd7993d0c8a9f24964767857f22b0b55f9eb0c0ffe5ad",
+    "page_count": 12,
+    "title_mapping_score": 0.7024,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "ccf8d5f3005ff8affaa2190ce06d6879ebdf4d326e40c23632a89336cebf48d0",
+        "original_excerpt_word_count": 38,
+        "pdf_page": 4,
+        "printed_page": "4",
+        "section": "3 Methodology",
+        "source_pdf_sha256": "5a8f51dc47139169eaccd7993d0c8a9f24964767857f22b0b55f9eb0c0ffe5ad",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "597abe285c5429c3c94e3e404bbe6e1f8f01262fdccd055931416780a2182cda",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "3 Methodology",
+          "source_pdf_sha256": "5a8f51dc47139169eaccd7993d0c8a9f24964767857f22b0b55f9eb0c0ffe5ad",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "553f4f6c880fa492a26da5d2d83369d6a31c5d507f4ffdec3436a0777ed019aa",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "3 Methodology",
+          "source_pdf_sha256": "5a8f51dc47139169eaccd7993d0c8a9f24964767857f22b0b55f9eb0c0ffe5ad",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related work",
+        "3 Methodology",
+        "4 Experimental Setup",
+        "5 Results",
+        "Future Work",
+        "knowledge graph construction, 2023."
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related work",
+        "3 Methodology",
+        "4 Experimental Setup",
+        "5 Results",
+        "Future Work",
+        "knowledge graph construction, 2023."
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 2,
+        "output_loop": 0,
+        "construction": 2,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 23,
+          "pdf_score": 19,
+          "record_score": 13,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "ontology alignment",
+            "construct",
+            "align"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 10,
+          "pdf_score": 9,
+          "record_score": 4,
+          "top_hits": [
+            "retrieved subgraph",
+            "retrieve"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 16,
+          "pdf_score": 16,
+          "record_score": 0,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 17,
+          "pdf_score": 15,
+          "record_score": 8,
+          "top_hits": [
+            "correct",
+            "abstain",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S026__ontology-learning-and-knowledge-graph-construction-a-comparison-of-approaches-and-their-impa.json",
+    "original_frozen_record_sha256": "fce33439b57c580c33bfc26c7356f8242f02a0dd10286a1bbf31455eaa5a7de6",
+    "original_frozen_record_bytes": 6230,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

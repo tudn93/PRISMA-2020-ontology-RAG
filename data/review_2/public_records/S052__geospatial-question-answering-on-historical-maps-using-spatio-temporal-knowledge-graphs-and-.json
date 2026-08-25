@@ -1,0 +1,186 @@
+{
+  "study_id": "S052",
+  "paper_title": "Geospatial Question Answering on Historical Maps Using Spatio-Temporal Knowledge Graphs and Large Language Models",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Liu et al. - 2025 - Geospatial question answering on historical maps using spatio-temporal knowledge graphs and large la.pdf",
+    "pdf_sha256": "091bf097a0378641df40ab33aea2bae014bc303c28b36ad120b69f54adbe71e3",
+    "page_count": 4,
+    "title_mapping_score": 0.7295
+  },
+  "primary_tier": {
+    "code": "INTERFACE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "8a823f971bedad7477390b0b28ddbc97238c5141e61a72144892225528bcc1ad",
+        "original_excerpt_word_count": 25,
+        "pdf_page": 3,
+        "printed_page": "3",
+        "section": "2.7 Evaluation",
+        "source_pdf_sha256": "091bf097a0378641df40ab33aea2bae014bc303c28b36ad120b69f54adbe71e3",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Natural-language graph access or formal-query generation is the primary contribution.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "fba08db9cdce1e2a983cfebbff0289ba85b2e9d78ef5200c636f0b5dd4e82d87",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "1 Introduction",
+          "source_pdf_sha256": "091bf097a0378641df40ab33aea2bae014bc303c28b36ad120b69f54adbe71e3",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "b0e49b92fb548c53d1f0f817ec06aa2b778fce4246408487f6dde7a5a7ef010e",
+          "original_excerpt_word_count": 58,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "1 Introduction",
+          "source_pdf_sha256": "091bf097a0378641df40ab33aea2bae014bc303c28b36ad120b69f54adbe71e3",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "8a823f971bedad7477390b0b28ddbc97238c5141e61a72144892225528bcc1ad",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "2.7 Evaluation",
+          "source_pdf_sha256": "091bf097a0378641df40ab33aea2bae014bc303c28b36ad120b69f54adbe71e3",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "1f54419aeb066c58e55a81233151037345f091e4234044e38dd6a8c06b044fe4",
+          "original_excerpt_word_count": 53,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "2.7 Evaluation",
+          "source_pdf_sha256": "091bf097a0378641df40ab33aea2bae014bc303c28b36ad120b69f54adbe71e3",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2.7 Evaluation",
+        "5 Conclusion and outlook"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2.7 Evaluation",
+        "5 Conclusion and outlook"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": true,
+      "interface": 1,
+      "rag_title_hits": 0,
+      "rag_passages": 0,
+      "output_title_hits": 1,
+      "output_passages": 9,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 17,
+        "threshold": 11,
+        "top_hits": [
+          "owl",
+          "knowledge graph",
+          "construct",
+          "model",
+          "map"
+        ]
+      },
+      "T2": {
+        "top_score": 18,
+        "threshold": 11,
+        "top_hits": [
+          "sparql",
+          "sparql query"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S052__geospatial-question-answering-on-historical-maps-using-spatio-temporal-knowledge-graphs-and-.json",
+    "original_frozen_record_sha256": "3abb15048deea40c08953b4ea46942ddbf8720e55461c97de4ab25813f0d4327",
+    "original_frozen_record_bytes": 6526,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "study_id": "S012",
+  "paper_title": "RecipeMasterLLM: Revisiting RoboEarth in the Era of Large Language Models",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Bozcuoglu and Liu - 2025 - RecipeMasterLLM revisiting RoboEarth in the era of large language models.pdf",
+    "pdf_sha256": "59269562914a0e16a3cb88b888328df9c47222b2425ecc60098eeb747861a976",
+    "page_count": 8,
+    "title_mapping_score": 0.7661,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "a990af283ac8ffa6909a779d9ee1cb59c02fb1e184417c0bc396d83b61c3b03e",
+        "original_excerpt_word_count": 158,
+        "pdf_page": 3,
+        "printed_page": "3",
+        "section": "framework that enables robots to learn symbolic predicates",
+        "source_pdf_sha256": "59269562914a0e16a3cb88b888328df9c47222b2425ecc60098eeb747861a976",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "050d0af22bc5449f1a162b0cf0ed33f44b58e97b221790f7891b227cf048b949",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "framework that enables robots to learn symbolic predicates",
+          "source_pdf_sha256": "59269562914a0e16a3cb88b888328df9c47222b2425ecc60098eeb747861a976",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "04fe8e1c41ef49b49da249ea36c0263a947661977004b91cef106e7ca89f99e5",
+          "original_excerpt_word_count": 20,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "framework that enables robots to learn symbolic predicates",
+          "source_pdf_sha256": "59269562914a0e16a3cb88b888328df9c47222b2425ecc60098eeb747861a976",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "2a25a0c38dd3fa0387ecdbf0fef1e6eeb454ef14cee8646494c03de7348eec0c",
+          "original_excerpt_word_count": 40,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "abstract user prompts.",
+          "source_pdf_sha256": "59269562914a0e16a3cb88b888328df9c47222b2425ecc60098eeb747861a976",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "b1906b926f0d578ddbd7b6a71105c3637d965f8d228f95d1d3092b74e328e2a7",
+          "original_excerpt_word_count": 15,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "framework that enables robots to learn symbolic predicates",
+          "source_pdf_sha256": "59269562914a0e16a3cb88b888328df9c47222b2425ecc60098eeb747861a976",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "I. INTRODUCTION",
+        "V. CONCLUSIONS",
+        "abstract user prompts.",
+        "framework that enables robots to learn symbolic predicates"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 3,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 23,
+          "pdf_score": 18,
+          "record_score": 15,
+          "top_hits": [
+            "owl",
+            "tbox",
+            "abox",
+            "represent"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 5,
+          "pdf_score": 5,
+          "record_score": 2,
+          "top_hits": [
+            "retrieval",
+            "context"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 14,
+          "pdf_score": 14,
+          "record_score": 0,
+          "top_hits": [
+            "logical inference",
+            "infer",
+            "inference",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 7,
+          "pdf_score": 7,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correct",
+            "constraint"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S012__recipemasterllm-revisiting-roboearth-in-the-era-of-large-language-models.json",
+    "original_frozen_record_sha256": "fe074504cb916906fbdd55a9d48adaa391dfd09ea87f3a9e155f1b189e7adb9a",
+    "original_frozen_record_bytes": 7582,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

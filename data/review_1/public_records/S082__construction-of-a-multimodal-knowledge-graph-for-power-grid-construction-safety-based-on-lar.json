@@ -1,0 +1,196 @@
+{
+  "study_id": "S082",
+  "paper_title": "Construction of a Multimodal Knowledge Graph for Power Grid Construction Safety Based on Large Language Models",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Zhou et al. - 2024 - Construction of a multimodal knowledge graph for power grid construction safety based on large langu.pdf",
+    "pdf_sha256": "acd1ea001c3074a1edde29da3ce06918a9084e3cc2054aabfebfd2c33e3dabae",
+    "page_count": 8,
+    "title_mapping_score": 0.7322,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "034fca5bfa054c614fdd4f0d4e61785ab104b0973601f97c227c49acc7b528a1",
+        "original_excerpt_word_count": 46,
+        "pdf_page": 3,
+        "printed_page": "3",
+        "section": "III. RESEARCH METHODOLOGY",
+        "source_pdf_sha256": "acd1ea001c3074a1edde29da3ce06918a9084e3cc2054aabfebfd2c33e3dabae",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "f971ffe93a72b0e28eb608cc83d5c1f46ea36e56bb57cc0b6194df572c6e880f",
+          "original_excerpt_word_count": 23,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "III. RESEARCH METHODOLOGY",
+          "source_pdf_sha256": "acd1ea001c3074a1edde29da3ce06918a9084e3cc2054aabfebfd2c33e3dabae",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "8467df45acf2cd25e39170442fc8b3286a4a430364c3460493f49460f990b53d",
+          "original_excerpt_word_count": 8,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "V. CONCLUSION",
+          "source_pdf_sha256": "acd1ea001c3074a1edde29da3ce06918a9084e3cc2054aabfebfd2c33e3dabae",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "79b9d64eb797562d0d7f2f14f688b2dd5a8ee7d23be7e90619768afb336294bf",
+          "original_excerpt_word_count": 16,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "III. RESEARCH METHODOLOGY",
+          "source_pdf_sha256": "acd1ea001c3074a1edde29da3ce06918a9084e3cc2054aabfebfd2c33e3dabae",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "III. RESEARCH METHODOLOGY",
+        "Unnumbered/section not detected",
+        "V. CONCLUSION",
+        "knowledge graph of construction safety is shown in Fig. 5.",
+        "knowledge graph with URLs linking to data from other"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "III. RESEARCH METHODOLOGY",
+        "Unnumbered/section not detected",
+        "V. CONCLUSION",
+        "knowledge graph of construction safety is shown in Fig. 5.",
+        "knowledge graph with URLs linking to data from other"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 2,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 20,
+          "pdf_score": 15,
+          "record_score": 17,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "construct",
+            "represent",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 5,
+          "pdf_score": 4,
+          "record_score": 3,
+          "top_hits": [
+            "retrieval",
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "infer",
+            "inference"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S082__construction-of-a-multimodal-knowledge-graph-for-power-grid-construction-safety-based-on-lar.json",
+    "original_frozen_record_sha256": "78ea8d59fab7c69a29db9e44261323fd155735143ca0ff34666dbc98732e7462",
+    "original_frozen_record_bytes": 6662,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

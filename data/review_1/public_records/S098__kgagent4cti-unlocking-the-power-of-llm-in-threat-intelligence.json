@@ -1,0 +1,187 @@
+{
+  "study_id": "S098",
+  "paper_title": "KGAgent4CTI: unlocking the power of LLM in threat intelligence",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Yang et al. - 2026 - KGAgent4CTI unlocking the power of LLM in threat intelligence.pdf",
+    "pdf_sha256": "0455cf0240bfe0b48e6d277d1435c8face113d5bd69237c999b76844e9da0f1b",
+    "page_count": 23,
+    "title_mapping_score": 0.7594,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "808e6e104eda14d05cc4bb12da2dcc5b4040c7686cb843d8e9aaad9772606fd9",
+        "original_excerpt_word_count": 72,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Abstract",
+        "source_pdf_sha256": "0455cf0240bfe0b48e6d277d1435c8face113d5bd69237c999b76844e9da0f1b",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "e1e8aaad1a2e69462649e522b024cf74db89db926578178e2d007b66b7547f05",
+          "original_excerpt_word_count": 45,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "method encounters several issues. (a) First, prompts that",
+          "source_pdf_sha256": "0455cf0240bfe0b48e6d277d1435c8face113d5bd69237c999b76844e9da0f1b",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "Case study",
+        "Conclusion",
+        "Evaluation",
+        "Evaluation results",
+        "method based on predefined rule matching. It uses regu -",
+        "method encounters several issues. (a) First, prompts that",
+        "method to identify attack techniques within the threat"
+      ],
+      "absence_rationale": "No qualifying ontology-controlled retrieval or query mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "Case study",
+        "Conclusion",
+        "Evaluation",
+        "Evaluation results",
+        "method based on predefined rule matching. It uses regu -",
+        "method encounters several issues. (a) First, prompts that",
+        "method to identify attack techniques within the threat"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "Case study",
+        "Conclusion",
+        "Evaluation",
+        "Evaluation results",
+        "method based on predefined rule matching. It uses regu -",
+        "method encounters several issues. (a) First, prompts that",
+        "method to identify attack techniques within the threat"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 15,
+          "pdf_score": 12,
+          "record_score": 10,
+          "top_hits": [
+            "owl",
+            "construct",
+            "extract",
+            "relation",
+            "triple"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 9,
+          "pdf_score": 8,
+          "record_score": 3,
+          "top_hits": [
+            "retrieve",
+            "retrieval",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "infer",
+            "inference"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 5,
+          "pdf_score": 5,
+          "record_score": 0,
+          "top_hits": [
+            "verification"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S098__kgagent4cti-unlocking-the-power-of-llm-in-threat-intelligence.json",
+    "original_frozen_record_sha256": "ccaa7520a97b4b326c4c924c1db03f1cebf232abf8596dd8bdb5fb366913569c",
+    "original_frozen_record_bytes": 6464,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

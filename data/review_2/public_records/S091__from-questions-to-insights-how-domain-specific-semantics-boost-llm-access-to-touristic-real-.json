@@ -1,0 +1,185 @@
+{
+  "study_id": "S091",
+  "paper_title": "From questions to insights: how domain-specific semantics boost LLM access to touristic real-time occupancy data",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Neubig et al. - 2026 - From questions to insights how domain-specific semantics boost LLM access to touristic real-time oc.pdf",
+    "pdf_sha256": "d0927d20f4d410deeeda5f30f78e65babc5d159e25c5a35da3d1e79f89bf310d",
+    "page_count": 29,
+    "title_mapping_score": 0.7373
+  },
+  "primary_tier": {
+    "code": "INTERFACE",
+    "evidence": [
+      {
+        "kind": "tier",
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "9e503717893efd930813ed5925042882eee47ba63f00dd213d1e7f5c98d0f84f",
+        "original_excerpt_word_count": 40,
+        "pdf_page": 13,
+        "printed_page": "13",
+        "section": "3 Method",
+        "source_pdf_sha256": "d0927d20f4d410deeeda5f30f78e65babc5d159e25c5a35da3d1e79f89bf310d",
+        "locator_method": "pass2_manual_source_audit",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution is a semantic natural-language-to-SPARQL agent with query correction.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "71a0d17c27db589cab50e53e3c133dc7bdc384e52fb1b3054c45c0619ca19997",
+          "original_excerpt_word_count": 26,
+          "pdf_page": 12,
+          "printed_page": "12",
+          "section": "3 Method",
+          "source_pdf_sha256": "d0927d20f4d410deeeda5f30f78e65babc5d159e25c5a35da3d1e79f89bf310d",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "44572bec749cfa6b4e91999a62511c80e3409930e9b0732d28b4810619185fdf",
+          "original_excerpt_word_count": 31,
+          "pdf_page": 13,
+          "printed_page": "13",
+          "section": "3 Method",
+          "source_pdf_sha256": "d0927d20f4d410deeeda5f30f78e65babc5d159e25c5a35da3d1e79f89bf310d",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Background and related work",
+        "2.2 Knowledge graphs and ontologies",
+        "3 Method",
+        "4.1 Model-wise evaluation",
+        "5 Discussion",
+        "6 Conclusion, limitations, and future research",
+        "Abstract",
+        "References",
+        "discussion is held to reach a consensus, ensuring a fair and consistent evaluation."
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "9e503717893efd930813ed5925042882eee47ba63f00dd213d1e7f5c98d0f84f",
+          "original_excerpt_word_count": 40,
+          "pdf_page": 13,
+          "printed_page": "13",
+          "section": "3 Method",
+          "source_pdf_sha256": "d0927d20f4d410deeeda5f30f78e65babc5d159e25c5a35da3d1e79f89bf310d",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "An operational governance action affecting an answer, claim, decision, report, query, or workflow was evidenced.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 1,
+      "output_title_hits": 0,
+      "output_passages": 4,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 20,
+        "threshold": 11,
+        "top_hits": [
+          "ontological",
+          "owl",
+          "knowledge graph",
+          "map"
+        ]
+      },
+      "T2": {
+        "top_score": 25,
+        "threshold": 11,
+        "top_hits": [
+          "sparql",
+          "sparql query",
+          "ontology",
+          "schema"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 17,
+        "threshold": 12,
+        "top_hits": [
+          "error correction",
+          "ontology",
+          "schema"
+        ]
+      }
+    },
+    "manual_source_audit_overrides": [
+      "primary_tier"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S091__from-questions-to-insights-how-domain-specific-semantics-boost-llm-access-to-touristic-real-.json",
+    "original_frozen_record_sha256": "f4a6420bb81797a05ddd5c759400a4abd1866e07575a4ae58519be768df2481c",
+    "original_frozen_record_bytes": 6129,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "study_id": "S099",
+  "paper_title": "Knowledge graph-enhanced pattern language for biodiversity integration in architectural education",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Martinez Otalora et al. - 2025 - Knowledge graph-enhanced pattern language for biodiversity integration in architectural education.pdf",
+    "pdf_sha256": "97b47fd560cfe5e609988ba22278c376904417519cae338d05d227a381413431",
+    "page_count": 13,
+    "title_mapping_score": 0.7527
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "kind": "tier",
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "777bac7aff339966ab345fbde8e9f894d6782739547ae9dc07fe82be3fe13fb1",
+        "original_excerpt_word_count": 26,
+        "pdf_page": 6,
+        "printed_page": "6",
+        "section": "implementation on platforms like Neo4j, the ontology enables",
+        "source_pdf_sha256": "97b47fd560cfe5e609988ba22278c376904417519cae338d05d227a381413431",
+        "locator_method": "pass2_manual_source_audit",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology-guided Cypher retrieval is connected to a generative chatbot response loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "5475aac489c6e7c584dbb3aa00c023d0c2b879809e97d9529f5e4e072d838a7b",
+          "original_excerpt_word_count": 37,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "implementation on platforms like Neo4j, the ontology enables",
+          "source_pdf_sha256": "97b47fd560cfe5e609988ba22278c376904417519cae338d05d227a381413431",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "d312000353abdc36d47668faa6a844f061d70abff42f2731ae0b6d57ae3b4381",
+          "original_excerpt_word_count": 35,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "architecture and related ﬁelds. The ﬁrst workshop, held in",
+          "source_pdf_sha256": "97b47fd560cfe5e609988ba22278c376904417519cae338d05d227a381413431",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Introduction",
+        "Unnumbered/section not detected",
+        "architecture and related ﬁelds. The ﬁrst workshop, held in",
+        "implementation on platforms like Neo4j, the ontology enables",
+        "proposed by Chen et al. ( 2019), con ﬁrmed its suitability and"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Introduction",
+        "Unnumbered/section not detected",
+        "architecture and related ﬁelds. The ﬁrst workshop, held in",
+        "implementation on platforms like Neo4j, the ontology enables",
+        "proposed by Chen et al. ( 2019), con ﬁrmed its suitability and"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 0,
+      "output_title_hits": 0,
+      "output_passages": 7,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 22,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "owl",
+          "represent",
+          "class",
+          "relation"
+        ]
+      },
+      "T2": {
+        "top_score": 16,
+        "threshold": 11,
+        "top_hits": [
+          "cypher",
+          "ontology"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "primary_tier"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S099__knowledge-graph-enhanced-pattern-language-for-biodiversity-integration-in-architectural-educ.json",
+    "original_frozen_record_sha256": "c010780ed0e83d59c67250314d500edcb0367dfee953cc04d6bb2cbe5abb4c1c",
+    "original_frozen_record_bytes": 5752,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

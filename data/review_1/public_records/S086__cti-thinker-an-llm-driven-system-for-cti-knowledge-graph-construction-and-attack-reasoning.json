@@ -1,0 +1,218 @@
+{
+  "study_id": "S086",
+  "paper_title": "CTI-Thinker: an LLM-driven system for CTI knowledge graph construction and attack reasoning",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Yang et al. - 2026 - CTI-thinker an LLM-driven system for CTI knowledge graph construction and attack reasoning.pdf",
+    "pdf_sha256": "e0c06f6bdc1c664bf95ee9f5e326fd7f07bf579fc1b80272636d688b7b0a4bfe",
+    "page_count": 29,
+    "title_mapping_score": 0.8185,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "59ab0025492d1f0d3f3b76d28c5d045ce623a3ade9463d1f20fba366678584aa",
+        "original_excerpt_word_count": 31,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "knowledge graph construction and attack",
+        "source_pdf_sha256": "e0c06f6bdc1c664bf95ee9f5e326fd7f07bf579fc1b80272636d688b7b0a4bfe",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "fa0fb6f6f4f9fe742a0f54f787ad8ab73f19f7ff26399fc927cd6e4db67b91b7",
+          "original_excerpt_word_count": 41,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "Introduction",
+          "source_pdf_sha256": "e0c06f6bdc1c664bf95ee9f5e326fd7f07bf579fc1b80272636d688b7b0a4bfe",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "2bed0081af0921e98c559c644aa7f4eb2f2797adfa7a6d5173ed5b0290c64844",
+          "original_excerpt_word_count": 56,
+          "pdf_page": 25,
+          "printed_page": "25",
+          "section": "Discussion",
+          "source_pdf_sha256": "e0c06f6bdc1c664bf95ee9f5e326fd7f07bf579fc1b80272636d688b7b0a4bfe",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "d0e7de923ae4f8682e6d638be5afd256ea071c4dde73a2f63b9b0ed355d4eef0",
+          "original_excerpt_word_count": 19,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "proposed a multilingual instruction-based framework for",
+          "source_pdf_sha256": "e0c06f6bdc1c664bf95ee9f5e326fd7f07bf579fc1b80272636d688b7b0a4bfe",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "01187f57cb4058d59b51e34079d4863b2950823d15ac493fddcffccc1dedf174",
+          "original_excerpt_word_count": 12,
+          "pdf_page": 25,
+          "printed_page": "25",
+          "section": "Discussion",
+          "source_pdf_sha256": "e0c06f6bdc1c664bf95ee9f5e326fd7f07bf579fc1b80272636d688b7b0a4bfe",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "5cdec0eb21965ca14992943d539c389710e798967e5cc34fac36df84da3e5af3",
+          "original_excerpt_word_count": 28,
+          "pdf_page": 23,
+          "printed_page": "23",
+          "section": "method in constructing high-quality knowledge graphs",
+          "source_pdf_sha256": "e0c06f6bdc1c664bf95ee9f5e326fd7f07bf579fc1b80272636d688b7b0a4bfe",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Background and related work",
+        "Discussion",
+        "Introduction",
+        "Related work Techniques Focus Automatic RAG",
+        "knowledge graph construction and attack",
+        "method in constructing high-quality knowledge graphs",
+        "proposed a multilingual instruction-based framework for"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 3,
+        "retrieval": 3,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 19,
+          "pdf_score": 14,
+          "record_score": 17,
+          "top_hits": [
+            "owl",
+            "entity alignment",
+            "construct",
+            "extract",
+            "model",
+            "align"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 7,
+          "pdf_score": 6,
+          "record_score": 5,
+          "top_hits": [
+            "retrieval",
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 10,
+          "pdf_score": 8,
+          "record_score": 8,
+          "top_hits": [
+            "reasoning path",
+            "reasoning",
+            "path"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S086__cti-thinker-an-llm-driven-system-for-cti-knowledge-graph-construction-and-attack-reasoning.json",
+    "original_frozen_record_sha256": "8bf4e6fe6ec75e806fe3408def5f67177b3c6da2d8287dbf181c14ff496d280f",
+    "original_frozen_record_bytes": 8107,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

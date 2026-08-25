@@ -1,0 +1,178 @@
+{
+  "study_id": "S007",
+  "paper_title": "Domain-Specific Retrieval-Augmented Generation Using Vector Stores, Knowledge Graphs, and Tensor Factorization",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Barron et al. - 2024 - Domain-specific retrieval-augmented generation using vector stores, knowledge graphs, and tensor fac.pdf",
+    "pdf_sha256": "b627d7358d97ec5430600fed782fba1b0d87c55143ea863c6d037fb018ca589f",
+    "page_count": 8,
+    "title_mapping_score": 0.7396,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "37e3354014bb5be513ff8a447b1b2a678487027a124fd3bb4d9751b0758300e1",
+        "original_excerpt_word_count": 27,
+        "pdf_page": 8,
+        "printed_page": "8",
+        "section": "Unnumbered/section not detected",
+        "source_pdf_sha256": "b627d7358d97ec5430600fed782fba1b0d87c55143ea863c6d037fb018ca589f",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "abea968a087b62da45b97614de72a1bd8bc8e48f8a8e412a07e969c6705e67c0",
+          "original_excerpt_word_count": 26,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "b627d7358d97ec5430600fed782fba1b0d87c55143ea863c6d037fb018ca589f",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "db2eccc0c29aeb17b709c59ae37158e87254b2c6954d26c3087d19f2064e9e2e",
+          "original_excerpt_word_count": 39,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "b627d7358d97ec5430600fed782fba1b0d87c55143ea863c6d037fb018ca589f",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 15,
+          "pdf_score": 12,
+          "record_score": 9,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "extract",
+            "relation",
+            "triple"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 11,
+          "pdf_score": 11,
+          "record_score": 2,
+          "top_hits": [
+            "cypher",
+            "retrieval",
+            "query",
+            "select"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 14,
+          "pdf_score": 14,
+          "record_score": 0,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 11,
+          "pdf_score": 7,
+          "record_score": 13,
+          "top_hits": [
+            "abstain"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S007__domain-specific-retrieval-augmented-generation-using-vector-stores-knowledge-graphs-and-tens.json",
+    "original_frozen_record_sha256": "f51434a0c583435bda5c5c7b400d66f218fbcdc18f9cfc01eddc806f1cc0461e",
+    "original_frozen_record_bytes": 5975,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

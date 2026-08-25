@@ -1,0 +1,185 @@
+{
+  "study_id": "S099",
+  "paper_title": "Knowledge graph-enhanced pattern language for biodiversity integration in architectural education",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Martinez Otalora et al. - 2025 - Knowledge graph-enhanced pattern language for biodiversity integration in architectural education.pdf",
+    "pdf_sha256": "97b47fd560cfe5e609988ba22278c376904417519cae338d05d227a381413431",
+    "page_count": 13,
+    "title_mapping_score": 0.7527,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "bc5b13635c84dbf3211eed33f68cd075e74f771d30c90390cc9f8538128d6a70",
+        "original_excerpt_word_count": 17,
+        "pdf_page": 6,
+        "printed_page": "6",
+        "section": "implementation on platforms like Neo4j, the ontology enables",
+        "source_pdf_sha256": "97b47fd560cfe5e609988ba22278c376904417519cae338d05d227a381413431",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology or KG evidence supports an LLM workflow without a complete retrieval-to-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "b811cbfce334db287f7b866fb166bfab3bf9cdc2e1d865632fa014a136b75979",
+          "original_excerpt_word_count": 28,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "implementation on platforms like Neo4j, the ontology enables",
+          "source_pdf_sha256": "97b47fd560cfe5e609988ba22278c376904417519cae338d05d227a381413431",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "d370a5f39e8526b6dc9f1b75229e66b65cbbf4b81e30d77482e0645e81155bce",
+          "original_excerpt_word_count": 16,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "implementation on platforms like Neo4j, the ontology enables",
+          "source_pdf_sha256": "97b47fd560cfe5e609988ba22278c376904417519cae338d05d227a381413431",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Introduction",
+        "Unnumbered/section not detected",
+        "architecture and related ﬁelds. The ﬁrst workshop, held in",
+        "implementation on platforms like Neo4j, the ontology enables",
+        "proposed by Chen et al. ( 2019), con ﬁrmed its suitability and"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Introduction",
+        "Unnumbered/section not detected",
+        "architecture and related ﬁelds. The ﬁrst workshop, held in",
+        "implementation on platforms like Neo4j, the ontology enables",
+        "proposed by Chen et al. ( 2019), con ﬁrmed its suitability and"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 4
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 19,
+          "pdf_score": 14,
+          "record_score": 20,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "represent",
+            "align"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 11,
+          "pdf_score": 10,
+          "record_score": 3,
+          "top_hits": [
+            "cypher",
+            "retrieve"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 14,
+          "pdf_score": 14,
+          "record_score": 2,
+          "top_hits": [
+            "logical inference",
+            "infer",
+            "inference",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 7,
+          "pdf_score": 7,
+          "record_score": 0,
+          "top_hits": [
+            "verify",
+            "consistency"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S099__knowledge-graph-enhanced-pattern-language-for-biodiversity-integration-in-architectural-educ.json",
+    "original_frozen_record_sha256": "09d0d8d8800167590b41cc9de73b17c72342999403aa5ecefc855a692a77446c",
+    "original_frozen_record_bytes": 6252,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

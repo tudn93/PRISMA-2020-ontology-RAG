@@ -1,0 +1,190 @@
+{
+  "study_id": "S062",
+  "paper_title": "EvoRecipes: A Generative Approach for Evolving Context-Aware Recipes",
+  "year": "2023",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Razzaq et al. - 2023 - EvoRecipes a generative approach for evolving context-aware recipes.pdf",
+    "pdf_sha256": "8fabfca94c19c206629641d1af1b283c9a78d7b143a42ec0fc5e8de7cf044e7a",
+    "page_count": 17,
+    "title_mapping_score": 0.7586,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "5a14618b76003a3e737ddf47095f8f1b2c6d9ed725113cfa9b0523aedeb9e9bb",
+        "original_excerpt_word_count": 34,
+        "pdf_page": 2,
+        "printed_page": "74149",
+        "section": "framework EvoRecipes that uses Genetic Algorithm (GA)",
+        "source_pdf_sha256": "8fabfca94c19c206629641d1af1b283c9a78d7b143a42ec0fc5e8de7cf044e7a",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology or KG evidence supports an LLM workflow without a complete retrieval-to-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "b7ea1efa26b98c63b672103639d091f31acf1a4dae3f69d95ce8608ee74d19a1",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 16,
+          "printed_page": "74163",
+          "section": "VII. CONCLUSION",
+          "source_pdf_sha256": "8fabfca94c19c206629641d1af1b283c9a78d7b143a42ec0fc5e8de7cf044e7a",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "a174afe605a985d3b9b43bf23fdaa68c7836d79fb9707b639cf22c325ed0b325",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 3,
+          "printed_page": "74150",
+          "section": "framework EvoRecipes that uses Genetic Algorithm (GA)",
+          "source_pdf_sha256": "8fabfca94c19c206629641d1af1b283c9a78d7b143a42ec0fc5e8de7cf044e7a",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Evaluation of a recipe is more of a subjective task, as it",
+        "I. INTRODUCTION",
+        "V. QUALITATIVE RECIPE EVALUATION",
+        "VI. RESULT AND DISCUSSION",
+        "VII. CONCLUSION",
+        "framework EvoRecipes that uses Genetic Algorithm (GA)"
+      ],
+      "absence_rationale": "No qualifying ontology-controlled retrieval or query mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Evaluation of a recipe is more of a subjective task, as it",
+        "I. INTRODUCTION",
+        "V. QUALITATIVE RECIPE EVALUATION",
+        "VI. RESULT AND DISCUSSION",
+        "VII. CONCLUSION",
+        "framework EvoRecipes that uses Genetic Algorithm (GA)"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Evaluation of a recipe is more of a subjective task, as it",
+        "I. INTRODUCTION",
+        "V. QUALITATIVE RECIPE EVALUATION",
+        "VI. RESULT AND DISCUSSION",
+        "VII. CONCLUSION",
+        "framework EvoRecipes that uses Genetic Algorithm (GA)"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 18,
+          "pdf_score": 14,
+          "record_score": 13,
+          "top_hits": [
+            "ontology",
+            "class hierarchy",
+            "owl",
+            "class"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 4,
+          "pdf_score": 4,
+          "record_score": 1,
+          "top_hits": [
+            "retrieval",
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 4,
+          "pdf_score": 4,
+          "record_score": 0,
+          "top_hits": [
+            "execute"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 5,
+          "pdf_score": 5,
+          "record_score": 0,
+          "top_hits": [
+            "conflict"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S062__evorecipes-a-generative-approach-for-evolving-context-aware-recipes.json",
+    "original_frozen_record_sha256": "eb9941f986a0233fb20cae3dfa1c21b07972718f73c8251528cfbcab0db56ba4",
+    "original_frozen_record_bytes": 6463,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

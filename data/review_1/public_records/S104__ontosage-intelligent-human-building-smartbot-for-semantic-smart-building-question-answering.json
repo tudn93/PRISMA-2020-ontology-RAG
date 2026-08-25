@@ -1,0 +1,219 @@
+{
+  "study_id": "S104",
+  "paper_title": "OntoSage: Intelligent Human-Building Smartbot for Semantic Smart Building Question Answering",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Devmane et al. - 2026 - OntoSage intelligent human-building smartbot for semantic smart building question answering.pdf",
+    "pdf_sha256": "4330b214cde1ec8dd189bc93214f0e7ac4bf4fde123a258b6dff3c86c7afe493",
+    "page_count": 38,
+    "title_mapping_score": 0.7812,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "INTERFACE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "031cd2eceb18180dee65ddfa447d0efa6ed4a100bc70512a036a3ea3c8f4c671",
+        "original_excerpt_word_count": 59,
+        "pdf_page": 24,
+        "printed_page": "24",
+        "section": "framework",
+        "source_pdf_sha256": "4330b214cde1ec8dd189bc93214f0e7ac4bf4fde123a258b6dff3c86c7afe493",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Natural-language graph access, formal-query generation, or KG question answering is the primary contribution without a complete ontology-aware RAG loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "386925d6321de2e5827ca98f343e0ce35438290858dff9828950c531f0625e5a",
+          "original_excerpt_word_count": 26,
+          "pdf_page": 9,
+          "printed_page": "9",
+          "section": "3 System Architecture and Design",
+          "source_pdf_sha256": "4330b214cde1ec8dd189bc93214f0e7ac4bf4fde123a258b6dff3c86c7afe493",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "3c4526eae9aff1e9a4cf32830d2f1775ffcd08c56982e43c315f67d1090b5d02",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 20,
+          "printed_page": "20",
+          "section": "5.1 Component-Wise Evaluation",
+          "source_pdf_sha256": "4330b214cde1ec8dd189bc93214f0e7ac4bf4fde123a258b6dff3c86c7afe493",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "ccd79d66a5ad3c06e0637ebc452249af15bf77506e59a21ceff5fcf49d6739d4",
+          "original_excerpt_word_count": 18,
+          "pdf_page": 10,
+          "printed_page": "10",
+          "section": "3.3 Model Architecture",
+          "source_pdf_sha256": "4330b214cde1ec8dd189bc93214f0e7ac4bf4fde123a258b6dff3c86c7afe493",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "1. RQ1 (System): What system components and architecture are required to support",
+        "3 System Architecture and Design",
+        "3.3 Model Architecture",
+        "4 Experimental Setup and Training",
+        "5 Results and Evaluation",
+        "5.1 Component-Wise Evaluation",
+        "7 Limitations and Future Work",
+        "9 Conclusion",
+        "Abstract",
+        "Evaluation metrics We evaluate portability at three checkpoints: T0 (Zero-Shot: ontology",
+        "References",
+        "framework"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "1. RQ1 (System): What system components and architecture are required to support",
+        "3 System Architecture and Design",
+        "3.3 Model Architecture",
+        "4 Experimental Setup and Training",
+        "5 Results and Evaluation",
+        "5.1 Component-Wise Evaluation",
+        "7 Limitations and Future Work",
+        "9 Conclusion",
+        "Abstract",
+        "Evaluation metrics We evaluate portability at three checkpoints: T0 (Zero-Shot: ontology",
+        "References",
+        "framework"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 1,
+        "output_loop": 1,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 2
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 28,
+          "pdf_score": 23,
+          "record_score": 28,
+          "top_hits": [
+            "ontological",
+            "rdf",
+            "rdfs",
+            "owl",
+            "shacl",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 19,
+          "pdf_score": 17,
+          "record_score": 7,
+          "top_hits": [
+            "sparql",
+            "natural language to sparql",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 24,
+          "pdf_score": 24,
+          "record_score": 2,
+          "top_hits": [
+            "reasoner",
+            "logical inference",
+            "infer",
+            "inference",
+            "logic",
+            "reasoner"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 10,
+          "pdf_score": 10,
+          "record_score": 2,
+          "top_hits": [
+            "correct",
+            "validate",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S104__ontosage-intelligent-human-building-smartbot-for-semantic-smart-building-question-answering.json",
+    "original_frozen_record_sha256": "5e8f7a5b69e1278221925241932917af5c3ca2de44e9c58520acd0b6a165d475",
+    "original_frozen_record_bytes": 7677,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

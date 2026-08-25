@@ -1,0 +1,180 @@
+{
+  "study_id": "S075",
+  "paper_title": "Automated Construction of Medical Indicator Knowledge Graphs Using Retrieval Augmented Large Language Models",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Wang et al. - 2025 - Automated construction of medical indicator knowledge graphs using retrieval augmented large languag.pdf",
+    "pdf_sha256": "6b449a1e0c34de37196e25b13b5337ccf17f7555eebb6f3df24ac77b2c7fd36e",
+    "page_count": 5,
+    "title_mapping_score": 0.7097,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "158eedc2ea4e2b31b090d2b6161c0b0eaf38697aa3c3c3844cf0a0ac17ada428",
+        "original_excerpt_word_count": 33,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "Unnumbered/section not detected",
+        "source_pdf_sha256": "6b449a1e0c34de37196e25b13b5337ccf17f7555eebb6f3df24ac77b2c7fd36e",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "400b9da3ef7f4f51248b74c60b5006dd78f7d3237ac650ea0f790aa376d5199a",
+          "original_excerpt_word_count": 30,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "6b449a1e0c34de37196e25b13b5337ccf17f7555eebb6f3df24ac77b2c7fd36e",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "725c1bcf351078ff439334129d6200d14c8cdcf11329b22b3e589f9c66adbc21",
+          "original_excerpt_word_count": 42,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "6b449a1e0c34de37196e25b13b5337ccf17f7555eebb6f3df24ac77b2c7fd36e",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "REFERENCES",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "REFERENCES",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 19,
+          "pdf_score": 15,
+          "record_score": 13,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "ontology alignment",
+            "align"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 8,
+          "pdf_score": 7,
+          "record_score": 3,
+          "top_hits": [
+            "semantic query",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 18,
+          "pdf_score": 18,
+          "record_score": 0,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "infer",
+            "inference",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 2,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S075__automated-construction-of-medical-indicator-knowledge-graphs-using-retrieval-augmented-large.json",
+    "original_frozen_record_sha256": "f9d3b70e8bc7c7f35469fbb79b67c2b01e728b161f658c385b78dc71256fe457",
+    "original_frozen_record_bytes": 6144,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

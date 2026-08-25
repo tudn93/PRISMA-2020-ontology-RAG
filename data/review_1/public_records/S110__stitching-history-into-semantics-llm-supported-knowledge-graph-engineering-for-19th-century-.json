@@ -1,0 +1,212 @@
+{
+  "study_id": "S110",
+  "paper_title": "Stitching History into Semantics: LLM-Supported Knowledge Graph Engineering for 19th-Century Greek Bookbinding",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Doumanas et al. - 2025 - Stitching history into semantics LLM-supported knowledge graph engineering for 19th-century greek b.pdf",
+    "pdf_sha256": "d660776d24a5743638619fc99eb3b87f4d6c4e0cec1ca4d17e9aa5e9c17d4b99",
+    "page_count": 24,
+    "title_mapping_score": 0.7487,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "aeb6fd1c4868cabc3a2eb649ee443cfb65021587d7887f35c7649b67aafe7073",
+        "original_excerpt_word_count": 36,
+        "pdf_page": 9,
+        "printed_page": "9",
+        "section": "proposed approach not only advances the methodological landscape for digital humanities",
+        "source_pdf_sha256": "d660776d24a5743638619fc99eb3b87f4d6c4e0cec1ca4d17e9aa5e9c17d4b99",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "db904e4010f2aca2c7560567f2d037ea8360b81b1fcbfa04c4e8938408a895fd",
+          "original_excerpt_word_count": 28,
+          "pdf_page": 11,
+          "printed_page": "11",
+          "section": "proposed approach not only advances the methodological landscape for digital humanities",
+          "source_pdf_sha256": "d660776d24a5743638619fc99eb3b87f4d6c4e0cec1ca4d17e9aa5e9c17d4b99",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "cd584910b054b3ea2fe2a0979b68a899e142037ffbdf6f661a83709c4ea79916",
+          "original_excerpt_word_count": 94,
+          "pdf_page": 19,
+          "printed_page": "19",
+          "section": "4.2. Further Experimentation",
+          "source_pdf_sha256": "d660776d24a5743638619fc99eb3b87f4d6c4e0cec1ca4d17e9aa5e9c17d4b99",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "50797b78426d75637189fcd4b7497143f31188eeeb4ce6a3f7c49f628f506637",
+          "original_excerpt_word_count": 35,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "proposed evaluation model enhances ontology assessment methodologies and contributes",
+          "source_pdf_sha256": "d660776d24a5743638619fc99eb3b87f4d6c4e0cec1ca4d17e9aa5e9c17d4b99",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "af79fe070e1671e63ecf443065267e0611867ecf4e7db772b36344d318845736",
+          "original_excerpt_word_count": 30,
+          "pdf_page": 10,
+          "printed_page": "10",
+          "section": "proposed approach not only advances the methodological landscape for digital humanities",
+          "source_pdf_sha256": "d660776d24a5743638619fc99eb3b87f4d6c4e0cec1ca4d17e9aa5e9c17d4b99",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "high"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "2. Related Work",
+        "3. The BookBindKG Framework",
+        "3.5. Evaluation of Knowledge Graph",
+        "4. Results",
+        "4.2. Further Experimentation",
+        "5. Discussion",
+        "6. Conclusions",
+        "References",
+        "Unnumbered/section not detected",
+        "proposed approach not only advances the methodological landscape for digital humanities",
+        "proposed evaluation model enhances ontology assessment methodologies and contributes"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 22,
+          "pdf_score": 17,
+          "record_score": 21,
+          "top_hits": [
+            "ontology",
+            "knowledge graph schema",
+            "owl",
+            "map"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 15,
+          "pdf_score": 12,
+          "record_score": 10,
+          "top_hits": [
+            "cypher",
+            "retrieve",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 16,
+          "pdf_score": 16,
+          "record_score": 2,
+          "top_hits": [
+            "swrl",
+            "infer",
+            "reasoning",
+            "rule",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 12,
+          "pdf_score": 10,
+          "record_score": 8,
+          "top_hits": [
+            "correct",
+            "validation",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S110__stitching-history-into-semantics-llm-supported-knowledge-graph-engineering-for-19th-century-.json",
+    "original_frozen_record_sha256": "42db574e78222ae6b6668ea1742e5a6e7a8f09dd923bcbe3385a98152cc84389",
+    "original_frozen_record_bytes": 8288,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

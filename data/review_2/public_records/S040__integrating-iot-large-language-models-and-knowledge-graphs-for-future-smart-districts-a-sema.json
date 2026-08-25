@@ -1,0 +1,170 @@
+{
+  "study_id": "S040",
+  "paper_title": "Integrating IoT, large language models, and knowledge graphs for future smart districts: A semantic approach for energy performance assessment",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Karjou et al. - 2025 - Integrating IoT, large language models, and knowledge graphs for future smart districts a semantic.pdf",
+    "pdf_sha256": "862b7aa4c12fd9c580f92513f8e742c2c480b4c11a88b4991b518e26f6598982",
+    "page_count": 9,
+    "title_mapping_score": 0.6792
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "d0bd76d1e23c3740995eb65b9ed0f5ca3a478adc9f34abffababbe0fd8e6d152",
+        "original_excerpt_word_count": 23,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "1. Introduction",
+        "source_pdf_sha256": "862b7aa4c12fd9c580f92513f8e742c2c480b4c11a88b4991b518e26f6598982",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "A semantically controlled retrieval mechanism is connected to a downstream answer/generation/decision loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "2b19a8bede533d92b9283c5df8c78b59e934456b7c80e94f2f181f397125a6ff",
+          "original_excerpt_word_count": 32,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "3. Methodology",
+          "source_pdf_sha256": "862b7aa4c12fd9c580f92513f8e742c2c480b4c11a88b4991b518e26f6598982",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "cec017f8ad7458e391d190d7ec27ae5cf9f2cc66c7e21140f2a78f21ee847661",
+          "original_excerpt_word_count": 23,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "3. Methodology",
+          "source_pdf_sha256": "862b7aa4c12fd9c580f92513f8e742c2c480b4c11a88b4991b518e26f6598982",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "3. Methodology",
+        "3.3. Agentic GRAG architecture",
+        "References",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "3. Methodology",
+        "3.3. Agentic GRAG architecture",
+        "References",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 3,
+      "rag_passages": 3,
+      "output_title_hits": 0,
+      "output_passages": 2,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 25,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "rdf",
+          "owl",
+          "knowledge graph",
+          "represent"
+        ]
+      },
+      "T2": {
+        "top_score": 31,
+        "threshold": 11,
+        "top_hits": [
+          "cypher",
+          "semantic query",
+          "cypher query",
+          "rdf",
+          "owl",
+          "knowledge graph"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S040__integrating-iot-large-language-models-and-knowledge-graphs-for-future-smart-districts-a-sema.json",
+    "original_frozen_record_sha256": "685c8fbb8b74b09b5b6692e13d3c6fb7037099ca1cb25e673bdd79d4ac689f88",
+    "original_frozen_record_bytes": 5378,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

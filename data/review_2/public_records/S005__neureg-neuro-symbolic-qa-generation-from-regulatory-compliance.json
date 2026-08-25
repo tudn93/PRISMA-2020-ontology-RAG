@@ -1,0 +1,162 @@
+{
+  "study_id": "S005",
+  "paper_title": "NeuReg: Neuro-Symbolic QA Generation from Regulatory Compliance",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Arshad et al. - 2025 - NeuReg neuro-symbolic QA generation from regulatory compliance.pdf",
+    "pdf_sha256": "bbe5ebeab7c1670b220995c3403df65c2d56bf09948193cc7400e051d5b59aac",
+    "page_count": 4,
+    "title_mapping_score": 0.739
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "ffef6a7ce725e1064c27be0b7942f59d532263d36aa28505d9747989fc2c2e2c",
+        "original_excerpt_word_count": 25,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Abstract",
+        "source_pdf_sha256": "bbe5ebeab7c1670b220995c3403df65c2d56bf09948193cc7400e051d5b59aac",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG supports an LLM workflow without a complete semantically controlled retrieval-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "990db12521c22e67406212b32f808f57ded2387c252ccc97093a4e3f302adfb9",
+          "original_excerpt_word_count": 28,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Abstract",
+          "source_pdf_sha256": "bbe5ebeab7c1670b220995c3403df65c2d56bf09948193cc7400e051d5b59aac",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "7d8689054bb1bc3e1c3c5ddbf39bcc18ec4a182a95348d0c1290de1217bf047f",
+          "original_excerpt_word_count": 19,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "4 Conclusion",
+          "source_pdf_sha256": "bbe5ebeab7c1670b220995c3403df65c2d56bf09948193cc7400e051d5b59aac",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "3.3 Results",
+        "4 Conclusion",
+        "Abstract"
+      ],
+      "absence_rationale": "No passage satisfied the prespecified semantic retrieval-control requirements.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "3.3 Results",
+        "4 Conclusion",
+        "Abstract"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "3.3 Results",
+        "4 Conclusion",
+        "Abstract"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 0,
+      "output_title_hits": 0,
+      "output_passages": 5,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 18,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "owl",
+          "knowledge graph",
+          "construct"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S005__neureg-neuro-symbolic-qa-generation-from-regulatory-compliance.json",
+    "original_frozen_record_sha256": "7abd8c56087e83bd2fe98e9fab735cb54d3f86f85ee2e43fef15363ae92e1a10",
+    "original_frozen_record_bytes": 4895,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

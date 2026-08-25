@@ -1,0 +1,190 @@
+{
+  "study_id": "S039",
+  "paper_title": "Enhancing Patient Empowerment and Health Literacy: Integrating Knowledge Graphs with Language Models for Personalized Health Content Delivery",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Kakalou et al. - 2024 - Enhancing patient empowerment and health literacy integrating knowledge graphs with language models.pdf",
+    "pdf_sha256": "78f33f6845fb9de50c41904e63043e376b55db4b71b29a5f6711e3ee6dc0319f",
+    "page_count": 5,
+    "title_mapping_score": 0.6586,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "79d5759dfdf9c2c27fa083df5fb0e5232d40aa71cbb551b6dc5b9e0228c51657",
+        "original_excerpt_word_count": 39,
+        "pdf_page": 2,
+        "printed_page": "1019",
+        "section": "3. The HEALIE Knowledge Graph and Personalised Content Generation",
+        "source_pdf_sha256": "78f33f6845fb9de50c41904e63043e376b55db4b71b29a5f6711e3ee6dc0319f",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "3a19799e19185ffe86aeea5f1963fc97f6a7da42a4954b1fdcf6632099c499d6",
+          "original_excerpt_word_count": 9,
+          "pdf_page": 5,
+          "printed_page": "1022",
+          "section": "6. Conclusion and Further Work",
+          "source_pdf_sha256": "78f33f6845fb9de50c41904e63043e376b55db4b71b29a5f6711e3ee6dc0319f",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "87dd3111d0b5da30692fd829e4e58d3ac36b9ff9c82481c7aa2ce60c92ebbba0",
+          "original_excerpt_word_count": 22,
+          "pdf_page": 1,
+          "printed_page": "1018",
+          "section": "1. Introduction",
+          "source_pdf_sha256": "78f33f6845fb9de50c41904e63043e376b55db4b71b29a5f6711e3ee6dc0319f",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "ceecedfd7d0d69dabc911f719db85b2098527cc2863280de96b3f5794e8aad90",
+          "original_excerpt_word_count": 30,
+          "pdf_page": 5,
+          "printed_page": "1022",
+          "section": "6. Conclusion and Further Work",
+          "source_pdf_sha256": "78f33f6845fb9de50c41904e63043e376b55db4b71b29a5f6711e3ee6dc0319f",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "3. The HEALIE Knowledge Graph and Personalised Content Generation",
+        "5. Related Work",
+        "6. Conclusion and Further Work"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "3. The HEALIE Knowledge Graph and Personalised Content Generation",
+        "5. Related Work",
+        "6. Conclusion and Further Work"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 2
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 11,
+          "pdf_score": 8,
+          "record_score": 9,
+          "top_hits": [
+            "owl",
+            "construct",
+            "type"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 9,
+          "pdf_score": 6,
+          "record_score": 9,
+          "top_hits": [
+            "cypher"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 2,
+          "pdf_score": 2,
+          "record_score": 0,
+          "top_hits": [
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 4,
+          "pdf_score": 4,
+          "record_score": 0,
+          "top_hits": [
+            "validate",
+            "validation"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S039__enhancing-patient-empowerment-and-health-literacy-integrating-knowledge-graphs-with-language.json",
+    "original_frozen_record_sha256": "b58c931e6e8b44ed6935455e4a6c056cd83c54dbda92d71fe5d377d3e874275e",
+    "original_frozen_record_bytes": 6582,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

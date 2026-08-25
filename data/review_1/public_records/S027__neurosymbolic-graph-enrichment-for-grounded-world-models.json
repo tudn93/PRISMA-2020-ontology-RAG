@@ -1,0 +1,208 @@
+{
+  "study_id": "S027",
+  "paper_title": "Neurosymbolic graph enrichment for Grounded World Models",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "De Giorgis et al. - 2025 - Neurosymbolic graph enrichment for grounded world models.pdf",
+    "pdf_sha256": "f034eade3755391c37ea002b6bd4a7f20d8075dbcd22da3a015f138d371a6167",
+    "page_count": 22,
+    "title_mapping_score": 0.6717,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "c685fceb8a7f299de6845099b6bf6e2acbd56457e2d43e951b841ca074295c17",
+        "original_excerpt_word_count": 58,
+        "pdf_page": 8,
+        "printed_page": "8",
+        "section": "3.4. Implementation and technical setup",
+        "source_pdf_sha256": "f034eade3755391c37ea002b6bd4a7f20d8075dbcd22da3a015f138d371a6167",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "c685fceb8a7f299de6845099b6bf6e2acbd56457e2d43e951b841ca074295c17",
+          "original_excerpt_word_count": 58,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "3.4. Implementation and technical setup",
+          "source_pdf_sha256": "f034eade3755391c37ea002b6bd4a7f20d8075dbcd22da3a015f138d371a6167",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Related work",
+        "3. Methodology",
+        "3.4. Implementation and technical setup",
+        "3.5. Discussion",
+        "4.1. Experiment 1",
+        "4.2. Experiment 2",
+        "4.3. Experiment 3",
+        "5. Ongoing and future work",
+        "References"
+      ],
+      "absence_rationale": "No qualifying ontology-controlled retrieval or query mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "d36fc63ee2c5130accb5dc92a77e8c0c7028863f1c2501c959c2a100c846fe38",
+          "original_excerpt_word_count": 33,
+          "pdf_page": 12,
+          "printed_page": "12",
+          "section": "4.1. Experiment 1",
+          "source_pdf_sha256": "f034eade3755391c37ea002b6bd4a7f20d8075dbcd22da3a015f138d371a6167",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "a52558481b912b9aa7952bbf20af8b7c32728cbcaa6eb0555d9abc98bae1cdee",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "3.4. Implementation and technical setup",
+          "source_pdf_sha256": "f034eade3755391c37ea002b6bd4a7f20d8075dbcd22da3a015f138d371a6167",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "high"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Related work",
+        "3. Methodology",
+        "3.4. Implementation and technical setup",
+        "3.5. Discussion",
+        "4.1. Experiment 1",
+        "4.2. Experiment 2",
+        "4.3. Experiment 3",
+        "5. Ongoing and future work",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 21,
+          "pdf_score": 16,
+          "record_score": 22,
+          "top_hits": [
+            "ontological",
+            "owl",
+            "extract",
+            "represent",
+            "align",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 1,
+          "top_hits": [
+            "sparql"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 17,
+          "pdf_score": 16,
+          "record_score": 4,
+          "top_hits": [
+            "reasoner",
+            "infer",
+            "inference",
+            "reasoner"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 10,
+          "pdf_score": 8,
+          "record_score": 8,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S027__neurosymbolic-graph-enrichment-for-grounded-world-models.json",
+    "original_frozen_record_sha256": "1aa24636de9897083bd5b043ab7f3a3631d045241f14555589d2c7245f7cd12f",
+    "original_frozen_record_bytes": 7226,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

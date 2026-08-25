@@ -1,0 +1,201 @@
+{
+  "study_id": "S051",
+  "paper_title": "Intelligent decision support for tunnel fire incidents: integrating dynamic knowledge graph with large language models",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Lin et al. - 2026 - Intelligent decision support for tunnel fire incidents integrating dynamic knowledge graph with lar.pdf",
+    "pdf_sha256": "06e9a66d37765ca6b2cda897d39b2ee09c7b1366c50d84d34ca4da9cd6fe7938",
+    "page_count": 17,
+    "title_mapping_score": 0.69,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "e8bcf07aad36f3b536df2823789b3210a9c7aab289b87691b5766c304a773c3d",
+        "original_excerpt_word_count": 38,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "knowledge graph with large language models",
+        "source_pdf_sha256": "06e9a66d37765ca6b2cda897d39b2ee09c7b1366c50d84d34ca4da9cd6fe7938",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "1de5e2cc544dccd07c6d740e7ce961ab5b962328c6d6346aaac8e4b2cb02215c",
+          "original_excerpt_word_count": 31,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "abstract knowledge elements. Knowledge can be categorized into four",
+          "source_pdf_sha256": "06e9a66d37765ca6b2cda897d39b2ee09c7b1366c50d84d34ca4da9cd6fe7938",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "40f64ea0fbffc4ad2ba1bd9dc8b4a3c599261fdcee2ae507f1606c41e64bceda",
+          "original_excerpt_word_count": 19,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "method was prioritized over complex embedding models such as",
+          "source_pdf_sha256": "06e9a66d37765ca6b2cda897d39b2ee09c7b1366c50d84d34ca4da9cd6fe7938",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "5a4d7196fc663382970c59a0be5f84c4025f25a86090a5599969ee1ea4dbcb83",
+          "original_excerpt_word_count": 38,
+          "pdf_page": 9,
+          "printed_page": "9",
+          "section": "abstract knowledge elements. Knowledge can be categorized into four",
+          "source_pdf_sha256": "06e9a66d37765ca6b2cda897d39b2ee09c7b1366c50d84d34ca4da9cd6fe7938",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "References",
+        "abstract knowledge elements. Knowledge can be categorized into four",
+        "knowledge graph with large language models",
+        "method was prioritized over complex embedding models such as"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "References",
+        "abstract knowledge elements. Knowledge can be categorized into four",
+        "knowledge graph with large language models",
+        "method was prioritized over complex embedding models such as"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 2,
+        "output_loop": 1,
+        "construction": 0,
+        "interface": 1,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 17,
+          "pdf_score": 13,
+          "record_score": 13,
+          "top_hits": [
+            "owl",
+            "schema mapping",
+            "construct",
+            "map"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 23,
+          "pdf_score": 18,
+          "record_score": 16,
+          "top_hits": [
+            "cypher",
+            "text to cypher",
+            "retrieval",
+            "query",
+            "context"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 14,
+          "pdf_score": 14,
+          "record_score": 0,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 16,
+          "pdf_score": 14,
+          "record_score": 8,
+          "top_hits": [
+            "correct",
+            "correction",
+            "verification",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S051__intelligent-decision-support-for-tunnel-fire-incidents-integrating-dynamic-knowledge-graph-w.json",
+    "original_frozen_record_sha256": "a446f34d43e3a0a25dd6251078d48b542944c30f22025e72d3dee5d5a8a191a6",
+    "original_frozen_record_bytes": 7199,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

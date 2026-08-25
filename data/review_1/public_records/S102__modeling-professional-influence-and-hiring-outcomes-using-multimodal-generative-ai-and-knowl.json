@@ -1,0 +1,187 @@
+{
+  "study_id": "S102",
+  "paper_title": "Modeling Professional Influence and Hiring Outcomes Using Multimodal Generative AI and Knowledge-Graph�Augmented Reasoning",
+  "year": "2023",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Venkateshappa - 2023 - Modeling professional influence and hiring outcomes using multimodal generative AI and knowledge-gra.pdf",
+    "pdf_sha256": "c1c2d466bc8e0dd60f85015439d88b3929c4d5a83402e5aa5ef1aa7ffe03abe1",
+    "page_count": 10,
+    "title_mapping_score": 0.7385,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "4d42ad0b29bcba7dbaa3da5849afa3d3ff66d59b56160fcf069b1b506a896a15",
+        "original_excerpt_word_count": 25,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Unnumbered/section not detected",
+        "source_pdf_sha256": "c1c2d466bc8e0dd60f85015439d88b3929c4d5a83402e5aa5ef1aa7ffe03abe1",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "522b5206e81e7baf27d5466cd2fb87528e3890f79a5a42f3f5a69727495b6986",
+          "original_excerpt_word_count": 24,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "4.2.3. Proposed KGAR Framework",
+          "source_pdf_sha256": "c1c2d466bc8e0dd60f85015439d88b3929c4d5a83402e5aa5ef1aa7ffe03abe1",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "ac7d01114f7117243fe8215fe90d57c5af3fcd84ea93292af958f38993183ad9",
+          "original_excerpt_word_count": 23,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "2.3. Knowledge Graphs in Decision Systems",
+          "source_pdf_sha256": "c1c2d466bc8e0dd60f85015439d88b3929c4d5a83402e5aa5ef1aa7ffe03abe1",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "2.3. Knowledge Graphs in Decision Systems",
+        "3.1.2. Knowledge Graph Construction Layer",
+        "4. Results and Discussion",
+        "4.2.3. Proposed KGAR Framework",
+        "5. Conclusion",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "2.3. Knowledge Graphs in Decision Systems",
+        "3.1.2. Knowledge Graph Construction Layer",
+        "4. Results and Discussion",
+        "4.2.3. Proposed KGAR Framework",
+        "5. Conclusion",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 15,
+          "pdf_score": 12,
+          "record_score": 9,
+          "top_hits": [
+            "owl",
+            "represent",
+            "model",
+            "validate",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 5,
+          "pdf_score": 5,
+          "record_score": 0,
+          "top_hits": [
+            "search",
+            "ground"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 2,
+          "top_hits": [
+            "infer",
+            "inference"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 11,
+          "pdf_score": 10,
+          "record_score": 3,
+          "top_hits": [
+            "correct",
+            "validation",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S102__modeling-professional-influence-and-hiring-outcomes-using-multimodal-generative-ai-and-knowl.json",
+    "original_frozen_record_sha256": "204bbcc18166b8cbb6bb037d0a9d43450d8f0f810638349992c6dbf8fa524ffd",
+    "original_frozen_record_bytes": 6277,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

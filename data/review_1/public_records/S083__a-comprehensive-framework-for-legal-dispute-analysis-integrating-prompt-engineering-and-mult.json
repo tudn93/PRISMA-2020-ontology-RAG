@@ -1,0 +1,215 @@
+{
+  "study_id": "S083",
+  "paper_title": "A comprehensive framework for legal dispute analysis integrating prompt engineering and multi-dimens",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Zhang et al. - 2025 - A comprehensive framework for legal dispute analysis integrating prompt engineering and multi-dimens.pdf",
+    "pdf_sha256": "c3bdbf4b505b6a7b4e7789252bf66e0cdb127fbba01b2f99b6ccb04d311d1eb7",
+    "page_count": 30,
+    "title_mapping_score": 0.8196,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "26dca259f1f1142d17c95e0f8ea31724bbfd594ff5c11b506509c2e9ac4bfd42",
+        "original_excerpt_word_count": 138,
+        "pdf_page": 22,
+        "printed_page": "",
+        "section": "4.3.6 Ablation Experiment Analysis",
+        "source_pdf_sha256": "c3bdbf4b505b6a7b4e7789252bf66e0cdb127fbba01b2f99b6ccb04d311d1eb7",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "9fe3c64b45f0d4043339b92874e6d7eae3423e86e4e0a7161483549f7ea457c2",
+          "original_excerpt_word_count": 50,
+          "pdf_page": 9,
+          "printed_page": "",
+          "section": "3.2 Multi-dimensional Knowledge Graph Design and Implementation",
+          "source_pdf_sha256": "c3bdbf4b505b6a7b4e7789252bf66e0cdb127fbba01b2f99b6ccb04d311d1eb7",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "478747cd72d9bc0eaf778ab7c0836bea3eef94e9f3637da513e1913130025970",
+          "original_excerpt_word_count": 44,
+          "pdf_page": 5,
+          "printed_page": "",
+          "section": "3.1 Legal Three-Stage Prompt Engineering Framework",
+          "source_pdf_sha256": "c3bdbf4b505b6a7b4e7789252bf66e0cdb127fbba01b2f99b6ccb04d311d1eb7",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "da0c97a9edd72153d403d067cb3fc09d0ed2403648735f2d29ee760db29aa089",
+          "original_excerpt_word_count": 39,
+          "pdf_page": 20,
+          "printed_page": "",
+          "section": "4.3.6 Ablation Experiment Analysis",
+          "source_pdf_sha256": "c3bdbf4b505b6a7b4e7789252bf66e0cdb127fbba01b2f99b6ccb04d311d1eb7",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "049b3ba24bbd6b378ab75a4bdee9450f6db4be827f49cd925f067cabd7a08228",
+          "original_excerpt_word_count": 6,
+          "pdf_page": 28,
+          "printed_page": "",
+          "section": "5 Conclusion and Future Directions",
+          "source_pdf_sha256": "c3bdbf4b505b6a7b4e7789252bf66e0cdb127fbba01b2f99b6ccb04d311d1eb7",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "6874f5145b009ea86265131682978e205b0be3e04cbb4a2fad9bd2ca74f0cba3",
+          "original_excerpt_word_count": 12,
+          "pdf_page": 15,
+          "printed_page": "",
+          "section": "4 Experiments and Evaluation",
+          "source_pdf_sha256": "c3bdbf4b505b6a7b4e7789252bf66e0cdb127fbba01b2f99b6ccb04d311d1eb7",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 20,
+          "pdf_score": 16,
+          "record_score": 13,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "represent",
+            "type",
+            "class",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 10,
+          "pdf_score": 9,
+          "record_score": 4,
+          "top_hits": [
+            "graph query",
+            "query",
+            "ground"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 19,
+          "pdf_score": 14,
+          "record_score": 15,
+          "top_hits": [
+            "path reasoning",
+            "infer",
+            "inference",
+            "reasoning",
+            "path"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 16,
+          "pdf_score": 14,
+          "record_score": 8,
+          "top_hits": [
+            "correct",
+            "correction",
+            "verification",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S083__a-comprehensive-framework-for-legal-dispute-analysis-integrating-prompt-engineering-and-mult.json",
+    "original_frozen_record_sha256": "dc4199748581d547d7d234a40526dbec9fe81737e29b8441cc18367b3d92270b",
+    "original_frozen_record_bytes": 8339,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

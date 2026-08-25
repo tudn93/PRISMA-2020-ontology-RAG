@@ -1,0 +1,178 @@
+{
+  "study_id": "S112",
+  "paper_title": "VaxKG: Integrating The Vaccine Ontology And VIOLIN For Advanced Vaccine Queries And LLM-Powered Chat Systems",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "(Leo) Yeh et al. - 2025 - VaxKG integrating the vaccine ontology and VIOLIN for advanced vaccine queries and LLM-powered chat.pdf",
+    "pdf_sha256": "c95cbaddfa29e2bde96d408b3f803ea1439bfd904ce5a44db10406e2bda3ef44",
+    "page_count": 10,
+    "title_mapping_score": 0.7527
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "4d4f6fe38a6ceeda8e986a6d7f95bcd7dfc77faf9c0c1279ba9de8f413e01a4e",
+        "original_excerpt_word_count": 57,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "Abstract",
+        "source_pdf_sha256": "c95cbaddfa29e2bde96d408b3f803ea1439bfd904ce5a44db10406e2bda3ef44",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "A semantically controlled retrieval mechanism is connected to a downstream answer/generation/decision loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "af47d50ee24540fab4d1c44d41cd005cb369bd7ff46762f3d0d19b0df651b4f3",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Abstract",
+          "source_pdf_sha256": "c95cbaddfa29e2bde96d408b3f803ea1439bfd904ce5a44db10406e2bda3ef44",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "1d71c1d84ffd1b0fe5b64e958845dcc4dae227d50016dc953a898a55a7c8f6ca",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "Evaluation of VaxChat Performance",
+          "source_pdf_sha256": "c95cbaddfa29e2bde96d408b3f803ea1439bfd904ce5a44db10406e2bda3ef44",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "1b03cdadc8c8e7a51f34ef18aeea2ad77992351cb8701dad79822881dc7219da",
+          "original_excerpt_word_count": 21,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "Knowledge Graph Construction and Composition",
+          "source_pdf_sha256": "c95cbaddfa29e2bde96d408b3f803ea1439bfd904ce5a44db10406e2bda3ef44",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "Evaluation of VaxChat Performance",
+        "Future Work and Improvement",
+        "Knowledge Graph Construction and Composition",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "Evaluation of VaxChat Performance",
+        "Future Work and Improvement",
+        "Knowledge Graph Construction and Composition",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 3,
+      "rag_passages": 6,
+      "output_title_hits": 1,
+      "output_passages": 7,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 23,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "rdf",
+          "owl",
+          "knowledge graph",
+          "represent"
+        ]
+      },
+      "T2": {
+        "top_score": 18,
+        "threshold": 11,
+        "top_hits": [
+          "cypher",
+          "cypher query"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S112__vaxkg-integrating-the-vaccine-ontology-and-violin-for-advanced-vaccine-queries-and-llm-power.json",
+    "original_frozen_record_sha256": "7d527e5d1f0be87f574005e861e6fa48f0fe6a7daba836ec50aa8db49e8cc75e",
+    "original_frozen_record_bytes": 5910,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

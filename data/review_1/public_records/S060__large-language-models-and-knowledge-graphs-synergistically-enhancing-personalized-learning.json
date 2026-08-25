@@ -1,0 +1,187 @@
+{
+  "study_id": "S060",
+  "paper_title": "Large Language Models and Knowledge Graphs Synergistically Enhancing Personalized Learning",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Peng et al. - 2025 - Large language models and knowledge graphs synergistically enhancing personalized learning.pdf",
+    "pdf_sha256": "a21cf350c95570d89441afc485d463e10635bd70f0a52109764aace113c1ef3c",
+    "page_count": 5,
+    "title_mapping_score": 0.7857,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "e1c50732b4a6f0e411200da10827770b0183d47bd8439197b29d4438676af491",
+        "original_excerpt_word_count": 28,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "II. RESEARCH FRAMEWORK AND EXPERIMENTAL DATA",
+        "source_pdf_sha256": "a21cf350c95570d89441afc485d463e10635bd70f0a52109764aace113c1ef3c",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology or KG evidence supports an LLM workflow without a complete retrieval-to-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "fe0f58b48d246b5b56500cc4c75312257107642533060203c665bba2438fdc18",
+          "original_excerpt_word_count": 32,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "II. RESEARCH FRAMEWORK AND EXPERIMENTAL DATA",
+          "source_pdf_sha256": "a21cf350c95570d89441afc485d463e10635bd70f0a52109764aace113c1ef3c",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "8c0c14d5d497bcd37cf4b301b00e997c0798b68e716010cb0ba95f11b7303b52",
+          "original_excerpt_word_count": 11,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "II. RESEARCH FRAMEWORK AND EXPERIMENTAL DATA",
+          "source_pdf_sha256": "a21cf350c95570d89441afc485d463e10635bd70f0a52109764aace113c1ef3c",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "cef3af1adac5d3cb2ba759ed6a2b492f7d681dcb7ff8c51d917aba5b7bc4faeb",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "II. RESEARCH FRAMEWORK AND EXPERIMENTAL DATA",
+          "source_pdf_sha256": "a21cf350c95570d89441afc485d463e10635bd70f0a52109764aace113c1ef3c",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "II. RESEARCH FRAMEWORK AND EXPERIMENTAL DATA",
+        "REFERENCES",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "II. RESEARCH FRAMEWORK AND EXPERIMENTAL DATA",
+        "REFERENCES",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 19,
+          "pdf_score": 14,
+          "record_score": 16,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "construct"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 2,
+          "top_hits": [
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 10,
+          "pdf_score": 10,
+          "record_score": 1,
+          "top_hits": [
+            "infer",
+            "inference",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 4,
+          "pdf_score": 4,
+          "record_score": 0,
+          "top_hits": [],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S060__large-language-models-and-knowledge-graphs-synergistically-enhancing-personalized-learning.json",
+    "original_frozen_record_sha256": "ad8aa5810024b9ebeb556a367efad8d7be2408f65b63353d9ba8dc87cde6a350",
+    "original_frozen_record_bytes": 6331,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

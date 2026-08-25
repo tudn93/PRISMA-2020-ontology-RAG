@@ -1,0 +1,177 @@
+{
+  "study_id": "S097",
+  "paper_title": "INTELLIGENT IDENTIFICATION AND DECISION SUPPORT SYSTEM FOR TBM CONSTRUCTION RISK SYNERGISTICALLY DRIVEN BY KNOWLEDGE GRAPHS AND LARGE LANGUAGE MODELS",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Li and Bo - 2026 - INTELLIGENT IDENTIFICATION AND DECISION SUPPORT SYSTEM FOR TBM CONSTRUCTION RISK SYNERGISTICALLY DRI.pdf",
+    "pdf_sha256": "bf9939fdf3f50f15c8012257343b1f33baed66655c03081351f08aadf3cd4f73",
+    "page_count": 18,
+    "title_mapping_score": 0.5902
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "kind": "tier",
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "bfcf965cdc896c72f0318a766fd5c812fa92cdf4d0e1bfb0957587673ba6acd0",
+        "original_excerpt_word_count": 32,
+        "pdf_page": 5,
+        "printed_page": "5",
+        "section": "3.2 Collaborative Mechanism Framework of Knowledge Graph and LLM",
+        "source_pdf_sha256": "bf9939fdf3f50f15c8012257343b1f33baed66655c03081351f08aadf3cd4f73",
+        "locator_method": "pass2_manual_source_audit",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Structured KG retrieval is connected to LLM reasoning and decision generation.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "c8061ec253b2e6e26b3ead0bad4c24dba3fd834ce4f2dd81d3ab3003124cf2d6",
+          "original_excerpt_word_count": 31,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "3.2 Collaborative Mechanism Framework of Knowledge Graph and LLM",
+          "source_pdf_sha256": "bf9939fdf3f50f15c8012257343b1f33baed66655c03081351f08aadf3cd4f73",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "4b108ce532cadc5e1a0f3b1929ac2909f73c345e043f0452692232f227b87c23",
+          "original_excerpt_word_count": 21,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "3.2 Collaborative Mechanism Framework of Knowledge Graph and LLM",
+          "source_pdf_sha256": "bf9939fdf3f50f15c8012257343b1f33baed66655c03081351f08aadf3cd4f73",
+          "locator_method": "pass2_manual_source_audit",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 INTRODUCTION",
+        "2.2 Overview of Knowledge Graph Construction and Reasoning Technology",
+        "3.2 Collaborative Mechanism Framework of Knowledge Graph and LLM",
+        "4.3 Entity Extraction and Relationship Mining Methods",
+        "5.3 Model Fine-tuning Methods and Parameter Configuration",
+        "6.1 Knowledge Graph-Guided LLM Reasoning Enhancement Strategy",
+        "8 SYSTEM EXPERIMENT AND CASE VERIFICATION",
+        "9 DISCUSSION",
+        "REFERENCES"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 INTRODUCTION",
+        "2.2 Overview of Knowledge Graph Construction and Reasoning Technology",
+        "3.2 Collaborative Mechanism Framework of Knowledge Graph and LLM",
+        "4.3 Entity Extraction and Relationship Mining Methods",
+        "5.3 Model Fine-tuning Methods and Parameter Configuration",
+        "6.1 Knowledge Graph-Guided LLM Reasoning Enhancement Strategy",
+        "8 SYSTEM EXPERIMENT AND CASE VERIFICATION",
+        "9 DISCUSSION",
+        "REFERENCES"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 2,
+      "rag_passages": 1,
+      "output_title_hits": 1,
+      "output_passages": 45,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 25,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "owl",
+          "knowledge graph",
+          "construct",
+          "model",
+          "class",
+          "relation"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "primary_tier",
+      "T2"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S097__intelligent-identification-and-decision-support-system-for-tbm-construction-risk-synergistic.json",
+    "original_frozen_record_sha256": "de0319693663de45dcec8ac0e9586908945450c56b3eb99b315c34e28a9fd833",
+    "original_frozen_record_bytes": 6146,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

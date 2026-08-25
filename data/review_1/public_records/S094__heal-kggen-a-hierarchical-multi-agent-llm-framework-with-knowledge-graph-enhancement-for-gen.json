@@ -1,0 +1,202 @@
+{
+  "study_id": "S094",
+  "paper_title": "HEAL-KGGen: A Hierarchical Multi-Agent LLM Framework with Knowledge Graph Enhancement for Genetic Biomarker-Based Medical Diagnosis",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Zuo et al. - 2025 - HEAL-KGGen a hierarchical multi-agent LLM framework with knowledge graph enhancement for genetic bi.pdf",
+    "pdf_sha256": "be7508002cb2efdee705a62c506e316556dfce462b13708607281e0585781106",
+    "page_count": 21,
+    "title_mapping_score": 0.6797,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "27e32a0be91ac32a637cd4fed4056dbe997ce2283cbb6e60feba68cdd549a46d",
+        "original_excerpt_word_count": 59,
+        "pdf_page": 5,
+        "printed_page": "5",
+        "section": "3 METHODOLOGY",
+        "source_pdf_sha256": "be7508002cb2efdee705a62c506e316556dfce462b13708607281e0585781106",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "79c00884b47f2851f371057a6406a0e15c0f6bef5a4a9ee67ab077cc27326318",
+          "original_excerpt_word_count": 40,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Framework with Knowledge Graph",
+          "source_pdf_sha256": "be7508002cb2efdee705a62c506e316556dfce462b13708607281e0585781106",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "6bc289fff13ae8399e343b885379f76b55293b103bdc2973a4a118db51ce4b61",
+          "original_excerpt_word_count": 15,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Framework with Knowledge Graph",
+          "source_pdf_sha256": "be7508002cb2efdee705a62c506e316556dfce462b13708607281e0585781106",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 INTRODUCTION",
+        "1. Propose HEAL-KGGen, a novel hierarchical multi-agent framework that processes multi-omics data63",
+        "3 METHODOLOGY",
+        "3.1 Knowledge Graph Enhancement150",
+        "3.2 Multi-Agent System Architecture261",
+        "4 EXPERIMENT",
+        "4.2 Dataset Introduction404",
+        "4.3 Results and Performance Analysis424",
+        "5 DISCUSSION",
+        "6 CONCLUSION",
+        "Framework with Knowledge Graph",
+        "REFERENCES"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "f2ab6761af6afa9b9b8d5e19e5c6f42db6b31a5ff88b0cb4ef2023e0f12e6ca0",
+          "original_excerpt_word_count": 24,
+          "pdf_page": 14,
+          "printed_page": "14",
+          "section": "4.3 Results and Performance Analysis424",
+          "source_pdf_sha256": "be7508002cb2efdee705a62c506e316556dfce462b13708607281e0585781106",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 21,
+          "pdf_score": 16,
+          "record_score": 16,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "construct",
+            "extract",
+            "align",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 12,
+          "pdf_score": 11,
+          "record_score": 5,
+          "top_hits": [
+            "retrieved subgraph",
+            "retrieve",
+            "context",
+            "path"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 12,
+          "pdf_score": 12,
+          "record_score": 2,
+          "top_hits": [
+            "reasoning path",
+            "reasoning",
+            "logic",
+            "path"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 10,
+          "pdf_score": 8,
+          "record_score": 8,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S094__heal-kggen-a-hierarchical-multi-agent-llm-framework-with-knowledge-graph-enhancement-for-gen.json",
+    "original_frozen_record_sha256": "a26bd7ae8584a12eb141c166399601eeb8ba892c5508d906189d416defd01599",
+    "original_frozen_record_bytes": 7185,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

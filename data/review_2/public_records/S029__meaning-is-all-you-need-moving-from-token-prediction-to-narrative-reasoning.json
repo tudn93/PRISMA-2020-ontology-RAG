@@ -1,0 +1,171 @@
+{
+  "study_id": "S029",
+  "paper_title": "Meaning Is All You Need: Moving From Token Prediction to Narrative Reasoning",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Derikiants and Mazin - 2026 - Meaning is all you need moving from token prediction to narrative reasoning.pdf",
+    "pdf_sha256": "b4ced53dfa64ffea1fbffe04ba7e2b0c51a4e2c243e07ba5fcff1b00b0cdd596",
+    "page_count": 18,
+    "title_mapping_score": 0.7858
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "f83105a75834f724103e1385e1b3dd31c237bcd6c1319c5021321f18559631ea",
+        "original_excerpt_word_count": 21,
+        "pdf_page": 5,
+        "printed_page": "5",
+        "section": "3 Implementation: Embryo AGI Architecture",
+        "source_pdf_sha256": "b4ced53dfa64ffea1fbffe04ba7e2b0c51a4e2c243e07ba5fcff1b00b0cdd596",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG supports an LLM workflow without a complete semantically controlled retrieval-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "f8f667066bc333ab7d2cea21ead209b765c2b5d86d1f0fb1e6165cc25e3ab7bd",
+          "original_excerpt_word_count": 34,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "3 Implementation: Embryo AGI Architecture",
+          "source_pdf_sha256": "b4ced53dfa64ffea1fbffe04ba7e2b0c51a4e2c243e07ba5fcff1b00b0cdd596",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Methodology: The Engineering Approach",
+        "3 Implementation: Embryo AGI Architecture",
+        "7 References",
+        "Conclusion of the first stage",
+        "Conclusion of the fourth stage",
+        "Conclusion of the second stage",
+        "Conclusion of the sixth stage",
+        "Conclusion of the third stage"
+      ],
+      "absence_rationale": "No passage satisfied the prespecified semantic retrieval-control requirements.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "9719f4fe0d0cf49a9bcb492b5d68d699cd577ed0cfce1c8c3a9e9c28f7578245",
+          "original_excerpt_word_count": 41,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "3 Implementation: Embryo AGI Architecture",
+          "source_pdf_sha256": "b4ced53dfa64ffea1fbffe04ba7e2b0c51a4e2c243e07ba5fcff1b00b0cdd596",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "An executable formal, rule-based, proof, or relational-reasoning mechanism was evidenced.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Methodology: The Engineering Approach",
+        "3 Implementation: Embryo AGI Architecture",
+        "7 References",
+        "Conclusion of the first stage",
+        "Conclusion of the fourth stage",
+        "Conclusion of the second stage",
+        "Conclusion of the sixth stage",
+        "Conclusion of the third stage"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": false,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 0,
+      "output_title_hits": 0,
+      "output_passages": 1,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 14,
+        "threshold": 11,
+        "top_hits": [
+          "owl",
+          "represent",
+          "model"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 12,
+        "threshold": 10,
+        "top_hits": [
+          "counterfactual reasoning"
+        ]
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S029__meaning-is-all-you-need-moving-from-token-prediction-to-narrative-reasoning.json",
+    "original_frozen_record_sha256": "58251ee0095b9e68ac339b0a07fae7553355da27733631b3c9989d57c2bdf515",
+    "original_frozen_record_bytes": 5729,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

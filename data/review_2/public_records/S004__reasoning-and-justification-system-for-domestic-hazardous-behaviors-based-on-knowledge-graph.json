@@ -1,0 +1,197 @@
+{
+  "study_id": "S004",
+  "paper_title": "Reasoning and Justification System for Domestic Hazardous Behaviors Based on Knowledge Graph of Daily Activities and Retrieval-Augmented Generation",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Anaguchi et al. - 2024 - Reasoning and justification system for domestic hazardous behaviors based on knowledge graph of dail.pdf",
+    "pdf_sha256": "1f938da4bb3a7e17870528d133ec7f38b68f3a848b003ad64d873b1a562b6edf",
+    "page_count": 10,
+    "title_mapping_score": 0.6296
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "6306c0825754011abc1ce0d45dca5451a95781fcbf8f598bcc1d55450b8763c0",
+        "original_excerpt_word_count": 27,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "Knowledge Graph of Daily Activities and",
+        "source_pdf_sha256": "1f938da4bb3a7e17870528d133ec7f38b68f3a848b003ad64d873b1a562b6edf",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "A semantically controlled retrieval mechanism is connected to a downstream answer/generation/decision loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "5b4f37947cf32374f8e436e18738e51fdf02f3e61c9bc387bc45f39b8eb47bd5",
+          "original_excerpt_word_count": 20,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "Knowledge Graph of Daily Activities and",
+          "source_pdf_sha256": "1f938da4bb3a7e17870528d133ec7f38b68f3a848b003ad64d873b1a562b6edf",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "d7dc3403153587354efa489fbc30f4434e647ca81f4636deee06943fbbf6397a",
+          "original_excerpt_word_count": 34,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Knowledge Graph of Daily Activities and",
+          "source_pdf_sha256": "1f938da4bb3a7e17870528d133ec7f38b68f3a848b003ad64d873b1a562b6edf",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "f41dc2d05fe6253a0361e09634694e77f24ad31c24ef2dfcc2a435c8faa5ec5a",
+          "original_excerpt_word_count": 29,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Knowledge Graph of Daily Activities and",
+          "source_pdf_sha256": "1f938da4bb3a7e17870528d133ec7f38b68f3a848b003ad64d873b1a562b6edf",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "bd52c6e38e0d99bf3ebdf9c491f20fd07f7d3dde518935b8dc6cbe97dea0512d",
+          "original_excerpt_word_count": 43,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Knowledge Graph of Daily Activities and",
+          "source_pdf_sha256": "1f938da4bb3a7e17870528d133ec7f38b68f3a848b003ad64d873b1a562b6edf",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "607ac2567e88b5d9f181c85cef5761db5b3a78d177b6ff4b9531d5caaf01fa80",
+          "original_excerpt_word_count": 54,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Knowledge Graph of Daily Activities and",
+          "source_pdf_sha256": "1f938da4bb3a7e17870528d133ec7f38b68f3a848b003ad64d873b1a562b6edf",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "An executable formal, rule-based, proof, or relational-reasoning mechanism was evidenced.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Knowledge Graph of Daily Activities and",
+        "Related Work [24] 0.43",
+        "evaluation criteria were: “A sentence is considered appropriate,",
+        "evaluation scores as the GPT-4o column. The fourth column",
+        "proposed system demonstrated general reasons and evidence"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 2,
+      "rag_passages": 4,
+      "output_title_hits": 0,
+      "output_passages": 4,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 13,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "represent",
+          "class",
+          "relation"
+        ]
+      },
+      "T2": {
+        "top_score": 16,
+        "threshold": 11,
+        "top_hits": [
+          "sparql",
+          "sparql query"
+        ]
+      },
+      "T3": {
+        "top_score": 12,
+        "threshold": 10,
+        "top_hits": [
+          "swrl"
+        ]
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S004__reasoning-and-justification-system-for-domestic-hazardous-behaviors-based-on-knowledge-graph.json",
+    "original_frozen_record_sha256": "71124d90742bf7572f5e038541fcbc9da4e6396561d6e43a007d3d92d1a44d2f",
+    "original_frozen_record_bytes": 7317,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

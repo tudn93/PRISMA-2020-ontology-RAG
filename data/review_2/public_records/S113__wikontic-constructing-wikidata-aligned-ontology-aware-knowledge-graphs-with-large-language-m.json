@@ -1,0 +1,171 @@
+{
+  "study_id": "S113",
+  "paper_title": "Wikontic: Constructing Wikidata-Aligned, Ontology-Aware Knowledge Graphs with Large Language Models",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Chepurova et al. - 2026 - Wikontic constructing wikidata-aligned, ontology-aware knowledge graphs with large language models.pdf",
+    "pdf_sha256": "28a65d116c8e427cd05677f6480e273160e57a6c138858b80b9e50dbd44eac2a",
+    "page_count": 16,
+    "title_mapping_score": 0.8033
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "138668a6433a34a21e2ca5c7e7ad06915f79994fdcbae3db12137c69a68d0f6a",
+        "original_excerpt_word_count": 22,
+        "pdf_page": 9,
+        "printed_page": "8312",
+        "section": "3.6 Ablation Study",
+        "source_pdf_sha256": "28a65d116c8e427cd05677f6480e273160e57a6c138858b80b9e50dbd44eac2a",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction or enrichment is the primary contribution.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "18de4cc94c47086bfd568d3c2bc36390f8d045483a7c25896ef0f4be2689535d",
+          "original_excerpt_word_count": 32,
+          "pdf_page": 8,
+          "printed_page": "8311",
+          "section": "Method MuSiQue HotpotQA",
+          "source_pdf_sha256": "28a65d116c8e427cd05677f6480e273160e57a6c138858b80b9e50dbd44eac2a",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "dbe147232d6b0c262affdf3f01c4e9f4c84c9b3eb1f5a39d1d1554569e903fc2",
+          "original_excerpt_word_count": 30,
+          "pdf_page": 9,
+          "printed_page": "8312",
+          "section": "3.6 Ablation Study",
+          "source_pdf_sha256": "28a65d116c8e427cd05677f6480e273160e57a6c138858b80b9e50dbd44eac2a",
+          "locator_method": "pass2_manual_source_audit",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2.4 Evaluation",
+        "2025. KGGen: Extracting knowledge graphs from",
+        "3 Results",
+        "3.6 Ablation Study",
+        "Method MuSiQue HotpotQA",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2.4 Evaluation",
+        "2025. KGGen: Extracting knowledge graphs from",
+        "3 Results",
+        "3.6 Ablation Study",
+        "Method MuSiQue HotpotQA",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 18,
+      "output_title_hits": 0,
+      "output_passages": 21,
+      "construction_primary": true
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 24,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "owl",
+          "schema",
+          "align",
+          "constraint"
+        ]
+      },
+      "T2": {
+        "top_score": 9,
+        "threshold": 11,
+        "top_hits": [
+          "retrieved subgraph"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "T2"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S113__wikontic-constructing-wikidata-aligned-ontology-aware-knowledge-graphs-with-large-language-m.json",
+    "original_frozen_record_sha256": "e6d688f1b6569d73ec3dbef2159ebe910cbe65b69da7f0f64d81052ac733b770",
+    "original_frozen_record_bytes": 5385,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

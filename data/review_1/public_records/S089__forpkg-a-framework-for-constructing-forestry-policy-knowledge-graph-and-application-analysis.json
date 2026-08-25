@@ -1,0 +1,194 @@
+{
+  "study_id": "S089",
+  "paper_title": "ForPKG: A Framework for Constructing Forestry Policy Knowledge Graph and Application Analysis",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Sun and Luo - 2025 - ForPKG a framework for constructing forestry policy knowledge graph and application analysis.pdf",
+    "pdf_sha256": "cb887bf17fe9c47fb3837ebb2383f5993f7c9a2b95a31bccb0b71e7693952153",
+    "page_count": 8,
+    "title_mapping_score": 0.8404,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "6e908d0197aa191c77e9f3cae9dbfa1c6482b7d75f06bc186c35641f20a95c25",
+        "original_excerpt_word_count": 41,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Knowledge graph is a method of representing knowledge in",
+        "source_pdf_sha256": "cb887bf17fe9c47fb3837ebb2383f5993f7c9a2b95a31bccb0b71e7693952153",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "6e908d0197aa191c77e9f3cae9dbfa1c6482b7d75f06bc186c35641f20a95c25",
+          "original_excerpt_word_count": 41,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Knowledge graph is a method of representing knowledge in",
+          "source_pdf_sha256": "cb887bf17fe9c47fb3837ebb2383f5993f7c9a2b95a31bccb0b71e7693952153",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "a749cb9f989db8ddf786bf0b94dd87ba4ee55d431b510e4a8ccb6b46fa8aa10b",
+          "original_excerpt_word_count": 14,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "VI. P RESENTING THE BUILD RESULTS",
+          "source_pdf_sha256": "cb887bf17fe9c47fb3837ebb2383f5993f7c9a2b95a31bccb0b71e7693952153",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "1ff364013d5184c546d080ce8534764343c128e4db666cd16c895615644a52c7",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Knowledge graph is a method of representing knowledge in",
+          "source_pdf_sha256": "cb887bf17fe9c47fb3837ebb2383f5993f7c9a2b95a31bccb0b71e7693952153",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "Knowledge graph is a method of representing knowledge in",
+        "Method Precision Recall",
+        "VI. P RESENTING THE BUILD RESULTS",
+        "knowledge graph ontology; 4) Propose a policy knowledge"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "Knowledge graph is a method of representing knowledge in",
+        "Method Precision Recall",
+        "VI. P RESENTING THE BUILD RESULTS",
+        "knowledge graph ontology; 4) Propose a policy knowledge"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 18,
+          "pdf_score": 14,
+          "record_score": 14,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "construct",
+            "extract"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 4,
+          "pdf_score": 4,
+          "record_score": 2,
+          "top_hits": [
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "infer",
+            "inference"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 10,
+          "pdf_score": 8,
+          "record_score": 6,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S089__forpkg-a-framework-for-constructing-forestry-policy-knowledge-graph-and-application-analysis.json",
+    "original_frozen_record_sha256": "9ef359f977ce22fa25c5e7e88f2dca98fded0e86ac9218f40fa547498b5cbe86",
+    "original_frozen_record_bytes": 6912,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

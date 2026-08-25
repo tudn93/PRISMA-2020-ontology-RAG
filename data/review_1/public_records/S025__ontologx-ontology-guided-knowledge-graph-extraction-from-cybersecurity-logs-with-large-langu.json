@@ -1,0 +1,206 @@
+{
+  "study_id": "S025",
+  "paper_title": "OntoLogX: Ontology-Guided Knowledge Graph Extraction from Cybersecurity Logs with Large Language Models",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Cotti et al. - 2026 - OntoLogX ontology-guided knowledge graph extraction from cybersecurity logs with large language mod.pdf",
+    "pdf_sha256": "32879b778053a7f6dc34f6929a8204d134d6226c8666184e874a69997dc1a5e4",
+    "page_count": 24,
+    "title_mapping_score": 0.7512,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "e4d70a8569a2a7e6df0c4349f8a5ff6afe1a19e59ca9b4340f32b7016f9a84d7",
+        "original_excerpt_word_count": 21,
+        "pdf_page": 9,
+        "printed_page": "9",
+        "section": "4 Experiments",
+        "source_pdf_sha256": "32879b778053a7f6dc34f6929a8204d134d6226c8666184e874a69997dc1a5e4",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "e4d70a8569a2a7e6df0c4349f8a5ff6afe1a19e59ca9b4340f32b7016f9a84d7",
+          "original_excerpt_word_count": 21,
+          "pdf_page": 9,
+          "printed_page": "9",
+          "section": "4 Experiments",
+          "source_pdf_sha256": "32879b778053a7f6dc34f6929a8204d134d6226c8666184e874a69997dc1a5e4",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "637a173c61fa938a98a8a225a3fdf9878576c4df7cf740c7b3956cde5c0c37f6",
+          "original_excerpt_word_count": 23,
+          "pdf_page": 11,
+          "printed_page": "11",
+          "section": "4.1.4 Results",
+          "source_pdf_sha256": "32879b778053a7f6dc34f6929a8204d134d6226c8666184e874a69997dc1a5e4",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "d9a26b78f5eaf8c6bfc49f9a68f9d95be89352c15a760ed3e75f78d49dd4a7ec",
+          "original_excerpt_word_count": 50,
+          "pdf_page": 12,
+          "printed_page": "12",
+          "section": "4.1.4 Results",
+          "source_pdf_sha256": "32879b778053a7f6dc34f6929a8204d134d6226c8666184e874a69997dc1a5e4",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Background",
+        "2.4 Related Work",
+        "4 Experiments",
+        "4.1.4 Results",
+        "6.3 Full Experiment Results",
+        "Experiment",
+        "References",
+        "experiment ten times and considered the mean values."
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Background",
+        "2.4 Related Work",
+        "4 Experiments",
+        "4.1.4 Results",
+        "6.3 Full Experiment Results",
+        "Experiment",
+        "References",
+        "experiment ten times and considered the mean values."
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 17,
+          "pdf_score": 12,
+          "record_score": 19,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "construct"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 6,
+          "pdf_score": 5,
+          "record_score": 3,
+          "top_hits": [
+            "retrieval",
+            "select"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 16,
+          "pdf_score": 16,
+          "record_score": 0,
+          "top_hits": [
+            "logical inference",
+            "infer",
+            "inference",
+            "reasoning",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 18,
+          "pdf_score": 13,
+          "record_score": 21,
+          "top_hits": [
+            "correct",
+            "correction",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S025__ontologx-ontology-guided-knowledge-graph-extraction-from-cybersecurity-logs-with-large-langu.json",
+    "original_frozen_record_sha256": "583804dee77b6c2a4120498e545a3f9d5fa826d05bdca16beedda260e737f93c",
+    "original_frozen_record_bytes": 6762,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

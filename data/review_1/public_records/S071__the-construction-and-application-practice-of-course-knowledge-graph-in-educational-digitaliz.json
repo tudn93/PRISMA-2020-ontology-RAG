@@ -1,0 +1,189 @@
+{
+  "study_id": "S071",
+  "paper_title": "The Construction and Application Practice of Course Knowledge Graph in Educational Digitalization",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Tian - 2025 - The construction and application practice of course knowledge graph in educational digitalization.pdf",
+    "pdf_sha256": "61daed6fe5dd1fa3aae27ef5aed393c9a50a6479c0253b40ea4ce204bb7ed2a5",
+    "page_count": 4,
+    "title_mapping_score": 0.89,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "0be43347dbc427279291e7cc440eeb43e081b70aaaba8131654701748f8fb130",
+        "original_excerpt_word_count": 26,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "1. Introduction",
+        "source_pdf_sha256": "61daed6fe5dd1fa3aae27ef5aed393c9a50a6479c0253b40ea4ce204bb7ed2a5",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "da4df204c281591f4b90b56a7ddcbca917cf8e10e1acb31d10d4ce9a090a67dc",
+          "original_excerpt_word_count": 39,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "1. Introduction",
+          "source_pdf_sha256": "61daed6fe5dd1fa3aae27ef5aed393c9a50a6479c0253b40ea4ce204bb7ed2a5",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "4ce41aa4ffc77c3ba69a602b2d2ff7bae75c410445947e00301bd68fe42cf8a6",
+          "original_excerpt_word_count": 46,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "1. Introduction",
+          "source_pdf_sha256": "61daed6fe5dd1fa3aae27ef5aed393c9a50a6479c0253b40ea4ce204bb7ed2a5",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "bf41da67406dd7822141514bf897d11946f2ea7869d0eb0c8265b3d4789de00d",
+          "original_excerpt_word_count": 39,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "1. Introduction",
+          "source_pdf_sha256": "61daed6fe5dd1fa3aae27ef5aed393c9a50a6479c0253b40ea4ce204bb7ed2a5",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 4
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 22,
+          "pdf_score": 17,
+          "record_score": 23,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "entity alignment",
+            "extract",
+            "model",
+            "align"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 4,
+          "pdf_score": 3,
+          "record_score": 3,
+          "top_hits": [
+            "retrieval",
+            "path"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 5,
+          "pdf_score": 4,
+          "record_score": 5,
+          "top_hits": [
+            "proof",
+            "path"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 18,
+          "pdf_score": 13,
+          "record_score": 16,
+          "top_hits": [
+            "conflict resolution",
+            "conflict",
+            "audit"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S071__the-construction-and-application-practice-of-course-knowledge-graph-in-educational-digitaliz.json",
+    "original_frozen_record_sha256": "63547dbc5419d3029a15ed9ca2e9feb4738bbf3814bbe08c4c50d964200c5e85",
+    "original_frozen_record_bytes": 6675,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

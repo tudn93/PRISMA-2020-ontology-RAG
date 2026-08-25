@@ -1,0 +1,163 @@
+{
+  "study_id": "S022",
+  "paper_title": "Cross Examine: An Ensemble-based approach to leverage Large Language Models for Legal Text Analytics",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Chowdhury et al. - 2024 - Cross examine an ensemble-based approach to leverage large language models for legal text analytics.pdf",
+    "pdf_sha256": "ac2a2f93c980958816f7867bd34d90de459bd2e3ae2cf9bfcd94f4ed238aa4c2",
+    "page_count": 11,
+    "title_mapping_score": 0.8296
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "2a1bbb66323c569604b3456f1e892b19852b1e87e75112053d289412133ca143",
+        "original_excerpt_word_count": 27,
+        "pdf_page": 1,
+        "printed_page": "194",
+        "section": "1 Introduction",
+        "source_pdf_sha256": "ac2a2f93c980958816f7867bd34d90de459bd2e3ae2cf9bfcd94f4ed238aa4c2",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "A semantically controlled retrieval mechanism is connected to a downstream answer/generation/decision loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "87ddba4375b6623546d690df691385ab7f591f85286184f04cfc103564f8a552",
+          "original_excerpt_word_count": 31,
+          "pdf_page": 2,
+          "printed_page": "195",
+          "section": "1 Introduction",
+          "source_pdf_sha256": "ac2a2f93c980958816f7867bd34d90de459bd2e3ae2cf9bfcd94f4ed238aa4c2",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "de62c8e1dbced21a9445bfadcd50873df237e81c8beb0b25d0727742c82629bb",
+          "original_excerpt_word_count": 15,
+          "pdf_page": 8,
+          "printed_page": "201",
+          "section": "5.3 Knowledge Graph from Legal Repository:",
+          "source_pdf_sha256": "ac2a2f93c980958816f7867bd34d90de459bd2e3ae2cf9bfcd94f4ed238aa4c2",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "5.3 Knowledge Graph from Legal Repository:",
+        "References",
+        "proposed summary of summaries approach fared"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "5.3 Knowledge Graph from Legal Repository:",
+        "References",
+        "proposed summary of summaries approach fared"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 2,
+      "rag_passages": 1,
+      "output_title_hits": 0,
+      "output_passages": 17,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 14,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "type",
+          "relation",
+          "extract"
+        ]
+      },
+      "T2": {
+        "top_score": 13,
+        "threshold": 11,
+        "top_hits": [
+          "cypher",
+          "graph query"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S022__cross-examine-an-ensemble-based-approach-to-leverage-large-language-models-for-legal-text-an.json",
+    "original_frozen_record_sha256": "32f4ce5d7a51d4177e0dc281d187cac94ce2bbe964e0de58c6b24a9fc63d539b",
+    "original_frozen_record_bytes": 5155,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "study_id": "S037",
+  "paper_title": "On-Device Intent Reasoning for Smart Home Agents Via Ontology-Augmented sLLMs",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Jeong and Woo - 2025 - On-device intent reasoning for smart home agents via ontology-augmented sLLMs.pdf",
+    "pdf_sha256": "4fd240eaa4fc586751c4f89f13c13f136177de82cefcb05a7a41ad4ceddcc554",
+    "page_count": 18,
+    "title_mapping_score": 0.7991
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "04467c1fc5594f4b50e172a85187105b0c81fb1cd6416acf099716df626a7ec7",
+        "original_excerpt_word_count": 26,
+        "pdf_page": 16,
+        "printed_page": "197660",
+        "section": "EVALUATION",
+        "source_pdf_sha256": "4fd240eaa4fc586751c4f89f13c13f136177de82cefcb05a7a41ad4ceddcc554",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG supports an LLM workflow without a complete semantically controlled retrieval-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "a6eb535459ce24a88dd62b44b9804358da59062f06bf414061f2d19cc187648a",
+          "original_excerpt_word_count": 33,
+          "pdf_page": 1,
+          "printed_page": "197645",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "4fd240eaa4fc586751c4f89f13c13f136177de82cefcb05a7a41ad4ceddcc554",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "EVALUATION",
+        "II. RELATED WORK",
+        "REFERENCES",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No passage satisfied the prespecified semantic retrieval-control requirements.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "EVALUATION",
+        "II. RELATED WORK",
+        "REFERENCES",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "EVALUATION",
+        "II. RELATED WORK",
+        "REFERENCES",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": false,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 2,
+      "output_title_hits": 0,
+      "output_passages": 0,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 17,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "owl",
+          "construct",
+          "extract"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S037__on-device-intent-reasoning-for-smart-home-agents-via-ontology-augmented-sllms.json",
+    "original_frozen_record_sha256": "7a4d51faaba440f20bf85f71689654b8f65caa7a44d8d0fbe398594b67fe074a",
+    "original_frozen_record_bytes": 4671,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

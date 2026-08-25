@@ -1,0 +1,238 @@
+{
+  "study_id": "S111",
+  "paper_title": "Toward Auditable Urban Soil Management: A Knowledge Graph and LLM Approach Fusing Environmental and Geochemical Data",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Qin et al. - 2026 - Toward auditable urban soil management a knowledge graph and LLM approach fusing environmental and.pdf",
+    "pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+    "page_count": 17,
+    "title_mapping_score": 0.7456,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "d0c2a191bf8faa8ee2da69098f80c139b643d920e30049f17224bf518c537a3b",
+        "original_excerpt_word_count": 81,
+        "pdf_page": 15,
+        "printed_page": "15",
+        "section": "5. Conclusions",
+        "source_pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "d0c2a191bf8faa8ee2da69098f80c139b643d920e30049f17224bf518c537a3b",
+          "original_excerpt_word_count": 81,
+          "pdf_page": 15,
+          "printed_page": "15",
+          "section": "5. Conclusions",
+          "source_pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "7d514c1385a01ed6a81112b86bbbc624703925b26483cec2ea42aa0ee8163a93",
+          "original_excerpt_word_count": 59,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "2. Methods",
+          "source_pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "6c71c55a41e3dbad0e8f3dcc00e4825458ce4d93d9b4e24c7f977ddc5d2957ca",
+          "original_excerpt_word_count": 11,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "2.2. Framework of KBQA",
+          "source_pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "e71ec7d32f7e421f6fb216342ccd25c1a3750fe4249a944a41c7bc460918ee25",
+          "original_excerpt_word_count": 36,
+          "pdf_page": 11,
+          "printed_page": "11",
+          "section": "ablation study on the Exact Match (EM) metric (Table 3). As expected, removing the",
+          "source_pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "bc92bb246293c542c1b7eed0c1657202929ba8c249986fde91fe467c436a8ae7",
+          "original_excerpt_word_count": 34,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "2. Methods",
+          "source_pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "high"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "7727a5a54e76a760220279279674e3a6efa029eeaabf7b392adf900cc262a1d1",
+          "original_excerpt_word_count": 38,
+          "pdf_page": 9,
+          "printed_page": "9",
+          "section": "2.2. Framework of KBQA",
+          "source_pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "99abe4ca2fae5ed9a3236df66a3cc2077010e0291b025468739749f0a97b5bc7",
+          "original_excerpt_word_count": 23,
+          "pdf_page": 10,
+          "printed_page": "10",
+          "section": "3. Results",
+          "source_pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "high"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 1,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 27,
+          "pdf_score": 22,
+          "record_score": 15,
+          "top_hits": [
+            "ontology",
+            "rdf",
+            "owl",
+            "shacl",
+            "extract",
+            "model",
+            "relation",
+            "constraint"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 14,
+          "pdf_score": 14,
+          "record_score": 1,
+          "top_hits": [
+            "sparql",
+            "cypher"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 17,
+          "pdf_score": 16,
+          "record_score": 4,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 19,
+          "pdf_score": 16,
+          "record_score": 11,
+          "top_hits": [
+            "correct",
+            "abstain",
+            "correct",
+            "constraint"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S111__toward-auditable-urban-soil-management-a-knowledge-graph-and-llm-approach-fusing-environment.json",
+    "original_frozen_record_sha256": "864cbb8b8f3b710e27a2c00667a561f1cbe4542ee05994de34d9ab8dce100453",
+    "original_frozen_record_bytes": 9846,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

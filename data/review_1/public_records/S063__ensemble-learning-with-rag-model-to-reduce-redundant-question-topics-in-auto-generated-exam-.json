@@ -1,0 +1,199 @@
+{
+  "study_id": "S063",
+  "paper_title": "Ensemble learning with RAG model to reduce redundant question topics in auto-generated exam questions",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Sairaj and Balasundaram - 2025 - Ensemble learning with RAG model to reduce redundant question topics in auto-generated exam question.pdf",
+    "pdf_sha256": "fc19bebe29117260fc30597ee634a7a046a8938dfcb62a187cdf4332bbfa2040",
+    "page_count": 17,
+    "title_mapping_score": 0.7833,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "a1153fb312f2dae08f692c7dfb7a4efb534232bc1a62f5ec688e23b48a28e500",
+        "original_excerpt_word_count": 23,
+        "pdf_page": 4,
+        "printed_page": "4",
+        "section": "3 Methodology",
+        "source_pdf_sha256": "fc19bebe29117260fc30597ee634a7a046a8938dfcb62a187cdf4332bbfa2040",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "1a453fc876cf29bf6c619b53314b63c54543be14ba57e97a2d93394eb7847366",
+          "original_excerpt_word_count": 15,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "3 Methodology",
+          "source_pdf_sha256": "fc19bebe29117260fc30597ee634a7a046a8938dfcb62a187cdf4332bbfa2040",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "e8f2e28a06f56210eab8ab3e8ddccaa57a4cf2d157cc872a552ee78b4775ce22",
+          "original_excerpt_word_count": 97,
+          "pdf_page": 10,
+          "printed_page": "10",
+          "section": "4 Experiments, results and discussion",
+          "source_pdf_sha256": "fc19bebe29117260fc30597ee634a7a046a8938dfcb62a187cdf4332bbfa2040",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "4c2e92893b9e1aad375699d3a91f7bd8652ef5f804c3f3bdec29f3fb89ebc091",
+          "original_excerpt_word_count": 22,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "3 Methodology",
+          "source_pdf_sha256": "fc19bebe29117260fc30597ee634a7a046a8938dfcb62a187cdf4332bbfa2040",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related work",
+        "3 Methodology",
+        "4 Experiments, results and discussion",
+        "5 Conclusion and future work",
+        "References",
+        "proposed (Algorithm 1). This method prioritizes decision stumps that enhance model"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related work",
+        "3 Methodology",
+        "4 Experiments, results and discussion",
+        "5 Conclusion and future work",
+        "References",
+        "proposed (Algorithm 1). This method prioritizes decision stumps that enhance model"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 0
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 17,
+          "pdf_score": 12,
+          "record_score": 18,
+          "top_hits": [
+            "ontology",
+            "entity alignment",
+            "align"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 2,
+          "top_hits": [
+            "retrieve",
+            "select",
+            "context"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 2,
+          "top_hits": [
+            "reasoning",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S063__ensemble-learning-with-rag-model-to-reduce-redundant-question-topics-in-auto-generated-exam-.json",
+    "original_frozen_record_sha256": "33037d7ee2b1f67d83df8c808d1b50847ddf137cccb35aef338824cdf18db34b",
+    "original_frozen_record_bytes": 7186,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

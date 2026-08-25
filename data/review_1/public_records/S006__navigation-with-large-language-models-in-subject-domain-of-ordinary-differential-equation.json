@@ -1,0 +1,188 @@
+{
+  "study_id": "S006",
+  "paper_title": "Navigation with Large Language Models in Subject Domain of Ordinary Differential Equation",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Ataeva and Tuchkova - 2025 - Navigation with large language models in subject domain of ordinary differential equation.pdf",
+    "pdf_sha256": "71ab636064fcabae5f75eb587d208779d803e8d508fb6171b3374e6dd0263ca0",
+    "page_count": 13,
+    "title_mapping_score": 0.7944,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "INTERFACE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "f6642ec3f36178a6fbd6a9e2626927c59904e62b63b28bf17ab7f9095ac83fa0",
+        "original_excerpt_word_count": 23,
+        "pdf_page": 1,
+        "printed_page": "2723",
+        "section": "1. INTRODUCTION",
+        "source_pdf_sha256": "71ab636064fcabae5f75eb587d208779d803e8d508fb6171b3374e6dd0263ca0",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Natural-language graph access, formal-query generation, or KG question answering is the primary contribution without a complete ontology-aware RAG loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "f6642ec3f36178a6fbd6a9e2626927c59904e62b63b28bf17ab7f9095ac83fa0",
+          "original_excerpt_word_count": 23,
+          "pdf_page": 1,
+          "printed_page": "2723",
+          "section": "1. INTRODUCTION",
+          "source_pdf_sha256": "71ab636064fcabae5f75eb587d208779d803e8d508fb6171b3374e6dd0263ca0",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "ec32c21cfa471645391bcb1aff63ce6d917a0e48caf9564fcb67d2c6bb53d84a",
+          "original_excerpt_word_count": 7,
+          "pdf_page": 11,
+          "printed_page": "2733",
+          "section": "5. CONCLUSIONS AND FURTHER RESEARCH",
+          "source_pdf_sha256": "71ab636064fcabae5f75eb587d208779d803e8d508fb6171b3374e6dd0263ca0",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. INTRODUCTION",
+        "2. RELATED WORKS",
+        "5. CONCLUSIONS AND FURTHER RESEARCH",
+        "REFERENCES"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "ec32c21cfa471645391bcb1aff63ce6d917a0e48caf9564fcb67d2c6bb53d84a",
+          "original_excerpt_word_count": 7,
+          "pdf_page": 11,
+          "printed_page": "2733",
+          "section": "5. CONCLUSIONS AND FURTHER RESEARCH",
+          "source_pdf_sha256": "71ab636064fcabae5f75eb587d208779d803e8d508fb6171b3374e6dd0263ca0",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 16,
+          "pdf_score": 12,
+          "record_score": 12,
+          "top_hits": [
+            "ontology",
+            "rdf",
+            "owl",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 10,
+          "pdf_score": 8,
+          "record_score": 8,
+          "top_hits": [
+            "sparql",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 2,
+          "pdf_score": 2,
+          "record_score": 0,
+          "top_hits": [
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 14,
+          "pdf_score": 11,
+          "record_score": 9,
+          "top_hits": [
+            "correct",
+            "correction",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S006__navigation-with-large-language-models-in-subject-domain-of-ordinary-differential-equation.json",
+    "original_frozen_record_sha256": "45f76e6310d89f91ddda5277c33eb6619ddada4207798aa167d3d7c5c2553d4a",
+    "original_frozen_record_bytes": 6422,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

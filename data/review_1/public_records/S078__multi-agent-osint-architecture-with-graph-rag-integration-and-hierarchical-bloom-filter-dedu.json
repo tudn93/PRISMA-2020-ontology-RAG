@@ -1,0 +1,200 @@
+{
+  "study_id": "S078",
+  "paper_title": "Multi-Agent OSINT Architecture with Graph RAG Integration and Hierarchical Bloom-Filter Deduplication",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Yurtalan and Arslan - 2025 - Multi-agent OSINT architecture with graph RAG integration and hierarchical bloom-filter deduplicatio.pdf",
+    "pdf_sha256": "eb01a0dc5c61e5bb8b38c7f0fd10f893b968fcdf5b9e1ec2c885946a8536390a",
+    "page_count": 6,
+    "title_mapping_score": 0.7686,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "6f0fd8433691068c86214c73bbc2b4129a87659e83437fd85d97f0c9a7584b41",
+        "original_excerpt_word_count": 32,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Unnumbered/section not detected",
+        "source_pdf_sha256": "eb01a0dc5c61e5bb8b38c7f0fd10f893b968fcdf5b9e1ec2c885946a8536390a",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "f7aeb88d5174c9db9049a8a0825a424bd41f01e208481ff475c5a0a5d99b799b",
+          "original_excerpt_word_count": 29,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "IV. E XPERIMENTAL ANALYSIS AND EVALUATION",
+          "source_pdf_sha256": "eb01a0dc5c61e5bb8b38c7f0fd10f893b968fcdf5b9e1ec2c885946a8536390a",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "7afc143ca4d953d2d91547a9706fa3cc0a628f427911dd646258452a0c81fe04",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "eb01a0dc5c61e5bb8b38c7f0fd10f893b968fcdf5b9e1ec2c885946a8536390a",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "IV. E XPERIMENTAL ANALYSIS AND EVALUATION",
+        "Unnumbered/section not detected",
+        "background task queue. After the API server completes the",
+        "knowledge graph inference and vector similarity search within"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "e4aaf22f17a5118496f87b0a0e1a73a59b40f742ebfb441544510dd932747387",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "IV. E XPERIMENTAL ANALYSIS AND EVALUATION",
+          "source_pdf_sha256": "eb01a0dc5c61e5bb8b38c7f0fd10f893b968fcdf5b9e1ec2c885946a8536390a",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "dfdb069b61331deed5a336220414df65f2ac485457b75c10387a6ba0e8269aa3",
+          "original_excerpt_word_count": 8,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "IV. E XPERIMENTAL ANALYSIS AND EVALUATION",
+          "source_pdf_sha256": "eb01a0dc5c61e5bb8b38c7f0fd10f893b968fcdf5b9e1ec2c885946a8536390a",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 10,
+          "pdf_score": 8,
+          "record_score": 7,
+          "top_hits": [
+            "ontology",
+            "extract"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 9,
+          "pdf_score": 8,
+          "record_score": 5,
+          "top_hits": [
+            "graph traversal",
+            "retrieval",
+            "context"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 0,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 10,
+          "pdf_score": 8,
+          "record_score": 6,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S078__multi-agent-osint-architecture-with-graph-rag-integration-and-hierarchical-bloom-filter-dedu.json",
+    "original_frozen_record_sha256": "db8eeba4a5afbea92e9520569cdb79a53631daf57169131eed5c2b96bb4943ad",
+    "original_frozen_record_bytes": 7112,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

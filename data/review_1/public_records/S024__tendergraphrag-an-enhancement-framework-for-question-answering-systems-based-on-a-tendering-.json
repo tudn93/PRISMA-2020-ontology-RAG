@@ -1,0 +1,183 @@
+{
+  "study_id": "S024",
+  "paper_title": "TenderGraphRAG: An Enhancement Framework for Question Answering Systems Based on a Tendering and Bidding Knowledge Graph",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Chu et al. - 2025 - TenderGraphRAG an enhancement framework for question answering systems based on a tendering and bid.pdf",
+    "pdf_sha256": "4aa9c83d90455d40cf06e11d38540a7a467c84b5188afefbf4300af4443da43c",
+    "page_count": 11,
+    "title_mapping_score": 0.6998,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "b1ca89c14a14d32f9f5e551c7fe135dc214b823dbb23a5730eb0dc4d8ca12331",
+        "original_excerpt_word_count": 44,
+        "pdf_page": 3,
+        "printed_page": "3",
+        "section": "III. T ENDERGRAPHRAG FRAMEWORK INTRODUCTION",
+        "source_pdf_sha256": "4aa9c83d90455d40cf06e11d38540a7a467c84b5188afefbf4300af4443da43c",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "af7e7e47cd92cb2d0e55a39ba8442bbc67eabba0952a3059731fa8d4a29a8c27",
+          "original_excerpt_word_count": 58,
+          "pdf_page": 10,
+          "printed_page": "10",
+          "section": "evaluation centers on a novel Expert-Calibrated LLM-assisted",
+          "source_pdf_sha256": "4aa9c83d90455d40cf06e11d38540a7a467c84b5188afefbf4300af4443da43c",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "3e94649d8786759c54263a2fe5c3a73fa1ab4496e9a7dcbccdf2521d1ff9e261",
+          "original_excerpt_word_count": 17,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "III. T ENDERGRAPHRAG FRAMEWORK INTRODUCTION",
+          "source_pdf_sha256": "4aa9c83d90455d40cf06e11d38540a7a467c84b5188afefbf4300af4443da43c",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "III. T ENDERGRAPHRAG FRAMEWORK INTRODUCTION",
+        "REFERENCES",
+        "evaluation centers on a novel Expert-Calibrated LLM-assisted",
+        "framework built upon a high-fidelity, domain-specific knowledge"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "III. T ENDERGRAPHRAG FRAMEWORK INTRODUCTION",
+        "REFERENCES",
+        "evaluation centers on a novel Expert-Calibrated LLM-assisted",
+        "framework built upon a high-fidelity, domain-specific knowledge"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 3,
+        "retrieval": 1,
+        "output_loop": 1,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 16,
+          "pdf_score": 12,
+          "record_score": 12,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "construct"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 17,
+          "pdf_score": 16,
+          "record_score": 5,
+          "top_hits": [
+            "cypher",
+            "graph query",
+            "retrieve",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 16,
+          "pdf_score": 16,
+          "record_score": 1,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 10,
+          "pdf_score": 10,
+          "record_score": 0,
+          "top_hits": [
+            "reject",
+            "reject"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S024__tendergraphrag-an-enhancement-framework-for-question-answering-systems-based-on-a-tendering-.json",
+    "original_frozen_record_sha256": "c9139cb524b40e59e4a4f2af2a6a2b8aeef0d78e0ad983c42f1f1ad29bdcee53",
+    "original_frozen_record_bytes": 6582,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

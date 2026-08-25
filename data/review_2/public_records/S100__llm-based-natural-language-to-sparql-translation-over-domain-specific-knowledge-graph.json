@@ -1,0 +1,192 @@
+{
+  "study_id": "S100",
+  "paper_title": "LLM-Based Natural Language to SPARQL Translation over Domain-Specific Knowledge Graph",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Rasheed and Aguado - 2025 - LLM-based natural language to SPARQL translation over domain-specific knowledge graph.pdf",
+    "pdf_sha256": "37c7cee390aaafa49e1753ebf00662e8bda07603e6e650bcf5d42adf164d9c22",
+    "page_count": 13,
+    "title_mapping_score": 0.7942
+  },
+  "primary_tier": {
+    "code": "INTERFACE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "cd3eb10cb17521038a894d40c2fa10fb13ee6ce7b9f5f8e261a81d446e797812",
+        "original_excerpt_word_count": 7,
+        "pdf_page": 12,
+        "printed_page": "12",
+        "section": "4. Experiment and Results Discussion",
+        "source_pdf_sha256": "37c7cee390aaafa49e1753ebf00662e8bda07603e6e650bcf5d42adf164d9c22",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Natural-language graph access or formal-query generation is the primary contribution.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "57ee26d202ee4b6641c37f5cc5c3d164a8ee527f2038cc508094514cc561052b",
+          "original_excerpt_word_count": 50,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "3.1 Target Knowledge Graph Ontology",
+          "source_pdf_sha256": "37c7cee390aaafa49e1753ebf00662e8bda07603e6e650bcf5d42adf164d9c22",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "9c1c530c3febed96450173fc6961897e6ef96135838fb83c222f6c17732aecbc",
+          "original_excerpt_word_count": 59,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "3.1 Target Knowledge Graph Ontology",
+          "source_pdf_sha256": "37c7cee390aaafa49e1753ebf00662e8bda07603e6e650bcf5d42adf164d9c22",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "c9789b5ff9db2db73170f23e125f35f14d90df289bfa4890a48bcd91f654ad7d",
+          "original_excerpt_word_count": 10,
+          "pdf_page": 13,
+          "printed_page": "13",
+          "section": "4. Experiment and Results Discussion",
+          "source_pdf_sha256": "37c7cee390aaafa49e1753ebf00662e8bda07603e6e650bcf5d42adf164d9c22",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "867a7fbe38698de9c8da0e4be79b36947b9b7d2c83a6a30ea0c9da7b727347f8",
+          "original_excerpt_word_count": 35,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "3.1 Target Knowledge Graph Ontology",
+          "source_pdf_sha256": "37c7cee390aaafa49e1753ebf00662e8bda07603e6e650bcf5d42adf164d9c22",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Related Work",
+        "3.1 Target Knowledge Graph Ontology",
+        "4. Experiment and Results Discussion",
+        "Abstract"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Related Work",
+        "3.1 Target Knowledge Graph Ontology",
+        "4. Experiment and Results Discussion",
+        "Abstract"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": true,
+      "interface": 1,
+      "rag_title_hits": 0,
+      "rag_passages": 0,
+      "output_title_hits": 0,
+      "output_passages": 9,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 25,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "rdf",
+          "rdfs",
+          "represent",
+          "type",
+          "class"
+        ]
+      },
+      "T2": {
+        "top_score": 27,
+        "threshold": 11,
+        "top_hits": [
+          "natural language to sparql",
+          "sparql",
+          "sparql query"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S100__llm-based-natural-language-to-sparql-translation-over-domain-specific-knowledge-graph.json",
+    "original_frozen_record_sha256": "009201684d4214d8cc7484a44b154c613c5af8e2abcb643fbb7bccef964f6abf",
+    "original_frozen_record_bytes": 6478,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

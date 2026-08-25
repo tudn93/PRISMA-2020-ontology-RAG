@@ -1,0 +1,199 @@
+{
+  "study_id": "S013",
+  "paper_title": "Generative Retrieval-Augmented Ontologic Graph and Multiagent Strategies for Interpretive Large Language Model-Based Materials Design",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Buehler - 2024 - Generative retrieval-augmented ontologic graph and multiagent strategies for interpretive large lang.pdf",
+    "pdf_sha256": "77c49049d25d5c600b78e7f52e794592d40b79d5c91c23d606416d88db765c61",
+    "page_count": 37,
+    "title_mapping_score": 0.6609,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "b5da07b63a9da3300f859ebe1214e4d9d13b97532880b3714a0c12531fb94995",
+        "original_excerpt_word_count": 78,
+        "pdf_page": 3,
+        "printed_page": "3",
+        "section": "ABSTRACT:",
+        "source_pdf_sha256": "77c49049d25d5c600b78e7f52e794592d40b79d5c91c23d606416d88db765c61",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "4758d1bd40fa97e14b871567423630fa1610e0232ff60a6814f31de503ef7771",
+          "original_excerpt_word_count": 42,
+          "pdf_page": 32,
+          "printed_page": "32",
+          "section": "result of a Google Scholar search on the topic of “Deep learning",
+          "source_pdf_sha256": "77c49049d25d5c600b78e7f52e794592d40b79d5c91c23d606416d88db765c61",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "8c5711c3a58009c2e73cecc9910be4dd76d3244c382499a3f172fb3764e540ef",
+          "original_excerpt_word_count": 48,
+          "pdf_page": 15,
+          "printed_page": "15",
+          "section": "result of a Google Scholar search on the topic of “Deep learning",
+          "source_pdf_sha256": "77c49049d25d5c600b78e7f52e794592d40b79d5c91c23d606416d88db765c61",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "5435c76a5a4e8c1ae574dd4deda827e9e0ceacf6fee7efe4f52f12d4be065ee8",
+          "original_excerpt_word_count": 26,
+          "pdf_page": 33,
+          "printed_page": "33",
+          "section": "framework (https://github.com/microsoft/autogen).86",
+          "source_pdf_sha256": "77c49049d25d5c600b78e7f52e794592d40b79d5c91c23d606416d88db765c61",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "10. Agent-Based Modeling, Applied Here to Write Code, Execute, and Plot the Resultsa",
+        "ABSTRACT:",
+        "REFERENCES",
+        "experiment of using a set of two LLM agents, each with specific",
+        "framework (https://github.com/microsoft/autogen).86",
+        "result of a Google Scholar search on the topic of “Deep learning"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "10. Agent-Based Modeling, Applied Here to Write Code, Execute, and Plot the Resultsa",
+        "ABSTRACT:",
+        "REFERENCES",
+        "experiment of using a set of two LLM agents, each with specific",
+        "framework (https://github.com/microsoft/autogen).86",
+        "result of a Google Scholar search on the topic of “Deep learning"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 18,
+          "pdf_score": 15,
+          "record_score": 11,
+          "top_hits": [
+            "ontological",
+            "owl",
+            "construct",
+            "extract",
+            "model"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 7,
+          "pdf_score": 6,
+          "record_score": 3,
+          "top_hits": [
+            "retrieve",
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 2,
+          "top_hits": [
+            "infer",
+            "inference"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 15,
+          "pdf_score": 13,
+          "record_score": 6,
+          "top_hits": [
+            "correct",
+            "correction",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S013__generative-retrieval-augmented-ontologic-graph-and-multiagent-strategies-for-interpretive-la.json",
+    "original_frozen_record_sha256": "ab7fef24300d596bc2887b8ea15e8ec65132ca183cf918fd398e6625b6b04744",
+    "original_frozen_record_bytes": 7685,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

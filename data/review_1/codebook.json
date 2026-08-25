@@ -1,0 +1,37 @@
+{
+  "codebook_version": "2.0",
+  "coding_scope": "Independent pass 1 for 112 included studies",
+  "source_rule": "Decisions must be based on the matched full-text PDF. Existing coding labels are out of scope.",
+  "integration_tiers": {
+    "CORE": "Ontology or semantic constraints operate inside a complete retrieval-to-generation, verification, or governance loop.",
+    "WEAKER": "A GraphRAG or KG-RAG loop is present, but ontology is limited to a lightweight schema, vocabulary, or background semantic context.",
+    "ANCHORED": "Ontology or KG evidence guides an LLM generation, reasoning, verification, or agent workflow without a complete retrieval-generation loop.",
+    "CONSTRUCTION": "Ontology or KG construction, extraction, enrichment, alignment, evolution, or enabling infrastructure is the primary contribution before downstream RAG.",
+    "INTERFACE": "The primary contribution is natural-language graph access, formal-query generation, or KG question answering without a complete ontology-aware RAG loop."
+  },
+  "roles": {
+    "T1": "Semantic Schema: ontology or schema controls representation, class/relation typing, entity alignment, graph construction, mapping, or validation.",
+    "T2": "Retrieval Prior: ontology or schema constrains query generation, semantic search, graph traversal, subgraph selection, query expansion, SPARQL/Cypher generation, or retrieved context.",
+    "T3": "Reasoning Backbone: executable rules, logic, proof procedures, reasoners, planning preconditions, or explicit inference materially contribute to the result.",
+    "T4": "Governance Layer: ontology or KG evidence supports operational verification, provenance checking, conflict/compliance handling, rejection, correction, or abstention."
+  },
+  "cross_role_rules": [
+    "T2=1 requires T1=1.",
+    "Generic RAG, vector search, or graph use does not establish T2 without semantic control.",
+    "A generated rationale or an unexecuted graph path does not establish T3.",
+    "A trustworthiness claim without an operational control action does not establish T4.",
+    "Constraint use only during KG construction is T1 unless it also controls an answer, claim, decision, or operational workflow."
+  ],
+  "evidence_levels": {
+    "described": "The mechanism is stated or architecturally proposed, without sufficient evidence that it was executed.",
+    "implemented": "The mechanism was instantiated or executed in a system, algorithm, query, reasoner, validation, or workflow, but was not directly evaluated as a mechanism.",
+    "evaluated": "The role-specific mechanism was tested, measured, validated, benchmarked, or ablated. Overall end-to-end evaluation alone is insufficient.",
+    "not_evidenced": "Used only for a decision of 0; no qualifying operational evidence was located."
+  },
+  "locator_rule": "Every positive role and every integration tier requires an exact excerpt, one-based PDF page, available printed page label, section locator, and source PDF hash.",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  }
+}

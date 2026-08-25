@@ -1,0 +1,202 @@
+{
+  "study_id": "S088",
+  "paper_title": "Explainable Artificial Intelligence Framework for Predicting Treatment Outcomes in Age-Related Macular Degeneration",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Wang - 2025 - Explainable artificial intelligence framework for predicting treatment outcomes in age-related macul.pdf",
+    "pdf_sha256": "c4fa5e0d16199ad66418eff3339b2686f4eedef95d1acda5c48199dbec03715c",
+    "page_count": 35,
+    "title_mapping_score": 0.758,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "71b16d9035b52059f86a55e8c3a312dd1c75be87d8ee85be8e6cff9bba0894cd",
+        "original_excerpt_word_count": 91,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Unnumbered/section not detected",
+        "source_pdf_sha256": "c4fa5e0d16199ad66418eff3339b2686f4eedef95d1acda5c48199dbec03715c",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology or KG evidence supports an LLM workflow without a complete retrieval-to-generation loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "1b7e1b969efc62c77c28814dabdd2bcbc1e1209f6864d56840350a064a999719",
+          "original_excerpt_word_count": 33,
+          "pdf_page": 18,
+          "printed_page": "18",
+          "section": "3. Materials and Methods",
+          "source_pdf_sha256": "c4fa5e0d16199ad66418eff3339b2686f4eedef95d1acda5c48199dbec03715c",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Related Work",
+        "3. Materials and Methods",
+        "4. Results and Discussions",
+        "4.3. Discussions",
+        "5.1. Patient Background and Examination",
+        "6.9. Economic Evaluation and Clinical Utility",
+        "8. Conclusions",
+        "Proposed",
+        "References",
+        "Unnumbered/section not detected",
+        "evaluation of safety and efficacy.",
+        "framework is presented in Table 1, highlighting the evolution from opaque classification",
+        "method as a next-generation decision-support tool for precision retinal disease management"
+      ],
+      "absence_rationale": "No qualifying ontology-controlled retrieval or query mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "0bb16f4c57694f579d174cd50dc2cd1b6b44d16659890f3a2f9faccbf2fadd9b",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 16,
+          "printed_page": "16",
+          "section": "3. Materials and Methods",
+          "source_pdf_sha256": "c4fa5e0d16199ad66418eff3339b2686f4eedef95d1acda5c48199dbec03715c",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "high"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Related Work",
+        "3. Materials and Methods",
+        "4. Results and Discussions",
+        "4.3. Discussions",
+        "5.1. Patient Background and Examination",
+        "6.9. Economic Evaluation and Clinical Utility",
+        "8. Conclusions",
+        "Proposed",
+        "References",
+        "Unnumbered/section not detected",
+        "evaluation of safety and efficacy.",
+        "framework is presented in Table 1, highlighting the evolution from opaque classification",
+        "method as a next-generation decision-support tool for precision retinal disease management"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 17,
+          "pdf_score": 12,
+          "record_score": 15,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "align"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 4,
+          "pdf_score": 4,
+          "record_score": 0,
+          "top_hits": [
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 26,
+          "pdf_score": 25,
+          "record_score": 4,
+          "top_hits": [
+            "inference engine",
+            "symbolic inference",
+            "infer",
+            "inference",
+            "rule"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 10,
+          "pdf_score": 10,
+          "record_score": 0,
+          "top_hits": [
+            "audit trail",
+            "audit"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S088__explainable-artificial-intelligence-framework-for-predicting-treatment-outcomes-in-age-relat.json",
+    "original_frozen_record_sha256": "37726fdbf365322f94939ef6f1cb21cebc0294413b4054a59a02e0b8241fdae0",
+    "original_frozen_record_bytes": 7393,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

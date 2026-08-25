@@ -1,0 +1,174 @@
+{
+  "study_id": "S067",
+  "paper_title": "Leveraging Graph-RAG for Enhanced Diagnostic and Treatment Strategies in Dentistry",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Sophaken et al. - 2024 - Leveraging graph-RAG for enhanced diagnostic and treatment strategies in dentistry.pdf",
+    "pdf_sha256": "0568e7d075d2bfd94b06c34e41c9837c75dbf309dce38ae34797a52ade356aa3",
+    "page_count": 6,
+    "title_mapping_score": 0.7886
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "kind": "tier",
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "93cb125c0d986e269466065c66c710aec490cdf863ccdba3430bd71c1fd66112",
+        "original_excerpt_word_count": 30,
+        "pdf_page": 5,
+        "printed_page": "5",
+        "section": "V. E XPERIMENTAL RESULTS",
+        "source_pdf_sha256": "0568e7d075d2bfd94b06c34e41c9837c75dbf309dce38ae34797a52ade356aa3",
+        "locator_method": "pass2_manual_source_audit",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/triple-store retrieval is integrated into the evaluated generation and decision-support workflow.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "25fcc7b944079ff5a363539769062960aa7600d65c05e907eb005ea59dcdc828",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "V. E XPERIMENTAL RESULTS",
+          "source_pdf_sha256": "0568e7d075d2bfd94b06c34e41c9837c75dbf309dce38ae34797a52ade356aa3",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "fce731d3d649698eafaf5af4817707adb2c0030bd0be035abb7d493ce032b99e",
+          "original_excerpt_word_count": 8,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "V. E XPERIMENTAL RESULTS",
+          "source_pdf_sha256": "0568e7d075d2bfd94b06c34e41c9837c75dbf309dce38ae34797a52ade356aa3",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "93cb125c0d986e269466065c66c710aec490cdf863ccdba3430bd71c1fd66112",
+          "original_excerpt_word_count": 30,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "V. E XPERIMENTAL RESULTS",
+          "source_pdf_sha256": "0568e7d075d2bfd94b06c34e41c9837c75dbf309dce38ae34797a52ade356aa3",
+          "locator_method": "pass2_manual_source_audit",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "II. B ACKGROUND AND RELATED WORKS",
+        "Unnumbered/section not detected",
+        "V. E XPERIMENTAL RESULTS"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "II. B ACKGROUND AND RELATED WORKS",
+        "Unnumbered/section not detected",
+        "V. E XPERIMENTAL RESULTS"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 4,
+      "rag_passages": 6,
+      "output_title_hits": 0,
+      "output_passages": 4,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 19,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "owl",
+          "represent",
+          "extract"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "primary_tier",
+      "T2"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S067__leveraging-graph-rag-for-enhanced-diagnostic-and-treatment-strategies-in-dentistry.json",
+    "original_frozen_record_sha256": "b38738466727fa1e2bf3a212da7d35d832fd26c5caa738e8e662a94f000c59d1",
+    "original_frozen_record_bytes": 5563,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

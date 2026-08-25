@@ -1,0 +1,11 @@
+{
+  "validated_at": "2026-08-21T18:01:35+00:00",
+  "coding_stage": "pre_adjudication_label_blind_pass_2",
+  "study_count": 112,
+  "positive_role_labels": 224,
+  "manual_review_queue_count": 0,
+  "evidence_matrix_rows": 448,
+  "status": "pass",
+  "issue_count": 0,
+  "issues": []
+}

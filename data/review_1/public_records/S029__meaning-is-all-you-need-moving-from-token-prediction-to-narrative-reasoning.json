@@ -1,0 +1,195 @@
+{
+  "study_id": "S029",
+  "paper_title": "Meaning Is All You Need: Moving From Token Prediction to Narrative Reasoning",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Derikiants and Mazin - 2026 - Meaning is all you need moving from token prediction to narrative reasoning.pdf",
+    "pdf_sha256": "b4ced53dfa64ffea1fbffe04ba7e2b0c51a4e2c243e07ba5fcff1b00b0cdd596",
+    "page_count": 18,
+    "title_mapping_score": 0.7858,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "273685b34f053691ad7dfc912299f31b83409a875dbaf915b2ca1597fc655529",
+        "original_excerpt_word_count": 65,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "1 Introduction",
+        "source_pdf_sha256": "b4ced53dfa64ffea1fbffe04ba7e2b0c51a4e2c243e07ba5fcff1b00b0cdd596",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology or KG evidence supports an LLM workflow without a complete retrieval-to-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "9928fb291a4cdd8318a533fbcedf6cae6355fb46a30dcfa74b945b8ca2e0f537",
+          "original_excerpt_word_count": 34,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "3 Implementation: Embryo AGI Architecture",
+          "source_pdf_sha256": "b4ced53dfa64ffea1fbffe04ba7e2b0c51a4e2c243e07ba5fcff1b00b0cdd596",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Methodology: The Engineering Approach",
+        "3 Implementation: Embryo AGI Architecture",
+        "7 References",
+        "Conclusion of the first stage",
+        "Conclusion of the fourth stage",
+        "Conclusion of the second stage",
+        "Conclusion of the sixth stage",
+        "Conclusion of the third stage"
+      ],
+      "absence_rationale": "No qualifying ontology-controlled retrieval or query mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "66f542d3c967bdca56153c0b0bf7a49855d50903182578c5d59f763278d0cce8",
+          "original_excerpt_word_count": 42,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "2 Methodology: The Engineering Approach",
+          "source_pdf_sha256": "b4ced53dfa64ffea1fbffe04ba7e2b0c51a4e2c243e07ba5fcff1b00b0cdd596",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "high"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "1546cf6b97787aac406e4da1b683c637d0c5ee5167a48c42129ba3d7e8286639",
+          "original_excerpt_word_count": 16,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "2 Methodology: The Engineering Approach",
+          "source_pdf_sha256": "b4ced53dfa64ffea1fbffe04ba7e2b0c51a4e2c243e07ba5fcff1b00b0cdd596",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 0
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 14,
+          "pdf_score": 11,
+          "record_score": 10,
+          "top_hits": [
+            "ontology",
+            "model",
+            "type",
+            "class",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 5,
+          "pdf_score": 4,
+          "record_score": 5,
+          "top_hits": [
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 19,
+          "pdf_score": 16,
+          "record_score": 10,
+          "top_hits": [
+            "logical inference",
+            "infer",
+            "inference",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 11,
+          "pdf_score": 10,
+          "record_score": 3,
+          "top_hits": [
+            "reject",
+            "reject"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S029__meaning-is-all-you-need-moving-from-token-prediction-to-narrative-reasoning.json",
+    "original_frozen_record_sha256": "253bdd586f3abac6b92a1c918c6b843b21cd9fa42eee8efba367c0d18b59bdc9",
+    "original_frozen_record_bytes": 6946,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

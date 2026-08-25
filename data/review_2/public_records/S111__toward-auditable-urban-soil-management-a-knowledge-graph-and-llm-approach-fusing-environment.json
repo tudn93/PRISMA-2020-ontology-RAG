@@ -1,0 +1,203 @@
+{
+  "study_id": "S111",
+  "paper_title": "Toward Auditable Urban Soil Management: A Knowledge Graph and LLM Approach Fusing Environmental and Geochemical Data",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Qin et al. - 2026 - Toward auditable urban soil management a knowledge graph and LLM approach fusing environmental and.pdf",
+    "pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+    "page_count": 17,
+    "title_mapping_score": 0.7456
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "d0c2a191bf8faa8ee2da69098f80c139b643d920e30049f17224bf518c537a3b",
+        "original_excerpt_word_count": 81,
+        "pdf_page": 15,
+        "printed_page": "15",
+        "section": "5. Conclusions",
+        "source_pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "A semantically controlled retrieval mechanism is connected to a downstream answer/generation/decision loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "d0c2a191bf8faa8ee2da69098f80c139b643d920e30049f17224bf518c537a3b",
+          "original_excerpt_word_count": 81,
+          "pdf_page": 15,
+          "printed_page": "15",
+          "section": "5. Conclusions",
+          "source_pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "23f003bcb6fbdcdfd979a64b7f9be808c966901ca107494a75a4020a10b2e579",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "2. Methods",
+          "source_pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "898bc9af160633060f3f0df5796e5ec8e4f16db2c941a7e4feeaf2170077e859",
+          "original_excerpt_word_count": 58,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "2. Methods",
+          "source_pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "e71ec7d32f7e421f6fb216342ccd25c1a3750fe4249a944a41c7bc460918ee25",
+          "original_excerpt_word_count": 36,
+          "pdf_page": 11,
+          "printed_page": "11",
+          "section": "ablation study on the Exact Match (EM) metric (Table 3). As expected, removing the",
+          "source_pdf_sha256": "ad87b7011e92820a51c4211f6708798e92f45e14c33da9bb286944fc98cd60f2",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Methods",
+        "2.2. Framework of KBQA",
+        "3. Results",
+        "4. Discussion",
+        "5. Conclusions",
+        "Abstract",
+        "Future work will amplify the value of KG-centric, AI-enabled analytics and explicitly",
+        "ablation study on the Exact Match (EM) metric (Table 3). As expected, removing the"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Methods",
+        "2.2. Framework of KBQA",
+        "3. Results",
+        "4. Discussion",
+        "5. Conclusions",
+        "Abstract",
+        "Future work will amplify the value of KG-centric, AI-enabled analytics and explicitly",
+        "ablation study on the Exact Match (EM) metric (Table 3). As expected, removing the"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 4,
+      "output_title_hits": 1,
+      "output_passages": 17,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 32,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "rdf",
+          "owl",
+          "shacl",
+          "model",
+          "relation",
+          "constraint",
+          "extract"
+        ]
+      },
+      "T2": {
+        "top_score": 21,
+        "threshold": 11,
+        "top_hits": [
+          "schema aware",
+          "schema-aware",
+          "ontology",
+          "schema"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S111__toward-auditable-urban-soil-management-a-knowledge-graph-and-llm-approach-fusing-environment.json",
+    "original_frozen_record_sha256": "aebb08e9737be75b263617a0ed8f4395798e34c888e81050e769527b36f24f0c",
+    "original_frozen_record_bytes": 7978,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

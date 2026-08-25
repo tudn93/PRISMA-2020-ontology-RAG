@@ -1,0 +1,163 @@
+{
+  "study_id": "S056",
+  "paper_title": "Enhancing Manufacturing Knowledge Access with LLMs and Context-Aware Prompting",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Monka et al. - 2024 - Enhancing manufacturing knowledge access with LLMs and context-aware prompting.pdf",
+    "pdf_sha256": "dd17198aeb7e6f81e95f6cf24ced986bf5751211267199e617eda81e980560aa",
+    "page_count": 8,
+    "title_mapping_score": 0.7799
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "5426aee74bf280462a30e9d089a6dfbe1dbf12c085505638feadb9d5c8db30ee",
+        "original_excerpt_word_count": 31,
+        "pdf_page": 2,
+        "printed_page": "4666",
+        "section": "1 Introduction",
+        "source_pdf_sha256": "dd17198aeb7e6f81e95f6cf24ced986bf5751211267199e617eda81e980560aa",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "A semantically controlled retrieval mechanism is connected to a downstream answer/generation/decision loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "e01a8d124a78848bc07f404a31cb9c7c4158b03ada815941cd3c9b4c2a27a6d5",
+          "original_excerpt_word_count": 26,
+          "pdf_page": 5,
+          "printed_page": "4669",
+          "section": "4 Empirical Evaluation",
+          "source_pdf_sha256": "dd17198aeb7e6f81e95f6cf24ced986bf5751211267199e617eda81e980560aa",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "3eb704164c5966402d180dc07ad9f32ef8d590b1090f9af948a91154d9854618",
+          "original_excerpt_word_count": 16,
+          "pdf_page": 6,
+          "printed_page": "4670",
+          "section": "4 Empirical Evaluation",
+          "source_pdf_sha256": "dd17198aeb7e6f81e95f6cf24ced986bf5751211267199e617eda81e980560aa",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "4 Empirical Evaluation",
+        "5 Discussion"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "4 Empirical Evaluation",
+        "5 Discussion"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 1,
+      "output_title_hits": 0,
+      "output_passages": 5,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 16,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "construct",
+          "model",
+          "align",
+          "extract"
+        ]
+      },
+      "T2": {
+        "top_score": 27,
+        "threshold": 11,
+        "top_hits": [
+          "natural language to sparql",
+          "sparql",
+          "sparql query"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S056__enhancing-manufacturing-knowledge-access-with-llms-and-context-aware-prompting.json",
+    "original_frozen_record_sha256": "0f0870c3a1319af9e12f38b8262e146ce74228594d75264094c1f32a23657907",
+    "original_frozen_record_bytes": 5035,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

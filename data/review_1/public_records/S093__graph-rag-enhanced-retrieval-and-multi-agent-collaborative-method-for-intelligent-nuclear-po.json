@@ -1,0 +1,200 @@
+{
+  "study_id": "S093",
+  "paper_title": "GRAPH-RAG ENHANCED RETRIEVAL AND MULTI-AGENT COLLABORATIVE METHOD FOR INTELLIGENT NUCLEAR POWER ELECTRICAL DESIGN",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Zhang et al. - 2025 - Graph-rag enhanced retrieval and multi-agent collaborative method for intelligent nuclear power elec.pdf",
+    "pdf_sha256": "8fb22ca03f7dd4cb98eda75d5f2049f8410a13c49eb486d46d8f5269da671864",
+    "page_count": 14,
+    "title_mapping_score": 0.7268,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "2f30398e63bf24b2e998cbf35803aa043504a45957366b3e1df87a6e212cead0",
+        "original_excerpt_word_count": 25,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "1 INTRODUCTION",
+        "source_pdf_sha256": "8fb22ca03f7dd4cb98eda75d5f2049f8410a13c49eb486d46d8f5269da671864",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "978e869840247154f8d910c4f263949a06e3825cb3ff384330cdc9caf79fef08",
+          "original_excerpt_word_count": 61,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "3 KEY TECHNICAL METHODS",
+          "source_pdf_sha256": "8fb22ca03f7dd4cb98eda75d5f2049f8410a13c49eb486d46d8f5269da671864",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "c5e952125e13655d73198fa1fd63b9bb28a4b545c5c57a9753d2929549183cc5",
+          "original_excerpt_word_count": 12,
+          "pdf_page": 9,
+          "printed_page": "9",
+          "section": "3.2.2 Retrieval result fusion",
+          "source_pdf_sha256": "8fb22ca03f7dd4cb98eda75d5f2049f8410a13c49eb486d46d8f5269da671864",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "26ee451caced419c875a4f5367de885abbadf7470242dbc3d77376f9df538433",
+          "original_excerpt_word_count": 23,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "3 KEY TECHNICAL METHODS",
+          "source_pdf_sha256": "8fb22ca03f7dd4cb98eda75d5f2049f8410a13c49eb486d46d8f5269da671864",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "high"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "6886cd1b865be49440e314146059ad6ff322c974454b86e28cd92de022aaf285",
+          "original_excerpt_word_count": 10,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "3 KEY TECHNICAL METHODS",
+          "source_pdf_sha256": "8fb22ca03f7dd4cb98eda75d5f2049f8410a13c49eb486d46d8f5269da671864",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 3,
+        "retrieval": 2,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 0
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 24,
+          "pdf_score": 20,
+          "record_score": 13,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "entity alignment",
+            "extract",
+            "map",
+            "align",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 12,
+          "pdf_score": 10,
+          "record_score": 8,
+          "top_hits": [
+            "sparql",
+            "retrieval"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 17,
+          "pdf_score": 16,
+          "record_score": 4,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 18,
+          "pdf_score": 13,
+          "record_score": 27,
+          "top_hits": [
+            "correct",
+            "correction",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S093__graph-rag-enhanced-retrieval-and-multi-agent-collaborative-method-for-intelligent-nuclear-po.json",
+    "original_frozen_record_sha256": "3c62d2fd480e3423e99b69ba04c3581ff21883c8cdc3e54a5eb35e932ff14861",
+    "original_frozen_record_bytes": 7142,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

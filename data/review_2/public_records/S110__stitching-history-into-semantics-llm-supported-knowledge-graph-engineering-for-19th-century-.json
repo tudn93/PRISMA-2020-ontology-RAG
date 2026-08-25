@@ -1,0 +1,183 @@
+{
+  "study_id": "S110",
+  "paper_title": "Stitching History into Semantics: LLM-Supported Knowledge Graph Engineering for 19th-Century Greek Bookbinding",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Doumanas et al. - 2025 - Stitching history into semantics LLM-supported knowledge graph engineering for 19th-century greek b.pdf",
+    "pdf_sha256": "d660776d24a5743638619fc99eb3b87f4d6c4e0cec1ca4d17e9aa5e9c17d4b99",
+    "page_count": 24,
+    "title_mapping_score": 0.7487
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "aeb6fd1c4868cabc3a2eb649ee443cfb65021587d7887f35c7649b67aafe7073",
+        "original_excerpt_word_count": 36,
+        "pdf_page": 9,
+        "printed_page": "9",
+        "section": "proposed approach not only advances the methodological landscape for digital humanities",
+        "source_pdf_sha256": "d660776d24a5743638619fc99eb3b87f4d6c4e0cec1ca4d17e9aa5e9c17d4b99",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction or enrichment is the primary contribution.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "db904e4010f2aca2c7560567f2d037ea8360b81b1fcbfa04c4e8938408a895fd",
+          "original_excerpt_word_count": 28,
+          "pdf_page": 11,
+          "printed_page": "11",
+          "section": "proposed approach not only advances the methodological landscape for digital humanities",
+          "source_pdf_sha256": "d660776d24a5743638619fc99eb3b87f4d6c4e0cec1ca4d17e9aa5e9c17d4b99",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "e4e41117f34c4a175e068b23d501c4cfa39ce6ce90a37fa98a7b910695144c1c",
+          "original_excerpt_word_count": 47,
+          "pdf_page": 17,
+          "printed_page": "17",
+          "section": "4. Results",
+          "source_pdf_sha256": "d660776d24a5743638619fc99eb3b87f4d6c4e0cec1ca4d17e9aa5e9c17d4b99",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "af79fe070e1671e63ecf443065267e0611867ecf4e7db772b36344d318845736",
+          "original_excerpt_word_count": 30,
+          "pdf_page": 10,
+          "printed_page": "10",
+          "section": "proposed approach not only advances the methodological landscape for digital humanities",
+          "source_pdf_sha256": "d660776d24a5743638619fc99eb3b87f4d6c4e0cec1ca4d17e9aa5e9c17d4b99",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "An executable formal, rule-based, proof, or relational-reasoning mechanism was evidenced.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "2. Related Work",
+        "3. The BookBindKG Framework",
+        "3.5. Evaluation of Knowledge Graph",
+        "4. Results",
+        "4.2. Further Experimentation",
+        "5. Discussion",
+        "6. Conclusions",
+        "References",
+        "Unnumbered/section not detected",
+        "proposed approach not only advances the methodological landscape for digital humanities",
+        "proposed evaluation model enhances ontology assessment methodologies and contributes"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": false,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 0,
+      "output_title_hits": 0,
+      "output_passages": 0,
+      "construction_primary": true
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 30,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "knowledge graph schema",
+          "owl",
+          "schema",
+          "knowledge graph",
+          "map"
+        ]
+      },
+      "T2": {
+        "top_score": 24,
+        "threshold": 11,
+        "top_hits": [
+          "cypher",
+          "cypher query",
+          "owl",
+          "knowledge graph"
+        ]
+      },
+      "T3": {
+        "top_score": 13,
+        "threshold": 10,
+        "top_hits": [
+          "swrl"
+        ]
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S110__stitching-history-into-semantics-llm-supported-knowledge-graph-engineering-for-19th-century-.json",
+    "original_frozen_record_sha256": "e9c010d5cf8bcb2c5e86e8d58e0ce5f2e041199059fd64a69f1b3f7dbd0e9278",
+    "original_frozen_record_bytes": 6406,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

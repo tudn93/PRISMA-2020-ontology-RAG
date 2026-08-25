@@ -1,0 +1,190 @@
+{
+  "study_id": "S079",
+  "paper_title": "Automatic Construction of Oilseed Rape Knowledge Graph Based on Large Language Models",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Zhang et al. - 2025 - Automatic construction of oilseed rape knowledge graph based on large language models.pdf",
+    "pdf_sha256": "afed54c8a9aa0e9ebe07adc5909e20de9fb86bbc40e1ab08e128525e6aa5a788",
+    "page_count": 4,
+    "title_mapping_score": 0.8057,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "42d0edc131590955ff041ea79d18f5a218abe190202c136e2e437383a5e2ce33",
+        "original_excerpt_word_count": 32,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Unnumbered/section not detected",
+        "source_pdf_sha256": "afed54c8a9aa0e9ebe07adc5909e20de9fb86bbc40e1ab08e128525e6aa5a788",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "41c5a8227731bbcdf05c2406c4590d7802a1ab3ccf40a8ecccad8a174a1b84a3",
+          "original_excerpt_word_count": 19,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "afed54c8a9aa0e9ebe07adc5909e20de9fb86bbc40e1ab08e128525e6aa5a788",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "0e8089454702f861e54df09dd00a226e266b1198489989ad57ba07c8aa3fc034",
+          "original_excerpt_word_count": 34,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "afed54c8a9aa0e9ebe07adc5909e20de9fb86bbc40e1ab08e128525e6aa5a788",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "d79cf219e4a4ddf3066b07c11196b4bb2144cb469de8bd8f8ed9982c3a932d53",
+          "original_excerpt_word_count": 39,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "afed54c8a9aa0e9ebe07adc5909e20de9fb86bbc40e1ab08e128525e6aa5a788",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 2,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 16,
+          "pdf_score": 12,
+          "record_score": 14,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "construct",
+            "extract"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 4,
+          "pdf_score": 4,
+          "record_score": 1,
+          "top_hits": [
+            "retrieval",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 14,
+          "pdf_score": 14,
+          "record_score": 0,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 17,
+          "pdf_score": 16,
+          "record_score": 3,
+          "top_hits": [
+            "reject",
+            "rejection",
+            "verification",
+            "reject"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S079__automatic-construction-of-oilseed-rape-knowledge-graph-based-on-large-language-models.json",
+    "original_frozen_record_sha256": "74b9060b4953551006b602f4ac0b1f6c2e8003462f0a0a85e45d58cfccee351d",
+    "original_frozen_record_bytes": 6582,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

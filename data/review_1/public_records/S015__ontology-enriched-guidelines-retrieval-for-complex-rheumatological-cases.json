@@ -1,0 +1,175 @@
+{
+  "study_id": "S015",
+  "paper_title": "Ontology-Enriched Guidelines Retrieval for Complex Rheumatological Cases",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Buonocore et al. - 2026 - Ontology-enriched guidelines retrieval for complex rheumatological cases.pdf",
+    "pdf_sha256": "915001d294356b3a15c257b370faa89f5ec104e821f002777e52b9d5a0af98ad",
+    "page_count": 2,
+    "title_mapping_score": 0.7388,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "8cd61aa1376dcf80c8f74dc8e90d99bb715866e056d8413bf318fd5a2f1a9054",
+        "original_excerpt_word_count": 16,
+        "pdf_page": 1,
+        "printed_page": "1049",
+        "section": "1. Introduction",
+        "source_pdf_sha256": "915001d294356b3a15c257b370faa89f5ec104e821f002777e52b9d5a0af98ad",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology or KG evidence supports an LLM workflow without a complete retrieval-to-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "de05f0c8ffca5829c07016815cd34e69b06b17058d2d7741046ccb8fb98f543c",
+          "original_excerpt_word_count": 18,
+          "pdf_page": 2,
+          "printed_page": "1050",
+          "section": "3. Results and Discussion",
+          "source_pdf_sha256": "915001d294356b3a15c257b370faa89f5ec104e821f002777e52b9d5a0af98ad",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "83aa5c1b0c993f4b999784702575540fd9e8127e6e894b04c254804f16e8e7d0",
+          "original_excerpt_word_count": 32,
+          "pdf_page": 2,
+          "printed_page": "1050",
+          "section": "3. Results and Discussion",
+          "source_pdf_sha256": "915001d294356b3a15c257b370faa89f5ec104e821f002777e52b9d5a0af98ad",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "3. Results and Discussion"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "3. Results and Discussion"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 0
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 14,
+          "pdf_score": 10,
+          "record_score": 13,
+          "top_hits": [
+            "ontology",
+            "owl"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 12,
+          "pdf_score": 11,
+          "record_score": 3,
+          "top_hits": [
+            "graph traversal",
+            "retrieval",
+            "rank",
+            "path"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 16,
+          "pdf_score": 16,
+          "record_score": 2,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 2,
+          "pdf_score": 2,
+          "record_score": 0,
+          "top_hits": [],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S015__ontology-enriched-guidelines-retrieval-for-complex-rheumatological-cases.json",
+    "original_frozen_record_sha256": "6c0e2ad34675eff3308326edc15d8bd717b1b90e44565d6e6cd61e3a1a43db61",
+    "original_frozen_record_bytes": 5657,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "study_id": "S080",
+  "paper_title": "A Knowledge Graph and Large Language Model Framework for Customized Manufacturing: A Case Study in Furniture Panel Production",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Zhang et al. - 2026 - A knowledge graph and large language model framework for customized manufacturing a case study in f.pdf",
+    "pdf_sha256": "fb15f70bb72814ad2f2485875c2b6b34d8c1dc9affe86e7a71b0c4de953ec8dd",
+    "page_count": 26,
+    "title_mapping_score": 0.7024
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "c6328786b83f764980513ff1dc9f9a489d6b259db64b1aa6c47ce187a2fd9e59",
+        "original_excerpt_word_count": 22,
+        "pdf_page": 6,
+        "printed_page": "18251",
+        "section": "proposed a dual knowledge graph representation method,",
+        "source_pdf_sha256": "fb15f70bb72814ad2f2485875c2b6b34d8c1dc9affe86e7a71b0c4de953ec8dd",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "A semantically controlled retrieval mechanism is connected to a downstream answer/generation/decision loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "69ede6b0b41b36a45b3250208dea6ba060f96faeeb028b675c138d50ca140c05",
+          "original_excerpt_word_count": 28,
+          "pdf_page": 1,
+          "printed_page": "18246",
+          "section": "Framework for Customized Manufacturing: A",
+          "source_pdf_sha256": "fb15f70bb72814ad2f2485875c2b6b34d8c1dc9affe86e7a71b0c4de953ec8dd",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "6c6c296cdb86c065627d0628b3bd502624da1b4473ed0d777fa99e6c11b65979",
+          "original_excerpt_word_count": 32,
+          "pdf_page": 17,
+          "printed_page": "18262",
+          "section": "knowledge graph and large models to assist designers in",
+          "source_pdf_sha256": "fb15f70bb72814ad2f2485875c2b6b34d8c1dc9affe86e7a71b0c4de953ec8dd",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Framework for Customized Manufacturing: A",
+        "III. DATA FRAMEWORK AND KNOWLEDGE MODELING",
+        "IV. METHOD FOR CONSTRUCTING A KNOWLEDGE",
+        "KNOWLEDGE GRAPH AND LARGE MODELS",
+        "Knowledge Graph (MCPKG). Additionally, Chen et al. [13]",
+        "V. KNOWLEDGE QUESTION-AND-ANSWER METHOD FOR",
+        "VII. CONCLUSION",
+        "framework for knowledge graph construction and intelligent",
+        "knowledge graph and large models to assist designers in",
+        "knowledge graph can also be split into knowledge graph",
+        "knowledge graph construction method is also required.",
+        "method is incomplete. Due to the incompleteness of a large",
+        "proposed a dual knowledge graph representation method,",
+        "proposed framework against two single-module baselines: a"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Framework for Customized Manufacturing: A",
+        "III. DATA FRAMEWORK AND KNOWLEDGE MODELING",
+        "IV. METHOD FOR CONSTRUCTING A KNOWLEDGE",
+        "KNOWLEDGE GRAPH AND LARGE MODELS",
+        "Knowledge Graph (MCPKG). Additionally, Chen et al. [13]",
+        "V. KNOWLEDGE QUESTION-AND-ANSWER METHOD FOR",
+        "VII. CONCLUSION",
+        "framework for knowledge graph construction and intelligent",
+        "knowledge graph and large models to assist designers in",
+        "knowledge graph can also be split into knowledge graph",
+        "knowledge graph construction method is also required.",
+        "method is incomplete. Due to the incompleteness of a large",
+        "proposed a dual knowledge graph representation method,",
+        "proposed framework against two single-module baselines: a"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 2,
+      "output_title_hits": 0,
+      "output_passages": 30,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 23,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "owl",
+          "construct",
+          "represent",
+          "model"
+        ]
+      },
+      "T2": {
+        "top_score": 22,
+        "threshold": 11,
+        "top_hits": [
+          "cypher",
+          "cypher query",
+          "owl"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S080__a-knowledge-graph-and-large-language-model-framework-for-customized-manufacturing-a-case-stu.json",
+    "original_frozen_record_sha256": "f3643742d01e1088cf7c7f5a9c0742de4307f81ff0efa21cc61e5275acd886f3",
+    "original_frozen_record_bytes": 6784,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

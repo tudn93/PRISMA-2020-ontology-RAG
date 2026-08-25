@@ -1,0 +1,196 @@
+{
+  "study_id": "S055",
+  "paper_title": "Enhancing Vector based Retrieval Augmented Generation with Contextual Knowledge Graph Construction",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Mankari and Sanghavi - 2024 - Enhancing vector based retrieval augmented generation with contextual knowledge graph construction.pdf",
+    "pdf_sha256": "a0636a38bda0febe7bc0adc4a990e0dc3dc0bdd8ac5c16f630d93bb0af6802ab",
+    "page_count": 6,
+    "title_mapping_score": 0.7857,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "be33616530612bda9e4bd7c80490c60f4f42668b14a1b1f0aaeebc8491967867",
+        "original_excerpt_word_count": 22,
+        "pdf_page": 6,
+        "printed_page": "6",
+        "section": "knowledge graph construction, CKGC provides a powerful",
+        "source_pdf_sha256": "a0636a38bda0febe7bc0adc4a990e0dc3dc0bdd8ac5c16f630d93bb0af6802ab",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "e04cb6ba0bbfa0eb82dea5136babefae3c0f2152d342119ac0ebc257458de31d",
+          "original_excerpt_word_count": 79,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "Knowledge graph embedding techniques facilitate semantic",
+          "source_pdf_sha256": "a0636a38bda0febe7bc0adc4a990e0dc3dc0bdd8ac5c16f630d93bb0af6802ab",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "2e65e5956f23ebadec527e4b44ff24f3bb0aee7b067f64889d5e0c207668ae33",
+          "original_excerpt_word_count": 22,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "Knowledge graph embedding techniques facilitate semantic",
+          "source_pdf_sha256": "a0636a38bda0febe7bc0adc4a990e0dc3dc0bdd8ac5c16f630d93bb0af6802ab",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "203b6364c61453b08fe0890e8fa04002be2d9bce859b9043f4cbd6d976218392",
+          "original_excerpt_word_count": 24,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "EVALUATION RESULTS COMPARING VECTOR -BASED RAG AND",
+          "source_pdf_sha256": "a0636a38bda0febe7bc0adc4a990e0dc3dc0bdd8ac5c16f630d93bb0af6802ab",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "EVALUATION RESULTS COMPARING VECTOR -BASED RAG AND",
+        "Knowledge graph embedding techniques facilitate semantic",
+        "Unnumbered/section not detected",
+        "knowledge graph construction, CKGC provides a powerful"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "EVALUATION RESULTS COMPARING VECTOR -BASED RAG AND",
+        "Knowledge graph embedding techniques facilitate semantic",
+        "Unnumbered/section not detected",
+        "knowledge graph construction, CKGC provides a powerful"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 24,
+          "pdf_score": 19,
+          "record_score": 19,
+          "top_hits": [
+            "ontology",
+            "rdf",
+            "rdfs",
+            "owl",
+            "construct",
+            "class",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 12,
+          "pdf_score": 10,
+          "record_score": 8,
+          "top_hits": [
+            "cypher",
+            "query",
+            "traverse"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 4,
+          "pdf_score": 4,
+          "record_score": 2,
+          "top_hits": [
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S055__enhancing-vector-based-retrieval-augmented-generation-with-contextual-knowledge-graph-constr.json",
+    "original_frozen_record_sha256": "0cc52ed88d50ba77ce2f288a359040a5940f42a1017f76f25be206b87a5b6d53",
+    "original_frozen_record_bytes": 7344,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

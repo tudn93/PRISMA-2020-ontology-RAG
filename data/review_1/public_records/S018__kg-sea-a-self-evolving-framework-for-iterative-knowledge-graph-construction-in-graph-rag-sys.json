@@ -1,0 +1,171 @@
+{
+  "study_id": "S018",
+  "paper_title": "KG-SEA: A Self-Evolving Framework for Iterative Knowledge Graph Construction in Graph-RAG Systems",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Chen et al. - 2025 - KG-SEA a self-evolving framework for iterative knowledge graph construction in graph-RAG systems.pdf",
+    "pdf_sha256": "f8e00b8fcd25a72d0d340612dad4c773db8130566c6e3162b29d647856233237",
+    "page_count": 8,
+    "title_mapping_score": 0.8286,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "d0a49f8752a6dde2b1aa5a5d6daad341bba099c00ee95c153d518ef10fb3a879",
+        "original_excerpt_word_count": 35,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Knowledge Graph Construction in Graph-RAG",
+        "source_pdf_sha256": "f8e00b8fcd25a72d0d340612dad4c773db8130566c6e3162b29d647856233237",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "369dec73a7d5515a900be71505fa38d6347c64c6c5011b1eca7fcc99c2fe8303",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Knowledge Graph Construction in Graph-RAG",
+          "source_pdf_sha256": "f8e00b8fcd25a72d0d340612dad4c773db8130566c6e3162b29d647856233237",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Knowledge Graph Construction in Graph-RAG",
+        "Proposed CREATE_RELATION with predicate"
+      ],
+      "absence_rationale": "No qualifying ontology-controlled retrieval or query mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Knowledge Graph Construction in Graph-RAG",
+        "Proposed CREATE_RELATION with predicate"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Knowledge Graph Construction in Graph-RAG",
+        "Proposed CREATE_RELATION with predicate"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 1,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 18,
+          "pdf_score": 13,
+          "record_score": 15,
+          "top_hits": [
+            "typed relation",
+            "typed relations",
+            "type",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 3,
+          "pdf_score": 3,
+          "record_score": 2,
+          "top_hits": [
+            "search",
+            "ground"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 14,
+          "pdf_score": 14,
+          "record_score": 0,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 14,
+          "pdf_score": 12,
+          "record_score": 6,
+          "top_hits": [
+            "correct",
+            "correction",
+            "correct",
+            "constraint"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S018__kg-sea-a-self-evolving-framework-for-iterative-knowledge-graph-construction-in-graph-rag-sys.json",
+    "original_frozen_record_sha256": "a96df0a6120e475bf5a043ebee1802599e9904ee16536efc6a4cddd395a23a3a",
+    "original_frozen_record_bytes": 5482,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

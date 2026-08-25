@@ -1,0 +1,222 @@
+{
+  "study_id": "S059",
+  "paper_title": "Automatic Ontology Construction Using LLMs as an External Layer of Memory, Verification, and Planning for Hybrid Intelligent Systems",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Pavel - 2026 - Automatic ontology construction using LLMs as an external layer of memory.pdf",
+    "pdf_sha256": "a14c1b18d96234c39bbae0973470014f717ccf061ba7e0badb16e3c05032d69e",
+    "page_count": 16,
+    "title_mapping_score": 0.5963,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "549bbe51c98ae782323193e986d250ae39e7105388e49952b22a7782360f50b9",
+        "original_excerpt_word_count": 75,
+        "pdf_page": 5,
+        "printed_page": "5",
+        "section": "conclusion is that graph representations improve retrieval not merely through embedding",
+        "source_pdf_sha256": "a14c1b18d96234c39bbae0973470014f717ccf061ba7e0badb16e3c05032d69e",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "ce1d29fd0921b987f4f7a9cf2c233e86ba40a5e85ada6f2376c08b4c4dcdd253",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "a14c1b18d96234c39bbae0973470014f717ccf061ba7e0badb16e3c05032d69e",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "0ea8c8bcfc039b7c1bdfa1c7820185645b744c3ef3bf5dfc879faef0cf79798e",
+          "original_excerpt_word_count": 81,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "conclusion is that graph representations improve retrieval not merely through embedding",
+          "source_pdf_sha256": "a14c1b18d96234c39bbae0973470014f717ccf061ba7e0badb16e3c05032d69e",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "db3534dd4d1e26b670e9ae4f3338eeaeb780ca0c0bedbaea39a4e18e0e6aa8d4",
+          "original_excerpt_word_count": 41,
+          "pdf_page": 14,
+          "printed_page": "14",
+          "section": "evaluation criteria, and release management.",
+          "source_pdf_sha256": "a14c1b18d96234c39bbae0973470014f717ccf061ba7e0badb16e3c05032d69e",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "4bad1c63deec2e7be9cf3d8f103599d68bba39fc92ba45ce4f7a2ea75ae2e7a7",
+          "original_excerpt_word_count": 29,
+          "pdf_page": 10,
+          "printed_page": "10",
+          "section": "conclusion is that graph representations improve retrieval not merely through embedding",
+          "source_pdf_sha256": "a14c1b18d96234c39bbae0973470014f717ccf061ba7e0badb16e3c05032d69e",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "9b8da4e8dc0df7a478f23519aebdeac1cb01915aaa0470cd390081c799fc7d1f",
+          "original_excerpt_word_count": 23,
+          "pdf_page": 13,
+          "printed_page": "13",
+          "section": "Discussion and Limitations",
+          "source_pdf_sha256": "a14c1b18d96234c39bbae0973470014f717ccf061ba7e0badb16e3c05032d69e",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "ab7d897e85177c2d15bec6e673b6f2486d1c19fc033fa0012857e3b566e1e8cb",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "a14c1b18d96234c39bbae0973470014f717ccf061ba7e0badb16e3c05032d69e",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 2,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 23,
+          "pdf_score": 18,
+          "record_score": 29,
+          "top_hits": [
+            "ontological",
+            "rdf",
+            "owl",
+            "shacl",
+            "represent"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 11,
+          "pdf_score": 10,
+          "record_score": 3,
+          "top_hits": [
+            "sparql",
+            "retrieval"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 16,
+          "pdf_score": 14,
+          "record_score": 6,
+          "top_hits": [
+            "reasoner",
+            "infer",
+            "inference",
+            "reasoner"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 15,
+          "pdf_score": 11,
+          "record_score": 13,
+          "top_hits": [
+            "conflict resolution",
+            "conflict"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S059__automatic-ontology-construction-using-llms-as-an-external-layer-of-memory-verification-and-p.json",
+    "original_frozen_record_sha256": "a121f2aad5a1fc357aa9f54baf770f6dd6bade5537c4bd3e6856ee454a2b2150",
+    "original_frozen_record_bytes": 9191,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

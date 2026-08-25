@@ -1,0 +1,178 @@
+{
+  "study_id": "S044",
+  "paper_title": "Building A Knowledge Graph to Enrich ChatGPT Responses in Manufacturing Service Discovery",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Li and Starly - 2024 - Building a knowledge graph to enrich ChatGPT responses in manufacturing service discovery.pdf",
+    "pdf_sha256": "108c608db2fd7aa168b0bb600078ae0266b03ac37dea35f552c87db377158590",
+    "page_count": 27,
+    "title_mapping_score": 0.8037,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "9bb2e16102f64796efb3102054a05ebb5eb56270a5342fd1048b7cef267f8dff",
+        "original_excerpt_word_count": 17,
+        "pdf_page": 7,
+        "printed_page": "7",
+        "section": "3. Architecture",
+        "source_pdf_sha256": "108c608db2fd7aa168b0bb600078ae0266b03ac37dea35f552c87db377158590",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "55ce2220d08772474f78471c78242694b6342611cb038e7bc358306ebee3b080",
+          "original_excerpt_word_count": 12,
+          "pdf_page": 26,
+          "printed_page": "26",
+          "section": "3. Architecture",
+          "source_pdf_sha256": "108c608db2fd7aa168b0bb600078ae0266b03ac37dea35f552c87db377158590",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "da135126f7933ed5355823324baea8810791f4b7006de6ddb68014b4198e3bca",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 14,
+          "printed_page": "14",
+          "section": "3. Architecture",
+          "source_pdf_sha256": "108c608db2fd7aa168b0bb600078ae0266b03ac37dea35f552c87db377158590",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "3. Architecture",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "3. Architecture",
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 14,
+          "pdf_score": 10,
+          "record_score": 12,
+          "top_hits": [
+            "owl",
+            "extract",
+            "model",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 14,
+          "pdf_score": 14,
+          "record_score": 1,
+          "top_hits": [
+            "cypher",
+            "graph query",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 5,
+          "pdf_score": 5,
+          "record_score": 0,
+          "top_hits": [
+            "infer"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 10,
+          "pdf_score": 10,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "validation",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S044__building-a-knowledge-graph-to-enrich-chatgpt-responses-in-manufacturing-service-discovery.json",
+    "original_frozen_record_sha256": "cea7a1b8aa08a2a91d3956bf34a13f8caa0ef1d9b1729c3d9279e360c26c3715",
+    "original_frozen_record_bytes": 5575,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

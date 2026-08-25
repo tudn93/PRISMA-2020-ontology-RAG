@@ -1,0 +1,573 @@
+{
+  "frozen_at": "2026-08-21T17:58:21+00:00",
+  "coding_stage": "independent_coding_pass_1",
+  "reviewer_id": "reviewer_1",
+  "reviewer_type": "Independent Domain Reviewer",
+  "study_count": 112,
+  "codebook": {
+    "file": "workbook/independent_coding/codebook_v2.json",
+    "sha256": "803a650896f3b3de435d991e620325eb9f1785313dc036415f0680b2964c0eb6"
+  },
+  "coding_files": [
+    {
+      "study_id": "S001",
+      "file": "workbook/independent_coding/reviewer_1/S001__neural-symbolic-fusion-for-long-form-narrative-generation-a-hierarchical-framework.json",
+      "sha256": "07c36646c016ff71eb1037787b2ab8a874c3f11fdd266f059f4422fd81ca31ab"
+    },
+    {
+      "study_id": "S002",
+      "file": "workbook/independent_coding/reviewer_1/S002__slms-meet-graphrag-a-structured-approach-to-context-aware-cybersecurity-hint-generation.json",
+      "sha256": "cc8592c6b720810c6370f445d1b710a117762b81688ddc6b89ea5ac167b295ec"
+    },
+    {
+      "study_id": "S003",
+      "file": "workbook/independent_coding/reviewer_1/S003__knowledge-graph-question-answering-for-materials-science-kgqa4mat-developing-natural-languag.json",
+      "sha256": "ef49891f33aa96d3c458e0776af70c4fc5b102cd1ea93e0f40fbd4dcafdd4e9f"
+    },
+    {
+      "study_id": "S004",
+      "file": "workbook/independent_coding/reviewer_1/S004__reasoning-and-justification-system-for-domestic-hazardous-behaviors-based-on-knowledge-graph.json",
+      "sha256": "fa2cf97af1f0f51c74ba380c3766716ba49727f561e0c75dcdc19b6fdd49746d"
+    },
+    {
+      "study_id": "S005",
+      "file": "workbook/independent_coding/reviewer_1/S005__neureg-neuro-symbolic-qa-generation-from-regulatory-compliance.json",
+      "sha256": "fef7e2e69eb606509f923c284f24172bb8b83173065d19141ce0d135b7089b12"
+    },
+    {
+      "study_id": "S006",
+      "file": "workbook/independent_coding/reviewer_1/S006__navigation-with-large-language-models-in-subject-domain-of-ordinary-differential-equation.json",
+      "sha256": "221db8ce33f62740077b2bf00ad18b57a9ba6c6d5fe0ee5f3ad3fd2f3183ab98"
+    },
+    {
+      "study_id": "S007",
+      "file": "workbook/independent_coding/reviewer_1/S007__domain-specific-retrieval-augmented-generation-using-vector-stores-knowledge-graphs-and-tens.json",
+      "sha256": "5e8a395123b4c236791ee323a296e4c31db2c843f30b450276072cc904cf093f"
+    },
+    {
+      "study_id": "S008",
+      "file": "workbook/independent_coding/reviewer_1/S008__logic-ontological-reconstruction-of-scientific-discourse-and-its-implementation-in-an-ai-bas.json",
+      "sha256": "04ef7bf2abd4cc7464640f2df5d8481b68c72dc20073ac4f1b86cb01ed4f03d9"
+    },
+    {
+      "study_id": "S009",
+      "file": "workbook/independent_coding/reviewer_1/S009__statistical-data-science-leveraging-survey-metadata-for-llm-reasoning-via-knowledge-graphs.json",
+      "sha256": "baf2eca36978fa1e6bd748b38157fcf0c1020d5fcae6d84607487a14d2e5f87c"
+    },
+    {
+      "study_id": "S010",
+      "file": "workbook/independent_coding/reviewer_1/S010__from-query-to-logic-ontology-driven-multi-hop-reasoning-in-llms.json",
+      "sha256": "d78d9646325f40b395048d69720158ca1e547657e8e03a2966bdb0b7914dbc17"
+    },
+    {
+      "study_id": "S011",
+      "file": "workbook/independent_coding/reviewer_1/S011__post-hoc-verification-of-llms-with-knowledge-graphs-for-medical-question-answering.json",
+      "sha256": "88ff7d5c30161ab01a020f495d5bce7b923ef4938500691f24ab9db5f0c6e810"
+    },
+    {
+      "study_id": "S012",
+      "file": "workbook/independent_coding/reviewer_1/S012__recipemasterllm-revisiting-roboearth-in-the-era-of-large-language-models.json",
+      "sha256": "9e741c990fe0ca094836253f40da12e90132f624bef772bb70da56702942ece7"
+    },
+    {
+      "study_id": "S013",
+      "file": "workbook/independent_coding/reviewer_1/S013__generative-retrieval-augmented-ontologic-graph-and-multiagent-strategies-for-interpretive-la.json",
+      "sha256": "fe8b903b9e888d8066d22b514b903a06314712565ba8d87464eb228fcac8cfb2"
+    },
+    {
+      "study_id": "S014",
+      "file": "workbook/independent_coding/reviewer_1/S014__mechgpt-a-language-based-strategy-for-mechanics-and-materials-modeling-that-connects-knowled.json",
+      "sha256": "14f4566769b25cb40d12e5c068fb9760ed15140cfdab19ccf5594202016099b4"
+    },
+    {
+      "study_id": "S015",
+      "file": "workbook/independent_coding/reviewer_1/S015__ontology-enriched-guidelines-retrieval-for-complex-rheumatological-cases.json",
+      "sha256": "075bc1aa3813b5950e2c7d9f5797c43d905356d0b17cc07a05bee2e4465987e6"
+    },
+    {
+      "study_id": "S016",
+      "file": "workbook/independent_coding/reviewer_1/S016__reasoning-with-ragged-events-rag-enhanced-event-knowledge-base-construction-and-reasoning-wi.json",
+      "sha256": "c60ee451749354f6b6cbfd4921dcdebaf39148653e9b5c3ad50573b191c76871"
+    },
+    {
+      "study_id": "S017",
+      "file": "workbook/independent_coding/reviewer_1/S017__knowledge-pyramid-construction-for-multi-level-retrieval-augmented-generation.json",
+      "sha256": "46dbf6a97c38c38bf7669f1102598c6a00a009e9816fe5ea3b815aa7d3861247"
+    },
+    {
+      "study_id": "S018",
+      "file": "workbook/independent_coding/reviewer_1/S018__kg-sea-a-self-evolving-framework-for-iterative-knowledge-graph-construction-in-graph-rag-sys.json",
+      "sha256": "13a48e0379134ca29893e3322270936b0cec385a67e0cdf784e0e8763de904f6"
+    },
+    {
+      "study_id": "S019",
+      "file": "workbook/independent_coding/reviewer_1/S019__knowledge-graph-construction-of-large-language-model-retrieval-augmented-generation-for-oil-.json",
+      "sha256": "a8a701d831bb24ebecb285737ed63670a9b24610e0418fdaf56561b0d23faa3f"
+    },
+    {
+      "study_id": "S020",
+      "file": "workbook/independent_coding/reviewer_1/S020__construction-and-evaluation-of-the-knowledge-graph-and-large-model-question-answering-system.json",
+      "sha256": "eaaaf5cc1238e7f42d2b5f86dfad051227edfbcfdbf3e539cd207e4e926a3ea9"
+    },
+    {
+      "study_id": "S021",
+      "file": "workbook/independent_coding/reviewer_1/S021__ontology-driven-building-operating-system-integrated-with-large-language-models-for-intuitiv.json",
+      "sha256": "1c523161f11f2bb0df64023765fc0e18480732d3b6917541813d6c7b88fde4be"
+    },
+    {
+      "study_id": "S022",
+      "file": "workbook/independent_coding/reviewer_1/S022__cross-examine-an-ensemble-based-approach-to-leverage-large-language-models-for-legal-text-an.json",
+      "sha256": "700f6e8d7d6ec5295968cfe81d57b1eebe79f9bedbc6956d2e487d88d649a165"
+    },
+    {
+      "study_id": "S023",
+      "file": "workbook/independent_coding/reviewer_1/S023__enhanced-tracking-and-reporting-of-missing-persons-using-knowledge-graph-and-ontology-engine.json",
+      "sha256": "d654ea17bff231d044fc93cf346be838a0a06731f491fe56064daecf74afeb2a"
+    },
+    {
+      "study_id": "S024",
+      "file": "workbook/independent_coding/reviewer_1/S024__tendergraphrag-an-enhancement-framework-for-question-answering-systems-based-on-a-tendering-.json",
+      "sha256": "e196463c8e6d8e6330707ea86097b130df5cbc343e69d0019ba4eb5d44a136e9"
+    },
+    {
+      "study_id": "S025",
+      "file": "workbook/independent_coding/reviewer_1/S025__ontologx-ontology-guided-knowledge-graph-extraction-from-cybersecurity-logs-with-large-langu.json",
+      "sha256": "d2780013e39793ffd82b0774f160598a6777b1489216a24e5bceaac8b9ea000c"
+    },
+    {
+      "study_id": "S026",
+      "file": "workbook/independent_coding/reviewer_1/S026__ontology-learning-and-knowledge-graph-construction-a-comparison-of-approaches-and-their-impa.json",
+      "sha256": "1d4f3c18fc20ab465fc352151835df8bd4b063f6f86335d7ace0f97fd4607b29"
+    },
+    {
+      "study_id": "S027",
+      "file": "workbook/independent_coding/reviewer_1/S027__neurosymbolic-graph-enrichment-for-grounded-world-models.json",
+      "sha256": "241e859a5875332c47c46b065413aa9c0b3e88ebc1cc8b71dccf4c194af0c684"
+    },
+    {
+      "study_id": "S028",
+      "file": "workbook/independent_coding/reviewer_1/S028__an-ontology-driven-graph-rag-for-legal-norms-a-structural-temporal-and-deterministic-approac.json",
+      "sha256": "12a4f3c48e44229658201dc2283c19d1fd052893223b48404f9b4bbc689b5aed"
+    },
+    {
+      "study_id": "S029",
+      "file": "workbook/independent_coding/reviewer_1/S029__meaning-is-all-you-need-moving-from-token-prediction-to-narrative-reasoning.json",
+      "sha256": "33563da083b1e3f07dc0ac364fd5e8f6c1e5f079791890b98d2c0e7ce66ee178"
+    },
+    {
+      "study_id": "S030",
+      "file": "workbook/independent_coding/reviewer_1/S030__extracting-core-meaning-from-legal-queries-using-semantic-technologies.json",
+      "sha256": "acdf5a28e7f12661124173b1bbc1ef1022daa276afa0fefedc0e3e6a00ee8424"
+    },
+    {
+      "study_id": "S031",
+      "file": "workbook/independent_coding/reviewer_1/S031__ontology-grounded-retrieval-for-auditable-llm-assisted-secure-code-generation.json",
+      "sha256": "c9dee7c090a37a9a3b7a4991218d8adeb8d82f1951190a46c3ab2ed738e86866"
+    },
+    {
+      "study_id": "S032",
+      "file": "workbook/independent_coding/reviewer_1/S032__fair-graphrag-a-retrieval-augmented-generation-approach-for-semantic-data-analysis.json",
+      "sha256": "4f96d500bf5b314fe97cfb838f11f28fab4b1fa1fb760a119e9b161246d4808b"
+    },
+    {
+      "study_id": "S033",
+      "file": "workbook/independent_coding/reviewer_1/S033__worlddb-a-vector-graph-of-worlds-memory-engine-with-ontology-aware-write-time-reconciliation.json",
+      "sha256": "54b71b24e1c0261139bba4adb25ec3ad59d3ee3a0ac26c26e50919fb674a1426"
+    },
+    {
+      "study_id": "S034",
+      "file": "workbook/independent_coding/reviewer_1/S034__design-and-implementation-of-a-semiconductor-supply-chain-knowledge-graph-for-developing-a-g.json",
+      "sha256": "17c0b4f3900e37a48389cf3ddbf31840f9fcddfb4a8e8019e0dafddcafa24ac0"
+    },
+    {
+      "study_id": "S035",
+      "file": "workbook/independent_coding/reviewer_1/S035__kosmos-ontology-based-knowledge-graph-scaffolding-for-medical-documentation-generation.json",
+      "sha256": "512e1a88c10d1307bf896f5df857d9442e40bcead19bb710f4beb614610ff4c4"
+    },
+    {
+      "study_id": "S036",
+      "file": "workbook/independent_coding/reviewer_1/S036__knowledge-graph-based-structural-safety-risk-diagnosis-and-control-of-prestressed-concrete-b.json",
+      "sha256": "97eddc21638f50fa92d43a36986fcfb81e02102d84fa8823d9b4226b47a41101"
+    },
+    {
+      "study_id": "S037",
+      "file": "workbook/independent_coding/reviewer_1/S037__on-device-intent-reasoning-for-smart-home-agents-via-ontology-augmented-sllms.json",
+      "sha256": "7ddc758317b1560da3721976eb5a60d6051175e9168c2ea71598d9e2ce21934e"
+    },
+    {
+      "study_id": "S038",
+      "file": "workbook/independent_coding/reviewer_1/S038__enhancing-llm-based-question-answering-through-isolated-contextual-knowledge-graphs.json",
+      "sha256": "8fdb7f275b8e15f74c8d3b3c01e8b2cbb9583d6f776b2fe626067b3b8f5df645"
+    },
+    {
+      "study_id": "S039",
+      "file": "workbook/independent_coding/reviewer_1/S039__enhancing-patient-empowerment-and-health-literacy-integrating-knowledge-graphs-with-language.json",
+      "sha256": "20a7c5fedceedb39adf43df6a5ffb1994b101eb159c5355a5ac1a7babc5f58dd"
+    },
+    {
+      "study_id": "S040",
+      "file": "workbook/independent_coding/reviewer_1/S040__integrating-iot-large-language-models-and-knowledge-graphs-for-future-smart-districts-a-sema.json",
+      "sha256": "dad4e1f2416b4c44c3a21511bfba1a6924690b8ae92729cd574b5d2bcb37bf01"
+    },
+    {
+      "study_id": "S041",
+      "file": "workbook/independent_coding/reviewer_1/S041__semantic-enrichment-of-the-quantum-cascade-laser-properties-in-text-a-knowledge-graph-genera.json",
+      "sha256": "05aba523336cf9af6358b0dd2031b52cfcd1b95356fdcd4cab84d68e9bbfe24c"
+    },
+    {
+      "study_id": "S042",
+      "file": "workbook/independent_coding/reviewer_1/S042__from-human-experts-to-machines-an-llm-supported-approach-to-ontology-and-knowledge-graph-con.json",
+      "sha256": "45eb4df1208869d49d040946f7fe7d1ed17028b17092ccc77b89ef4c3ee30999"
+    },
+    {
+      "study_id": "S043",
+      "file": "workbook/independent_coding/reviewer_1/S043__naturekg-an-ontology-and-knowledge-graph-for-nature-finance-with-a-text2cypher-application.json",
+      "sha256": "9aea13bdcaed1aa7929713ecb31a05cc57405fbcc38399135e6f3ae99573f2d7"
+    },
+    {
+      "study_id": "S044",
+      "file": "workbook/independent_coding/reviewer_1/S044__building-a-knowledge-graph-to-enrich-chatgpt-responses-in-manufacturing-service-discovery.json",
+      "sha256": "68f626e6e7681ea3e52a773896478ced43cfa18b4d544f2c13ecc032ebaa87bf"
+    },
+    {
+      "study_id": "S045",
+      "file": "workbook/independent_coding/reviewer_1/S045__a-knowledge-graph-and-large-language-model-based-question-answering-system-for-aviation-huma.json",
+      "sha256": "07a80306c37c8fd65748440331c7854fa2f461dc565df9dabf3d9a673c110899"
+    },
+    {
+      "study_id": "S046",
+      "file": "workbook/independent_coding/reviewer_1/S046__agentic-kgr-co-evolutionary-knowledge-graph-construction-through-multi-agent-reinforcement-l.json",
+      "sha256": "106e4490ec496d206561e7c008d055d7edf77ebb0837e4ae0480eed366c0de9d"
+    },
+    {
+      "study_id": "S047",
+      "file": "workbook/independent_coding/reviewer_1/S047__artificial-intelligence-leading-traditional-chinese-medicine-higher-education-digitalization.json",
+      "sha256": "91a6c39e755af476f2a5a4379102406a12bc470f41c8c6828dced8c77ef86374"
+    },
+    {
+      "study_id": "S048",
+      "file": "workbook/independent_coding/reviewer_1/S048__integrating-graph-retrieval-augmented-generation-with-large-language-models-for-supplier-dis.json",
+      "sha256": "5580c75580b440d839c437ca3cde449ebd7cf056699bcc02aa45dc8a00b4964e"
+    },
+    {
+      "study_id": "S049",
+      "file": "workbook/independent_coding/reviewer_1/S049__research-on-the-construction-and-application-of-a-water-conservancy-facility-safety-knowledg.json",
+      "sha256": "d351e8cd67b2e38b601fa620438e9da1d55e54d91c16e2fb7fe7de04def7eeb6"
+    },
+    {
+      "study_id": "S050",
+      "file": "workbook/independent_coding/reviewer_1/S050__distributed-incremental-ontology-reasoning-over-dynamic-t-boxes.json",
+      "sha256": "f568653d9d1210f21e6347d3bf295e7aea633057b93f34cc182e8da60bd160c9"
+    },
+    {
+      "study_id": "S051",
+      "file": "workbook/independent_coding/reviewer_1/S051__intelligent-decision-support-for-tunnel-fire-incidents-integrating-dynamic-knowledge-graph-w.json",
+      "sha256": "6166f7d04a42518cfd5db61a7e370daf74fe5798b7ee3e93d03ed41831ea2802"
+    },
+    {
+      "study_id": "S052",
+      "file": "workbook/independent_coding/reviewer_1/S052__geospatial-question-answering-on-historical-maps-using-spatio-temporal-knowledge-graphs-and-.json",
+      "sha256": "2b0cd0d70ee3213f65cd138cc267f83dd6184d749560aec9663b7d25bff76fda"
+    },
+    {
+      "study_id": "S053",
+      "file": "workbook/independent_coding/reviewer_1/S053__enhancing-clinical-note-generation-with-icd-10-clinical-ontology-knowledge-graphs-and-chain-.json",
+      "sha256": "5a34b8327adea7584300b4898c3c5e95f31cf0e0ee1c7fbaee79dbc963670f62"
+    },
+    {
+      "study_id": "S055",
+      "file": "workbook/independent_coding/reviewer_1/S055__enhancing-vector-based-retrieval-augmented-generation-with-contextual-knowledge-graph-constr.json",
+      "sha256": "92a9beac09ad77a7dc1ae9702f256504b34b36a044ab474daadfc312cc86db4f"
+    },
+    {
+      "study_id": "S056",
+      "file": "workbook/independent_coding/reviewer_1/S056__enhancing-manufacturing-knowledge-access-with-llms-and-context-aware-prompting.json",
+      "sha256": "f9d943947f9064944846fedc21725b839666577f7eb7b8f01095a38937b3d798"
+    },
+    {
+      "study_id": "S057",
+      "file": "workbook/independent_coding/reviewer_1/S057__retrieval-augmented-generation-of-ontologies-from-relational-databases.json",
+      "sha256": "e6781abeaa1cc2b706d27a4cc157713fcc665ba34de181fa72cb97bc4e7bedfa"
+    },
+    {
+      "study_id": "S058",
+      "file": "workbook/independent_coding/reviewer_1/S058__formal-knowledge-augmented-language-models-for-explainable-and-robust-reasoning.json",
+      "sha256": "29ac32fbaaaa5193e4ff2159f240c18eb32581450a1d44137b881626d5a86402"
+    },
+    {
+      "study_id": "S059",
+      "file": "workbook/independent_coding/reviewer_1/S059__automatic-ontology-construction-using-llms-as-an-external-layer-of-memory-verification-and-p.json",
+      "sha256": "80cdfe83980ab291ee7fc16215da699b2baeb1e85be61ea0a7cb295d1fe9a51c"
+    },
+    {
+      "study_id": "S060",
+      "file": "workbook/independent_coding/reviewer_1/S060__large-language-models-and-knowledge-graphs-synergistically-enhancing-personalized-learning.json",
+      "sha256": "b1b70ade7cf9c892669a491a5c1779d6fed8f693cf048918b3deecd54c745aae"
+    },
+    {
+      "study_id": "S061",
+      "file": "workbook/independent_coding/reviewer_1/S061__a-hybrid-semantic-question-answering-system-for-the-history-of-sumedang-larang-integrating-r.json",
+      "sha256": "41fac39eed6227b2149e32d4dedefd4a77dfedf3a87ccc74b7864b2f8e9dc7c6"
+    },
+    {
+      "study_id": "S062",
+      "file": "workbook/independent_coding/reviewer_1/S062__evorecipes-a-generative-approach-for-evolving-context-aware-recipes.json",
+      "sha256": "87dad1a213c5f2951b895eb1a1386d37fbdf571d956fa539886c85376f3ab0a6"
+    },
+    {
+      "study_id": "S063",
+      "file": "workbook/independent_coding/reviewer_1/S063__ensemble-learning-with-rag-model-to-reduce-redundant-question-topics-in-auto-generated-exam-.json",
+      "sha256": "e8f5094a7928bf11d82dff0b735b004a3385fd8c921ce9dfecd0a7d4690236ad"
+    },
+    {
+      "study_id": "S064",
+      "file": "workbook/independent_coding/reviewer_1/S064__accelerating-manufacturing-scale-up-from-material-discovery-using-agentic-web-navigation-and.json",
+      "sha256": "27dd760f5e38a7ee00586fa08be7dc699f77c778bd112a0325f501f619644d21"
+    },
+    {
+      "study_id": "S065",
+      "file": "workbook/independent_coding/reviewer_1/S065__document-level-relation-extraction-with-ontology-guided-rag.json",
+      "sha256": "6434f0f2518c53a4dc60e2f98881ac53a283009f244f4b22545273f663da44a2"
+    },
+    {
+      "study_id": "S066",
+      "file": "workbook/independent_coding/reviewer_1/S066__enhancing-retrieval-augmented-generation-for-interoperable-industrial-knowledge-representati.json",
+      "sha256": "c9a21928587666b88195276b55a79482f36357355401eefdf5df53cf97325a14"
+    },
+    {
+      "study_id": "S067",
+      "file": "workbook/independent_coding/reviewer_1/S067__leveraging-graph-rag-for-enhanced-diagnostic-and-treatment-strategies-in-dentistry.json",
+      "sha256": "2ac8a97cc5ba96df592bf1c0ec8e72929d903b4bc3a7438a775b7f551e8070a1"
+    },
+    {
+      "study_id": "S068",
+      "file": "workbook/independent_coding/reviewer_1/S068__agentic-system-for-construction-safety-risk-assessments-using-large-language-models-and-know.json",
+      "sha256": "d9220b82a84de87ead45b36ef8428665f91b8357d88816dee400bab4a5af85b3"
+    },
+    {
+      "study_id": "S069",
+      "file": "workbook/independent_coding/reviewer_1/S069__an-innovative-approach-to-the-semantic-integration-of-construction-and-sustainability-inform.json",
+      "sha256": "d45e0d0f2be5a5651441e5aa6828dcf6dc751ffb6c840804e77e5eaf0ebf095e"
+    },
+    {
+      "study_id": "S070",
+      "file": "workbook/independent_coding/reviewer_1/S070__knowledgehub-an-end-to-end-tool-for-assisted-scientific-discovery.json",
+      "sha256": "c8c2661e97d3b0af51a1e33464d5c6700d6c021a1fe06aecb16be0f1e60052d3"
+    },
+    {
+      "study_id": "S071",
+      "file": "workbook/independent_coding/reviewer_1/S071__the-construction-and-application-practice-of-course-knowledge-graph-in-educational-digitaliz.json",
+      "sha256": "6ca08d4f1d142f550b706158b6e5310bf3c5e2a6162d32d3806562240446a66b"
+    },
+    {
+      "study_id": "S072",
+      "file": "workbook/independent_coding/reviewer_1/S072__ontorag-enhancing-question-answering-through-automated-ontology-derivation-from-unstructured.json",
+      "sha256": "074f392441f2feae5357486d7a60d66fe9e2ae25dc334bf5e1ba9bca2386e468"
+    },
+    {
+      "study_id": "S073",
+      "file": "workbook/independent_coding/reviewer_1/S073__prompting-large-language-models-based-on-semantic-schema-for-text-to-cypher-transformation-t.json",
+      "sha256": "3710f4fda9cf38ccf30975cc06ab794fdefa2010c7ce3308a730abd120b88682"
+    },
+    {
+      "study_id": "S074",
+      "file": "workbook/independent_coding/reviewer_1/S074__retrieval-augmented-question-answering-system-based-on-large-language-models-and-knowledge-g.json",
+      "sha256": "d12ca726b47d0af8de8cc63261d7fa97cc72baf49c7f5b5c1a7bbee8692d064a"
+    },
+    {
+      "study_id": "S075",
+      "file": "workbook/independent_coding/reviewer_1/S075__automated-construction-of-medical-indicator-knowledge-graphs-using-retrieval-augmented-large.json",
+      "sha256": "3a4fc273cfb27f4e76dc2b0d259f9ac958b0f50fcddfa3d2e587490b67b3932a"
+    },
+    {
+      "study_id": "S076",
+      "file": "workbook/independent_coding/reviewer_1/S076__llm-driven-multimodal-knowledge-graph-construction-for-industrial-process-with-prompt-optimi.json",
+      "sha256": "9577ae79046726d2ddc9a8ba772b8f9e20265a80efab938bd2ae50596ee77034"
+    },
+    {
+      "study_id": "S077",
+      "file": "workbook/independent_coding/reviewer_1/S077__chattf-a-knowledge-graph-enhanced-intelligent-qa-system-for-mitigating-factuality-hallucinat.json",
+      "sha256": "41d9b76cdcc6a2f8dcdfc0c690d5546be887d1895f3f1b7c0cf74273063d0cce"
+    },
+    {
+      "study_id": "S078",
+      "file": "workbook/independent_coding/reviewer_1/S078__multi-agent-osint-architecture-with-graph-rag-integration-and-hierarchical-bloom-filter-dedu.json",
+      "sha256": "f67ac058a90ea740f914727ed6db5f50d55fdb77bdc6062b1df31706f583ecc8"
+    },
+    {
+      "study_id": "S079",
+      "file": "workbook/independent_coding/reviewer_1/S079__automatic-construction-of-oilseed-rape-knowledge-graph-based-on-large-language-models.json",
+      "sha256": "ed6367692416437b39fd10b4927e30f09e28c199409e68795f6a405f6f9a9f89"
+    },
+    {
+      "study_id": "S080",
+      "file": "workbook/independent_coding/reviewer_1/S080__a-knowledge-graph-and-large-language-model-framework-for-customized-manufacturing-a-case-stu.json",
+      "sha256": "91fd50e57fb9977bb75f8a5a6d3216e2382b92021b3049ef043b24dae64d4152"
+    },
+    {
+      "study_id": "S081",
+      "file": "workbook/independent_coding/reviewer_1/S081__chemical-process-safety-domain-knowledge-graph-enhanced-llm-for-efficient-emergency-response.json",
+      "sha256": "3c6c368cd97880b1be9a720072e26a735430d1756f8dffce6d5476d81e3b2ce6"
+    },
+    {
+      "study_id": "S082",
+      "file": "workbook/independent_coding/reviewer_1/S082__construction-of-a-multimodal-knowledge-graph-for-power-grid-construction-safety-based-on-lar.json",
+      "sha256": "799bf0d0cb32110893df6656558268afc1f7befcbe675f53017269ad1efa73b8"
+    },
+    {
+      "study_id": "S083",
+      "file": "workbook/independent_coding/reviewer_1/S083__a-comprehensive-framework-for-legal-dispute-analysis-integrating-prompt-engineering-and-mult.json",
+      "sha256": "db86504c43e501070ceb12bfab1c13a374e2a7f7b7705b26d77a7bdab38bae80"
+    },
+    {
+      "study_id": "S084",
+      "file": "workbook/independent_coding/reviewer_1/S084__acukg-a-comprehensive-knowledge-graph-for-medical-acupuncture.json",
+      "sha256": "fc324cdac3ef9eb4b43076e94c6d0d8a050904b27257c6caefbdf545a87c6971"
+    },
+    {
+      "study_id": "S085",
+      "file": "workbook/independent_coding/reviewer_1/S085__claim-knowledge-graph-construction-and-graphrag-based-question-answering-system.json",
+      "sha256": "2dc5f470dcb2b96cb5b03f721001670ae018cc1579772cac1ae93e70343633f1"
+    },
+    {
+      "study_id": "S086",
+      "file": "workbook/independent_coding/reviewer_1/S086__cti-thinker-an-llm-driven-system-for-cti-knowledge-graph-construction-and-attack-reasoning.json",
+      "sha256": "a99dc550d2d53583623a8d9ffbc03f590777f9c787a116d19d97c2f46c8ce3ca"
+    },
+    {
+      "study_id": "S087",
+      "file": "workbook/independent_coding/reviewer_1/S087__domain-specific-ontology-construction-and-llms-finetuning-for-procurement-knowledge.json",
+      "sha256": "2b97aa305aefb686cf81295c829c33e6a3f8b5746f579dfda2a114692cb46296"
+    },
+    {
+      "study_id": "S088",
+      "file": "workbook/independent_coding/reviewer_1/S088__explainable-artificial-intelligence-framework-for-predicting-treatment-outcomes-in-age-relat.json",
+      "sha256": "6e7c0891852ba26d2a0edf29792dc82427dc03ffdeb110a686273b26bd315ba0"
+    },
+    {
+      "study_id": "S089",
+      "file": "workbook/independent_coding/reviewer_1/S089__forpkg-a-framework-for-constructing-forestry-policy-knowledge-graph-and-application-analysis.json",
+      "sha256": "de2e9d8e41201dcd7714be055cd9bf21007acd54ed950c9d60ccd20422fff662"
+    },
+    {
+      "study_id": "S090",
+      "file": "workbook/independent_coding/reviewer_1/S090__from-knowledge-graph-construction-to-retrieval-augmented-generation-a-framework-for-comprehe.json",
+      "sha256": "15f65dfe4c7d02361b8326b9ce9909415f34312a6531e1607e8147da292c0ce3"
+    },
+    {
+      "study_id": "S091",
+      "file": "workbook/independent_coding/reviewer_1/S091__from-questions-to-insights-how-domain-specific-semantics-boost-llm-access-to-touristic-real-.json",
+      "sha256": "0361e84d8e96d899bf5eaf12131856d177dfe0bfe13a6165ba8bc223e9df5210"
+    },
+    {
+      "study_id": "S092",
+      "file": "workbook/independent_coding/reviewer_1/S092__fusing-geoscience-large-language-models-and-lightweight-rag-for-enhanced-geological-question.json",
+      "sha256": "59b38b3833c7829f30e87722e911869a131a3bd0540008ad7c73acd025d621af"
+    },
+    {
+      "study_id": "S093",
+      "file": "workbook/independent_coding/reviewer_1/S093__graph-rag-enhanced-retrieval-and-multi-agent-collaborative-method-for-intelligent-nuclear-po.json",
+      "sha256": "cef37319aa01deccc2264e932912dec092b9abf32ed37d8bc0eb11ff75dd604f"
+    },
+    {
+      "study_id": "S094",
+      "file": "workbook/independent_coding/reviewer_1/S094__heal-kggen-a-hierarchical-multi-agent-llm-framework-with-knowledge-graph-enhancement-for-gen.json",
+      "sha256": "ebca980d002401387136e59bbe53e8ff3ce303fe5ef2d3b55382fd740e4fd167"
+    },
+    {
+      "study_id": "S095",
+      "file": "workbook/independent_coding/reviewer_1/S095__integrating-ai-powered-knowledge-graphs-and-nlp-for-intelligent-interpretation-summarization.json",
+      "sha256": "5738cb8d2cfca978331f4629d8cf9babb387f80613b5416cb9cc4bc5437253ae"
+    },
+    {
+      "study_id": "S096",
+      "file": "workbook/independent_coding/reviewer_1/S096__integrating-graph-retrieval-augmented-generation-into-prescriptive-recommender-systems.json",
+      "sha256": "ceef7392c899cf01a8525c3da07ea27d74a78d621a070a62a2fe262d5bd89321"
+    },
+    {
+      "study_id": "S097",
+      "file": "workbook/independent_coding/reviewer_1/S097__intelligent-identification-and-decision-support-system-for-tbm-construction-risk-synergistic.json",
+      "sha256": "d42d794ef3fd82222e01b8bce453cff59b94c1e0a71a2b2b6cc7a62b9783bbf4"
+    },
+    {
+      "study_id": "S098",
+      "file": "workbook/independent_coding/reviewer_1/S098__kgagent4cti-unlocking-the-power-of-llm-in-threat-intelligence.json",
+      "sha256": "5e830cbd3dbb7f202896a19f0700bdbc156b50817dab1bebafb0387e785f7f47"
+    },
+    {
+      "study_id": "S099",
+      "file": "workbook/independent_coding/reviewer_1/S099__knowledge-graph-enhanced-pattern-language-for-biodiversity-integration-in-architectural-educ.json",
+      "sha256": "aeee3f98e8a5c2a1cd03e1ee28a7db21e6e8bdbc4017e5215b870a1758f47f5f"
+    },
+    {
+      "study_id": "S100",
+      "file": "workbook/independent_coding/reviewer_1/S100__llm-based-natural-language-to-sparql-translation-over-domain-specific-knowledge-graph.json",
+      "sha256": "fb0d6e3ac4a5073b9c24b65b712b2bfa4dbef66230b0d6f3c922c8a4205c05f7"
+    },
+    {
+      "study_id": "S101",
+      "file": "workbook/independent_coding/reviewer_1/S101__metabot-an-llm-based-multi-agent-framework-for-interactive-analysis-of-mass-spectrometry-met.json",
+      "sha256": "16826f3c474f5c43c006282f701412512d1daac20db1169916921464b56fda3a"
+    },
+    {
+      "study_id": "S102",
+      "file": "workbook/independent_coding/reviewer_1/S102__modeling-professional-influence-and-hiring-outcomes-using-multimodal-generative-ai-and-knowl.json",
+      "sha256": "9dbe9d5e30ea3b3c5a302cadd6c8e2ca01dec25dd3171f2edf1e812fcbc9e008"
+    },
+    {
+      "study_id": "S103",
+      "file": "workbook/independent_coding/reviewer_1/S103__ontologyrag-better-and-faster-biomedical-code-mapping-with-retrieval-augmented-generation-ra.json",
+      "sha256": "6075c618ed9511a59beb51526b84a8e2bc0c810d499382a0bc9b74bf7e585d26"
+    },
+    {
+      "study_id": "S104",
+      "file": "workbook/independent_coding/reviewer_1/S104__ontosage-intelligent-human-building-smartbot-for-semantic-smart-building-question-answering.json",
+      "sha256": "cc96c6cd8fb6aa0afaca401121d135723d841ed7621e0ba44d0e5b0ba20741d0"
+    },
+    {
+      "study_id": "S105",
+      "file": "workbook/independent_coding/reviewer_1/S105__pkr-qa-a-benchmark-for-procedural-knowledge-reasoning-with-knowledge-module-learning.json",
+      "sha256": "6bc0619a1b99c928f48b0894d5e4348fc9da750774969018626b5f3ca1f0e0d0"
+    },
+    {
+      "study_id": "S106",
+      "file": "workbook/independent_coding/reviewer_1/S106__psychological-counseling-with-integration-of-knowledge-graph-and-multi-agent-collaboration.json",
+      "sha256": "5c7636c9cf86416b11c20d12c7b4f40cdb72db2d5316407a1dc582e65828e081"
+    },
+    {
+      "study_id": "S107",
+      "file": "workbook/independent_coding/reviewer_1/S107__reads-kg-an-llm-knowledge-graph-framework-for-reasoned-decision-support-in-dynamic-safety-cr.json",
+      "sha256": "9ac48128949012aa2dce36941884442623b3d1526fb315756de6414b817ee5b2"
+    },
+    {
+      "study_id": "S108",
+      "file": "workbook/independent_coding/reviewer_1/S108__sara-leveraging-llm-agents-and-jurisprudential-ontologies-for-automated-legal-reasoning.json",
+      "sha256": "aeebed97b47cda3a3c67c46c6cc084ff579eacc7f88f93d8f3b366a7a7503082"
+    },
+    {
+      "study_id": "S109",
+      "file": "workbook/independent_coding/reviewer_1/S109__semantically-linked-ontological-knowledge-extraction-graph-for-domain-specific-knowledge-dis.json",
+      "sha256": "58235186dc8e77f5f6f02e99ff873333ad51a429dbffe6a3d76dc0cf8b38c728"
+    },
+    {
+      "study_id": "S110",
+      "file": "workbook/independent_coding/reviewer_1/S110__stitching-history-into-semantics-llm-supported-knowledge-graph-engineering-for-19th-century-.json",
+      "sha256": "d1a261bfb915ca8fddda94d2e4d1906fef04780c5234be41788f82972e95c86b"
+    },
+    {
+      "study_id": "S111",
+      "file": "workbook/independent_coding/reviewer_1/S111__toward-auditable-urban-soil-management-a-knowledge-graph-and-llm-approach-fusing-environment.json",
+      "sha256": "48a78b7c7914723d8d8496ecb9e58d13ed1052ad19a51f44d54c0c88088d2fb2"
+    },
+    {
+      "study_id": "S112",
+      "file": "workbook/independent_coding/reviewer_1/S112__vaxkg-integrating-the-vaccine-ontology-and-violin-for-advanced-vaccine-queries-and-llm-power.json",
+      "sha256": "48510454b489e781fb5bc43d3c8b7e1700dcbc48ad306892ef589fc0acc76b47"
+    },
+    {
+      "study_id": "S113",
+      "file": "workbook/independent_coding/reviewer_1/S113__wikontic-constructing-wikidata-aligned-ontology-aware-knowledge-graphs-with-large-language-m.json",
+      "sha256": "7c4d987fdda542bd9949aa5b3980d356300676106685953ba28c6baada1d2cbf"
+    }
+  ]
+}

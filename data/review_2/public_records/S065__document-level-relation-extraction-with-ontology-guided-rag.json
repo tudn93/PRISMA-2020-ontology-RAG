@@ -1,0 +1,174 @@
+{
+  "study_id": "S065",
+  "paper_title": "Document-Level Relation Extraction with Ontology-Guided RAG",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Schmidt et al. - 2025 - Document-level relation extraction with ontology-guided RAG.pdf",
+    "pdf_sha256": "dabb18560a8e82ad2f13369de93f0be31d886c38f1a74d3640b6fde36306ba88",
+    "page_count": 9,
+    "title_mapping_score": 0.7348
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "kind": "tier",
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "93c2f5495870210948a2614befdeb921fe1b852d4225a5e05014e102d59d0c90",
+        "original_excerpt_word_count": 46,
+        "pdf_page": 4,
+        "printed_page": "22",
+        "section": "3. Document-Level Relation Extraction Framework",
+        "source_pdf_sha256": "dabb18560a8e82ad2f13369de93f0be31d886c38f1a74d3640b6fde36306ba88",
+        "locator_method": "pass2_manual_source_audit",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Prompt-relevant ontology retrieval supplies structured context to the LLM relation-extraction output.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "93c2f5495870210948a2614befdeb921fe1b852d4225a5e05014e102d59d0c90",
+          "original_excerpt_word_count": 46,
+          "pdf_page": 4,
+          "printed_page": "22",
+          "section": "3. Document-Level Relation Extraction Framework",
+          "source_pdf_sha256": "dabb18560a8e82ad2f13369de93f0be31d886c38f1a74d3640b6fde36306ba88",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "6bab48b943e6f4ecc87d1291f6d978a73846983a4cadd02a80bcc9ab25422cf0",
+          "original_excerpt_word_count": 92,
+          "pdf_page": 3,
+          "printed_page": "21",
+          "section": "1. Introduction",
+          "source_pdf_sha256": "dabb18560a8e82ad2f13369de93f0be31d886c38f1a74d3640b6fde36306ba88",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "3. Document-Level Relation Extraction Framework",
+        "4. Evaluation",
+        "5. Conclusion",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "3. Document-Level Relation Extraction Framework",
+        "4. Evaluation",
+        "5. Conclusion",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": false,
+      "interface": 0,
+      "rag_title_hits": 2,
+      "rag_passages": 5,
+      "output_title_hits": 0,
+      "output_passages": 0,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 31,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "ontological",
+          "owl",
+          "knowledge graph",
+          "type",
+          "class",
+          "relation",
+          "extract"
+        ]
+      },
+      "T2": {
+        "top_score": 14,
+        "threshold": 11,
+        "top_hits": [
+          "retrieved subgraph",
+          "ontology",
+          "ontological",
+          "owl"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "primary_tier"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S065__document-level-relation-extraction-with-ontology-guided-rag.json",
+    "original_frozen_record_sha256": "9842ea62318bfa7844048b1b2ed713ac352680cf90ed80bf92e96d1a23597c9a",
+    "original_frozen_record_bytes": 6214,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

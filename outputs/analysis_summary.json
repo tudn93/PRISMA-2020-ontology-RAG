@@ -1,0 +1,357 @@
+{
+  "generated_at_utc": "2026-08-25T07:04:23+00:00",
+  "scope": "Detailed evaluation of frozen pass 1 and label-blind pass 2",
+  "per_pass_audit": {
+    "pass_1": {
+      "record_count": 112,
+      "validation_status": {
+        "pass": 112
+      },
+      "codebook_versions": {
+        "2.0": 112
+      },
+      "source_pdf_hash_matches": 112,
+      "source_pdf_page_count_matches": 112,
+      "tier_assignments_with_evidence": 112,
+      "positive_role_decisions": 248,
+      "positive_roles_with_evidence": 248,
+      "negative_role_decisions": 200,
+      "negative_roles_with_search_log": 200,
+      "evidence_items": 439,
+      "evidence_locator_verified": 439,
+      "evidence_source_hash_matches": 439,
+      "evidence_page_in_range": 439,
+      "title_mapping_score": {
+        "minimum": 0.3469,
+        "median": 0.755,
+        "below_0_80": 90,
+        "below_0_90": 111
+      },
+      "tier_confidence": {
+        "medium": 75,
+        "high": 37
+      },
+      "role_confidence": {
+        "T1": {
+          "medium": 80,
+          "high": 32
+        },
+        "T2": {
+          "medium": 100,
+          "high": 12
+        },
+        "T3": {
+          "high": 9,
+          "medium": 103
+        },
+        "T4": {
+          "medium": 109,
+          "high": 3
+        }
+      },
+      "role_evidence_level": {
+        "T1": {
+          "implemented": 80,
+          "described": 28,
+          "evaluated": 4
+        },
+        "T2": {
+          "not_evidenced": 21,
+          "described": 18,
+          "implemented": 66,
+          "evaluated": 7
+        },
+        "T3": {
+          "implemented": 19,
+          "not_evidenced": 89,
+          "described": 3,
+          "evaluated": 1
+        },
+        "T4": {
+          "described": 7,
+          "not_evidenced": 90,
+          "implemented": 11,
+          "evaluated": 4
+        }
+      },
+      "records_with_manual_or_reviewer_override": 112,
+      "tier_distribution": {
+        "ANCHORED": 20,
+        "CORE": 56,
+        "INTERFACE": 13,
+        "CONSTRUCTION": 22,
+        "WEAKER": 1
+      },
+      "positive_role_counts": {
+        "T1": 112,
+        "T2": 91,
+        "T3": 23,
+        "T4": 22
+      }
+    },
+    "pass_2": {
+      "record_count": 112,
+      "validation_status": {
+        "pass": 112
+      },
+      "codebook_versions": {
+        "2.0-r2": 112
+      },
+      "source_pdf_hash_matches": 112,
+      "source_pdf_page_count_matches": 112,
+      "tier_assignments_with_evidence": 112,
+      "positive_role_decisions": 224,
+      "positive_roles_with_evidence": 224,
+      "negative_role_decisions": 224,
+      "negative_roles_with_search_log": 224,
+      "evidence_items": 385,
+      "evidence_locator_verified": 385,
+      "evidence_source_hash_matches": 385,
+      "evidence_page_in_range": 385,
+      "title_mapping_score": {
+        "minimum": 0.3469,
+        "median": 0.755,
+        "below_0_80": 90,
+        "below_0_90": 111
+      },
+      "tier_confidence": {
+        "medium": 51,
+        "high": 61
+      },
+      "role_confidence": {
+        "T1": {
+          "high": 89,
+          "medium": 23
+        },
+        "T2": {
+          "medium": 52,
+          "high": 60
+        },
+        "T3": {
+          "medium": 100,
+          "high": 12
+        },
+        "T4": {
+          "medium": 98,
+          "high": 14
+        }
+      },
+      "role_evidence_level": {
+        "T1": {
+          "implemented": 91,
+          "described": 15,
+          "evaluated": 6
+        },
+        "T2": {
+          "not_evidenced": 31,
+          "described": 18,
+          "implemented": 57,
+          "evaluated": 6
+        },
+        "T3": {
+          "implemented": 14,
+          "not_evidenced": 97,
+          "evaluated": 1
+        },
+        "T4": {
+          "not_evidenced": 96,
+          "described": 2,
+          "implemented": 13,
+          "evaluated": 1
+        }
+      },
+      "records_with_manual_or_reviewer_override": 44,
+      "tier_distribution": {
+        "ANCHORED": 19,
+        "CORE": 54,
+        "INTERFACE": 12,
+        "WEAKER": 2,
+        "CONSTRUCTION": 25
+      },
+      "positive_role_counts": {
+        "T1": 112,
+        "T2": 81,
+        "T3": 15,
+        "T4": 16
+      }
+    }
+  },
+  "pre_adjudication_agreement": {
+    "primary_tier": {
+      "matches": 95,
+      "total": 112,
+      "exact_percent": 84.8,
+      "wilson_95_percent": [
+        77.0,
+        90.3
+      ],
+      "cohen_kappa": 0.774,
+      "gwet_ac1": 0.818,
+      "positive_agreement_percent": null,
+      "negative_agreement_percent": null,
+      "mcnemar_exact_p": null,
+      "pass_1_distribution": {
+        "ANCHORED": 20,
+        "CORE": 56,
+        "INTERFACE": 13,
+        "CONSTRUCTION": 22,
+        "WEAKER": 1
+      },
+      "pass_2_distribution": {
+        "ANCHORED": 19,
+        "CORE": 54,
+        "INTERFACE": 12,
+        "WEAKER": 2,
+        "CONSTRUCTION": 25
+      }
+    },
+    "T1": {
+      "matches": 112,
+      "total": 112,
+      "exact_percent": 100.0,
+      "wilson_95_percent": [
+        96.7,
+        100
+      ],
+      "cohen_kappa": null,
+      "gwet_ac1": 1.0,
+      "positive_agreement_percent": 100.0,
+      "negative_agreement_percent": null,
+      "mcnemar_exact_p": 1.0,
+      "pass_1_distribution": {
+        "1": 112
+      },
+      "pass_2_distribution": {
+        "1": 112
+      },
+      "pass_1_positive_pass_2_negative": 0,
+      "pass_1_negative_pass_2_positive": 0
+    },
+    "T2": {
+      "matches": 86,
+      "total": 112,
+      "exact_percent": 76.8,
+      "wilson_95_percent": [
+        68.2,
+        83.6
+      ],
+      "cohen_kappa": 0.356,
+      "gwet_ac1": 0.639,
+      "positive_agreement_percent": 84.9,
+      "negative_agreement_percent": 50.0,
+      "mcnemar_exact_p": 0.0755,
+      "pass_1_distribution": {
+        "0": 21,
+        "1": 91
+      },
+      "pass_2_distribution": {
+        "0": 31,
+        "1": 81
+      },
+      "pass_1_positive_pass_2_negative": 18,
+      "pass_1_negative_pass_2_positive": 8
+    },
+    "T3": {
+      "matches": 98,
+      "total": 112,
+      "exact_percent": 87.5,
+      "wilson_95_percent": [
+        80.1,
+        92.4
+      ],
+      "cohen_kappa": 0.56,
+      "gwet_ac1": 0.826,
+      "positive_agreement_percent": 63.2,
+      "negative_agreement_percent": 92.5,
+      "mcnemar_exact_p": 0.0574,
+      "pass_1_distribution": {
+        "1": 23,
+        "0": 89
+      },
+      "pass_2_distribution": {
+        "1": 15,
+        "0": 97
+      },
+      "pass_1_positive_pass_2_negative": 11,
+      "pass_1_negative_pass_2_positive": 3
+    },
+    "T4": {
+      "matches": 100,
+      "total": 112,
+      "exact_percent": 89.3,
+      "wilson_95_percent": [
+        82.2,
+        93.8
+      ],
+      "cohen_kappa": 0.622,
+      "gwet_ac1": 0.851,
+      "positive_agreement_percent": 68.4,
+      "negative_agreement_percent": 93.5,
+      "mcnemar_exact_p": 0.146,
+      "pass_1_distribution": {
+        "1": 22,
+        "0": 90
+      },
+      "pass_2_distribution": {
+        "0": 96,
+        "1": 16
+      },
+      "pass_1_positive_pass_2_negative": 9,
+      "pass_1_negative_pass_2_positive": 3
+    }
+  },
+  "all_five_exact_match": {
+    "n": 62,
+    "total": 112,
+    "percent": 55.4,
+    "wilson_95_percent": [
+      46.1,
+      64.2
+    ]
+  },
+  "disagreements": {
+    "study_field_count": 69,
+    "study_count": 50,
+    "by_variable": {
+      "T4": 12,
+      "T3": 14,
+      "primary_tier": 17,
+      "T2": 26
+    },
+    "consensus_label_alignment": {
+      "matches_pass_1_only": 26,
+      "matches_pass_2_only": 43
+    },
+    "historical_adjudication_pathway_claim": {
+      "status": "removed_from_manuscript_on_2026-08-25",
+      "reason": "The 20/21/28 pathway claim was not reconstructible from the exported consensus-label alignment. A blank author-verification template is retained instead of inferring provenance."
+    }
+  },
+  "consensus_concordance": {
+    "pass_1": {
+      "study_field_matches": 517,
+      "study_field_total": 560,
+      "study_field_percent": 92.3,
+      "all_five_study_matches": 76,
+      "all_five_study_percent": 67.9,
+      "interpretation": "Descriptive only because the consensus was derived from both passes and source re-audit."
+    },
+    "pass_2": {
+      "study_field_matches": 534,
+      "study_field_total": 560,
+      "study_field_percent": 95.4,
+      "all_five_study_matches": 96,
+      "all_five_study_percent": 85.7,
+      "interpretation": "Descriptive only because the consensus was derived from both passes and source re-audit."
+    }
+  },
+  "manuscript_decision": {
+    "primary_agreement_pair": [
+      "pass_1",
+      "pass_2"
+    ],
+    "primary_synthesis_source": "author_adjudicated_consensus",
+    "numeric_update_required": false,
+    "reason": "The independently recomputed agreement, pass marginals, evidence counts, and consensus distributions match the manuscript. Unsupported resolution-pathway counts were removed."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "study_id": "S068",
+  "paper_title": "Agentic system for construction safety risk assessments using large language models and knowledge graphs",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Speiser et al. - 2026 - Agentic system for construction safety risk assessments using large language models and knowledge gr.pdf",
+    "pdf_sha256": "b761560637c865e951543f9889f1c802e5afa8c8cdfc57276a62048888768354",
+    "page_count": 22,
+    "title_mapping_score": 0.7586,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "e2020c8036cc097afce0dd1fba1a05529155a36a117174f7976a5820c4ef74c2",
+        "original_excerpt_word_count": 13,
+        "pdf_page": 22,
+        "printed_page": "22",
+        "section": "framework automates the full task-level risk assessment workflow,",
+        "source_pdf_sha256": "b761560637c865e951543f9889f1c802e5afa8c8cdfc57276a62048888768354",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "30c15f1b6373cb749cec261a08879300b1468205ee467dc9c489040c59261de8",
+          "original_excerpt_word_count": 56,
+          "pdf_page": 17,
+          "printed_page": "17",
+          "section": "evaluation dimension are reported in the following subsections.",
+          "source_pdf_sha256": "b761560637c865e951543f9889f1c802e5afa8c8cdfc57276a62048888768354",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "88b06e39dca2c4c6ca87517da6ee6c1cf0fbef0b9a4d6f79cb1dc4e9336a9b12",
+          "original_excerpt_word_count": 11,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "ABSTRACT",
+          "source_pdf_sha256": "b761560637c865e951543f9889f1c802e5afa8c8cdfc57276a62048888768354",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "326c483a18fd8fa83095ac02d4d1cffb67fbf1567127b90a014caa6986ddfece",
+          "original_excerpt_word_count": 22,
+          "pdf_page": 22,
+          "printed_page": "22",
+          "section": "framework automates the full task-level risk assessment workflow,",
+          "source_pdf_sha256": "b761560637c865e951543f9889f1c802e5afa8c8cdfc57276a62048888768354",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Evaluation of the work sequence for all three task descriptions",
+        "5. Results",
+        "5.2.3. Preliminary performance evaluation",
+        "ABSTRACT",
+        "evaluation dimension are reported in the following subsections.",
+        "framework automates the full task-level risk assessment workflow,"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Evaluation of the work sequence for all three task descriptions",
+        "5. Results",
+        "5.2.3. Preliminary performance evaluation",
+        "ABSTRACT",
+        "evaluation dimension are reported in the following subsections.",
+        "framework automates the full task-level risk assessment workflow,"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 2,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 4
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 22,
+          "pdf_score": 17,
+          "record_score": 18,
+          "top_hits": [
+            "ontology",
+            "shacl",
+            "align",
+            "type",
+            "class",
+            "relation",
+            "constraint"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 18,
+          "pdf_score": 14,
+          "record_score": 12,
+          "top_hits": [
+            "sparql",
+            "cypher",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 2,
+          "top_hits": [
+            "infer",
+            "inference"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 20,
+          "pdf_score": 18,
+          "record_score": 8,
+          "top_hits": [
+            "shacl validation",
+            "correct",
+            "validation",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S068__agentic-system-for-construction-safety-risk-assessments-using-large-language-models-and-know.json",
+    "original_frozen_record_sha256": "d0400bc8a8a53556d83fcabf6192bbda1cf61230f46225f6e444901f48634eb9",
+    "original_frozen_record_bytes": 7216,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

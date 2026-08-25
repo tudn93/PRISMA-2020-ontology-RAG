@@ -1,0 +1,193 @@
+{
+  "study_id": "S016",
+  "paper_title": "Reasoning with RAGged events: RAG-Enhanced Event Knowledge Base Construction and reasoning with proof-assistants",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Chatzikyriakidis - 2025 - Reasoning with RAGged events RAG-enhanced event knowledge base construction and reasoning with proo.pdf",
+    "pdf_sha256": "68b051dd8343faeb4fdd9a4c10dea0b6c50c0a59a934a5c5055793ce3a264a61",
+    "page_count": 16,
+    "title_mapping_score": 0.7456,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "316964d945c7ffc5764a3685ffbf0ee8daf124aa4cf5c84da55ef2c3935bceb1",
+        "original_excerpt_word_count": 75,
+        "pdf_page": 4,
+        "printed_page": "4",
+        "section": "3 Methodology",
+        "source_pdf_sha256": "68b051dd8343faeb4fdd9a4c10dea0b6c50c0a59a934a5c5055793ce3a264a61",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology or KG evidence supports an LLM workflow without a complete retrieval-to-generation loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "11a39d2eb817a38df581bdd4b85cf041f1f67dce3e02802ccb593180715f356b",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 11,
+          "printed_page": "11",
+          "section": "4.2 Formal Translation Architecture",
+          "source_pdf_sha256": "68b051dd8343faeb4fdd9a4c10dea0b6c50c0a59a934a5c5055793ce3a264a61",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related work",
+        "3 Methodology",
+        "3.1 Implementation and Evaluation",
+        "4.2 Formal Translation Architecture",
+        "5 Conclusions, Limitations and Future Work",
+        "References"
+      ],
+      "absence_rationale": "No qualifying ontology-controlled retrieval or query mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "fb99c673f4b9abee5c303a6c35aa5114ae237ed5a7ede22838ddf3b308dc97a7",
+          "original_excerpt_word_count": 80,
+          "pdf_page": 10,
+          "printed_page": "10",
+          "section": "4.2 Formal Translation Architecture",
+          "source_pdf_sha256": "68b051dd8343faeb4fdd9a4c10dea0b6c50c0a59a934a5c5055793ce3a264a61",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "high"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related work",
+        "3 Methodology",
+        "3.1 Implementation and Evaluation",
+        "4.2 Formal Translation Architecture",
+        "5 Conclusions, Limitations and Future Work",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 2
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 25,
+          "pdf_score": 20,
+          "record_score": 17,
+          "top_hits": [
+            "ontological",
+            "class hierarchy",
+            "rdf",
+            "extract",
+            "type",
+            "class",
+            "triple"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 10,
+          "pdf_score": 10,
+          "record_score": 2,
+          "top_hits": [
+            "sparql",
+            "retrieval"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 19,
+          "pdf_score": 17,
+          "record_score": 7,
+          "top_hits": [
+            "inference engine",
+            "infer",
+            "inference",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 13,
+          "pdf_score": 11,
+          "record_score": 6,
+          "top_hits": [
+            "correct",
+            "verification",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S016__reasoning-with-ragged-events-rag-enhanced-event-knowledge-base-construction-and-reasoning-wi.json",
+    "original_frozen_record_sha256": "4156049f91526ad936ed74f2809b3c1960237d8afdb86ae88efc4c4cccff342a",
+    "original_frozen_record_bytes": 7189,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

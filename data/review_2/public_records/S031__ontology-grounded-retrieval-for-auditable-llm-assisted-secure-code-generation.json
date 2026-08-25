@@ -1,0 +1,181 @@
+{
+  "study_id": "S031",
+  "paper_title": "Ontology-grounded retrieval for auditable LLM-assisted secure code generation",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Farinha - 2026 - Ontology-grounded retrieval for auditable LLM-assisted secure code generation.pdf",
+    "pdf_sha256": "e23bee79d63b82e6e4a201d277cbe3a5ce5ea18b3511a3e6badd91f1b24f8bfb",
+    "page_count": 16,
+    "title_mapping_score": 0.8644
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "kind": "tier",
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "0e65c66bb2998d538d2969784edb36a6a6a0074114c8819bec3c2472852213ce",
+        "original_excerpt_word_count": 28,
+        "pdf_page": 9,
+        "printed_page": "9",
+        "section": "4. Method: Ontology-Grounded Retrieval",
+        "source_pdf_sha256": "e23bee79d63b82e6e4a201d277cbe3a5ce5ea18b3511a3e6badd91f1b24f8bfb",
+        "locator_method": "pass2_manual_source_audit",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "A complete ontology-grounded retrieval, generation, and verification loop is specified.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "5ffac2b72cd67bdc2d49e89762f2a309a8c4af12ee914dde44fab2e015279974",
+          "original_excerpt_word_count": 82,
+          "pdf_page": 10,
+          "printed_page": "10",
+          "section": "4. Method: Ontology-Grounded Retrieval",
+          "source_pdf_sha256": "e23bee79d63b82e6e4a201d277cbe3a5ce5ea18b3511a3e6badd91f1b24f8bfb",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "49524e1eb4754ff005f05998091fde077b923a83b471e601f9728dad049755e8",
+          "original_excerpt_word_count": 21,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "1. Introduction",
+          "source_pdf_sha256": "e23bee79d63b82e6e4a201d277cbe3a5ce5ea18b3511a3e6badd91f1b24f8bfb",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Background and Related Work",
+        "4. Method: Ontology-Grounded Retrieval",
+        "7. Discussion",
+        "9. Conclusion",
+        "Abstract",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "0c85033f613bd17649fe4c43d9b2c4f8243aadb910f258b09f55cabd5b37eedf",
+          "original_excerpt_word_count": 66,
+          "pdf_page": 13,
+          "printed_page": "13",
+          "section": "7. Discussion",
+          "source_pdf_sha256": "e23bee79d63b82e6e4a201d277cbe3a5ce5ea18b3511a3e6badd91f1b24f8bfb",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "An operational governance action affecting an answer, claim, decision, report, query, or workflow was evidenced.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": false,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 2,
+      "output_title_hits": 0,
+      "output_passages": 0,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 20,
+        "threshold": 11,
+        "top_hits": [
+          "owl",
+          "schema",
+          "model",
+          "type",
+          "class",
+          "validate"
+        ]
+      },
+      "T2": {
+        "top_score": 12,
+        "threshold": 11,
+        "top_hits": [
+          "context assembly",
+          "ontology"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 13,
+        "threshold": 12,
+        "top_hits": [
+          "audit trail",
+          "ontology"
+        ]
+      }
+    },
+    "manual_source_audit_overrides": [
+      "primary_tier"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S031__ontology-grounded-retrieval-for-auditable-llm-assisted-secure-code-generation.json",
+    "original_frozen_record_sha256": "8ee769fd2e0c933424f7898e37afc31fe46fe32122eaeb9335a91dbcba1a08ea",
+    "original_frozen_record_bytes": 6561,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "study_id": "S066",
+  "paper_title": "Enhancing retrieval-augmented generation for interoperable industrial knowledge representation and inference toward cognitive digital twins",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Shi et al. - 2025 - Enhancing retrieval-augmented generation for interoperable industrial knowledge representation and i.pdf",
+    "pdf_sha256": "8ed99fb7581856f1e4bd12bce43a3858dbd13030abc7cc2f8a164aecb5e435b4",
+    "page_count": 16,
+    "title_mapping_score": 0.6006
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "kind": "tier",
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "973f0b90afa7bd45208d90926c89557acb5c6f2c997a07496b8e149b50402137",
+        "original_excerpt_word_count": 28,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "ABSTRACT",
+        "source_pdf_sha256": "8ed99fb7581856f1e4bd12bce43a3858dbd13030abc7cc2f8a164aecb5e435b4",
+        "locator_method": "pass2_manual_source_audit",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "AAS-structured candidate retrieval and reranking feed a downstream chat-model answer.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "d75f2071c8d87f92bfc7ac998bc2de96d3a9e0bbfe5fca0277bf775927b4fab2",
+          "original_excerpt_word_count": 26,
+          "pdf_page": 11,
+          "printed_page": "11",
+          "section": "4.3. Evaluation of the RAG responses",
+          "source_pdf_sha256": "8ed99fb7581856f1e4bd12bce43a3858dbd13030abc7cc2f8a164aecb5e435b4",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "973f0b90afa7bd45208d90926c89557acb5c6f2c997a07496b8e149b50402137",
+          "original_excerpt_word_count": 28,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "ABSTRACT",
+          "source_pdf_sha256": "8ed99fb7581856f1e4bd12bce43a3858dbd13030abc7cc2f8a164aecb5e435b4",
+          "locator_method": "pass2_manual_source_audit",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "2. Related work",
+        "4.2. Implementation",
+        "4.3. Evaluation of the RAG responses",
+        "5.3. Experiment settings",
+        "5.4. Experiment results",
+        "5.5. Discussions",
+        "ABSTRACT",
+        "implementation details on how to extract the attribute string and posi -"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "2. Related work",
+        "4.2. Implementation",
+        "4.3. Evaluation of the RAG responses",
+        "5.3. Experiment settings",
+        "5.4. Experiment results",
+        "5.5. Discussions",
+        "ABSTRACT",
+        "implementation details on how to extract the attribute string and posi -"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 2,
+      "rag_passages": 6,
+      "output_title_hits": 0,
+      "output_passages": 11,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 14,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "schema",
+          "represent"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "primary_tier",
+      "T2"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S066__enhancing-retrieval-augmented-generation-for-interoperable-industrial-knowledge-representati.json",
+    "original_frozen_record_sha256": "f34ac2783380901a011bd989c834a298136d715a06fc62ba21c0fa63ae8acd15",
+    "original_frozen_record_bytes": 5472,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "study_id": "S012",
+  "paper_title": "RecipeMasterLLM: Revisiting RoboEarth in the Era of Large Language Models",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Bozcuoglu and Liu - 2025 - RecipeMasterLLM revisiting RoboEarth in the era of large language models.pdf",
+    "pdf_sha256": "59269562914a0e16a3cb88b888328df9c47222b2425ecc60098eeb747861a976",
+    "page_count": 8,
+    "title_mapping_score": 0.7661
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "f58ca1eaf2c82418a3b8401f42dd6a511a4f7b040f2a5f529b84acb24dee98f4",
+        "original_excerpt_word_count": 27,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "framework that enables robots to learn symbolic predicates",
+        "source_pdf_sha256": "59269562914a0e16a3cb88b888328df9c47222b2425ecc60098eeb747861a976",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG supports an LLM workflow without a complete semantically controlled retrieval-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "f05c36d3362f306f93bb360207146151a265c458fab512f60b054d9b0da2f4d2",
+          "original_excerpt_word_count": 50,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "abstract user prompts.",
+          "source_pdf_sha256": "59269562914a0e16a3cb88b888328df9c47222b2425ecc60098eeb747861a976",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "050d0af22bc5449f1a162b0cf0ed33f44b58e97b221790f7891b227cf048b949",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "framework that enables robots to learn symbolic predicates",
+          "source_pdf_sha256": "59269562914a0e16a3cb88b888328df9c47222b2425ecc60098eeb747861a976",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "I. INTRODUCTION",
+        "V. CONCLUSIONS",
+        "abstract user prompts.",
+        "framework that enables robots to learn symbolic predicates"
+      ],
+      "absence_rationale": "No passage satisfied the prespecified semantic retrieval-control requirements.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "I. INTRODUCTION",
+        "V. CONCLUSIONS",
+        "abstract user prompts.",
+        "framework that enables robots to learn symbolic predicates"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "I. INTRODUCTION",
+        "V. CONCLUSIONS",
+        "abstract user prompts.",
+        "framework that enables robots to learn symbolic predicates"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": false,
+      "interface": 0,
+      "rag_title_hits": 3,
+      "rag_passages": 5,
+      "output_title_hits": 0,
+      "output_passages": 0,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 26,
+        "threshold": 11,
+        "top_hits": [
+          "rdf",
+          "rdfs",
+          "owl",
+          "type",
+          "class",
+          "constraint"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S012__recipemasterllm-revisiting-roboearth-in-the-era-of-large-language-models.json",
+    "original_frozen_record_sha256": "09f0d195c409bba65c1a855e8c3d24c094e05d35effc48a91825473eafda0fea",
+    "original_frozen_record_bytes": 5694,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

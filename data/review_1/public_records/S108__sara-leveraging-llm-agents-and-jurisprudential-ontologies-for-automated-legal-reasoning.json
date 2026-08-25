@@ -1,0 +1,177 @@
+{
+  "study_id": "S108",
+  "paper_title": "SARA: Leveraging LLM Agents and Jurisprudential Ontologies for Automated Legal Reasoning",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Bonfim et al. - 2026 - SARA leveraging LLM agents and jurisprudential ontologies for automated legal reasoning.pdf",
+    "pdf_sha256": "af8035bdf577f3688ff58274b5392a7c48859abb872ff1ff496c506060c78467",
+    "page_count": 9,
+    "title_mapping_score": 0.7939,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "5b7c95eaa3e6533f976b40bb5dc3c4493a588718ab38507bc638eb49920b7a41",
+        "original_excerpt_word_count": 100,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Abstract",
+        "source_pdf_sha256": "af8035bdf577f3688ff58274b5392a7c48859abb872ff1ff496c506060c78467",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology or KG evidence supports an LLM workflow without a complete retrieval-to-generation loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "4ff2d8c65bfb2d262c957361db03689e1936006b3005ca48a9ce6df7e3d7fbb0",
+          "original_excerpt_word_count": 23,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Abstract",
+          "source_pdf_sha256": "af8035bdf577f3688ff58274b5392a7c48859abb872ff1ff496c506060c78467",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "ea4cdb3e05bf18c3e7061a89eeb655ac31a1a8443beb25c34aaf4f7da20008e1",
+          "original_excerpt_word_count": 56,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "Knowledge Graph (Jur-KG), enabling the retrieval of legally",
+          "source_pdf_sha256": "af8035bdf577f3688ff58274b5392a7c48859abb872ff1ff496c506060c78467",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "Knowledge Graph (Jur-KG), enabling the retrieval of legally"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "Knowledge Graph (Jur-KG), enabling the retrieval of legally"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 15,
+          "pdf_score": 13,
+          "record_score": 7,
+          "top_hits": [
+            "ontology",
+            "rdf",
+            "owl",
+            "represent"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 9,
+          "pdf_score": 9,
+          "record_score": 2,
+          "top_hits": [
+            "semantic search",
+            "query",
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 2,
+          "pdf_score": 2,
+          "record_score": 2,
+          "top_hits": [
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "reject",
+            "reject"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S108__sara-leveraging-llm-agents-and-jurisprudential-ontologies-for-automated-legal-reasoning.json",
+    "original_frozen_record_sha256": "e3f782d1afe008633c17fcdf8120fbfd47a86339f93e05602d8d0e21175d2764",
+    "original_frozen_record_bytes": 6360,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

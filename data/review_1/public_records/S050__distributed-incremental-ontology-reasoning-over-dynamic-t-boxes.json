@@ -1,0 +1,194 @@
+{
+  "study_id": "S050",
+  "paper_title": "Distributed Incremental Ontology Reasoning over Dynamic T-boxes",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Lima Carneiro Alves De et al. - 2024 - Distributed incremental ontology reasoning over dynamic T-boxes.pdf",
+    "pdf_sha256": "b452f6f63bd4c2088327c19ff42a9866555f52f6c5acc5fbcf7ca9cc36fcee49",
+    "page_count": 6,
+    "title_mapping_score": 0.6223,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "021924a83778d3af0bea995bbdf42ddffa57c0d98ef16bc45abe4d299c5c938f",
+        "original_excerpt_word_count": 95,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Abstract",
+        "source_pdf_sha256": "b452f6f63bd4c2088327c19ff42a9866555f52f6c5acc5fbcf7ca9cc36fcee49",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "5472605a4e3995a8beb8dbde973669e116e15f75a99f31cb7e1195ff2aca3d53",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "Abstract",
+          "source_pdf_sha256": "b452f6f63bd4c2088327c19ff42a9866555f52f6c5acc5fbcf7ca9cc36fcee49",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "b61329edb3e7ddeb5463c78568f2d5dcfbf468bc223cd4d1469c0d3f03d40d64",
+          "original_excerpt_word_count": 35,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "Abstract",
+          "source_pdf_sha256": "b452f6f63bd4c2088327c19ff42a9866555f52f6c5acc5fbcf7ca9cc36fcee49",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "6 Conclusion",
+        "Abstract",
+        "References"
+      ],
+      "absence_rationale": "No qualifying ontology-controlled retrieval or query mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "7e38d5fd051e767d38a21d30cc3b09dc01fa37c8c7beebc48b994d6a4aad1571",
+          "original_excerpt_word_count": 18,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Abstract",
+          "source_pdf_sha256": "b452f6f63bd4c2088327c19ff42a9866555f52f6c5acc5fbcf7ca9cc36fcee49",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "6 Conclusion",
+        "Abstract",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 0
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 26,
+          "pdf_score": 21,
+          "record_score": 26,
+          "top_hits": [
+            "ontology",
+            "rdf",
+            "rdfs",
+            "tbox",
+            "abox"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 6,
+          "pdf_score": 5,
+          "record_score": 3,
+          "top_hits": [
+            "retrieval",
+            "search",
+            "context"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 17,
+          "pdf_score": 13,
+          "record_score": 13,
+          "top_hits": [
+            "reasoner",
+            "logic",
+            "reasoner"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S050__distributed-incremental-ontology-reasoning-over-dynamic-t-boxes.json",
+    "original_frozen_record_sha256": "225985b6a4b72ff9c898b5e0a32b7c376784931fab862b403a839570fa6e9fd6",
+    "original_frozen_record_bytes": 6651,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

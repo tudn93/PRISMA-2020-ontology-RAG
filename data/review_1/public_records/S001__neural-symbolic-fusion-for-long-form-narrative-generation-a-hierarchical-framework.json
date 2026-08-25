@@ -1,0 +1,211 @@
+{
+  "study_id": "S001",
+  "paper_title": "Neural-Symbolic Fusion for Long-Form Narrative Generation: A Hierarchical Framework",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "2025 - Neural-symbolic fusion for long-form narrative generation a hierarchical framework.pdf",
+    "pdf_sha256": "729ed07beab4c8d4256159bd6bdad0ecd60fb2ff62870611884dd5da4d2a2c92",
+    "page_count": 23,
+    "title_mapping_score": 0.9355,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "f7abc55187c22c505a06727223892b592161de906c838f7a84b02f9559279c28",
+        "original_excerpt_word_count": 13,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "ABSTRACT",
+        "source_pdf_sha256": "729ed07beab4c8d4256159bd6bdad0ecd60fb2ff62870611884dd5da4d2a2c92",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology or KG evidence supports an LLM workflow without a complete retrieval-to-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "e11f61abc3ff2d0aafcc4b5328d1cd7c66b535816838a2cb52366c9c05c8c6f1",
+          "original_excerpt_word_count": 63,
+          "pdf_page": 11,
+          "printed_page": "11",
+          "section": "4 Results and Case Study",
+          "source_pdf_sha256": "729ed07beab4c8d4256159bd6bdad0ecd60fb2ff62870611884dd5da4d2a2c92",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "94ef48b8a2f7ce6e8f829eefae4e41c0629d1bcf507a4ffe3bde6335f35b5279",
+          "original_excerpt_word_count": 19,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "3 Narrative Generation Based on Neural-Symbolic Fusion : A Proposed Architecture",
+          "source_pdf_sha256": "729ed07beab4c8d4256159bd6bdad0ecd60fb2ff62870611884dd5da4d2a2c92",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "2 From Symbolic Methods to Neural-Symbolic Fusion",
+        "3 Narrative Generation Based on Neural-Symbolic Fusion : A Proposed Architecture",
+        "4 Results and Case Study",
+        "5 Conclusion",
+        "ABSTRACT",
+        "Knowledge Graph Updates",
+        "Knowledge graph population begins by creating entity nodes from creator specifications ,",
+        "References",
+        "Result : Sentence length reduced to 18 . 3 words"
+      ],
+      "absence_rationale": "No qualifying ontology-controlled retrieval or query mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "89c0ba4cc5b734b2402e35f54b365f2545fdd05dcc2a4110884a62cc9420d314",
+          "original_excerpt_word_count": 13,
+          "pdf_page": 9,
+          "printed_page": "9",
+          "section": "Knowledge graph population begins by creating entity nodes from creator specifications ,",
+          "source_pdf_sha256": "729ed07beab4c8d4256159bd6bdad0ecd60fb2ff62870611884dd5da4d2a2c92",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "high"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "15cfa1061b0d470aef234006463b8399a625a1a75115aedf99bfe25c16c4023e",
+          "original_excerpt_word_count": 13,
+          "pdf_page": 11,
+          "printed_page": "11",
+          "section": "4 Results and Case Study",
+          "source_pdf_sha256": "729ed07beab4c8d4256159bd6bdad0ecd60fb2ff62870611884dd5da4d2a2c92",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 2
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 16,
+          "pdf_score": 12,
+          "record_score": 12,
+          "top_hits": [
+            "ontology",
+            "construct",
+            "represent",
+            "relation",
+            "constraint"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 0,
+          "top_hits": [
+            "search",
+            "select",
+            "path"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 22,
+          "pdf_score": 21,
+          "record_score": 4,
+          "top_hits": [
+            "inference engine",
+            "preconditions",
+            "infer",
+            "inference",
+            "precondition"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 13,
+          "pdf_score": 13,
+          "record_score": 2,
+          "top_hits": [
+            "correct",
+            "correction",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S001__neural-symbolic-fusion-for-long-form-narrative-generation-a-hierarchical-framework.json",
+    "original_frozen_record_sha256": "8a87f25cf5f629ca5cf87443d3b53beaa26731e7afcb9ab5b70a4d2a9872e0af",
+    "original_frozen_record_bytes": 7444,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

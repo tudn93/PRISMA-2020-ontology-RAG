@@ -1,0 +1,193 @@
+{
+  "study_id": "S035",
+  "paper_title": "KOSMOS: Ontology-Based Knowledge Graph Scaffolding for Medical Documentation Generation",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Henry and Gong - 2026 - KOSMOS ontology-based knowledge graph scaffolding for medical documentation generation.pdf",
+    "pdf_sha256": "903f750024c13dbb5a6c417bbaa9555f405209a7a6756a334b6f524ed8324cb8",
+    "page_count": 32,
+    "title_mapping_score": 0.7778,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "8ec0fe62777e860c8b04b61ff72c0fb992dbab33cd7c3a895b2a3975da39fce1",
+        "original_excerpt_word_count": 26,
+        "pdf_page": 8,
+        "printed_page": "8",
+        "section": "2. Materials and Methods",
+        "source_pdf_sha256": "903f750024c13dbb5a6c417bbaa9555f405209a7a6756a334b6f524ed8324cb8",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology or KG evidence supports an LLM workflow without a complete retrieval-to-generation loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "a651aaa11122345ae4ef6523ac564cb554cceeb70e6c5e23599596ee8b5c0606",
+          "original_excerpt_word_count": 52,
+          "pdf_page": 9,
+          "printed_page": "9",
+          "section": "2. Materials and Methods",
+          "source_pdf_sha256": "903f750024c13dbb5a6c417bbaa9555f405209a7a6756a334b6f524ed8324cb8",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1.2. Related Work",
+        "2. Materials and Methods",
+        "2.9. Evaluation Framework",
+        "2.9.2. DocLens Claim and Citation Evaluation",
+        "3.2. DocLens Evaluation Metrics",
+        "Abstract",
+        "Method ∆ Mean 95% CI W p Value",
+        "References",
+        "evaluation setting."
+      ],
+      "absence_rationale": "No qualifying ontology-controlled retrieval or query mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1.2. Related Work",
+        "2. Materials and Methods",
+        "2.9. Evaluation Framework",
+        "2.9.2. DocLens Claim and Citation Evaluation",
+        "3.2. DocLens Evaluation Metrics",
+        "Abstract",
+        "Method ∆ Mean 95% CI W p Value",
+        "References",
+        "evaluation setting."
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1.2. Related Work",
+        "2. Materials and Methods",
+        "2.9. Evaluation Framework",
+        "2.9.2. DocLens Claim and Citation Evaluation",
+        "3.2. DocLens Evaluation Metrics",
+        "Abstract",
+        "Method ∆ Mean 95% CI W p Value",
+        "References",
+        "evaluation setting."
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 27,
+          "pdf_score": 22,
+          "record_score": 17,
+          "top_hits": [
+            "ontology",
+            "typed relation",
+            "typed relations",
+            "construct",
+            "extract",
+            "type",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 2,
+          "top_hits": [
+            "retrieval",
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 10,
+          "pdf_score": 8,
+          "record_score": 6,
+          "top_hits": [
+            "infer",
+            "inference"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 13,
+          "pdf_score": 13,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correction",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S035__kosmos-ontology-based-knowledge-graph-scaffolding-for-medical-documentation-generation.json",
+    "original_frozen_record_sha256": "63bf7213e6dc59d5a2a28d47a636a22aca8e65a4b222959e0fa76901e974fb8e",
+    "original_frozen_record_bytes": 6301,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

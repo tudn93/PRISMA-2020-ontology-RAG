@@ -1,0 +1,217 @@
+{
+  "study_id": "S090",
+  "paper_title": "From knowledge graph construction to retrieval-augmented generation: a framework for comprehensive e",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Yao et al. - 2026 - From knowledge graph construction to retrieval-augmented generation a framework for comprehensive e.pdf",
+    "pdf_sha256": "58ae29af715c8105d0d3076e44c4dfbeff244813a66912d646278b93e6a22df0",
+    "page_count": 22,
+    "title_mapping_score": 0.8224,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "d28012ecea8dd879716d410fc5c652d746f949beb4275895b1957cf4e44c4d1e",
+        "original_excerpt_word_count": 58,
+        "pdf_page": 3,
+        "printed_page": "3",
+        "section": "ABSTRACT",
+        "source_pdf_sha256": "58ae29af715c8105d0d3076e44c4dfbeff244813a66912d646278b93e6a22df0",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "689344f7e77cf9c817b4de5cc57e66980a951615f8f0bd956923c10005cef3cd",
+          "original_excerpt_word_count": 56,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "ABSTRACT",
+          "source_pdf_sha256": "58ae29af715c8105d0d3076e44c4dfbeff244813a66912d646278b93e6a22df0",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "7ce5121aaa0bd90e36fa3fe9b74b6faa8485a8fa834156a080b1498125b993c7",
+          "original_excerpt_word_count": 10,
+          "pdf_page": 13,
+          "printed_page": "13",
+          "section": "3.4.1. Relationship fusion method",
+          "source_pdf_sha256": "58ae29af715c8105d0d3076e44c4dfbeff244813a66912d646278b93e6a22df0",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "370efeceae232e60c25c1002caf7ff051a861411f14b41f664d639f876a8867b",
+          "original_excerpt_word_count": 39,
+          "pdf_page": 15,
+          "printed_page": "15",
+          "section": "4.5. Knowledge visualization and query results",
+          "source_pdf_sha256": "58ae29af715c8105d0d3076e44c4dfbeff244813a66912d646278b93e6a22df0",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "6fa02086c7d006b5a2e86a5eb678538601c05ed72e131279fdc2a9de8715f876",
+          "original_excerpt_word_count": 31,
+          "pdf_page": 22,
+          "printed_page": "22",
+          "section": "framework still has several limitations that warrant",
+          "source_pdf_sha256": "58ae29af715c8105d0d3076e44c4dfbeff244813a66912d646278b93e6a22df0",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "3.4.1. Relationship fusion method",
+        "4.5. Knowledge visualization and query results",
+        "5.2. Performance evaluation",
+        "6. Discussion",
+        "6.3. Limitations and future work",
+        "ABSTRACT",
+        "Unnumbered/section not detected",
+        "framework still has several limitations that warrant",
+        "knowledge graph construction"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "3.4.1. Relationship fusion method",
+        "4.5. Knowledge visualization and query results",
+        "5.2. Performance evaluation",
+        "6. Discussion",
+        "6.3. Limitations and future work",
+        "ABSTRACT",
+        "Unnumbered/section not detected",
+        "framework still has several limitations that warrant",
+        "knowledge graph construction"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 2,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 18,
+          "pdf_score": 13,
+          "record_score": 20,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "extract",
+            "align",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 9,
+          "pdf_score": 8,
+          "record_score": 3,
+          "top_hits": [
+            "retrieval",
+            "query",
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "infer",
+            "inference"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S090__from-knowledge-graph-construction-to-retrieval-augmented-generation-a-framework-for-comprehe.json",
+    "original_frozen_record_sha256": "13e0273c02af9ede8f9b57974d7eda3e6038033efd129176a888712261f00547",
+    "original_frozen_record_bytes": 8168,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

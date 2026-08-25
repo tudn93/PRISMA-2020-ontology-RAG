@@ -1,0 +1,179 @@
+{
+  "study_id": "S047",
+  "paper_title": "Artificial Intelligence Leading Traditional Chinese Medicine Higher Education Digitalization Development Strategy Research",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Li et al. - 2025 - Artificial intelligence leading traditional chinese medicine higher education digitalization develop.pdf",
+    "pdf_sha256": "e2ade3fab255f0b85e0313102072f2902bb40d57efee4c935d85f647b5249a86",
+    "page_count": 6,
+    "title_mapping_score": 0.6407
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "kind": "tier",
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "6ab1b7391c99925e2fabad261d7e06af8965ad16dc676e8dc98adde2eb1f8f5b",
+        "original_excerpt_word_count": 66,
+        "pdf_page": 4,
+        "printed_page": "4",
+        "section": "4 Experiments",
+        "source_pdf_sha256": "e2ade3fab255f0b85e0313102072f2902bb40d57efee4c935d85f647b5249a86",
+        "locator_method": "pass2_manual_source_audit",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "KG structure constrains retrieval and generation in the evaluated RAG workflow.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "466c67810992d544178157a0b26c88e8526bcb4b218b2e7b45979cbe19236d15",
+          "original_excerpt_word_count": 34,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "4 Experiments",
+          "source_pdf_sha256": "e2ade3fab255f0b85e0313102072f2902bb40d57efee4c935d85f647b5249a86",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "5c7d90e3003b8dc776b2152c1256614c705ae2a0bc72a54e87790f3c6905f99a",
+          "original_excerpt_word_count": 41,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "4 Experiments",
+          "source_pdf_sha256": "e2ade3fab255f0b85e0313102072f2902bb40d57efee4c935d85f647b5249a86",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "6ab1b7391c99925e2fabad261d7e06af8965ad16dc676e8dc98adde2eb1f8f5b",
+          "original_excerpt_word_count": 66,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "4 Experiments",
+          "source_pdf_sha256": "e2ade3fab255f0b85e0313102072f2902bb40d57efee4c935d85f647b5249a86",
+          "locator_method": "pass2_manual_source_audit",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "2 Related WORK",
+        "4 Experiments",
+        "5 Conclusion",
+        "Abstract",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "2 Related WORK",
+        "4 Experiments",
+        "5 Conclusion",
+        "Abstract",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 2,
+      "output_title_hits": 0,
+      "output_passages": 4,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 16,
+        "threshold": 11,
+        "top_hits": [
+          "owl",
+          "construct",
+          "model",
+          "relation",
+          "align"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "primary_tier",
+      "T2"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S047__artificial-intelligence-leading-traditional-chinese-medicine-higher-education-digitalization.json",
+    "original_frozen_record_sha256": "ab4d2f3701775a021b6fe70e537e2fde311fe6b2213f96a39ff5c2e867a5ffef",
+    "original_frozen_record_bytes": 6274,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

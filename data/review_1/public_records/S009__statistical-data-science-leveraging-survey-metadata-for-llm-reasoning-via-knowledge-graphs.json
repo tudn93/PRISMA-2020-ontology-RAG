@@ -1,0 +1,223 @@
+{
+  "study_id": "S009",
+  "paper_title": "Statistical Data Science Leveraging Survey Metadata for LLM Reasoning via Knowledge Graphs",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Belyaeva et al. - 2026 - Leveraging survey metadata for LLM reasoning via knowledge graphs.pdf",
+    "pdf_sha256": "4b9f5345cd6dc6de0b14c1dbb85bf513d0dc8c08fbf57d95c78d36a5305699bf",
+    "page_count": 22,
+    "title_mapping_score": 0.6456,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "79d5d0e3b0b41b225a555dd54b5405ed3aa54f1ef720b2ef35322cbabf2f09aa",
+        "original_excerpt_word_count": 45,
+        "pdf_page": 5,
+        "printed_page": "5",
+        "section": "3 Methods",
+        "source_pdf_sha256": "4b9f5345cd6dc6de0b14c1dbb85bf513d0dc8c08fbf57d95c78d36a5305699bf",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "bcf505e55ac70cbdbc7e4821cb3108446ad28d504b36f3b29006b23bc895cd0e",
+          "original_excerpt_word_count": 30,
+          "pdf_page": 18,
+          "printed_page": "18",
+          "section": "6 Discussion",
+          "source_pdf_sha256": "4b9f5345cd6dc6de0b14c1dbb85bf513d0dc8c08fbf57d95c78d36a5305699bf",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "02563708134c79d7e3d8adaba90ce5919c7a1b5b602cb3ad5e22647e2fab8dce",
+          "original_excerpt_word_count": 30,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "3 Methods",
+          "source_pdf_sha256": "4b9f5345cd6dc6de0b14c1dbb85bf513d0dc8c08fbf57d95c78d36a5305699bf",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "90e5be7a601587905e1da0e0e99de5df2102a7bc70f66fe804373e72e80aeb93",
+          "original_excerpt_word_count": 58,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "1 Introduction",
+          "source_pdf_sha256": "4b9f5345cd6dc6de0b14c1dbb85bf513d0dc8c08fbf57d95c78d36a5305699bf",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "8a3f3125738db48676c39c580a8adb597993a84666a2d84fda4c2d4c146761e5",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "3 Methods",
+          "source_pdf_sha256": "4b9f5345cd6dc6de0b14c1dbb85bf513d0dc8c08fbf57d95c78d36a5305699bf",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Background",
+        "2.2 Knowledge Graphs (KGs)",
+        "3 Methods",
+        "3.3 Statistical Knowledge Graph (SKG) Model",
+        "4 Experiments",
+        "4.3 Experimental Settings",
+        "4.4 Evaluation Metrics",
+        "6 Discussion",
+        "References",
+        "knowledge graph reasoning for question answering. arXiv preprint: arXiv:2211.08380"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Background",
+        "2.2 Knowledge Graphs (KGs)",
+        "3 Methods",
+        "3.3 Statistical Knowledge Graph (SKG) Model",
+        "4 Experiments",
+        "4.3 Experimental Settings",
+        "4.4 Evaluation Metrics",
+        "6 Discussion",
+        "References",
+        "knowledge graph reasoning for question answering. arXiv preprint: arXiv:2211.08380"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 16,
+          "pdf_score": 13,
+          "record_score": 10,
+          "top_hits": [
+            "ontology",
+            "ontology alignment",
+            "construct",
+            "align"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 10,
+          "pdf_score": 9,
+          "record_score": 5,
+          "top_hits": [
+            "semantic search",
+            "retrieval",
+            "search"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 14,
+          "pdf_score": 14,
+          "record_score": 2,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 10,
+          "pdf_score": 10,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "verify",
+            "correct",
+            "constraint"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S009__statistical-data-science-leveraging-survey-metadata-for-llm-reasoning-via-knowledge-graphs.json",
+    "original_frozen_record_sha256": "ccb06afc157c9e681a32c870cf1a9555015a913214e05bf34b74f637ee51d954",
+    "original_frozen_record_bytes": 8053,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

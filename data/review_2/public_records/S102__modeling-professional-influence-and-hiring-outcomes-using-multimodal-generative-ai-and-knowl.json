@@ -1,0 +1,181 @@
+{
+  "study_id": "S102",
+  "paper_title": "Modeling Professional Influence and Hiring Outcomes Using Multimodal Generative AI and Knowledge-Graph�Augmented Reasoning",
+  "year": "2023",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Venkateshappa - 2023 - Modeling professional influence and hiring outcomes using multimodal generative AI and knowledge-gra.pdf",
+    "pdf_sha256": "c1c2d466bc8e0dd60f85015439d88b3929c4d5a83402e5aa5ef1aa7ffe03abe1",
+    "page_count": 10,
+    "title_mapping_score": 0.7385
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "kind": "tier",
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "37e05497a2ff43e811dd160b17ae753e9baad82697b23d49f7437525e53c3289",
+        "original_excerpt_word_count": 36,
+        "pdf_page": 9,
+        "printed_page": "9",
+        "section": "5. Conclusion",
+        "source_pdf_sha256": "c1c2d466bc8e0dd60f85015439d88b3929c4d5a83402e5aa5ef1aa7ffe03abe1",
+        "locator_method": "pass2_manual_source_audit",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "KG-grounded retrieval and generative reasoning produce hiring recommendations in a complete decision pipeline.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "522b5206e81e7baf27d5466cd2fb87528e3890f79a5a42f3f5a69727495b6986",
+          "original_excerpt_word_count": 24,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "4.2.3. Proposed KGAR Framework",
+          "source_pdf_sha256": "c1c2d466bc8e0dd60f85015439d88b3929c4d5a83402e5aa5ef1aa7ffe03abe1",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "37e05497a2ff43e811dd160b17ae753e9baad82697b23d49f7437525e53c3289",
+          "original_excerpt_word_count": 36,
+          "pdf_page": 9,
+          "printed_page": "9",
+          "section": "5. Conclusion",
+          "source_pdf_sha256": "c1c2d466bc8e0dd60f85015439d88b3929c4d5a83402e5aa5ef1aa7ffe03abe1",
+          "locator_method": "pass2_manual_source_audit",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "fdc65678e493589639aa46b80ff56b787a4a8df0b4e97daf7da8be4d445cef57",
+          "original_excerpt_word_count": 20,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "3.1.2. Knowledge Graph Construction Layer",
+          "source_pdf_sha256": "c1c2d466bc8e0dd60f85015439d88b3929c4d5a83402e5aa5ef1aa7ffe03abe1",
+          "locator_method": "pass2_manual_source_audit",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "An executable formal, rule-based, proof, or relational-reasoning mechanism was evidenced.",
+      "confidence": "high"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "evaluated",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "383bd239edcb7de5c026207ba347ccee25ea565fd8cde435a55e5fea415bd94a",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "4. Results and Discussion",
+          "source_pdf_sha256": "c1c2d466bc8e0dd60f85015439d88b3929c4d5a83402e5aa5ef1aa7ffe03abe1",
+          "locator_method": "pass2_manual_source_audit",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "An operational governance action affecting an answer, claim, decision, report, query, or workflow was evidenced.",
+      "confidence": "high"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 3,
+      "output_title_hits": 0,
+      "output_passages": 17,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 17,
+        "threshold": 11,
+        "top_hits": [
+          "owl",
+          "represent",
+          "model",
+          "relation",
+          "validate"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "primary_tier",
+      "T2",
+      "T3",
+      "T4"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S102__modeling-professional-influence-and-hiring-outcomes-using-multimodal-generative-ai-and-knowl.json",
+    "original_frozen_record_sha256": "d7ecc1cc1508b8b195363abee24876c165b619575306f700652b5d3310352f9e",
+    "original_frozen_record_bytes": 6058,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

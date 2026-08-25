@@ -1,0 +1,174 @@
+{
+  "study_id": "S050",
+  "paper_title": "Distributed Incremental Ontology Reasoning over Dynamic T-boxes",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Lima Carneiro Alves De et al. - 2024 - Distributed incremental ontology reasoning over dynamic T-boxes.pdf",
+    "pdf_sha256": "b452f6f63bd4c2088327c19ff42a9866555f52f6c5acc5fbcf7ca9cc36fcee49",
+    "page_count": 6,
+    "title_mapping_score": 0.6223
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "021924a83778d3af0bea995bbdf42ddffa57c0d98ef16bc45abe4d299c5c938f",
+        "original_excerpt_word_count": 95,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Abstract",
+        "source_pdf_sha256": "b452f6f63bd4c2088327c19ff42a9866555f52f6c5acc5fbcf7ca9cc36fcee49",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG supports an LLM workflow without a complete semantically controlled retrieval-generation loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "bc8931ded9f5694bb4f27d794a678f9bec93664bed2de9be90854958816c9c22",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "6 Conclusion",
+          "source_pdf_sha256": "b452f6f63bd4c2088327c19ff42a9866555f52f6c5acc5fbcf7ca9cc36fcee49",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "6 Conclusion",
+        "Abstract",
+        "References"
+      ],
+      "absence_rationale": "No passage satisfied the prespecified semantic retrieval-control requirements.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "62e10892ff465b776fd1878dda75fdcc814c8a0c574df478d6263b09838ccdf2",
+          "original_excerpt_word_count": 34,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Abstract",
+          "source_pdf_sha256": "b452f6f63bd4c2088327c19ff42a9866555f52f6c5acc5fbcf7ca9cc36fcee49",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "c81bb74b6d63738cd3808df8ae35864ba26c5eac9114a732ce945a0cf8e5358d",
+          "original_excerpt_word_count": 24,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Abstract",
+          "source_pdf_sha256": "b452f6f63bd4c2088327c19ff42a9866555f52f6c5acc5fbcf7ca9cc36fcee49",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "An executable formal, rule-based, proof, or relational-reasoning mechanism was evidenced.",
+      "confidence": "high"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "6 Conclusion",
+        "Abstract",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": false,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 1,
+      "output_title_hits": 0,
+      "output_passages": 0,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 17,
+        "threshold": 11,
+        "top_hits": [
+          "tbox",
+          "abox",
+          "represent",
+          "relation"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 31,
+        "threshold": 10,
+        "top_hits": [
+          "datalog",
+          "first order logic",
+          "first-order logic"
+        ]
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S050__distributed-incremental-ontology-reasoning-over-dynamic-t-boxes.json",
+    "original_frozen_record_sha256": "63cf0d5da2fa53a83482b44ed523e827bcd9a85bdd07dc28960cdccc6d727631",
+    "original_frozen_record_bytes": 5972,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

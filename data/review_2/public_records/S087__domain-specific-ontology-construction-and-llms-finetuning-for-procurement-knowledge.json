@@ -1,0 +1,145 @@
+{
+  "study_id": "S087",
+  "paper_title": "Domain-Specific Ontology Construction and LLMs Finetuning for Procurement Knowledge",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Shevchuk et al. - 2026 - Domain-specific ontology construction and LLMs fine-tuning for procurement knowledge.pdf",
+    "pdf_sha256": "e9d002a1326e6ce18e6b9858d6680f10e9e82663df5a697250e47ad0ff6b9583",
+    "page_count": 26,
+    "title_mapping_score": 0.6763
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "ac47087395bf5a669c408452d3760bfb94ef87d16a154d324f994875b7729d9a",
+        "original_excerpt_word_count": 27,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Unnumbered/section not detected",
+        "source_pdf_sha256": "e9d002a1326e6ce18e6b9858d6680f10e9e82663df5a697250e47ad0ff6b9583",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction or enrichment is the primary contribution.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "69a57224b8a11ab86d1dd0d4d1e72dcdd64819776d36e5ab9a71ac9ced3771ed",
+          "original_excerpt_word_count": 28,
+          "pdf_page": 18,
+          "printed_page": "18",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "e9d002a1326e6ce18e6b9858d6680f10e9e82663df5a697250e47ad0ff6b9583",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No passage satisfied the prespecified semantic retrieval-control requirements.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Unnumbered/section not detected"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 2,
+      "output_title_hits": 0,
+      "output_passages": 5,
+      "construction_primary": true
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 20,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "owl",
+          "knowledge graph",
+          "construct",
+          "represent"
+        ]
+      },
+      "T2": {
+        "top_score": 0,
+        "threshold": 11,
+        "top_hits": []
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S087__domain-specific-ontology-construction-and-llms-finetuning-for-procurement-knowledge.json",
+    "original_frozen_record_sha256": "21e8d960a1999f4fa644e69b831575ddcfcc0bad0dfb3f5357ddf482233157be",
+    "original_frozen_record_bytes": 4495,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

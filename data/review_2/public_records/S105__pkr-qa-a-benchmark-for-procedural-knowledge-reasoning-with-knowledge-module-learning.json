@@ -1,0 +1,165 @@
+{
+  "study_id": "S105",
+  "paper_title": "PKR-QA: A Benchmark for Procedural Knowledge Reasoning with Knowledge Module Learning",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Nguyen et al. - 2026 - PKR-QA a benchmark for procedural knowledge reasoning with knowledge module learning.pdf",
+    "pdf_sha256": "b71f76108d752e799f181bc614d950a43f7237ae5e386fc666a51bb92ccb8d8f",
+    "page_count": 9,
+    "title_mapping_score": 0.7928
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "0df09d5f60f50130f42d48ad5970dd7754fbee30dea91135f484199a56e24cb8",
+        "original_excerpt_word_count": 36,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Abstract",
+        "source_pdf_sha256": "b71f76108d752e799f181bc614d950a43f7237ae5e386fc666a51bb92ccb8d8f",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG supports an LLM workflow without a complete semantically controlled retrieval-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "63c34636e01418851c008e5035ad96817c49ce74e0c0d94445515846292697a8",
+          "original_excerpt_word_count": 24,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Abstract",
+          "source_pdf_sha256": "b71f76108d752e799f181bc614d950a43f7237ae5e386fc666a51bb92ccb8d8f",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "2302a639f61d5e4c9297c0fa525c2cd3a34a3e791bc3f03c2212f74154a6298a",
+          "original_excerpt_word_count": 17,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Abstract",
+          "source_pdf_sha256": "b71f76108d752e799f181bc614d950a43f7237ae5e386fc666a51bb92ccb8d8f",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "References",
+        "Related Work"
+      ],
+      "absence_rationale": "No passage satisfied the prespecified semantic retrieval-control requirements.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "References",
+        "Related Work"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Abstract",
+        "References",
+        "Related Work"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 0,
+      "output_title_hits": 0,
+      "output_passages": 3,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 16,
+        "threshold": 11,
+        "top_hits": [
+          "owl",
+          "knowledge graph",
+          "construct",
+          "relation",
+          "encode"
+        ]
+      },
+      "T2": {
+        "top_score": 7,
+        "threshold": 11,
+        "top_hits": [
+          "graph traversal"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S105__pkr-qa-a-benchmark-for-procedural-knowledge-reasoning-with-knowledge-module-learning.json",
+    "original_frozen_record_sha256": "b8b5008f9ce2b15726e6f4d68675058c17d9dbb23d2c4b9bbea3d8ee144fdcee",
+    "original_frozen_record_bytes": 5071,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

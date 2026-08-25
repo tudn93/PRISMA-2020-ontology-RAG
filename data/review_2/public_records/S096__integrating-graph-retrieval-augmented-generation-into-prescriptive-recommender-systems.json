@@ -1,0 +1,187 @@
+{
+  "study_id": "S096",
+  "paper_title": "Integrating Graph Retrieval-Augmented Generation into Prescriptive Recommender Systems",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Niederhaus et al. - 2025 - Integrating graph retrieval-augmented generation into prescriptive recommender systems.pdf",
+    "pdf_sha256": "4a0d4ae5f366998b5d6f9ace001252d48ea2538d032ad931dad39cece530eaf7",
+    "page_count": 24,
+    "title_mapping_score": 0.7603
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "a7ca0dd2450c6858a8119c73ca9443d6150cb013e3f692b609af7c429bd57896",
+        "original_excerpt_word_count": 28,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Abstract",
+        "source_pdf_sha256": "4a0d4ae5f366998b5d6f9ace001252d48ea2538d032ad931dad39cece530eaf7",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "A semantically controlled retrieval mechanism is connected to a downstream answer/generation/decision loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "fa35f957816459afe6936d0ea8d39fa078e1edc36432423492f62d2757c0b0cd",
+          "original_excerpt_word_count": 30,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "1. Semi-Automatic Knowledge Graph Construction",
+          "source_pdf_sha256": "4a0d4ae5f366998b5d6f9ace001252d48ea2538d032ad931dad39cece530eaf7",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "25e391a0cee382ab12bd8ad9586775b4821de399ae4da8735dc364bdf1418a2a",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 15,
+          "printed_page": "15",
+          "section": "1. Semi-Automatic Knowledge Graph Construction",
+          "source_pdf_sha256": "4a0d4ae5f366998b5d6f9ace001252d48ea2538d032ad931dad39cece530eaf7",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "fab548459ec859352517cf2d8cab03b4cc1f5bd1b0b3b7dc3ec4d268ad6cde53",
+          "original_excerpt_word_count": 41,
+          "pdf_page": 13,
+          "printed_page": "13",
+          "section": "1. Semi-Automatic Knowledge Graph Construction",
+          "source_pdf_sha256": "4a0d4ae5f366998b5d6f9ace001252d48ea2538d032ad931dad39cece530eaf7",
+          "locator_method": "pass2_manual_source_audit",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Semi-Automatic Knowledge Graph Construction",
+        "2. Background and Literature Review",
+        "3. Context Information: Provides background, explanations, rationale, environment, or general",
+        "5. User Validation and Discussions",
+        "Abstract",
+        "References",
+        "knowledge graph construction. arXiv 2024, arXiv:2403.08345. [CrossRef]",
+        "proposed by a human expert. In our approach, we therefore incorporate expert feedback"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Semi-Automatic Knowledge Graph Construction",
+        "2. Background and Literature Review",
+        "3. Context Information: Provides background, explanations, rationale, environment, or general",
+        "5. User Validation and Discussions",
+        "Abstract",
+        "References",
+        "knowledge graph construction. arXiv 2024, arXiv:2403.08345. [CrossRef]",
+        "proposed by a human expert. In our approach, we therefore incorporate expert feedback"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 3,
+      "rag_passages": 15,
+      "output_title_hits": 1,
+      "output_passages": 52,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 15,
+        "threshold": 11,
+        "top_hits": [
+          "owl",
+          "knowledge graph",
+          "construct",
+          "relation",
+          "extract"
+        ]
+      },
+      "T2": {
+        "top_score": 11,
+        "threshold": 11,
+        "top_hits": [
+          "semantic search",
+          "owl",
+          "knowledge graph"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "T2"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S096__integrating-graph-retrieval-augmented-generation-into-prescriptive-recommender-systems.json",
+    "original_frozen_record_sha256": "247050050ea0be2d3001624d71df9225cf226b11ea9d303fae99b1f6cb950744",
+    "original_frozen_record_bytes": 6690,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

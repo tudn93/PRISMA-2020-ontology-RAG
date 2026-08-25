@@ -1,0 +1,162 @@
+{
+  "study_id": "S048",
+  "paper_title": "Integrating Graph Retrieval-Augmented Generation With Large Language Models for Supplier Discovery",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Li et al. - 2025 - Integrating graph retrieval-augmented generation with large language models for supplier discovery.pdf",
+    "pdf_sha256": "35396916765ad3a76e1f9715fa936d160f5253f1d74f151b44df05d981dcbc73",
+    "page_count": 12,
+    "title_mapping_score": 0.8142
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "027789a6f6ab2f9b18cda527a23396f9f45503874743467a5116071afb4f3c0b",
+        "original_excerpt_word_count": 5,
+        "pdf_page": 5,
+        "printed_page": "5",
+        "section": "methodology for entity and relationship extraction from supply",
+        "source_pdf_sha256": "35396916765ad3a76e1f9715fa936d160f5253f1d74f151b44df05d981dcbc73",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "A semantically controlled retrieval mechanism is connected to a downstream answer/generation/decision loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "4cced534983be82b90ef472a45a3ad3ccbb96f469fa7fa46c1536c6d0a7bdc60",
+          "original_excerpt_word_count": 18,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "methodology for entity and relationship extraction from supply",
+          "source_pdf_sha256": "35396916765ad3a76e1f9715fa936d160f5253f1d74f151b44df05d981dcbc73",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "027789a6f6ab2f9b18cda527a23396f9f45503874743467a5116071afb4f3c0b",
+          "original_excerpt_word_count": 5,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "methodology for entity and relationship extraction from supply",
+          "source_pdf_sha256": "35396916765ad3a76e1f9715fa936d160f5253f1d74f151b44df05d981dcbc73",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "5 Discussion",
+        "References",
+        "methodology for entity and relationship extraction from supply"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "5 Discussion",
+        "References",
+        "methodology for entity and relationship extraction from supply"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 3,
+      "rag_passages": 5,
+      "output_title_hits": 1,
+      "output_passages": 8,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 18,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "owl",
+          "represent"
+        ]
+      },
+      "T2": {
+        "top_score": 19,
+        "threshold": 11,
+        "top_hits": [
+          "graph based retrieval",
+          "graph-based retrieval"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S048__integrating-graph-retrieval-augmented-generation-with-large-language-models-for-supplier-dis.json",
+    "original_frozen_record_sha256": "44a0224dc1618049776997d38fd7848b390e5ca58a113aa8663d7a328fa9e5d7",
+    "original_frozen_record_bytes": 4973,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

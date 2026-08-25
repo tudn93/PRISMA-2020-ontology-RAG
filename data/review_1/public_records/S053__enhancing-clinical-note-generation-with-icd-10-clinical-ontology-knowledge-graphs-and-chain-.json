@@ -1,0 +1,207 @@
+{
+  "study_id": "S053",
+  "paper_title": "Enhancing Clinical Note Generation with ICD-10, Clinical Ontology Knowledge Graphs, and Chain-of-Thought Prompting Using GPT-4",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Makohon et al. - 2025 - Enhancing clinical note generation with ICD-10, clinical ontology knowledge graphs, and chain-of-tho.pdf",
+    "pdf_sha256": "e8f6811e5dd1f74cb2a08989a84a72eea01735893942865836e96b9135230e1d",
+    "page_count": 32,
+    "title_mapping_score": 0.652,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "12df9eb0a33bf516593d9d21cde6bd50588ace6501718267719e0ca7727a6e24",
+        "original_excerpt_word_count": 51,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Abstract",
+        "source_pdf_sha256": "e8f6811e5dd1f74cb2a08989a84a72eea01735893942865836e96b9135230e1d",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "bb8cf4adc48980a350fd0bf6f5ea7f4be9eabde0ffbd1b3f6333172b60786d46",
+          "original_excerpt_word_count": 47,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "3.2 Knowledge Graph & Clinical Cases",
+          "source_pdf_sha256": "e8f6811e5dd1f74cb2a08989a84a72eea01735893942865836e96b9135230e1d",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "40963fd7230dd1f299f98f5f7a1bd6f98357e469b1ff36eaf6a8d120c6102a0f",
+          "original_excerpt_word_count": 33,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "3 Methodology",
+          "source_pdf_sha256": "e8f6811e5dd1f74cb2a08989a84a72eea01735893942865836e96b9135230e1d",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related Works",
+        "3 Methodology",
+        "3.2 Knowledge Graph & Clinical Cases",
+        "3.5 Experiments",
+        "4 Results and Discussions",
+        "4.1 KDE Results and Discussions",
+        "4.2 CoT KG Results and Discussion",
+        "4.3 Part-of-Speech (PoS) Tagging (Nouns and PROPN) Results and Discussion",
+        "4.5 Results Summary",
+        "5 Conclusion and Future Work",
+        "Abstract",
+        "Knowledge Graph derived from OWL expressions, as illustrated in Figure 2.",
+        "References",
+        "framework for medical note generation, 2024."
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related Works",
+        "3 Methodology",
+        "3.2 Knowledge Graph & Clinical Cases",
+        "3.5 Experiments",
+        "4 Results and Discussions",
+        "4.1 KDE Results and Discussions",
+        "4.2 CoT KG Results and Discussion",
+        "4.3 Part-of-Speech (PoS) Tagging (Nouns and PROPN) Results and Discussion",
+        "4.5 Results Summary",
+        "5 Conclusion and Future Work",
+        "Abstract",
+        "Knowledge Graph derived from OWL expressions, as illustrated in Figure 2.",
+        "References",
+        "framework for medical note generation, 2024."
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 2
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 13,
+          "pdf_score": 10,
+          "record_score": 9,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "map"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 15,
+          "pdf_score": 13,
+          "record_score": 7,
+          "top_hits": [
+            "semantic search",
+            "query",
+            "search",
+            "select",
+            "ground"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 14,
+          "pdf_score": 14,
+          "record_score": 0,
+          "top_hits": [
+            "reasoner",
+            "infer",
+            "inference",
+            "reasoning",
+            "reasoner"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 5,
+          "pdf_score": 5,
+          "record_score": 0,
+          "top_hits": [
+            "verification"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S053__enhancing-clinical-note-generation-with-icd-10-clinical-ontology-knowledge-graphs-and-chain-.json",
+    "original_frozen_record_sha256": "8b58313be6e03870dad9b75572bae55c470bf4c9c7118b1a9bc0b3eb89bd2fa6",
+    "original_frozen_record_bytes": 7348,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

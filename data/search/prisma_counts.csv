@@ -1,0 +1,13 @@
+stage,count,note
+identified_openalex,576,source total
+identified_springerlink,594,source total
+identified_ieee_xplore,33,source total
+identified_arxiv,151,source total
+identified_pubmed,13,source total
+identified_total,1367,sum of five sources
+duplicate_or_metadata_affected_removed,342,aggregate
+title_abstract_screened,1025,aggregate
+title_abstract_excluded,830,aggregate
+full_text_assessed,195,aggregate
+full_text_excluded,83,aggregate
+included,112,final mapping corpus

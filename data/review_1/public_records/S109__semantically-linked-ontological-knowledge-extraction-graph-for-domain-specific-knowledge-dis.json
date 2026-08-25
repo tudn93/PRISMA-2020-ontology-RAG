@@ -1,0 +1,213 @@
+{
+  "study_id": "S109",
+  "paper_title": "Semantically-Linked Ontological Knowledge Extraction Graph For Domain-Specific Knowledge Discovery In Scientific Literature",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Kashgouli et al. - 2025 - Semantically-linked ontological knowledge extraction graph for domain-specific knowledge discovery I.pdf",
+    "pdf_sha256": "525ade84e378d87e71cb61604670d007a953159ff9fb62d0a3b5dedc378e44f8",
+    "page_count": 20,
+    "title_mapping_score": 0.648,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "4f4df1d6151cd19ea018ab47aada9ede65d467f4319ff1c82592b35bf1391eed",
+        "original_excerpt_word_count": 50,
+        "pdf_page": 6,
+        "printed_page": "6",
+        "section": "2 Methodology",
+        "source_pdf_sha256": "525ade84e378d87e71cb61604670d007a953159ff9fb62d0a3b5dedc378e44f8",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction, extraction, enrichment, alignment, or enabling infrastructure is the primary contribution.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "ed7b78eed8a4a4e2822ef705be18e1d451398645fd5763ebc42e5e6e293f3fc5",
+          "original_excerpt_word_count": 31,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "Abstract",
+          "source_pdf_sha256": "525ade84e378d87e71cb61604670d007a953159ff9fb62d0a3b5dedc378e44f8",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "8fed1b167eccc5a8cc57b6f67362ac43e25381d7e5118e1724ed232e32572898",
+          "original_excerpt_word_count": 33,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "2 Methodology",
+          "source_pdf_sha256": "525ade84e378d87e71cb61604670d007a953159ff9fb62d0a3b5dedc378e44f8",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "5ead4cc9bed535279dd0cbcbefbc41a4976fd67ffd0e836ae998afba78d581b3",
+          "original_excerpt_word_count": 30,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "1 Introduction",
+          "source_pdf_sha256": "525ade84e378d87e71cb61604670d007a953159ff9fb62d0a3b5dedc378e44f8",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "c9e2fb8653fb890b4a54992b550b77f5b7ef353fd40ce45ae77363de34610b69",
+          "original_excerpt_word_count": 22,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "2 Methodology",
+          "source_pdf_sha256": "525ade84e378d87e71cb61604670d007a953159ff9fb62d0a3b5dedc378e44f8",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Methodology",
+        "2.6 Quality Assurance and Methodology Validation",
+        "3 Results and Discussion",
+        "Abstract",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Methodology",
+        "2.6 Quality Assurance and Methodology Validation",
+        "3 Results and Discussion",
+        "Abstract",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 19,
+          "pdf_score": 14,
+          "record_score": 17,
+          "top_hits": [
+            "ontology",
+            "ontological",
+            "owl",
+            "extract"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 11,
+          "pdf_score": 10,
+          "record_score": 4,
+          "top_hits": [
+            "semantic query",
+            "query",
+            "search",
+            "context"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 8,
+          "pdf_score": 8,
+          "record_score": 2,
+          "top_hits": [
+            "infer",
+            "inference",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 13,
+          "pdf_score": 13,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correction",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S109__semantically-linked-ontological-knowledge-extraction-graph-for-domain-specific-knowledge-dis.json",
+    "original_frozen_record_sha256": "25dcb94e15410eebe2742f8f2ebd5c895e30e2879c458575827749310b9240a5",
+    "original_frozen_record_bytes": 7621,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

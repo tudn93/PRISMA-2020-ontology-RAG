@@ -1,0 +1,202 @@
+{
+  "study_id": "S092",
+  "paper_title": "Fusing Geoscience Large Language Models and Lightweight RAG for Enhanced Geological Question Answering",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Zhou and Li - 2025 - Fusing geoscience large language models and lightweight RAG for enhanced geological question answeri.pdf",
+    "pdf_sha256": "fef9a64e60ef33b911d8d6ae97afd2a987fd8a0163294f0ea83abf0fce9cb44d",
+    "page_count": 18,
+    "title_mapping_score": 0.7785,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "WEAKER",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "6ce5001f9968e7216ea31d751319f660479858b0f06847447d633b372e21b22d",
+        "original_excerpt_word_count": 19,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Abstract",
+        "source_pdf_sha256": "fef9a64e60ef33b911d8d6ae97afd2a987fd8a0163294f0ea83abf0fce9cb44d",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "A GraphRAG/KG-RAG answer loop is present, but evidence that ontology materially controls the loop is limited.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "7c6752f7d6529ec53a83733fcca815742638f4059dc7d734d42f01ac9a117f84",
+          "original_excerpt_word_count": 21,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "4. Methods",
+          "source_pdf_sha256": "fef9a64e60ef33b911d8d6ae97afd2a987fd8a0163294f0ea83abf0fce9cb44d",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "aa873db7f1da69c4d43d2450e418829267d23b8007a706a62ba463fac47a8857",
+          "original_excerpt_word_count": 17,
+          "pdf_page": 10,
+          "printed_page": "10",
+          "section": "framework is evaluated using the quantitative metrics and qualitative analyses detailed in",
+          "source_pdf_sha256": "fef9a64e60ef33b911d8d6ae97afd2a987fd8a0163294f0ea83abf0fce9cb44d",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. We propose an automated method for constructing high-quality geological KGs using",
+        "2.2. LightRAG: A Lightweight Retrieval-Augmented Generation Framework",
+        "4. Automated Evaluation Phase: To ensure the evaluation of the generated answers was",
+        "4. Methods",
+        "4.1.3. Knowledge Graph Post-Processing and Optimization",
+        "5.2. Quantitative Analysis of Knowledge Graphs",
+        "5.2.2. Results and Analysis",
+        "Abstract",
+        "References",
+        "evaluation criteria. In terms of comprehensiveness, diversity, empowerment, and overall",
+        "framework is evaluated using the quantitative metrics and qualitative analyses detailed in",
+        "methodology that ensures both high-fidelity knowledge extraction and its economically"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. We propose an automated method for constructing high-quality geological KGs using",
+        "2.2. LightRAG: A Lightweight Retrieval-Augmented Generation Framework",
+        "4. Automated Evaluation Phase: To ensure the evaluation of the generated answers was",
+        "4. Methods",
+        "4.1.3. Knowledge Graph Post-Processing and Optimization",
+        "5.2. Quantitative Analysis of Knowledge Graphs",
+        "5.2.2. Results and Analysis",
+        "Abstract",
+        "References",
+        "evaluation criteria. In terms of comprehensiveness, diversity, empowerment, and overall",
+        "framework is evaluated using the quantitative metrics and qualitative analyses detailed in",
+        "methodology that ensures both high-fidelity knowledge extraction and its economically"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 1,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 19,
+          "pdf_score": 14,
+          "record_score": 24,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "construct",
+            "extract"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 2,
+          "top_hits": [
+            "retrieve",
+            "retrieval"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 9,
+          "pdf_score": 8,
+          "record_score": 4,
+          "top_hits": [
+            "infer",
+            "reasoning",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 29,
+          "pdf_score": 25,
+          "record_score": 14,
+          "top_hits": [
+            "conflict resolution",
+            "correct",
+            "correction",
+            "provenance",
+            "conflict",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S092__fusing-geoscience-large-language-models-and-lightweight-rag-for-enhanced-geological-question.json",
+    "original_frozen_record_sha256": "17f42d81ad03aa5ead27d74a0c596c29adbb452a38f1e051ef19e906ac00376b",
+    "original_frozen_record_bytes": 7264,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

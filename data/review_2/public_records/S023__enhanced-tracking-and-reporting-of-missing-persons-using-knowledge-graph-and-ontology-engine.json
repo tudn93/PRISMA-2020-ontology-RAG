@@ -1,0 +1,167 @@
+{
+  "study_id": "S023",
+  "paper_title": "Enhanced tracking and reporting of missing persons using Knowledge Graph and Ontology Engineering",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Chowdhury et al. - 2025 - Enhanced tracking and reporting of missing persons using knowledge graph and ontology engineering.pdf",
+    "pdf_sha256": "8b6a00d59e5a486645626a344c588cc73d453ded38e1ce79fbe4d4d2d4c82804",
+    "page_count": 9,
+    "title_mapping_score": 0.8033
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "24709f9c2d886795ef03b646571acc98458472a8401607befaa3faeca24af504",
+        "original_excerpt_word_count": 26,
+        "pdf_page": 7,
+        "printed_page": "7",
+        "section": "evaluation using various human evaluation methods” [14],",
+        "source_pdf_sha256": "8b6a00d59e5a486645626a344c588cc73d453ded38e1ce79fbe4d4d2d4c82804",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG supports an LLM workflow without a complete semantically controlled retrieval-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "3a1a1a4115a992c79315996e1879ea0f267c23a771506cd7417608a28a75625d",
+          "original_excerpt_word_count": 81,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "8b6a00d59e5a486645626a344c588cc73d453ded38e1ce79fbe4d4d2d4c82804",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "7e3fe07448bc9a32b44112aa6c612a80e182792c88b6cc960522a09c0bbb2515",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "8b6a00d59e5a486645626a344c588cc73d453ded38e1ce79fbe4d4d2d4c82804",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "REFERENCES",
+        "Unnumbered/section not detected",
+        "VI. D ISCUSSION , CHALLENGES , AND FUTURE WORK",
+        "evaluation using various human evaluation methods” [14],"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "REFERENCES",
+        "Unnumbered/section not detected",
+        "VI. D ISCUSSION , CHALLENGES , AND FUTURE WORK",
+        "evaluation using various human evaluation methods” [14],"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": false,
+      "interface": 0,
+      "rag_title_hits": 0,
+      "rag_passages": 0,
+      "output_title_hits": 0,
+      "output_passages": 0,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 28,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "rdf",
+          "owl",
+          "schema",
+          "knowledge graph",
+          "construct",
+          "represent"
+        ]
+      },
+      "T2": {
+        "top_score": 13,
+        "threshold": 11,
+        "top_hits": [
+          "sparql",
+          "owl",
+          "knowledge graph"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S023__enhanced-tracking-and-reporting-of-missing-persons-using-knowledge-graph-and-ontology-engine.json",
+    "original_frozen_record_sha256": "9d6e21ca76cfaa13394d4367e89a281fed6a6db31c577fe068a121263acc2ccd",
+    "original_frozen_record_bytes": 5796,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

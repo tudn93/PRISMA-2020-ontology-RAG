@@ -1,0 +1,174 @@
+{
+  "study_id": "S070",
+  "paper_title": "KnowledgeHub: An End-to-End Tool for Assisted Scientific Discovery",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Tanaka et al. - 2024 - KnowledgeHub an end-to-end tool for assisted scientific discovery.pdf",
+    "pdf_sha256": "eec5e1e3aadcd8a970f310562d3a80212519ff5184e10fc56a3ada4562b02736",
+    "page_count": 5,
+    "title_mapping_score": 0.7574,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "de3f04aaa53e83da5c8eaee0f48e7f432591ecf71a25ca1cdda19404f93e793a",
+        "original_excerpt_word_count": 45,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "1 Introduction",
+        "source_pdf_sha256": "eec5e1e3aadcd8a970f310562d3a80212519ff5184e10fc56a3ada4562b02736",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "772c850275ffd8736a325faf228c996cc47094ffb65bc5d469a9837cccd13b45",
+          "original_excerpt_word_count": 20,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "1 Introduction",
+          "source_pdf_sha256": "eec5e1e3aadcd8a970f310562d3a80212519ff5184e10fc56a3ada4562b02736",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "0f069d8fffdd1a0aee5eed6d9d491fb0abafe094fd9bf3c2ab50e8c990176bc9",
+          "original_excerpt_word_count": 10,
+          "pdf_page": 3,
+          "printed_page": "3",
+          "section": "1 Introduction",
+          "source_pdf_sha256": "eec5e1e3aadcd8a970f310562d3a80212519ff5184e10fc56a3ada4562b02736",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 13,
+          "pdf_score": 9,
+          "record_score": 14,
+          "top_hits": [
+            "ontology",
+            "construct",
+            "type",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 3,
+          "pdf_score": 3,
+          "record_score": 2,
+          "top_hits": [
+            "retrieve",
+            "context"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 0,
+          "pdf_score": 0,
+          "record_score": 0,
+          "top_hits": [],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S070__knowledgehub-an-end-to-end-tool-for-assisted-scientific-discovery.json",
+    "original_frozen_record_sha256": "be030b3d8e1aca999c420b5cb4a1b3db4d5e8689112312ea827b00c0c08f3c17",
+    "original_frozen_record_bytes": 5493,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

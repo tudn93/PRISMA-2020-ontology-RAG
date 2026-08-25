@@ -1,0 +1,202 @@
+{
+  "study_id": "S064",
+  "paper_title": "Accelerating Manufacturing Scale-Up from Material Discovery Using Agentic Web Navigation and Retrieval-Augmented AI for Process Engineering Schematics Design",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Sakhinana et al. - 2025 - Accelerating manufacturing scale-up from material discovery using agentic web navigation and retriev.pdf",
+    "pdf_sha256": "cd438e619bb1ce7c46d8975d4ed8b6a8facab646e26b1b950001b6190e11f522",
+    "page_count": 36,
+    "title_mapping_score": 0.5638,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "4809ea7787f4f0c00442c1a821ed174dedf41b55697d6ba6a0c6c4dd19fe5271",
+        "original_excerpt_word_count": 49,
+        "pdf_page": 3,
+        "printed_page": "3",
+        "section": "Introduction",
+        "source_pdf_sha256": "cd438e619bb1ce7c46d8975d4ed8b6a8facab646e26b1b950001b6190e11f522",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "effde2e3b042bc4d0d41a1b4b89219deb4d8aa77236a83688968e03979e51f46",
+          "original_excerpt_word_count": 47,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "Introduction",
+          "source_pdf_sha256": "cd438e619bb1ce7c46d8975d4ed8b6a8facab646e26b1b950001b6190e11f522",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "3a7ab798c4ffcd325f019e1bfefe08b98b05b0ddf32683ffce3a0715654e6673",
+          "original_excerpt_word_count": 61,
+          "pdf_page": 15,
+          "printed_page": "15",
+          "section": "knowledge graph for the ODQA task are detailed in Algorithm 2.",
+          "source_pdf_sha256": "cd438e619bb1ce7c46d8975d4ed8b6a8facab646e26b1b950001b6190e11f522",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "d6737518e57e96a64a03722e8213d42a43d4444322c00d00727e6d15a8d4750e",
+          "original_excerpt_word_count": 26,
+          "pdf_page": 15,
+          "printed_page": "15",
+          "section": "knowledge graph for the ODQA task are detailed in Algorithm 2.",
+          "source_pdf_sha256": "cd438e619bb1ce7c46d8975d4ed8b6a8facab646e26b1b950001b6190e11f522",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Conclusion",
+        "Introduction",
+        "References",
+        "Unnumbered/section not detected",
+        "evaluation metrics for generating PFDs and PIDs for unknown chemicals from the secondary",
+        "evaluation metrics.",
+        "knowledge graph for the ODQA task are detailed in Algorithm 2."
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "Conclusion",
+        "Introduction",
+        "References",
+        "Unnumbered/section not detected",
+        "evaluation metrics for generating PFDs and PIDs for unknown chemicals from the secondary",
+        "evaluation metrics.",
+        "knowledge graph for the ODQA task are detailed in Algorithm 2."
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 3,
+        "retrieval": 2,
+        "output_loop": 1,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 17,
+          "pdf_score": 12,
+          "record_score": 16,
+          "top_hits": [
+            "ontological",
+            "owl",
+            "extract",
+            "relation",
+            "triple"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 8,
+          "pdf_score": 7,
+          "record_score": 5,
+          "top_hits": [
+            "graph traversal",
+            "retrieval"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 21,
+          "pdf_score": 16,
+          "record_score": 22,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 10,
+          "pdf_score": 8,
+          "record_score": 6,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S064__accelerating-manufacturing-scale-up-from-material-discovery-using-agentic-web-navigation-and.json",
+    "original_frozen_record_sha256": "331e9e6a59d19a9815d9d2a2b1d31accec7d3684f47b85afe8f903fddb02333a",
+    "original_frozen_record_bytes": 7584,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

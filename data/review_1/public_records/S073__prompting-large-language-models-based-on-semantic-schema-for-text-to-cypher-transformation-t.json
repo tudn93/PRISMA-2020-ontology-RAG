@@ -1,0 +1,184 @@
+{
+  "study_id": "S073",
+  "paper_title": "Prompting large language models based on semantic schema for text-to-Cypher transformation towards domain Q&amp;A",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Wan et al. - 2025 - Prompting large language models based on semantic schema for text-to-cypher transformation towards d.pdf",
+    "pdf_sha256": "3f54d8ac717d205a5d8cb3154efe23a1693287d89e1d971926eb026f14aae4ec",
+    "page_count": 14,
+    "title_mapping_score": 0.7027,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "INTERFACE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "858da7974e0c29213701d72d03b3a60051a7faffb0c127733cb3a97933611782",
+        "original_excerpt_word_count": 39,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "ABSTRACT",
+        "source_pdf_sha256": "3f54d8ac717d205a5d8cb3154efe23a1693287d89e1d971926eb026f14aae4ec",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Natural-language graph access, formal-query generation, or KG question answering is the primary contribution without a complete ontology-aware RAG loop.",
+    "confidence": "high"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "9f9c60d60a61479195e3fffde8e6019e1ece6e5d66dc2fee824c7c91471e9b46",
+          "original_excerpt_word_count": 18,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "4. Methodology",
+          "source_pdf_sha256": "3f54d8ac717d205a5d8cb3154efe23a1693287d89e1d971926eb026f14aae4ec",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "43c5f7f624540da2f30ef50f65702f66303ef43eebed97b5339a2f68226489e5",
+          "original_excerpt_word_count": 14,
+          "pdf_page": 14,
+          "printed_page": "14",
+          "section": "knowledge graph database system, in: in 2021 IEEE 37th International Conference",
+          "source_pdf_sha256": "3f54d8ac717d205a5d8cb3154efe23a1693287d89e1d971926eb026f14aae4ec",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "4. Methodology",
+        "7. Discussions",
+        "ABSTRACT",
+        "knowledge graph database system, in: in 2021 IEEE 37th International Conference",
+        "method allows domain specialists and other non-technical users to query"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "4. Methodology",
+        "7. Discussions",
+        "ABSTRACT",
+        "knowledge graph database system, in: in 2021 IEEE 37th International Conference",
+        "method allows domain specialists and other non-technical users to query"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 1,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 17,
+          "pdf_score": 14,
+          "record_score": 10,
+          "top_hits": [
+            "semantic schema",
+            "schema mapping",
+            "map"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 22,
+          "pdf_score": 17,
+          "record_score": 15,
+          "top_hits": [
+            "cypher",
+            "text to cypher",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 7,
+          "pdf_score": 6,
+          "record_score": 4,
+          "top_hits": [
+            "rule",
+            "execute"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 11,
+          "pdf_score": 11,
+          "record_score": 0,
+          "top_hits": [
+            "correct",
+            "correction",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S073__prompting-large-language-models-based-on-semantic-schema-for-text-to-cypher-transformation-t.json",
+    "original_frozen_record_sha256": "124af654a8de99ab821e90dc401784f5d2ac922782a59052a7d623709a51a504",
+    "original_frozen_record_bytes": 6246,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

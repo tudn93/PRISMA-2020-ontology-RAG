@@ -1,0 +1,197 @@
+{
+  "study_id": "S037",
+  "paper_title": "On-Device Intent Reasoning for Smart Home Agents Via Ontology-Augmented sLLMs",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Jeong and Woo - 2025 - On-device intent reasoning for smart home agents via ontology-augmented sLLMs.pdf",
+    "pdf_sha256": "4fd240eaa4fc586751c4f89f13c13f136177de82cefcb05a7a41ad4ceddcc554",
+    "page_count": 18,
+    "title_mapping_score": 0.7991,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "a9521a42d6760b984d282b9ee7d55dc6f8233b0c8a598d2cd0a154b091b9206a",
+        "original_excerpt_word_count": 29,
+        "pdf_page": 1,
+        "printed_page": "197645",
+        "section": "Unnumbered/section not detected",
+        "source_pdf_sha256": "4fd240eaa4fc586751c4f89f13c13f136177de82cefcb05a7a41ad4ceddcc554",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "17e2553a48fd3fb97fcc12a63e3f94ff0b48c1c10de1951814762ba58ac4da4f",
+          "original_excerpt_word_count": 87,
+          "pdf_page": 2,
+          "printed_page": "197646",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "4fd240eaa4fc586751c4f89f13c13f136177de82cefcb05a7a41ad4ceddcc554",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "a7dab9e678f94a14a5d95d8da1e47e3a2d3c61648b8c0034cdb0299f3489f08c",
+          "original_excerpt_word_count": 21,
+          "pdf_page": 16,
+          "printed_page": "197660",
+          "section": "EVALUATION",
+          "source_pdf_sha256": "4fd240eaa4fc586751c4f89f13c13f136177de82cefcb05a7a41ad4ceddcc554",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "6e723cbbe2cdc3d9b79891521c569df255bb16c2285c60f3e32a42c0204f2fa0",
+          "original_excerpt_word_count": 19,
+          "pdf_page": 16,
+          "printed_page": "197660",
+          "section": "EVALUATION",
+          "source_pdf_sha256": "4fd240eaa4fc586751c4f89f13c13f136177de82cefcb05a7a41ad4ceddcc554",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "071ce4db3488993fe8449a0a0261d8645d4e4d20b1dcba5d6b103aae21ecd7d3",
+          "original_excerpt_word_count": 18,
+          "pdf_page": 16,
+          "printed_page": "197660",
+          "section": "EVALUATION",
+          "source_pdf_sha256": "4fd240eaa4fc586751c4f89f13c13f136177de82cefcb05a7a41ad4ceddcc554",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 17,
+          "pdf_score": 13,
+          "record_score": 13,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "taxonomy",
+            "validate"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 6,
+          "pdf_score": 6,
+          "record_score": 1,
+          "top_hits": [
+            "retrieve",
+            "context",
+            "path"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 13,
+          "pdf_score": 12,
+          "record_score": 4,
+          "top_hits": [
+            "reasoning path",
+            "reasoning",
+            "logic",
+            "path"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 9,
+          "pdf_score": 5,
+          "record_score": 12,
+          "top_hits": [
+            "conflict"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S037__on-device-intent-reasoning-for-smart-home-agents-via-ontology-augmented-sllms.json",
+    "original_frozen_record_sha256": "74f9824c55fce8e0703666fdba3a1f6a208813c608a4f70fe04fa15a725d6c57",
+    "original_frozen_record_bytes": 7122,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

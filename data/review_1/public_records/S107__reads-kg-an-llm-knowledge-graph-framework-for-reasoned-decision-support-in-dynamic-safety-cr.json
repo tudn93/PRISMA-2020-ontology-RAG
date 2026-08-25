@@ -1,0 +1,237 @@
+{
+  "study_id": "S107",
+  "paper_title": "ReaDS-KG: An LLM-Knowledge Graph Framework for Reasoned Decision Support in Dynamic Safety-Critical Domains",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Doumanas and Kotis - 2026 - ReaDS-KG an LLM-knowledge graph framework for reasoned decision support in dynamic safety-critical.pdf",
+    "pdf_sha256": "1462b4ad429fa22d248e99c72af2d8c23f7168a4d5ecb076f2d3040f91aa845b",
+    "page_count": 13,
+    "title_mapping_score": 0.7884,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "f4e4ebe8c173e5deec799296c2eaebfc5fbb0e708ef07482396994747c4a6ae5",
+        "original_excerpt_word_count": 27,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "Unnumbered/section not detected",
+        "source_pdf_sha256": "1462b4ad429fa22d248e99c72af2d8c23f7168a4d5ecb076f2d3040f91aa845b",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "a1e5a9464bb02ae760e64045c279da76036856d0dc1e5859f3d90920e7dc5bda",
+          "original_excerpt_word_count": 35,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "1462b4ad429fa22d248e99c72af2d8c23f7168a4d5ecb076f2d3040f91aa845b",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "6dc2872242d80686ecc556ba1644af6051f922a1942765a21af68cf1da3dbf89",
+          "original_excerpt_word_count": 47,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "1462b4ad429fa22d248e99c72af2d8c23f7168a4d5ecb076f2d3040f91aa845b",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "470c5c36b9f5f1317ea6b4463e988ab2e9edb5d193f8866403d7f9878bffd3fe",
+          "original_excerpt_word_count": 30,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "1462b4ad429fa22d248e99c72af2d8c23f7168a4d5ecb076f2d3040f91aa845b",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "848d205b4f8e8221f29a387b725db41d563ace4f905429479de661f0ec77f68a",
+          "original_excerpt_word_count": 26,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "1462b4ad429fa22d248e99c72af2d8c23f7168a4d5ecb076f2d3040f91aa845b",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "2e2b477f8f70c624be9846cfde411394ce6d7c7e651816e642aed143dc170773",
+          "original_excerpt_word_count": 22,
+          "pdf_page": 2,
+          "printed_page": "2",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "1462b4ad429fa22d248e99c72af2d8c23f7168a4d5ecb076f2d3040f91aa845b",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "3b04f27b7d62c7886c5cceec73ce1df3ab26e0eb9ab071d1eb804a4281ecbb8a",
+          "original_excerpt_word_count": 32,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "1462b4ad429fa22d248e99c72af2d8c23f7168a4d5ecb076f2d3040f91aa845b",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "6fc839aa74e9d3eda493c2a7b8ea4e1c0702a514bcaea991734da882dd7bbd7f",
+          "original_excerpt_word_count": 27,
+          "pdf_page": 6,
+          "printed_page": "6",
+          "section": "Unnumbered/section not detected",
+          "source_pdf_sha256": "1462b4ad429fa22d248e99c72af2d8c23f7168a4d5ecb076f2d3040f91aa845b",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 1,
+        "output_loop": 1,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 18,
+          "pdf_score": 13,
+          "record_score": 15,
+          "top_hits": [
+            "typed relation",
+            "typed relations",
+            "type",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 12,
+          "pdf_score": 9,
+          "record_score": 10,
+          "top_hits": [
+            "cypher",
+            "query",
+            "path"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 14,
+          "pdf_score": 14,
+          "record_score": 2,
+          "top_hits": [
+            "logical inference",
+            "infer",
+            "inference",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 15,
+          "pdf_score": 15,
+          "record_score": 2,
+          "top_hits": [
+            "correct",
+            "correction",
+            "validate",
+            "correct",
+            "consistency"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S107__reads-kg-an-llm-knowledge-graph-framework-for-reasoned-decision-support-in-dynamic-safety-cr.json",
+    "original_frozen_record_sha256": "47cae9f742dda2d11041f4c5aa34e57da91bb44bd8d8a893f3c9a759a9af39ed",
+    "original_frozen_record_bytes": 9112,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+  "decisions": {
+    "S001": {
+      "tier": "ANCHORED",
+      "roles": "1011"
+    },
+    "S002": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S003": {
+      "tier": "INTERFACE",
+      "roles": "1100"
+    },
+    "S004": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S005": {
+      "tier": "ANCHORED",
+      "roles": "1000"
+    },
+    "S006": {
+      "tier": "INTERFACE",
+      "roles": "1101"
+    },
+    "S007": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S008": {
+      "tier": "ANCHORED",
+      "roles": "1011"
+    },
+    "S009": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S010": {
+      "tier": "ANCHORED",
+      "roles": "1010"
+    },
+    "S011": {
+      "tier": "ANCHORED",
+      "roles": "1001"
+    },
+    "S012": {
+      "tier": "CORE",
+      "roles": "1110"
+    },
+    "S013": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S014": {
+      "tier": "ANCHORED",
+      "roles": "1000"
+    },
+    "S015": {
+      "tier": "ANCHORED",
+      "roles": "1100"
+    },
+    "S016": {
+      "tier": "ANCHORED",
+      "roles": "1010"
+    },
+    "S017": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S018": {
+      "tier": "CONSTRUCTION",
+      "roles": "1000"
+    },
+    "S019": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S020": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S021": {
+      "tier": "INTERFACE",
+      "roles": "1100"
+    },
+    "S022": {
+      "tier": "ANCHORED",
+      "roles": "1001"
+    },
+    "S023": {
+      "tier": "INTERFACE",
+      "roles": "1100"
+    },
+    "S024": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S025": {
+      "tier": "CONSTRUCTION",
+      "roles": "1100"
+    },
+    "S026": {
+      "tier": "CONSTRUCTION",
+      "roles": "1100"
+    },
+    "S027": {
+      "tier": "CONSTRUCTION",
+      "roles": "1010"
+    },
+    "S028": {
+      "tier": "CORE",
+      "roles": "1111"
+    },
+    "S029": {
+      "tier": "ANCHORED",
+      "roles": "1011"
+    },
+    "S030": {
+      "tier": "INTERFACE",
+      "roles": "1100"
+    },
+    "S031": {
+      "tier": "CORE",
+      "roles": "1101"
+    },
+    "S032": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S033": {
+      "tier": "CORE",
+      "roles": "1111"
+    },
+    "S034": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S035": {
+      "tier": "ANCHORED",
+      "roles": "1000"
+    },
+    "S036": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S037": {
+      "tier": "CORE",
+      "roles": "1111"
+    },
+    "S038": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S039": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S040": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S041": {
+      "tier": "CONSTRUCTION",
+      "roles": "1010"
+    },
+    "S042": {
+      "tier": "CONSTRUCTION",
+      "roles": "1100"
+    },
+    "S043": {
+      "tier": "INTERFACE",
+      "roles": "1100"
+    },
+    "S044": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S045": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S046": {
+      "tier": "CONSTRUCTION",
+      "roles": "1100"
+    },
+    "S047": {
+      "tier": "CORE",
+      "roles": "1101"
+    },
+    "S048": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S049": {
+      "tier": "CONSTRUCTION",
+      "roles": "1100"
+    },
+    "S050": {
+      "tier": "CONSTRUCTION",
+      "roles": "1010"
+    },
+    "S051": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S052": {
+      "tier": "INTERFACE",
+      "roles": "1100"
+    },
+    "S053": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S055": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S056": {
+      "tier": "ANCHORED",
+      "roles": "1100"
+    },
+    "S057": {
+      "tier": "CONSTRUCTION",
+      "roles": "1110"
+    },
+    "S058": {
+      "tier": "CORE",
+      "roles": "1111"
+    },
+    "S059": {
+      "tier": "CORE",
+      "roles": "1111"
+    },
+    "S060": {
+      "tier": "ANCHORED",
+      "roles": "1100"
+    },
+    "S061": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S062": {
+      "tier": "ANCHORED",
+      "roles": "1000"
+    },
+    "S063": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S064": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S065": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S066": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S067": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S068": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S069": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S070": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S071": {
+      "tier": "CONSTRUCTION",
+      "roles": "1101"
+    },
+    "S072": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S073": {
+      "tier": "INTERFACE",
+      "roles": "1100"
+    },
+    "S074": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S075": {
+      "tier": "CONSTRUCTION",
+      "roles": "1100"
+    },
+    "S076": {
+      "tier": "CONSTRUCTION",
+      "roles": "1100"
+    },
+    "S077": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S078": {
+      "tier": "CORE",
+      "roles": "1101"
+    },
+    "S079": {
+      "tier": "CONSTRUCTION",
+      "roles": "1100"
+    },
+    "S080": {
+      "tier": "ANCHORED",
+      "roles": "1000"
+    },
+    "S081": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S082": {
+      "tier": "CONSTRUCTION",
+      "roles": "1100"
+    },
+    "S083": {
+      "tier": "CORE",
+      "roles": "1111"
+    },
+    "S084": {
+      "tier": "CONSTRUCTION",
+      "roles": "1000"
+    },
+    "S085": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S086": {
+      "tier": "CORE",
+      "roles": "1110"
+    },
+    "S087": {
+      "tier": "CONSTRUCTION",
+      "roles": "1000"
+    },
+    "S088": {
+      "tier": "ANCHORED",
+      "roles": "1010"
+    },
+    "S089": {
+      "tier": "CONSTRUCTION",
+      "roles": "1100"
+    },
+    "S090": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S091": {
+      "tier": "INTERFACE",
+      "roles": "1101"
+    },
+    "S092": {
+      "tier": "WEAKER",
+      "roles": "1100"
+    },
+    "S093": {
+      "tier": "CORE",
+      "roles": "1111"
+    },
+    "S094": {
+      "tier": "CORE",
+      "roles": "1101"
+    },
+    "S095": {
+      "tier": "ANCHORED",
+      "roles": "1000"
+    },
+    "S096": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S097": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S098": {
+      "tier": "CONSTRUCTION",
+      "roles": "1000"
+    },
+    "S099": {
+      "tier": "ANCHORED",
+      "roles": "1100"
+    },
+    "S100": {
+      "tier": "INTERFACE",
+      "roles": "1100"
+    },
+    "S101": {
+      "tier": "INTERFACE",
+      "roles": "1101"
+    },
+    "S102": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S103": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S104": {
+      "tier": "INTERFACE",
+      "roles": "1100"
+    },
+    "S105": {
+      "tier": "ANCHORED",
+      "roles": "1110"
+    },
+    "S106": {
+      "tier": "INTERFACE",
+      "roles": "1100"
+    },
+    "S107": {
+      "tier": "CORE",
+      "roles": "1111"
+    },
+    "S108": {
+      "tier": "ANCHORED",
+      "roles": "1100"
+    },
+    "S109": {
+      "tier": "CONSTRUCTION",
+      "roles": "1100"
+    },
+    "S110": {
+      "tier": "CONSTRUCTION",
+      "roles": "1110"
+    },
+    "S111": {
+      "tier": "CORE",
+      "roles": "1111"
+    },
+    "S112": {
+      "tier": "CORE",
+      "roles": "1100"
+    },
+    "S113": {
+      "tier": "CONSTRUCTION",
+      "roles": "1100"
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "study_id": "S066",
+  "paper_title": "Enhancing retrieval-augmented generation for interoperable industrial knowledge representation and inference toward cognitive digital twins",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Shi et al. - 2025 - Enhancing retrieval-augmented generation for interoperable industrial knowledge representation and i.pdf",
+    "pdf_sha256": "8ed99fb7581856f1e4bd12bce43a3858dbd13030abc7cc2f8a164aecb5e435b4",
+    "page_count": 16,
+    "title_mapping_score": 0.6006,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "423d5f79d7d17cda550e4b24c07bd1c08cad0f41e5d413d1eb3b19d10b0a23af",
+        "original_excerpt_word_count": 76,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "ABSTRACT",
+        "source_pdf_sha256": "8ed99fb7581856f1e4bd12bce43a3858dbd13030abc7cc2f8a164aecb5e435b4",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "d85ec8c5c77de200ebc1461fd4c8397d4285b4fd2c9f816655c71bde124daa5b",
+          "original_excerpt_word_count": 16,
+          "pdf_page": 15,
+          "printed_page": "15",
+          "section": "5.5. Discussions",
+          "source_pdf_sha256": "8ed99fb7581856f1e4bd12bce43a3858dbd13030abc7cc2f8a164aecb5e435b4",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "26ba8a2f331fd5a4a875df4a5bc714a47df290bd6acc51f46e735f49f7d1dbba",
+          "original_excerpt_word_count": 36,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "implementation details on how to extract the attribute string and posi -",
+          "source_pdf_sha256": "8ed99fb7581856f1e4bd12bce43a3858dbd13030abc7cc2f8a164aecb5e435b4",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "aae2f85310c5b46636b7c707c80b7ad85b42a47ff409378a5cf0178ff658cb11",
+          "original_excerpt_word_count": 16,
+          "pdf_page": 9,
+          "printed_page": "9",
+          "section": "4.2. Implementation",
+          "source_pdf_sha256": "8ed99fb7581856f1e4bd12bce43a3858dbd13030abc7cc2f8a164aecb5e435b4",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "2. Related work",
+        "4.2. Implementation",
+        "4.3. Evaluation of the RAG responses",
+        "5.3. Experiment settings",
+        "5.4. Experiment results",
+        "5.5. Discussions",
+        "ABSTRACT",
+        "implementation details on how to extract the attribute string and posi -"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "2. Related work",
+        "4.2. Implementation",
+        "4.3. Evaluation of the RAG responses",
+        "5.3. Experiment settings",
+        "5.4. Experiment results",
+        "5.5. Discussions",
+        "ABSTRACT",
+        "implementation details on how to extract the attribute string and posi -"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 0,
+        "interface": 0,
+        "explicit_generation": 2
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 11,
+          "pdf_score": 9,
+          "record_score": 7,
+          "top_hits": [
+            "owl",
+            "represent",
+            "model",
+            "map"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 8,
+          "pdf_score": 7,
+          "record_score": 5,
+          "top_hits": [
+            "retrieval",
+            "query",
+            "rank"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 18,
+          "pdf_score": 16,
+          "record_score": 6,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 10,
+          "pdf_score": 8,
+          "record_score": 6,
+          "top_hits": [
+            "correct",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S066__enhancing-retrieval-augmented-generation-for-interoperable-industrial-knowledge-representati.json",
+    "original_frozen_record_sha256": "30229d5c4125915ca48ae561d4a6fb494588092cee6d14b17af78a3691f3cb67",
+    "original_frozen_record_bytes": 7298,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

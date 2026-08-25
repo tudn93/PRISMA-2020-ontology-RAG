@@ -1,0 +1,199 @@
+{
+  "study_id": "S065",
+  "paper_title": "Document-Level Relation Extraction with Ontology-Guided RAG",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Schmidt et al. - 2025 - Document-level relation extraction with ontology-guided RAG.pdf",
+    "pdf_sha256": "dabb18560a8e82ad2f13369de93f0be31d886c38f1a74d3640b6fde36306ba88",
+    "page_count": 9,
+    "title_mapping_score": 0.7348,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "93c2f5495870210948a2614befdeb921fe1b852d4225a5e05014e102d59d0c90",
+        "original_excerpt_word_count": 46,
+        "pdf_page": 4,
+        "printed_page": "22",
+        "section": "3. Document-Level Relation Extraction Framework",
+        "source_pdf_sha256": "dabb18560a8e82ad2f13369de93f0be31d886c38f1a74d3640b6fde36306ba88",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "93c2f5495870210948a2614befdeb921fe1b852d4225a5e05014e102d59d0c90",
+          "original_excerpt_word_count": 46,
+          "pdf_page": 4,
+          "printed_page": "22",
+          "section": "3. Document-Level Relation Extraction Framework",
+          "source_pdf_sha256": "dabb18560a8e82ad2f13369de93f0be31d886c38f1a74d3640b6fde36306ba88",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "6bab48b943e6f4ecc87d1291f6d978a73846983a4cadd02a80bcc9ab25422cf0",
+          "original_excerpt_word_count": 92,
+          "pdf_page": 3,
+          "printed_page": "21",
+          "section": "1. Introduction",
+          "source_pdf_sha256": "dabb18560a8e82ad2f13369de93f0be31d886c38f1a74d3640b6fde36306ba88",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "75c25bb5a4d8021806dc5fbcc67f24003d663469276f95145ae0b72f5dcc1c8a",
+          "original_excerpt_word_count": 15,
+          "pdf_page": 4,
+          "printed_page": "22",
+          "section": "3. Document-Level Relation Extraction Framework",
+          "source_pdf_sha256": "dabb18560a8e82ad2f13369de93f0be31d886c38f1a74d3640b6fde36306ba88",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "3. Document-Level Relation Extraction Framework",
+        "4. Evaluation",
+        "5. Conclusion",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "3. Document-Level Relation Extraction Framework",
+        "4. Evaluation",
+        "5. Conclusion",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 2,
+        "retrieval": 1,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 1
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 25,
+          "pdf_score": 20,
+          "record_score": 17,
+          "top_hits": [
+            "ontology",
+            "ontological",
+            "owl",
+            "extract",
+            "type",
+            "class",
+            "relation"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 10,
+          "pdf_score": 9,
+          "record_score": 4,
+          "top_hits": [
+            "retrieved subgraph",
+            "retrieve",
+            "query"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 13,
+          "pdf_score": 11,
+          "record_score": 7,
+          "top_hits": [
+            "description logic",
+            "rule",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 3,
+          "pdf_score": 3,
+          "record_score": 0,
+          "top_hits": [
+            "verify"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S065__document-level-relation-extraction-with-ontology-guided-rag.json",
+    "original_frozen_record_sha256": "8b4a3952029a0f4bd92471b775623ca0d1b02c597876ead3ed54e1fd58a295ff",
+    "original_frozen_record_bytes": 7409,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

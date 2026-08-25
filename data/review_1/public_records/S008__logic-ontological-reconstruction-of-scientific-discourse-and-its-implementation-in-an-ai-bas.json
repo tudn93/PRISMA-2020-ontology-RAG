@@ -1,0 +1,228 @@
+{
+  "study_id": "S008",
+  "paper_title": "LOGIC-ONTOLOGICAL RECONSTRUCTION OF SCIENTIFIC DISCOURSE AND ITS IMPLEMENTATION IN AN AI-BASED REVIEWING SYSTEM",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Bedratyuk - 2025 - Logic-ontological reconstruction of scientific discourse and its implementation in an ai-based revie.pdf",
+    "pdf_sha256": "6b563de933e78f5a542f159ddcbbb5de32d729f357e32e8a5c1769d920c701cd",
+    "page_count": 15,
+    "title_mapping_score": 0.7792,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "ANCHORED",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "6fff83804ce8c600dac27fe0e00c3ca83a82158f67c664ba6b219197db6a2041",
+        "original_excerpt_word_count": 19,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "ABSTRACT",
+        "source_pdf_sha256": "6b563de933e78f5a542f159ddcbbb5de32d729f357e32e8a5c1769d920c701cd",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology or KG evidence supports an LLM workflow without a complete retrieval-to-generation loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "7fa18ffb6ee241cf505063b66997b3212e19cf20ca12e28b6fbeaa53ba3b02ad",
+          "original_excerpt_word_count": 39,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "ABSTRACT",
+          "source_pdf_sha256": "6b563de933e78f5a542f159ddcbbb5de32d729f357e32e8a5c1769d920c701cd",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "457b81b1502b6860e15c90659dbe7341ed6e6197d093aac0c490baada2a99b46",
+          "original_excerpt_word_count": 52,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "experiment and independent verification of the model’s",
+          "source_pdf_sha256": "6b563de933e78f5a542f159ddcbbb5de32d729f357e32e8a5c1769d920c701cd",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "5 RESULTS",
+        "6 DISCUSSION",
+        "ABSTRACT",
+        "INTRODUCTION",
+        "Method 0.67 0.63 0.80 0.78 0.94 0.92",
+        "Method remained without logical closure: relations of",
+        "experiment and independent verification of the model’s"
+      ],
+      "absence_rationale": "No qualifying ontology-controlled retrieval or query mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "640ce5097f353b86929b4cdb30c830b8302773e3520947dac009f5e0536822c7",
+          "original_excerpt_word_count": 24,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "experiment and independent verification of the model’s",
+          "source_pdf_sha256": "6b563de933e78f5a542f159ddcbbb5de32d729f357e32e8a5c1769d920c701cd",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "2b3a79b7be4eb87d54901431e6b52ff16515db22f2101b8033119e1ae1e5202e",
+          "original_excerpt_word_count": 34,
+          "pdf_page": 9,
+          "printed_page": "9",
+          "section": "Method 0.67 0.63 0.80 0.78 0.94 0.92",
+          "source_pdf_sha256": "6b563de933e78f5a542f159ddcbbb5de32d729f357e32e8a5c1769d920c701cd",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of an executable inference, rule, proof, planning, or relational-reasoning mechanism.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "617b6988eb82ea68085214b278dfbc454c50f17d336c2ad568bb73ed32725997",
+          "original_excerpt_word_count": 31,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "experiment and independent verification of the model’s",
+          "source_pdf_sha256": "6b563de933e78f5a542f159ddcbbb5de32d729f357e32e8a5c1769d920c701cd",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "2b3a79b7be4eb87d54901431e6b52ff16515db22f2101b8033119e1ae1e5202e",
+          "original_excerpt_word_count": 34,
+          "pdf_page": 9,
+          "printed_page": "9",
+          "section": "Method 0.67 0.63 0.80 0.78 0.94 0.92",
+          "source_pdf_sha256": "6b563de933e78f5a542f159ddcbbb5de32d729f357e32e8a5c1769d920c701cd",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence of operational verification, provenance, compliance/conflict handling, rejection, correction, or abstention.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 0,
+        "retrieval": 0,
+        "output_loop": 0,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 2
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 20,
+          "pdf_score": 15,
+          "record_score": 17,
+          "top_hits": [
+            "ontology",
+            "ontological",
+            "owl",
+            "construct",
+            "model"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 4,
+          "pdf_score": 4,
+          "record_score": 0,
+          "top_hits": [
+            "retrieval"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 7,
+          "pdf_score": 6,
+          "record_score": 4,
+          "top_hits": [
+            "rule",
+            "logic"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 14,
+          "pdf_score": 10,
+          "record_score": 14,
+          "top_hits": [
+            "correct",
+            "correct",
+            "consistency"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S008__logic-ontological-reconstruction-of-scientific-discourse-and-its-implementation-in-an-ai-bas.json",
+    "original_frozen_record_sha256": "1b52aa795947059cd4124f180dace00bf81eabe228466fb78b4a8f3be70f6e88",
+    "original_frozen_record_bytes": 8605,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

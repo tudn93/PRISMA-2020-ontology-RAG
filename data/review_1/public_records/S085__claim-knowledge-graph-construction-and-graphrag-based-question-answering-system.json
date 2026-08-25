@@ -1,0 +1,213 @@
+{
+  "study_id": "S085",
+  "paper_title": "Claim Knowledge Graph Construction and GraphRAG-Based Question-Answering System",
+  "year": "2026",
+  "reviewer": {
+    "reviewer_id": "reviewer_1",
+    "reviewer_type": "Independent Domain Reviewer",
+    "independence_statement": "This pass codes from source PDFs and structured extraction records independently without prior integration-tier or role assignments."
+  },
+  "codebook_version": "2.0",
+  "coding_stage": "independent_coding_pass_1",
+  "coded_at": "2026-08-21T17:13:25+00:00",
+  "source": {
+    "pdf_file": "Wang and Fang - 2026 - Claim knowledge graph construction and GraphRAG-based question-answering system.pdf",
+    "pdf_sha256": "77959a593306a27cc5c96bb26d5b4fd8c9771d9e6b3814bb0dbc66c202b5885e",
+    "page_count": 20,
+    "title_mapping_score": 0.8124,
+    "title_mapping_verified_manually": false
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "58a713a28d190e4ac49a0901cdb55e627071afb243f755de05e3dcec797185be",
+        "original_excerpt_word_count": 36,
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "1. Introduction",
+        "source_pdf_sha256": "77959a593306a27cc5c96bb26d5b4fd8c9771d9e6b3814bb0dbc66c202b5885e",
+        "locator_method": "reviewer_selected_from_ranked_page_text",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "The primary contribution contains an ontology-aware retrieval mechanism connected to an answer, generation, verification, or governance loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "32d7f7a71deff70e793a5daf175c8f12321d5b521371034d2b31e3c40a23defa",
+          "original_excerpt_word_count": 37,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "2. Lack of efficient and accurate decision-support methods, traditional claim",
+          "source_pdf_sha256": "77959a593306a27cc5c96bb26d5b4fd8c9771d9e6b3814bb0dbc66c202b5885e",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained operational semantic-schema evidence for representation, mapping, construction, typing, or validation.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "9b20bc9ff8d461404557d89f9250f89108128564c8e18ba513521d688bd01f3b",
+          "original_excerpt_word_count": 25,
+          "pdf_page": 13,
+          "printed_page": "13",
+          "section": "4. Experiment",
+          "source_pdf_sha256": "77959a593306a27cc5c96bb26d5b4fd8c9771d9e6b3814bb0dbc66c202b5885e",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        },
+        {
+          "kind": "level_support",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "38e99a444e66e2c17a80aeceb09dc275b3bebefa74706a45f88778164dd1ef74",
+          "original_excerpt_word_count": 23,
+          "pdf_page": 5,
+          "printed_page": "5",
+          "section": "knowledge graph was integrated into a GraphRAG pipeline, where retrieval was performed",
+          "source_pdf_sha256": "77959a593306a27cc5c96bb26d5b4fd8c9771d9e6b3814bb0dbc66c202b5885e",
+          "locator_method": "reviewer_selected_from_ranked_page_text",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "Reviewer assessment retained evidence that semantic structure controls querying, retrieval, traversal, subgraph selection, or context assembly.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Lack of efficient and accurate decision-support methods, traditional claim",
+        "2.2. Retrieval-Augmented Generation with Knowledge Graph",
+        "3.2. Application and Evaluation",
+        "4. Experiment",
+        "5. Discussion",
+        "6. Conclusions",
+        "References",
+        "abstract ontological concepts into a populated, queryable knowledge graph that faithfully",
+        "evaluation metrics, including BLEU-4, BERT-Cosine similarity, ROUGE-1, and ROUGE-L.",
+        "knowledge graph was integrated into a GraphRAG pipeline, where retrieval was performed"
+      ],
+      "absence_rationale": "No qualifying executable semantic inference, rule, proof, or planning mechanism was retained after reviewer assessment.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1. Introduction",
+        "2. Lack of efficient and accurate decision-support methods, traditional claim",
+        "2.2. Retrieval-Augmented Generation with Knowledge Graph",
+        "3.2. Application and Evaluation",
+        "4. Experiment",
+        "5. Discussion",
+        "6. Conclusions",
+        "References",
+        "abstract ontological concepts into a populated, queryable knowledge graph that faithfully",
+        "evaluation metrics, including BLEU-4, BERT-Cosine similarity, ROUGE-1, and ROUGE-L.",
+        "knowledge graph was integrated into a GraphRAG pipeline, where retrieval was performed"
+      ],
+      "absence_rationale": "No qualifying operational governance action was retained after reviewer assessment.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "label_sources_excluded": [
+      "Human_coding_expert",
+      "Human_coding_expert_2"
+    ],
+    "decision_support": {
+      "tier": {
+        "rag": 3,
+        "retrieval": 1,
+        "output_loop": 1,
+        "construction": 1,
+        "interface": 0,
+        "explicit_generation": 3
+      },
+      "roles": {
+        "T1": {
+          "decision_score": 19,
+          "pdf_score": 15,
+          "record_score": 14,
+          "top_hits": [
+            "ontology",
+            "owl",
+            "construct",
+            "extract",
+            "model"
+          ],
+          "threshold": 8
+        },
+        "T2": {
+          "decision_score": 12,
+          "pdf_score": 11,
+          "record_score": 5,
+          "top_hits": [
+            "retrieved subgraph",
+            "retrieve",
+            "select",
+            "context"
+          ],
+          "threshold": 9
+        },
+        "T3": {
+          "decision_score": 16,
+          "pdf_score": 16,
+          "record_score": 0,
+          "top_hits": [
+            "multi hop reasoning",
+            "multi-hop reasoning",
+            "reasoning"
+          ],
+          "threshold": 11
+        },
+        "T4": {
+          "decision_score": 18,
+          "pdf_score": 14,
+          "record_score": 14,
+          "top_hits": [
+            "correct",
+            "correction",
+            "verification",
+            "correct"
+          ],
+          "threshold": 11
+        }
+      }
+    },
+    "review_status": "Reviewer decisions after reading the structured extraction for all studies and returning to the full-text PDFs for boundary cases.",
+    "reviewer_override_applied": true
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S085__claim-knowledge-graph-construction-and-graphrag-based-question-answering-system.json",
+    "original_frozen_record_sha256": "0cadbdd9e7e7a52b00441bdd4e95d325556bd6d0cb7e353cce9051e1d4211f44",
+    "original_frozen_record_bytes": 7832,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "study_id": "S041",
+  "paper_title": "Semantic Enrichment of the Quantum Cascade Laser Properties in Text- A Knowledge Graph Generation Approach",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Kerre et al. - 2024 - Semantic enrichment of the quantum cascade laser properties in text- a knowledge graph generation ap.pdf",
+    "pdf_sha256": "5d68fc1d9f26a414f21bdf4b3134722340a8bb7d5818911e9ff6afbb123ffee3",
+    "page_count": 21,
+    "title_mapping_score": 0.7686
+  },
+  "primary_tier": {
+    "code": "CONSTRUCTION",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "edf6c2400e7a18d422d2f84200b2422ebe50c0958f2ab7c37d0eb8b786ae9b14",
+        "original_excerpt_word_count": 65,
+        "pdf_page": 2,
+        "printed_page": "2",
+        "section": "1 Introduction",
+        "source_pdf_sha256": "5d68fc1d9f26a414f21bdf4b3134722340a8bb7d5818911e9ff6afbb123ffee3",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Ontology/KG construction or enrichment is the primary contribution.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "fd61b96b9e64e6b1990a275df2559557bf8ae332a464014b9bfa14a79422ff5b",
+          "original_excerpt_word_count": 37,
+          "pdf_page": 4,
+          "printed_page": "4",
+          "section": "3 Methodology",
+          "source_pdf_sha256": "5d68fc1d9f26a414f21bdf4b3134722340a8bb7d5818911e9ff6afbb123ffee3",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "12faadbc606e7dae41c10fbe14658cf09c2e2162fac6da4a7181240336f92f81",
+          "original_excerpt_word_count": 17,
+          "pdf_page": 13,
+          "printed_page": "13",
+          "section": "5.2 Knowledge Graph Evaluation",
+          "source_pdf_sha256": "5d68fc1d9f26a414f21bdf4b3134722340a8bb7d5818911e9ff6afbb123ffee3",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related Work",
+        "3 Methodology",
+        "3.2 Knowledge Graph Modelling and Data Enrichment",
+        "4 Experiments",
+        "4.2 Knowledge Graph Evaluation",
+        "5 Results and Discussions",
+        "5.2 Knowledge Graph Evaluation",
+        "Knowledge Graph Generation for QCL Properties from Text 15",
+        "Knowledge Graph Generation for QCL Properties from Text 17",
+        "Knowledge Graph Generation for QCL Properties from Text 19",
+        "Knowledge Graph Generation for QCL Properties from Text 21",
+        "Knowledge Graph Generation for QCL Properties from Text 5"
+      ],
+      "absence_rationale": "The Pellet reasoner is used only to validate construction-time KG consistency; it does not materially reason over evidence to produce the study output.",
+      "confidence": "high"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related Work",
+        "3 Methodology",
+        "3.2 Knowledge Graph Modelling and Data Enrichment",
+        "4 Experiments",
+        "4.2 Knowledge Graph Evaluation",
+        "5 Results and Discussions",
+        "5.2 Knowledge Graph Evaluation",
+        "Knowledge Graph Generation for QCL Properties from Text 15",
+        "Knowledge Graph Generation for QCL Properties from Text 17",
+        "Knowledge Graph Generation for QCL Properties from Text 19",
+        "Knowledge Graph Generation for QCL Properties from Text 21",
+        "Knowledge Graph Generation for QCL Properties from Text 5"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 2,
+      "rag_passages": 5,
+      "output_title_hits": 0,
+      "output_passages": 2,
+      "construction_primary": true
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 18,
+        "threshold": 11,
+        "top_hits": [
+          "owl",
+          "knowledge graph",
+          "represent",
+          "relation",
+          "extract"
+        ]
+      },
+      "T2": {
+        "top_score": 18,
+        "threshold": 11,
+        "top_hits": [
+          "sparql",
+          "sparql query"
+        ]
+      },
+      "T3": {
+        "top_score": 24,
+        "threshold": 10,
+        "top_hits": [
+          "reasoner",
+          "pellet reasoner"
+        ]
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": [
+      "T3"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S041__semantic-enrichment-of-the-quantum-cascade-laser-properties-in-text-a-knowledge-graph-genera.json",
+    "original_frozen_record_sha256": "cf884007c4515190b0c84775560f376bfd11a271200460271cad7a40edb7d167",
+    "original_frozen_record_bytes": 6497,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

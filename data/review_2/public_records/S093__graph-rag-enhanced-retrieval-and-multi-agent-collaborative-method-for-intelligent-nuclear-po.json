@@ -1,0 +1,183 @@
+{
+  "study_id": "S093",
+  "paper_title": "GRAPH-RAG ENHANCED RETRIEVAL AND MULTI-AGENT COLLABORATIVE METHOD FOR INTELLIGENT NUCLEAR POWER ELECTRICAL DESIGN",
+  "year": "2025",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "Zhang et al. - 2025 - Graph-rag enhanced retrieval and multi-agent collaborative method for intelligent nuclear power elec.pdf",
+    "pdf_sha256": "8fb22ca03f7dd4cb98eda75d5f2049f8410a13c49eb486d46d8f5269da671864",
+    "page_count": 14,
+    "title_mapping_score": 0.7268
+  },
+  "primary_tier": {
+    "code": "CORE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "5818100b0a1fbdf4c33abf50d8b3d109e97c51e91f4fb5a57862d8dc483a820f",
+        "original_excerpt_word_count": 12,
+        "pdf_page": 4,
+        "printed_page": "4",
+        "section": "2 INTELLIGENT NUCLEAR ELECTRICAL DESIGN FRAMEWORK",
+        "source_pdf_sha256": "8fb22ca03f7dd4cb98eda75d5f2049f8410a13c49eb486d46d8f5269da671864",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "A semantically controlled retrieval mechanism is connected to a downstream answer/generation/decision loop.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "978e869840247154f8d910c4f263949a06e3825cb3ff384330cdc9caf79fef08",
+          "original_excerpt_word_count": 61,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "3 KEY TECHNICAL METHODS",
+          "source_pdf_sha256": "8fb22ca03f7dd4cb98eda75d5f2049f8410a13c49eb486d46d8f5269da671864",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "high"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "c5e952125e13655d73198fa1fd63b9bb28a4b545c5c57a9753d2929549183cc5",
+          "original_excerpt_word_count": 12,
+          "pdf_page": 9,
+          "printed_page": "9",
+          "section": "3.2.2 Retrieval result fusion",
+          "source_pdf_sha256": "8fb22ca03f7dd4cb98eda75d5f2049f8410a13c49eb486d46d8f5269da671864",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "medium"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 INTRODUCTION",
+        "1.3 Related Work",
+        "2 INTELLIGENT NUCLEAR ELECTRICAL DESIGN FRAMEWORK",
+        "3 KEY TECHNICAL METHODS",
+        "3.2.2 Retrieval result fusion",
+        "4.3.2 Logically coherent results",
+        "5 CONCLUSION",
+        "framework."
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "1",
+      "evidence_level": "implemented",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "978e869840247154f8d910c4f263949a06e3825cb3ff384330cdc9caf79fef08",
+          "original_excerpt_word_count": 61,
+          "pdf_page": 8,
+          "printed_page": "8",
+          "section": "3 KEY TECHNICAL METHODS",
+          "source_pdf_sha256": "8fb22ca03f7dd4cb98eda75d5f2049f8410a13c49eb486d46d8f5269da671864",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "An operational governance action affecting an answer, claim, decision, report, query, or workflow was evidenced.",
+      "confidence": "high"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": true,
+      "output": true,
+      "interface": 0,
+      "rag_title_hits": 3,
+      "rag_passages": 24,
+      "output_title_hits": 0,
+      "output_passages": 10,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 26,
+        "threshold": 11,
+        "top_hits": [
+          "ontology",
+          "owl",
+          "schema",
+          "relation",
+          "map",
+          "align",
+          "extract"
+        ]
+      },
+      "T2": {
+        "top_score": 15,
+        "threshold": 11,
+        "top_hits": [
+          "sparql",
+          "owl",
+          "knowledge graph"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 18,
+        "threshold": 12,
+        "top_hits": [
+          "conflict resolution",
+          "ontology",
+          "owl",
+          "schema"
+        ]
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S093__graph-rag-enhanced-retrieval-and-multi-agent-collaborative-method-for-intelligent-nuclear-po.json",
+    "original_frozen_record_sha256": "037559e0a45cd6c5eaa891d164bfb29896e21531d286736bfb6edfd1c746edc1",
+    "original_frozen_record_bytes": 6452,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}

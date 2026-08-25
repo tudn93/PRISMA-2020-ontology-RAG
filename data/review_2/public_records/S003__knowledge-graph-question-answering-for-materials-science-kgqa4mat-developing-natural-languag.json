@@ -1,0 +1,174 @@
+{
+  "study_id": "S003",
+  "paper_title": "KNOWLEDGE GRAPH QUESTION ANSWERING FOR MATERIALS SCIENCE (KGQA4MAT): DEVELOPING NATURAL LANGUAGE INTERFACE FOR METAL-ORGANIC FRAMEWORKS KNOWLEDGE GRAPH (MOF-KG) USING LLM",
+  "year": "2024",
+  "reviewer": {
+    "reviewer_id": "reviewer_2",
+    "reviewer_type": "Independent Domain Reviewer (Label-Blind Pass)",
+    "independence_statement": "The second coding pass independently evaluates source PDFs and metadata under label-blind conditions without access to primary reviewer records."
+  },
+  "codebook_version": "2.0-r2",
+  "coding_stage": "independent_coding_pass_2_label_blind",
+  "coded_at": "2026-08-21T17:58:39+00:00",
+  "source": {
+    "pdf_file": "An et al. - 2024 - Knowledge graph question answering for materials science (KGQA4MAT).pdf",
+    "pdf_sha256": "ea177adac699d8d0917ded51bf0079eceb072c88e9783d18ea4f72cb1df921a3",
+    "page_count": 14,
+    "title_mapping_score": 0.4126
+  },
+  "primary_tier": {
+    "code": "INTERFACE",
+    "evidence": [
+      {
+        "excerpt_publication_status": "withheld_from_public_derivative",
+        "original_excerpt_sha256": "d8e35fe6abf697ff610b074e671681b309b2f195c5f11655fd18f1b4852a7a2d",
+        "original_excerpt_word_count": 61,
+        "pdf_page": 8,
+        "printed_page": "8",
+        "section": "7.2 Evaluation on QALD-9 Dataset",
+        "source_pdf_sha256": "ea177adac699d8d0917ded51bf0079eceb072c88e9783d18ea4f72cb1df921a3",
+        "locator_method": "pass2_decision_tree_ranking",
+        "locator_verified": true
+      }
+    ],
+    "rationale": "Natural-language graph access or formal-query generation is the primary contribution.",
+    "confidence": "medium"
+  },
+  "roles": {
+    "T1": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "20f88e1738caa08f34e3aea4d1324698bf718ee336cd57e97b2b58e05cd7bffa",
+          "original_excerpt_word_count": 20,
+          "pdf_page": 1,
+          "printed_page": "1",
+          "section": "KNOWLEDGE GRAPH QUESTION ANSWERING FOR MATERIALS",
+          "source_pdf_sha256": "ea177adac699d8d0917ded51bf0079eceb072c88e9783d18ea4f72cb1df921a3",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an operational schema/ontology action were both evidenced.",
+      "confidence": "medium"
+    },
+    "T2": {
+      "decision": "1",
+      "evidence_level": "described",
+      "evidence": [
+        {
+          "kind": "role_and_level",
+          "excerpt_publication_status": "withheld_from_public_derivative",
+          "original_excerpt_sha256": "22d4a38b46b216de96ccb2bccd23ea0d364fc2818d9fd90e37197f4928ea3495",
+          "original_excerpt_word_count": 30,
+          "pdf_page": 7,
+          "printed_page": "7",
+          "section": "7 Evaluation",
+          "source_pdf_sha256": "ea177adac699d8d0917ded51bf0079eceb072c88e9783d18ea4f72cb1df921a3",
+          "locator_method": "pass2_dual_evidence_ranking",
+          "locator_verified": true
+        }
+      ],
+      "rationale": "A semantic anchor and an explicit query/retrieval-control mechanism were both evidenced.",
+      "confidence": "high"
+    },
+    "T3": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related Work",
+        "4 Knowledge Graph Query Answering (KGQA) over the MOF-KG",
+        "7 Evaluation",
+        "7.2 Evaluation on QALD-9 Dataset",
+        "8 Discussion",
+        "9 Conclusion",
+        "KNOWLEDGE GRAPH QUESTION ANSWERING FOR MATERIALS",
+        "References"
+      ],
+      "absence_rationale": "No qualifying executable inference, rule, proof, or deterministic reasoning procedure was retained.",
+      "confidence": "medium"
+    },
+    "T4": {
+      "decision": "0",
+      "evidence_level": "not_evidenced",
+      "evidence": [],
+      "searched_sections": [
+        "1 Introduction",
+        "2 Related Work",
+        "4 Knowledge Graph Query Answering (KGQA) over the MOF-KG",
+        "7 Evaluation",
+        "7.2 Evaluation on QALD-9 Dataset",
+        "8 Discussion",
+        "9 Conclusion",
+        "KNOWLEDGE GRAPH QUESTION ANSWERING FOR MATERIALS",
+        "References"
+      ],
+      "absence_rationale": "No qualifying operational governance action affecting an output or workflow was retained.",
+      "confidence": "medium"
+    }
+  },
+  "coding_notes": {
+    "decision_path": "dual_evidence_strict",
+    "reviewer_1_artifacts_opened": false,
+    "tier_diagnostics": {
+      "rag": false,
+      "output": true,
+      "interface": 2,
+      "rag_title_hits": 0,
+      "rag_passages": 0,
+      "output_title_hits": 1,
+      "output_passages": 7,
+      "construction_primary": false
+    },
+    "role_diagnostics": {
+      "T1": {
+        "top_score": 13,
+        "threshold": 11,
+        "top_hits": [
+          "owl",
+          "knowledge graph",
+          "construct",
+          "extract"
+        ]
+      },
+      "T2": {
+        "top_score": 24,
+        "threshold": 11,
+        "top_hits": [
+          "cypher",
+          "cypher query",
+          "ontology"
+        ]
+      },
+      "T3": {
+        "top_score": 0,
+        "threshold": 10,
+        "top_hits": []
+      },
+      "T4": {
+        "top_score": 0,
+        "threshold": 12,
+        "top_hits": []
+      }
+    },
+    "manual_source_audit_overrides": []
+  },
+  "validation": {
+    "status": "pass",
+    "issues": []
+  },
+  "public_release": {
+    "record_type": "quotation-reduced derivative of a frozen coding record",
+    "generated_on": "2026-08-25",
+    "original_frozen_record_file": "S003__knowledge-graph-question-answering-for-materials-science-kgqa4mat-developing-natural-languag.json",
+    "original_frozen_record_sha256": "a05eea526034a4bb4c9826c86c11f7a4b329ac859fd02c01d21a86285ef3e7a0",
+    "original_frozen_record_bytes": 5778,
+    "interpretation_notice": "The historical reviewer metadata is retained for traceability. Both passes were AI-assisted author coding passes; pass 2 was label-blind to pass 1.",
+    "quotation_notice": "Verbatim evidence text is withheld from this public derivative. Page, section, locator status, source hash, excerpt hash, and rationale are retained."
+  }
+}
