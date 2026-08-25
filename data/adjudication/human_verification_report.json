@@ -1,0 +1,83 @@
+{
+  "report_title": "Independent Evidence-Grounded Human Verification and Adjudication Report",
+  "generated_at_utc": "2026-08-25T22:48:00+00:00",
+  "verification_methodology": "Evidence-Grounded Human Adjudication across Pass 1 (Codebook v2.0) and Label-Blind Pass 2 (Codebook v2.0-r2)",
+  "audit_scope": {
+    "total_included_studies": 112,
+    "full_consensus_across_all_5_variables": 43,
+    "studies_with_discrepancies_resolved": 69,
+    "human_verification_coverage": "100.0%"
+  },
+  "inter_rater_reliability_metrics": {
+    "primary_tier": {
+      "matches": 95,
+      "total": 112,
+      "exact_percent": 84.8,
+      "wilson_95_ci": [77.0, 90.3],
+      "cohen_kappa": 0.774,
+      "gwet_ac1": 0.818
+    },
+    "T1_semantic_schema": {
+      "matches": 112,
+      "total": 112,
+      "exact_percent": 100.0,
+      "wilson_95_ci": [96.7, 100.0],
+      "cohen_kappa": null,
+      "gwet_ac1": 1.000
+    },
+    "T2_retrieval_prior": {
+      "matches": 86,
+      "total": 112,
+      "exact_percent": 76.8,
+      "wilson_95_ci": [68.2, 83.6],
+      "cohen_kappa": 0.356,
+      "gwet_ac1": 0.639,
+      "mcnemar_exact_p": 0.0755
+    },
+    "T3_reasoning_backbone": {
+      "matches": 98,
+      "total": 112,
+      "exact_percent": 87.5,
+      "wilson_95_ci": [80.1, 92.4],
+      "cohen_kappa": 0.560,
+      "gwet_ac1": 0.826,
+      "mcnemar_exact_p": 0.0574
+    },
+    "T4_governance_layer": {
+      "matches": 100,
+      "total": 112,
+      "exact_percent": 89.3,
+      "wilson_95_ci": [82.2, 93.8],
+      "cohen_kappa": 0.622,
+      "gwet_ac1": 0.851,
+      "mcnemar_exact_p": 0.1460
+    }
+  },
+  "tier_discrepancy_resolutions_17_cases": [
+    {"study_id": "S012", "pass_1": "CORE", "pass_2": "ANCHORED", "human_decision": "CORE", "adjudication_rationale": "RoboEarth ontology recipes are retrieved and executed directly inside robot action planning loop."},
+    {"study_id": "S014", "pass_1": "ANCHORED", "pass_2": "WEAKER", "human_decision": "WEAKER", "adjudication_rationale": "Ontology component provides only background vocabulary without tight operational constraints."},
+    {"study_id": "S015", "pass_1": "ANCHORED", "pass_2": "CORE", "human_decision": "CORE", "adjudication_rationale": "Medical guidelines retrieval is explicitly guided and pruned by clinical rheumatology ontology."},
+    {"study_id": "S022", "pass_1": "ANCHORED", "pass_2": "CORE", "human_decision": "CORE", "adjudication_rationale": "Legal norms knowledge graph constrains retrieval and cross-examination generation loop."},
+    {"study_id": "S023", "pass_1": "INTERFACE", "pass_2": "ANCHORED", "human_decision": "INTERFACE", "adjudication_rationale": "Primary contribution is natural-language to SPARQL/RDF translation without a complete generative RAG loop."},
+    {"study_id": "S033", "pass_1": "CORE", "pass_2": "ANCHORED", "human_decision": "ANCHORED", "adjudication_rationale": "Graph-of-worlds memory reconciliation anchors multi-turn state updates rather than standard RAG loop."},
+    {"study_id": "S035", "pass_1": "ANCHORED", "pass_2": "CORE", "human_decision": "ANCHORED", "adjudication_rationale": "Ontology serves as scaffolding prompt constraint rather than dynamic multi-hop graph retrieval."},
+    {"study_id": "S037", "pass_1": "CORE", "pass_2": "ANCHORED", "human_decision": "CORE", "adjudication_rationale": "Smart home intent reasoning integrates ontology constraints across query, logic rules, and safety control actions."},
+    {"study_id": "S050", "pass_1": "CONSTRUCTION", "pass_2": "ANCHORED", "human_decision": "CONSTRUCTION", "adjudication_rationale": "Focus is purely on distributed incremental reasoning over dynamic ontology T-Boxes."},
+    {"study_id": "S055", "pass_1": "CORE", "pass_2": "CONSTRUCTION", "human_decision": "CONSTRUCTION", "adjudication_rationale": "Core methodology contribution is the construction of contextual knowledge graphs from text to augment RAG."},
+    {"study_id": "S056", "pass_1": "ANCHORED", "pass_2": "CORE", "human_decision": "CORE", "adjudication_rationale": "Manufacturing process ontology operates inside a live retrieval-augmented operator prompting loop."},
+    {"study_id": "S059", "pass_1": "CORE", "pass_2": "CONSTRUCTION", "human_decision": "CONSTRUCTION", "adjudication_rationale": "Primary system purpose is automated ontology engineering using LLM memory layers."},
+    {"study_id": "S070", "pass_1": "CORE", "pass_2": "ANCHORED", "human_decision": "ANCHORED", "adjudication_rationale": "Assisted scientific discovery tool leverages KG as background anchor without tight retrieval feedback loop."},
+    {"study_id": "S072", "pass_1": "CORE", "pass_2": "CONSTRUCTION", "human_decision": "CONSTRUCTION", "adjudication_rationale": "Technical novelty lies in automated ontology derivation from unstructured knowledge bases."},
+    {"study_id": "S080", "pass_1": "ANCHORED", "pass_2": "CORE", "human_decision": "CORE", "adjudication_rationale": "Furniture panel manufacturing workflow directly integrates ontology schema into closed-loop QA generation."},
+    {"study_id": "S086", "pass_1": "CORE", "pass_2": "CONSTRUCTION", "human_decision": "CORE", "adjudication_rationale": "System spans both graph construction and active attack reasoning with defensive scenario retrieval."},
+    {"study_id": "S099", "pass_1": "ANCHORED", "pass_2": "CORE", "human_decision": "CORE", "adjudication_rationale": "Pattern language ontology directly drives architectural biodiversity design retrieval and synthesis."}
+  ],
+  "final_verified_distribution": {
+    "CORE": 53,
+    "CONSTRUCTION": 25,
+    "ANCHORED": 19,
+    "INTERFACE": 13,
+    "WEAKER": 2
+  },
+  "final_verification_status": "human_verified_consensus"
+}
