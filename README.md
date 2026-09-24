@@ -6,5 +6,4 @@
 - codebook, freeze manifest, override log và validation report;
 - paired labels, agreement metrics, tier confusion và final-label alignment;
 - consensus 112 nghiên cứu và crosswalk;
-- semantic map, summary, appendix rows và tám hình kết quả;
 - script xây dựng, kiểm tra và tính lại agreement.
